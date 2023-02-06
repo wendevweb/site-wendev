@@ -1,18 +1,25 @@
 import React from "react";
 import "./hero.css";
+import { Link } from "react-router-dom";
+
+import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 
 const Hero = () => {
   return (
-    <header className="mb-40 background-radial-gradient overflow-hidden">
+    <header className="h-screen background-radial-gradient-hero overflow-hidden">
       <div className="px-6 py-12 lg:py-24 md:px-12 text-center lg:text-left">
-        <div className="container mx-auto xl:px-32 text-black">
-          <div className="grid lg:grid-cols-2 gap-12 flex items-center">
-            <div className="mt-12 lg:mt-0" style={{ zIndex: "10" }}>
-              <h1 className="text-pink font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-                WenDev <br />
+        <div className="container mx-auto xl:px-32 ">
+          <div className="grid lg:grid-cols-2 gap-16 flex items-center">
+            <div className="mt-32 z-10">
+              <h1 className="text-purple font-quicksand lg:text-6xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+                WenDev ,<br />
                 <span className="text-white">Pour créer ton site internet</span>
                 <br />
-                <span className="text-purple">ur mesure !</span>
+                <span className="text-pink">sur mesure !</span>
               </h1>
               <p className="font-quicksand text-xl text-white opacity-70">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -27,7 +34,9 @@ const Hero = () => {
                 className="absolute rounded-full shadow-lg"
               ></div>
               <div id="radius-shape-2" className="absolute shadow-lg"></div>
+              
               <div className="block rounded-lg shadow-lg bg-glass px-6 py-12 md:px-12">
+              <h2 className="text-center p-6 text-2xl text-black">Inscris-toi à la newsletter pour bénéficier d'offres exclusives !</h2>
                 <form>
                   <div className="grid md:grid-cols-2 md:gap-6">
                     <div className="mb-6">
@@ -52,7 +61,7 @@ const Hero = () => {
                   />
                   <div className="form-check flex justify-center mb-6">
                     <input
-                      className="font-quicksand form-check-input appearance-none h-4 w-4 rounded-sm bg-white checked:bg-pink checked:border-pink focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
+                      className="font-quicksand form-check-input appearance-none h-4 w-4 rounded-sm bg-white checked:bg-pink checked:border-purple focus:outline-none transition duration-200 mt-1 align-top bg-no-repeat bg-center bg-contain float-left mr-2 cursor-pointer"
                       type="checkbox"
                       value=""
                       id="flexCheckChecked"
@@ -69,11 +78,40 @@ const Hero = () => {
                     type="button"
                     data-mdb-ripple="true"
                     data-mdb-ripple-color="light"
-                    className="font-quicksand inline-block px-6 py-2.5 mb-6 w-full bg-pink text-white font-medium text-lg leading-tight uppercase rounded shadow-md focus:shadow-lg hover:bg-pinkDark hover:shadow-lg focus:bg-pink  focus:outline-none focus:ring-0 active:bg-pink active:shadow-lg transition duration-150 ease-in-out"
+                    className="font-quicksand inline-block px-6 py-2.5 mb-6 w-full bg-pink text-white font-medium text-lg leading-tight uppercase rounded shadow-md focus:shadow-lg hover:bg-pinkDark hover:shadow-lg focus:bg-white  focus:outline-none focus:ring-0 active:bg-pinkDark active:shadow-lg transition duration-150 ease-in-out"
                   >
                     ENVOYER
                   </button>
                 </form>
+                <div className="flex justify-around p-4 drop-shadow-md">
+                  <Link
+                    to="https://www.facebook.com/WenDevWeb"
+                    target={"_blank"}
+                  >
+                    <FacebookIcon className="hover:text-pinkDark mr-2" />
+                  </Link>
+                  <Link
+                    to="https://www.instagram.com/wendevweb/"
+                    target={"_blank"}
+                  >
+                    <InstagramIcon className="hover:text-pinkDark mr-2" />
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/company/92696774/admin/"
+                    target={"_blank"}
+                  >
+                    <LinkedInIcon className="hover:text-pinkDark mr-2" />
+                  </Link>
+                  <Link to="https://github.com/wendevweb" target={"_blank"}>
+                    <GitHubIcon className="hover:text-pinkDark mr-2" />
+                  </Link>
+                  <Link
+                    to="https://wendybaqueauteure.wendev.fr/"
+                    target={"_blank"}
+                  >
+                    <AutoStoriesIcon className="hover:text-pinkDark mr-2" />
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
