@@ -3,7 +3,7 @@ import KeyboardDoubleArrowUpIcon from "@mui/icons-material/KeyboardDoubleArrowUp
 
 export default function ButtonTop() {
   return (
-    <div className="w-20 h-20 m-4 p-4 float-right">
+    <div className="bg-white w-20 h-20 m-4 p-4 float-right">
       <a href="#" alt="retourner en haut de la page">
         <button
           type="button"
