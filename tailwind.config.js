@@ -9,7 +9,10 @@ module.exports = {
       },
     },
     colors: {
+      green:"#24D26D",
+      stars:"#FEBC0C",
       white: "#EDF2F4",
+      real:"#FFF",
       black: "#242621",
       pink: "#FF7ECF",
       pinkDark: "#FF00ED",

@@ -10,13 +10,13 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 const Footer = () => {
   return (
     <footer className="font-quicksand" aria-label="footer">
-      <div className="grid grid-cols-4 gap-4 p-4 bg-white text-black">
-        <div className="m-6">
+      <div className="lg:grid grid-cols-4 gap-4 lg:p-4 bg-white text-black">
+        <div className="lg:m-6">
           <img
             src={logonoir}
             alt="Nelixair"
             aria-label="Nelixair"
-            className="w-32 pt-10 ml-64"
+            className="w-32 pt-10 lg:ml-64"
           />
         </div>
         <div className="m-6">
@@ -33,7 +33,7 @@ const Footer = () => {
 
         <div className="m-6">
           <h2 className="font-semibold text-purpleDark text-lg text-left">
-            Saty tuned !
+            Stay tuned !
           </h2>
           <ul className="text-left pt-6">
             <li>
@@ -92,7 +92,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="m-6">
-          <h2 className=" font-semibold text-purpleDark text-lg text-left">
+          <h2 className="font-semibold text-purpleDark text-lg text-left">
             Mentions légales
           </h2>
           <ul className="text-left">

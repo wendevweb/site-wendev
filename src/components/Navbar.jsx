@@ -8,7 +8,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
 
 const navigation = [
-  { name: "Accueil", href: "#", current: true },
+  { name: "Accueil", href: "/", current: true },
   { name: "A propos", href: "#about", current: false },
   { name: "Services", href: "#services", current: false },
   { name: "Projets clients", href: "#projets", current: false },
@@ -57,7 +57,7 @@ export default function Example() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "background-radial-gradient-navbar text-white"
+                            ? "background-radial-gradient-navbar text-white hover:bg-purpleDark bg-purple hover:text-white"
                             : "text-lg text-black hover:bg-purpleDark hover:text-white",
                           "px-3 py-2 rounded-md text-lg font-medium"
                         )}
@@ -104,7 +104,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            to="#"
+                            to="/Offreauteurs"
                             className={classNames(
                               active ? "bg-pink hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
