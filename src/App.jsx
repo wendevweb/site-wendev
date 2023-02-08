@@ -6,6 +6,7 @@ import Footer from "./components/Footer";
 import ButtonTop from "./components/ButtonTop";
 import Home from "./pages/Home";
 import PageOffreAuteurs from "./pages/PageOffreAuteurs";
+import Contact from "./pages/Contact";
 
 function App() {
   return (
@@ -15,7 +16,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Offreauteurs" element={<PageOffreAuteurs />} />
-          {/* <Route path="/contact" element={<Contact />} /> */}
+          <Route path="/Contact" element={<Contact />} />
           {/* <Route path="*" element={<Page404 />} /> */}
         </Routes>
       </Router>
