@@ -1,3 +1,4 @@
+/* eslint-disable no-lone-blocks */
 import React from "react";
 import "./hero.css";
 import { Link } from "react-router-dom";
@@ -8,7 +9,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
-import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
+import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 
 const Hero = () => {
   return (
@@ -17,19 +18,23 @@ const Hero = () => {
         <div className="container mx-auto xl:px-32 ">
           <div className="grid lg:grid-cols-2 gap-16 flex items-center">
             <Fade triggerOnce cascade="true" direction="left" duration={1000}>
-            <div className="mt-32 z-10 font-quicksand ">
-              <h1 className="text-purple sm:text-6xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6">
-                WenDev ,<br />
-              </h1>
-              <h2 className="text-white lg:text-4xl md:text-4xl xl:text-6xl font-bold tracking-tight ">Pour créer ton site internet</h2>
-                <h2 className="text-pink lg:text-4xl md:text-4xl xl:text-6xl font-bold tracking-tight mb-6">sur mesure !</h2>
-              <p className="font-quicksand text-xl text-white opacity-70">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Temporibus, expedita iusto veniam atque, magni tempora mollitia
-                dolorum consequatur nulla, neque debitis eos reprehenderit quasi
-                ab ipsum nisi dolorem modi. Quos?
-              </p>
-            </div>
+              <div className="mt-32 z-10 font-quicksand ">
+                <h1 className="text-purple sm:text-6xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6">
+                  WenDev ,<br />
+                </h1>
+                <h2 className="text-white lg:text-4xl md:text-4xl xl:text-6xl font-bold tracking-tight ">
+                  Pour créer ton site internet
+                </h2>
+                <h2 className="text-pink lg:text-4xl md:text-4xl xl:text-6xl font-bold tracking-tight mb-6">
+                  sur mesure !
+                </h2>
+                <p className="font-quicksand text-xl text-white opacity-70">
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Temporibus, expedita iusto veniam atque, magni tempora
+                  mollitia dolorum consequatur nulla, neque debitis eos
+                  reprehenderit quasi ab ipsum nisi dolorem modi. Quos?
+                </p>
+              </div>
             </Fade>
             <div className="mb-12 lg:mb-0 relative">
               <div
@@ -37,8 +42,76 @@ const Hero = () => {
                 className="absolute rounded-full shadow-lg"
               ></div>
               <div id="radius-shape-2" className="absolute shadow-lg"></div>
+              {/* JOTFORM */}
+              <iframe
+                id="JotFormIFrame-230383592520352"
+                title="Inscription à la newsletter de WenDev"
+                onload="window.parent.scrollTo(0,0)"
+                allowtransparency="true"
+                allowfullscreen="true"
+                allow="geolocation; microphone; camera"
+                src="https://form.jotform.com/230383592520352"
+                frameborder="0"
+                style={{
+                  minWidth: "100%",
+                  maxWidth: "100%",
+                  height: "539px",
+                  border: "none",
+                  borderRadius: "10px",
+                  position:"sticky"
+                }}
+                scrolling="no"
+              >
+                {" "}
+              </iframe>
+              <div className="flex flex-col p-4 ">
+                  <h2 className="text-center p-6 text-xl text-white">
+                    <ArrowDropDownIcon className="text-pinkDark animate-bounce"/>Restons connectés !<ArrowDropDownIcon className="text-pinkDark animate-bounce"/>
+                  </h2>
+                  <div className="flex justify-around drop-shadow-md">
+                    <Link
+                      to="https://www.facebook.com/WenDevWeb"
+                      target={"_blank"}
+                    >
+                      <FacebookIcon className="text-white hover:text-pinkDark mr-2" />
+                    </Link>
+                    <Link
+                      to="https://www.instagram.com/wendevweb/"
+                      target={"_blank"}
+                    >
+                      <InstagramIcon className="text-white hover:text-pinkDark mr-2" />
+                    </Link>
+                    <Link
+                      to="https://www.linkedin.com/company/92696774/admin/"
+                      target={"_blank"}
+                    >
+                      <LinkedInIcon className="text-white hover:text-pinkDark mr-2" />
+                    </Link>
+                    <Link to="https://github.com/wendevweb" target={"_blank"}>
+                      <GitHubIcon className="text-white hover:text-pinkDark mr-2" />
+                    </Link>
+                    <Link
+                      to="https://wendybaqueauteure.wendev.fr/"
+                      target={"_blank"}
+                    >
+                      <AutoStoriesIcon className="text-white hover:text-pinkDark mr-2" />
+                    </Link>
+                  </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+  );
+};
 
-              <div className="block rounded-lg shadow-lg bg-glass px-6 py-12 md:px-12">
+export default Hero;
+
+// eslint-disable-next-line no-lone-blocks
+// ANCIEN FORMULAIRE
+{
+  /* <div className="block rounded-lg shadow-lg bg-glass px-6 py-12 md:px-12">
                 <h2 className="text-center p-6 text-2xl text-black">
                   Inscris-toi à la newsletter pour bénéficier d'offres
                   exclusives !
@@ -89,47 +162,6 @@ const Hero = () => {
                     ENVOYER
                   </button>
                 </form>
-                <div className="flex flex-col p-4 ">
-                  <h2 className="text-center p-6 text-xl text-black">
-                    <ArrowDropDownIcon className="text-pinkDark animate-bounce"/>Restons connectés !<ArrowDropDownIcon className="text-pinkDark animate-bounce"/>
-                  </h2>
-                  <div className="flex justify-around drop-shadow-md">
-                    <Link
-                      to="https://www.facebook.com/WenDevWeb"
-                      target={"_blank"}
-                    >
-                      <FacebookIcon className="hover:text-pinkDark mr-2" />
-                    </Link>
-                    <Link
-                      to="https://www.instagram.com/wendevweb/"
-                      target={"_blank"}
-                    >
-                      <InstagramIcon className="hover:text-pinkDark mr-2" />
-                    </Link>
-                    <Link
-                      to="https://www.linkedin.com/company/92696774/admin/"
-                      target={"_blank"}
-                    >
-                      <LinkedInIcon className="hover:text-pinkDark mr-2" />
-                    </Link>
-                    <Link to="https://github.com/wendevweb" target={"_blank"}>
-                      <GitHubIcon className="hover:text-pinkDark mr-2" />
-                    </Link>
-                    <Link
-                      to="https://wendybaqueauteure.wendev.fr/"
-                      target={"_blank"}
-                    >
-                      <AutoStoriesIcon className="hover:text-pinkDark mr-2" />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </header>
-  );
-};
-
-export default Hero;
+                
+              </div> */
+}
