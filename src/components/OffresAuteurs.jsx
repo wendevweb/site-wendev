@@ -3,6 +3,7 @@ import React from "react";
 // Based on : https://flowbite.com/blocks/marketing/pricing/
 
 const OffresAuteurs = () => {
+
   return (
       <section className="bg-white dark:bg-black font-quicksand" aria-label="Offre de services spécialisée pour les auteurs de livres">
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">

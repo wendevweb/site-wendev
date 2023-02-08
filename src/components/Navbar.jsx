@@ -9,9 +9,8 @@ import CloseIcon from "@mui/icons-material/Close";
 
 const navigation = [
   { name: "Accueil", href: "/", current: true },
-  { name: "A propos", href: "#about", current: false },
-  { name: "Services", href: "#services", current: false },
-  { name: "Projets clients", href: "#projets", current: false },
+  { name: "A propos", href: "/About", current: false },
+  { name: "Projets clients", href: "/Projets", current: false },
   { name: "Contact", href: "/Contact", current: false },
 ];
 
