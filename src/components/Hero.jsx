@@ -10,6 +10,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
+import JotformNewsletter from "./JotformNewsletter";
 
 const Hero = () => {
   return (
@@ -42,62 +43,43 @@ const Hero = () => {
                 className="absolute rounded-full shadow-lg"
               ></div>
               <div id="radius-shape-2" className="absolute shadow-lg"></div>
-              {/* JOTFORM */}
-              <iframe
-                id="JotFormIFrame-230383592520352"
-                title="Inscription à la newsletter de WenDev"
-                onload="window.parent.scrollTo(0,0)"
-                allowtransparency="true"
-                allowfullscreen="true"
-                allow="geolocation; microphone; camera"
-                src="https://form.jotform.com/230383592520352"
-                frameborder="0"
-                style={{
-                  minWidth: "100%",
-                  maxWidth: "100%",
-                  height: "539px",
-                  border: "none",
-                  borderRadius: "10px",
-                  position:"sticky"
-                }}
-                scrolling="no"
-              >
-                {" "}
-              </iframe>
+              <JotformNewsletter />
               <div className="flex flex-col p-4 ">
-                  <h2 className="text-center p-6 text-xl text-white">
-                    <ArrowDropDownIcon className="text-pinkDark animate-bounce"/>Restons connectés !<ArrowDropDownIcon className="text-pinkDark animate-bounce"/>
-                  </h2>
-                  <div className="flex justify-around drop-shadow-md">
-                    <Link
-                      to="https://www.facebook.com/WenDevWeb"
-                      target={"_blank"}
-                    >
-                      <FacebookIcon className="text-white hover:text-pinkDark mr-2" />
-                    </Link>
-                    <Link
-                      to="https://www.instagram.com/wendevweb/"
-                      target={"_blank"}
-                    >
-                      <InstagramIcon className="text-white hover:text-pinkDark mr-2" />
-                    </Link>
-                    <Link
-                      to="https://www.linkedin.com/company/92696774/admin/"
-                      target={"_blank"}
-                    >
-                      <LinkedInIcon className="text-white hover:text-pinkDark mr-2" />
-                    </Link>
-                    <Link to="https://github.com/wendevweb" target={"_blank"}>
-                      <GitHubIcon className="text-white hover:text-pinkDark mr-2" />
-                    </Link>
-                    <Link
-                      to="https://wendybaqueauteure.wendev.fr/"
-                      target={"_blank"}
-                    >
-                      <AutoStoriesIcon className="text-white hover:text-pinkDark mr-2" />
-                    </Link>
-                  </div>
+                <h2 className="text-center p-6 text-xl text-white">
+                  <ArrowDropDownIcon className="text-pinkDark animate-bounce" />
+                  Restons connectés !
+                  <ArrowDropDownIcon className="text-pinkDark animate-bounce" />
+                </h2>
+                <div className="flex justify-around drop-shadow-md">
+                  <Link
+                    to="https://www.facebook.com/WenDevWeb"
+                    target={"_blank"}
+                  >
+                    <FacebookIcon className="text-white hover:text-pinkDark mr-2" />
+                  </Link>
+                  <Link
+                    to="https://www.instagram.com/wendevweb/"
+                    target={"_blank"}
+                  >
+                    <InstagramIcon className="text-white hover:text-pinkDark mr-2" />
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/company/92696774/admin/"
+                    target={"_blank"}
+                  >
+                    <LinkedInIcon className="text-white hover:text-pinkDark mr-2" />
+                  </Link>
+                  <Link to="https://github.com/wendevweb" target={"_blank"}>
+                    <GitHubIcon className="text-white hover:text-pinkDark mr-2" />
+                  </Link>
+                  <Link
+                    to="https://wendybaqueauteure.wendev.fr/"
+                    target={"_blank"}
+                  >
+                    <AutoStoriesIcon className="text-white hover:text-pinkDark mr-2" />
+                  </Link>
                 </div>
+              </div>
             </div>
           </div>
         </div>

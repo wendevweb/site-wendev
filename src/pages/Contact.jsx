@@ -1,13 +1,13 @@
 import React from "react";
+// import Airtable from "../components/AirtableForm";
 import Calendly from "../components/Calendly";
+import JotformContact from "../components/JotformContact";
 
 const Contact = () => {
   return (
-    <div className="grid grid-cols-2 gap-2">
-      <div>
-        <h2 className="font-quicksand text-4xl font-bold text-center pt-12 text-purple">Contact</h2>
-        
-      </div>
+    <div className="lg:grid grid-cols-2 gap-2">
+      {/* <Airtable /> */}
+      <JotformContact />
       <div className="flex flex-col ">
         <Calendly />
         <button className="w-96 mb-6 self-center	 text-white bg-pink hover:bg-pinkDark font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white">
