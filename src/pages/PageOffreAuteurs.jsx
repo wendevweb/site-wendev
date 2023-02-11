@@ -1,22 +1,52 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 
 const PageOffreAuteurs = () => {
   return (
-    <div className="flex flex-col">
-      <h2 className="text-pink text-center">Offre spéciale auteurs !</h2>
+    <div className="flex flex-col justify-center justify-items-center">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Offre spéciale auteurs | WenDev</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
+      <section className="mb-20" aria-label="Titre et présentation du service">
+        <div
+          className="relative overflow-hidden bg-no-repeat bg-cover"
+          style={{
+            backgroundPosition: "50%",
+            backgroundImage:
+              "url('https://cdn.pixabay.com/photo/2016/03/27/19/32/book-1283865_960_720.jpg')",
+            height: "500px",
+          }}
+        >
+          <div
+            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.58)" }}
+          >
+            <div className="flex justify-center items-center h-full">
+              <div className="text-center text-white px-6 md:px-12">
+                <h1 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+                  Offre spéciale
+                  <br />
+                  <span className="text-pink">auteurs</span>
+                </h1>
+                <p className="font-light text-white sm:text-xl dark:text-black">
+                  Tu écris des livres et tu souhaites avoir un site web
+                  professionnel dédié à ton activité ? <br /> Moi aussi, je suis
+                  auteure et suis passée par là.
+                  <br /> Alors cette offre est faite pour toi ! <br />
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section
         className="bg-white dark:bg-black font-quicksand"
         aria-label="Détail des offres de services réservées aux auteurs"
       >
         <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-          <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-            <p className="mb-5 font-light text-black sm:text-xl dark:text-black">
-              Tu écris des livres et tu souhaites avoir un site web
-              professionnel dédié à ton activité ? <br /> Moi aussi, je suis
-              auteure et suis passée par là.
-              <br /> Alors cette offre est faite pour toi ! <br />
-            </p>
-          </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {/* OFFRE 1 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col p-6 mx-auto max-w-lg text-center text-black bg-real rounded-lg shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
@@ -333,10 +363,10 @@ const PageOffreAuteurs = () => {
         </div>
       </section>
       <section aria-label="Sites démos pour les clients">
-        <h3 className="text-pinkDark text-center">Démos</h3>
+        <h3 className="text-pink text-xl text-center">Démos</h3>
       </section>
       <section aria-label="Avis des clients sur l'offre aux auteurs">
-        <h3 className="text-pinkDark text-center">Vous en parlez !</h3>
+        <h3 className="text-pink text-xl text-center">Vous en parlez !</h3>
         <div className="lg:m-10 p-6 bg-bg">
           <div className="lg:grid grid-cols-4 gap-x-2 m-2 p-2 ">
             {/* CARTE 1 */}

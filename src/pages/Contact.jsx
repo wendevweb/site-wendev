@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet";
 // import Airtable from "../components/AirtableForm";
 import Calendly from "../components/Calendly";
 import JotformContact from "../components/JotformContact";
@@ -6,6 +7,11 @@ import JotformContact from "../components/JotformContact";
 const Contact = () => {
   return (
     <div className="lg:grid grid-cols-2 gap-2">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Contact | WenDev</title>
+        <link rel="canonical" href="http://mysite.com/example" />
+      </Helmet>
       {/* <Airtable /> */}
       <JotformContact />
       <div className="flex flex-col ">

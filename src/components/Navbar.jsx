@@ -73,7 +73,7 @@ export default function Example() {
                 {/* Services dropdown */}
                 <Menu as="div" className="relative ml-3 font-quicksand">
                   <div>
-                    <Menu.Button className="flex justify-center rounded-md p-2 text-black hover:bg-purpleDark hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                    <Menu.Button className="flex justify-center rounded-md p-2 animate-pulse text-black hover:bg-purpleDark hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                       <span className="sr-only">Open user menu</span>
                       <p className="text-lg font-medium">Mes services</p>
                     </Menu.Button>
@@ -91,7 +91,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            to="services/#site"
+                            to="/OffreSite"
                             className={classNames(
                               active ? "bg-pink hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
@@ -130,7 +130,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            to="#"
+                            to="/OffreGlide"
                             className={classNames(
                               active ? "bg-pink hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
@@ -143,13 +143,26 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            to="#"
+                            to="/OffreFirebase"
                             className={classNames(
                               active ? "bg-pink hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
                             )}
                           >
                             Authentification Firebase
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            to="/OffreMaquette"
+                            className={classNames(
+                              active ? "bg-pink hover:text-white" : "",
+                              "block px-4 py-2 font-medium text-black"
+                            )}
+                          >
+                            Prototype et maquette web
                           </Link>
                         )}
                       </Menu.Item>
