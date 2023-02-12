@@ -363,10 +363,10 @@ const PageOffreAuteurs = () => {
         </div>
       </section>
       <section aria-label="Sites démos pour les clients">
-        <h3 className="text-pink text-xl text-center">Démos</h3>
+        <h3 className="text-pink text-2xl text-center">Démos</h3>
       </section>
       <section aria-label="Avis des clients sur l'offre aux auteurs">
-        <h3 className="text-pink text-xl text-center">Vous en parlez !</h3>
+        <h3 className="text-pink text-2xl text-center">Vous en parlez !</h3>
         <div className="lg:m-10 p-6 bg-bg">
           <div className="lg:grid grid-cols-4 gap-x-2 m-2 p-2 ">
             {/* CARTE 1 */}
