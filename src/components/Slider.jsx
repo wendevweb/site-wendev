@@ -8,7 +8,7 @@ import antiigone from "../assets/antiigone.webp";
 const Slider = () => {
   return (
     <div className="slider-body">
-      <h3 className="font-quicksand text-pinkDark text-lg">
+      <h3 className="text-pink text-2xl text-center mt-12 mb-6">
         Ils me font confiance
       </h3>
       <div className="slider">
@@ -16,7 +16,7 @@ const Slider = () => {
           <div className="slide">
             <img
               src={nelixair}
-              height="100"
+              height="200"
               width="250"
               alt="Association Nelixair"
             />
