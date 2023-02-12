@@ -20,7 +20,7 @@ const OffresAuteurs = () => {
           </div>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {/* OFFRE 1 */}
-            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 mx-auto max-w-lg text-center text-black bg-real rounded-lg shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
+            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 mx-auto max-w-lg text-center text-black bg-real rounded-md shadow-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
               <p className="font-light text-black sm:text-lg dark:text-black">
                 Une bonne base pour commencer...{" "}
@@ -116,13 +116,13 @@ const OffresAuteurs = () => {
               </ul>
               <a
                 href="#"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white"
+                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-md text-sm px-5 py-2.5 text-center dark:text-white"
               >
                 C'est parti !
               </a>
             </div>
             {/* OFFRE 2 */}
-            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-16  max-w-xl text-center text-white bg-purpleDark rounded-lg shadow-xl dark:border-black xl:p-8 dark:bg-black dark:text-white">
+            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-16  max-w-xl text-center text-white bg-purpleDark rounded-md shadow-md shadow-xl dark:border-black xl:p-8 dark:bg-black dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold text-real">Medium</h3>
               <p className="text-pink sm:text-lg font-bold dark:text-white">
                 Formule la plus populaire !
@@ -221,13 +221,13 @@ const OffresAuteurs = () => {
               </ul>
               <a
                 href="#"
-                className="text-purple bg-real hover:bg-white shadow-md font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white"
+                className="text-purple bg-real hover:bg-white shadow-md rounded-md font-medium  text-sm px-5 py-2.5 text-center dark:text-white"
               >
                 C'est parti !
               </a>
             </div>
             {/* OFFRE 3 */}
-            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 mx-auto max-w-lg text-center text-black bg-real rounded-lg shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
+            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 mx-auto max-w-lg text-center text-black bg-real rounded-md shadow-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold">Ultimate !</h3>
               <p className="font-light text-black sm:text-lg dark:text-black">
                 Le must du must du site internet de la mort qui tue !
@@ -323,7 +323,7 @@ const OffresAuteurs = () => {
               </ul>
               <a
                 href="#"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white"
+                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-md text-sm px-5 py-2.5 text-center dark:text-white"
               >
                 C'est parti !
               </a>

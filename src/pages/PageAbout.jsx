@@ -25,11 +25,11 @@ const PageAbout = () => {
           >
             <div className="flex justify-center items-center h-full">
               <div className="text-center text-white px-6 md:px-12">
-                <h1 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+                <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Offre spéciale
                   <br />
                   <span className="text-pink">auteurs</span>
-                </h1>
+                </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
                   Tu écris des livres et tu souhaites avoir un site web
                   professionnel dédié à ton activité ? <br /> Moi aussi, je suis

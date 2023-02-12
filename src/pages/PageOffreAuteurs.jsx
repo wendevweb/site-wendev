@@ -9,6 +9,7 @@ const PageOffreAuteurs = () => {
         <title>Offre spéciale auteurs | WenDev</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
+
       <section className="mb-20" aria-label="Titre et présentation du service">
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
@@ -25,11 +26,11 @@ const PageOffreAuteurs = () => {
           >
             <div className="flex justify-center items-center h-full">
               <div className="text-center text-white px-6 md:px-12">
-                <h1 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+                <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Offre spéciale
                   <br />
                   <span className="text-pink">auteurs</span>
-                </h1>
+                </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
                   Tu écris des livres et tu souhaites avoir un site web
                   professionnel dédié à ton activité ? <br /> Moi aussi, je suis
@@ -41,7 +42,7 @@ const PageOffreAuteurs = () => {
           </div>
         </div>
       </section>
-
+      <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>
       <section
         className="bg-white dark:bg-black font-quicksand"
         aria-label="Détail des offres de services réservées aux auteurs"

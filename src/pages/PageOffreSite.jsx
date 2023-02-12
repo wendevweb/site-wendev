@@ -25,11 +25,11 @@ const PageOffreSite = () => {
           >
             <div className="flex justify-center items-center h-full">
               <div className="text-center text-white px-6 md:px-12">
-                <h1 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+                <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Création de
                   <br />
                   <span className="text-pink">Sites internet</span>
-                </h1>
+                </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Optio, praesentium. Minus quis sapiente, a assumenda nemo
@@ -42,6 +42,8 @@ const PageOffreSite = () => {
           </div>
         </div>
       </section>
+      <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>
+      <section></section>
     </div>
   );
 };

@@ -117,7 +117,7 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            to="#"
+                            to="/OffreMysql"
                             className={classNames(
                               active ? "bg-pink hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
