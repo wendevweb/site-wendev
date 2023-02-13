@@ -24,10 +24,7 @@ const Footer = () => {
             A propos
           </h2>
           <p className="text-left pt-6 font-light">
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim
-            repudiandae fugit doloremque impedit quia culpa? Neque, fuga aut
-            nihil rerum placeat dolorum architecto asperiores culpa voluptatum
-            repudiandae quia atque. Laboriosam!
+            WenDev est une micro-entreprise de développement web et web mobile, dirigée par Wendy Baqué. Elle propose des services numériques avec plusieurs offres adaptés aux besoins de ses clients. 
           </p>
         </div>
 

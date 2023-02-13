@@ -5,7 +5,6 @@ import Partenaires from "../components/Partenaires";
 import Slider from "../components/Slider";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
-import Interest from "../components/Interest";
 
 const Home = () => {
   return (
@@ -16,9 +15,6 @@ const Home = () => {
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
       <Hero />
-      <Fade>
-        <Interest />
-      </Fade>
       <Fade>
         <Expertise />
       </Fade>

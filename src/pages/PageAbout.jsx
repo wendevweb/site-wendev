@@ -11,7 +11,7 @@ const PageAbout = () => {
         <title>A propos | WenDev</title>
         <link rel="canonical" href="http://mysite.com/example" />
       </Helmet>
-      <section className="mb-20" aria-label="Titre et présentation du service">
+      <section aria-label="Titre et présentation du service">
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
           style={{
