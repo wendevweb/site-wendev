@@ -33,7 +33,7 @@ const Partenaires = () => {
     },
   ];
   return (
-    <div>
+    <div className="lg:m-10 p-10">
       <h3 className="text-pink text-2xl text-center mt-12 mb-6">
         Mes super partenaires à votre service !
       </h3>
@@ -43,7 +43,7 @@ const Partenaires = () => {
         sit laborum voluptate deserunt magnam nemo totam magni, corrupti
         quisquam delectus.
       </p>
-      <div className="flip-body ">
+      <div className="pt-10 lg:grid grid-cols-4 gap-2">
         {partners.map((partner) => (
           <div key={partner.id} className="flip-card ml-6 mr-6 font-quicksand">
             <div className="flip-card-inner ">

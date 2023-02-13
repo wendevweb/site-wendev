@@ -47,7 +47,7 @@ const Expertise = () => {
   ];
 
   return (
-    <div>
+    <div className="lg:m-10 p-10">
       <h3 className="text-pink text-2xl text-center mt-12 mb-6">
         Mes services
       </h3>
