@@ -4,6 +4,7 @@ import Hero from "../components/Hero";
 import Partenaires from "../components/Partenaires";
 import Slider from "../components/Slider";
 import { Helmet } from "react-helmet";
+import { Fade } from "react-awesome-reveal";
 
 const Home = () => {
   return (
@@ -15,9 +16,15 @@ const Home = () => {
       </Helmet>
       <Hero />
       {/* Intérêt d'un site internet avec quelques chiffres */}
-      <Expertise />
-      <Slider />
-      <Partenaires />
+      <Fade>
+        <Expertise />
+      </Fade>
+      <Fade>
+        <Slider />
+      </Fade>
+      <Fade>
+        <Partenaires />
+      </Fade>
     </div>
   );
 };
