@@ -93,9 +93,9 @@ const Footer = () => {
             Mentions légales
           </h2>
           <ul className="text-left">
-            <a href="/mentionslegales">
+            <a href="/Legals">
               <li className="pt-4 font-light hover:text-pinkDark">
-                Page de mentions légales
+                C.G.U.
               </li>
             </a>
           </ul>

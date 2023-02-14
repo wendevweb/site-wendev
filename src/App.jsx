@@ -15,6 +15,7 @@ import PageOffreGlide from "./pages/PageOffreGlide";
 import PageOffreFirebase from "./pages/PageOffreFirebase";
 import Page404 from "./pages/Page404";
 import PageOffreMysql from "./pages/PageOffreMysql";
+import Legals from "./pages/Legals";
 
 function App() {
   return (
@@ -32,6 +33,7 @@ function App() {
           <Route path="/OffreFirebase" element={<PageOffreFirebase />} />
           <Route path="/OffreMysql" element={<PageOffreMysql />} />
           <Route path="/Contact" element={<Contact />} />
+          <Route path="/Legals" element={<Legals />} />
           <Route path="*" element={<Page404 />} />
         </Routes>
       </Router>
