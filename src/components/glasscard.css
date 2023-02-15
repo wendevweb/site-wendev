@@ -1,8 +1,11 @@
 .glass-card {
     width: 250px;
-    height: 300px;
+    height: 420px;
     position: relative;
     margin: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .glass-card-text {

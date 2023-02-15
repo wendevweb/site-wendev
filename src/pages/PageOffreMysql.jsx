@@ -5,7 +5,7 @@ import building from "../assets/building.png";
 
 const PageOffreMysql = () => {
   return (
-    <div className="flex flex-col justify-center justify-items-center">
+    <div className="flex flex-col justify-center justify-items-center font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre base de données | WenDev</title>
@@ -35,10 +35,9 @@ const PageOffreMysql = () => {
                   </span>
                 </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Optio, praesentium. Minus quis sapiente, a assumenda nemo
-                  saepe error magni provident omnis. Quaerat quod fuga ea porro
-                  hic facilis accusantium cumque?
+                  Tu souhaites avoir une base de données claire, avec des tables
+                  de jointures et des relations correctement paramétrées et
+                  modélisées ?
                   <br /> Alors cette offre est faite pour toi ! <br />
                 </p>
               </div>
@@ -46,6 +45,32 @@ const PageOffreMysql = () => {
           </div>
         </div>
       </section>
+      <Fade>
+        <section
+          aria-label="A quoi sert une maquette ?"
+          className="lg:m-10 p-10"
+        >
+          <h3 className="text-pink text-2xl text-center mb-6">
+            Pourquoi choisi MySQL pour ta base de données ?
+          </h3>
+          <p className="text-light leading-relaxed pb-6 text-xl">
+            <span className="font-bold text-pinkDark">MySQL </span>
+            est un système de gestion de bases de données relationnelles, basé
+            sur le langage SQL (Structured Query Langage). Avec ce langage, je
+            peux stocker et enregistrer tes données et gérer les liens entre
+            elles, à l'aide de requêtes. C'est un langage de plus en plus
+            utilisé et standardisé.
+            <br />
+            Je la <span className="font-bold text-pinkDark">modélise</span>{" "}
+            suivant la méthode{" "}
+            <span className="font-bold text-pinkDark">MERISE</span> qui a
+            l'avantage d'être claire et schématique au premier regard, sans
+            entrer dans du langage technique. Ainsi, ce sera plus facile de te
+            la représenter et/ou de présenter l'architecture et les liens de ta
+            base de données à tes clients.
+          </p>
+        </section>
+      </Fade>
 
       <div className="grid justify-items-center ">
         <h3 className="text-pink text-2xl text-center mb-6">
@@ -57,7 +82,12 @@ const PageOffreMysql = () => {
           aria-label="page en construction>"
         />
       </div>
-
+      <Fade>
+        <section>
+          <h3 className="text-pink text-2xl text-center">Tarifs</h3>
+          <p className="text-center p-6">A venir... Stay tuned !😎</p>
+        </section>
+      </Fade>
       <Fade>
         <section>
           <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>
@@ -81,7 +111,6 @@ const PageOffreMysql = () => {
           </div>
         </section>
       </Fade>
-
     </div>
   );
 };

@@ -5,7 +5,7 @@ import building from "../assets/building.png";
 
 const PageOffreFirebase = () => {
   return (
-    <div className="flex flex-col justify-center justify-items-center">
+    <div className="flex flex-col justify-center justify-items-center font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre Firebase | WenDev</title>
@@ -34,10 +34,8 @@ const PageOffreFirebase = () => {
                   <span className="text-pink">Firebase</span>
                 </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Inventore fuga ipsum excepturi tenetur totam. Sunt, explicabo
-                  reiciendis at tempora, doloremque qui iste cum molestiae
-                  nostrum nam cupiditate, eveniet ipsa voluptatum?
+                  Tu souhaites que tes utilisateurs s'authentifient sur ton
+                  application ou ton site internet de manière sécurisée ?
                   <br /> Alors cette offre est faite pour toi ! <br />
                 </p>
               </div>
@@ -45,6 +43,37 @@ const PageOffreFirebase = () => {
           </div>
         </div>
       </section>
+
+      <Fade>
+        <section
+          aria-label="A quoi sert une maquette ?"
+          className="lg:m-10 p-10"
+        >
+          <h3 className="text-pink text-2xl text-center mb-6">
+            C'est quoi, Firebase ?
+          </h3>
+          <p className="text-light leading-relaxed pb-6 text-xl">
+            Firebase est une{" "}
+            <span className="font-bold text-pinkDark">
+              plateforme de développement d’applications web et mobiles soutenue
+              par Google
+            </span>
+            , pour aider les développeurs à offrir des expériences
+            d’applications plus riches. On parle de
+            <span className="font-bold text-pinkDark">
+              {" "}
+              Backend As A Service (BaaS)
+            </span>
+            . Firebase gère sa propre infrastructure avec un bel ensemble
+            d’outils pour simplifier le travail du développeur en lui
+            fournissant des kits de développement et un tableau de bord en
+            ligne.
+            <br />
+            Parmis ces services, il y a l'{" "}
+            <span className="font-bold text-pinkDark">authentification</span> !
+          </p>
+        </section>
+      </Fade>
       <div className="grid justify-items-center ">
         <h3 className="text-pink text-2xl text-center mb-6">
           Page en construction... Contenu à venir !
@@ -55,6 +84,12 @@ const PageOffreFirebase = () => {
           aria-label="page en construction>"
         />
       </div>
+      <Fade>
+        <section>
+          <h3 className="text-pink text-2xl text-center">Tarifs</h3>
+          <p className="text-center p-6">A venir... Stay tuned !😎</p>
+        </section>
+      </Fade>
       <Fade>
         <section>
           <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>

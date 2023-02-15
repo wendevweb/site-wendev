@@ -5,7 +5,7 @@ import Hero from "../components/Hero";
 import Slider from "../components/Slider";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
-import Testimonials from "../components/Testimonials";
+// import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (

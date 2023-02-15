@@ -53,7 +53,7 @@ const PageAbout = () => {
             <img
               src={wendycolor}
               alt="Wendy Baqué"
-              className="rounded-full shadow-md w-96"
+              className="rounded-full shadow-md w-96 mb-6"
             />
             <p className="font-quicksand text-light leading-relaxed">
               Je suis <span className="text-bold text-pinkDark">Wendy</span>,
@@ -84,7 +84,7 @@ const PageAbout = () => {
             <img
               src="https://cdn.pixabay.com/photo/2019/09/17/18/48/computer-4484282_960_720.jpg"
               alt="Wendy Baqué"
-              className="rounded-md shadow-md grayscale h-56"
+              className="rounded-md shadow-md grayscale h-72 mb-6"
             />
             <p className="font-quicksand text-light leading-relaxed">
               J'ai toujours été attirée par les professions mettant{" "}
@@ -130,7 +130,7 @@ const PageAbout = () => {
             <img
               src="https://cdn.pixabay.com/photo/2015/05/18/23/19/gesture-772977_960_720.jpg"
               alt="Wendy Baqué"
-              className="rounded-md shadow-md grayscale h-56"
+              className="rounded-md shadow-md grayscale h-72 mb-6"
             />
             <p className="font-quicksand text-light leading-relaxed">
               ✨ Je suis une personne{" "}
@@ -322,7 +322,7 @@ const PageAbout = () => {
             <img
               src="https://cdn.pixabay.com/photo/2018/02/23/22/04/book-bindings-3176776_960_720.jpg"
               alt="Les activités d'auteure de romans de WenDev"
-              className="rounded-md shadow-md grayscale h-56"
+              className="rounded-md shadow-md grayscale h-72 mb-6"
             />
             <div>
               <p className="font-quicksand text-light leading-relaxed">

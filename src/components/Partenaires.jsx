@@ -38,10 +38,7 @@ const Partenaires = () => {
         Mes super partenaires à votre service !
       </h3>
       <p className="text-black font-quicksand text-center mb-6">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
-        nisi hic error inventore, sint, voluptatem nulla qui perferendis quis
-        sit laborum voluptate deserunt magnam nemo totam magni, corrupti
-        quisquam delectus.
+        Il est temps de voir ton projet en grand ! Et si tu faisais appel à mes partenaires de fconfiance, avec lesquels je partage mes valeurs et ma manière de travailler ? Je te propose un large choix de professionnels à ton écoute.
       </p>
       <div className="pt-10 lg:grid grid-cols-4 gap-2">
         {partners.map((partner) => (

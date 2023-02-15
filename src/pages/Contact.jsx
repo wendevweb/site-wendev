@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 // import Airtable from "../components/AirtableForm";
-import Calendly from "../components/Calendly";
+// import Calendly from "../components/Calendly";
 import JotformContact from "../components/JotformContact";
 
 const Contact = () => {
@@ -17,7 +17,7 @@ const Contact = () => {
         {/* <Airtable /> */}
         <JotformContact />
       </div>
-      <div className="flex flex-col mt-10">
+      {/* <div className="flex flex-col mt-10">
         <h2 className="text-pink text-2xl text-center ">
           Rencontrons-nous !
         </h2>
@@ -27,7 +27,7 @@ const Contact = () => {
             Demande un devis sans prendre de rendez-vous
           </a>
         </button>
-      </div>
+      </div> */}
     </div>
   );
 };

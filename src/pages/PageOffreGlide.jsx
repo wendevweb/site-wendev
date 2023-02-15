@@ -3,10 +3,9 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import building from "../assets/building.png";
 
-
 const PageOffreGlide = () => {
   return (
-    <div className="flex flex-col justify-center justify-items-center">
+    <div className="flex flex-col justify-center justify-items-center font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre Glide app | WenDev</title>
@@ -34,15 +33,43 @@ const PageOffreGlide = () => {
                   <span className="text-pink">application mobile</span>
                 </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
-                  Je transforme ton tableur Google Sheet ou Airtable en
-                  application pour mobile !
-                  <br /> Alors cette offre est faite pour toi ! <br />
+                  Une application mobile est le must have pour ton entreprise ou
+                  pour ta marque. FEt tout cela, sans base de données à
+                  construire !
+                  <br /> Je transforme ton tableur Google Sheet ou Airtable en
+                  application pour mobile !<br />
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+      <Fade>
+        <section
+          aria-label="A quoi sert une maquette ?"
+          className="lg:m-10 p-10"
+        >
+          <h3 className="text-pink text-2xl text-center mb-6">
+            C'est quoi, Glide ?
+          </h3>
+          <p className="text-light leading-relaxed pb-6 text-xl">
+            <span className="font-bold text-pinkDark">GlideApps</span> est une
+            plateforme en ligne qui permet de transformer instantanément les
+            données issues de feuilles de calcul (Google Sheet, Excel) en
+            applications mobiles qui s'adaptent sur iOS, Android, les téléphones
+            et les tablettes.
+            <br />
+            L'interface propose des thèmes modernes, totalement personnalisables
+            à ton image, la synchronisation avec ta feuille de calculs, le lien
+            possible avec de nombreuses autres applications no-code (ex :
+            Zapier, Stripe...), des actions personnalisées et la gestion de profils de tes utilisateurs.
+              <br />
+              C'est la solution idéale pour gérer ton CMS d'entreprise, ton journal d'activités, ton portfolio ou encore une application de cours personnalisés ou de quiz. 
+              <br />
+              Je te livre une solution fonctionnelle et te donne les clés pour la faire évoluer toi-même par la suite.
+          </p>
+        </section>
+      </Fade>
       <div className="grid justify-items-center ">
         <h3 className="text-pink text-2xl text-center mb-6">
           Page en construction... Contenu à venir !
@@ -53,6 +80,12 @@ const PageOffreGlide = () => {
           aria-label="page en construction>"
         />
       </div>
+      <Fade>
+        <section>
+          <h3 className="text-pink text-2xl text-center">Tarifs</h3>
+          <p className="text-center p-6">A venir... Stay tuned !😎</p>
+        </section>
+      </Fade>
       <Fade>
         <section>
           <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>
@@ -76,7 +109,6 @@ const PageOffreGlide = () => {
           </div>
         </section>
       </Fade>
-
     </div>
   );
 };

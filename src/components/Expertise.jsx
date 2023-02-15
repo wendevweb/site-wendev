@@ -6,42 +6,42 @@ const Expertise = () => {
       id: 1,
       title: "Offre spéciale auteurs",
       img: "https://cdn.pixabay.com/photo/2016/03/27/19/32/book-1283865_960_720.jpg",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae nisi hic error inventore, sint, voluptatem nulla qui perferendis quis sit laborum voluptate deserunt magnam nemo totam magni, corrupti quisquam delectus.",
+      desc: "Tu écris des livres et tu souhaites avoir un site web professionnel dédié à ton activité ? Moi aussi, je suis auteure et suis passée par là. Je te propose une offre accessible et adaptée à tes besoins pour promouvoir ton univers littéraire et le partager autour de toi.",
       link: "/Offreauteurs",
     },
     {
       id: 2,
       title: "Création de sites internet sur mesure",
       img: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae nisi hic error inventore, sint, voluptatem nulla qui perferendis quis sit laborum voluptate deserunt magnam nemo totam magni, corrupti quisquam delectus.",
+      desc: "Avoir son propre site internet comporte bien des avantages. C'est un réel atout pour ta marque ou ton entreprise ! Découvre mon offre de création de site web adaptée à tes besoins numériques.",
       link: "/OffreSite",
     },
     {
       id: 3,
       title: "Création de maquettes et de prototypes pour le web",
       img: "https://assets-global.website-files.com/615b6910fed3ab29278f1893/6239bc9233d83795915b0c50_collaboration-figma2x.png",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae nisi hic error inventore, sint, voluptatem nulla qui perferendis quis sit laborum voluptate deserunt magnam nemo totam magni, corrupti quisquam delectus.",
+      desc: "Tu souhaites avoir un aperçu de ce que donnera le site web de tes rêves ? Alors viens vite me demander une maquette !",
       link: "/OffreMaquette",
     },
     {
       id: 4,
       title: "Pages d'authentification sécurisée avec Firebase",
       img: "https://cdn.pixabay.com/photo/2016/08/13/20/07/credit-card-1591492_960_720.jpg",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae nisi hic error inventore, sint, voluptatem nulla qui perferendis quis sit laborum voluptate deserunt magnam nemo totam magni, corrupti quisquam delectus.",
+      desc: "Tu souhaites que tes utilisateurs s'authentifient sur ton application ou ton site internet de manière sécurisée ? Grâce à Firebase, je te propose une solution clefs en mains !",
       link: "/OffreFirebase",
     },
     {
       id: 5,
       title: "Création d'application mobile avec Glide",
       img: "https://cdn.pixabay.com/photo/2015/07/03/17/23/iphone-830480_960_720.jpg",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae nisi hic error inventore, sint, voluptatem nulla qui perferendis quis sit laborum voluptate deserunt magnam nemo totam magni, corrupti quisquam delectus.",
+      desc: "Une application mobile est le must have pour ton entreprise ou pour ta marque ! Et tout cela, sans base de données à construire. Je transforme ton tableur Google Sheet ou Airtable en application pour mobile.",
       link: "/OffreGlide",
     },
     {
       id: 6,
       title: "Paramétrage et modélisation de bases de données MySQL",
       img: "https://images.pexels.com/photos/10325707/pexels-photo-10325707.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      desc: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae nisi hic error inventore, sint, voluptatem nulla qui perferendis quis sit laborum voluptate deserunt magnam nemo totam magni, corrupti quisquam delectus.",
+      desc: "Tu souhaites avoir une base de données claire, avec des tables de jointures et des relations correctement paramétrées et modélisées ? Voici l'offre qu'il te faut, grâce à MySQL et la méthode MERISE.",
       link: "/OffreMysql",
     },
   ];
@@ -51,12 +51,6 @@ const Expertise = () => {
       <h3 className="text-pink text-2xl text-center mt-12 mb-6">
         Mes services
       </h3>
-      <p className="text-black font-quicksand text-center pb-10">
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae
-        nisi hic error inventore, sint, voluptatem nulla qui perferendis quis
-        sit laborum voluptate deserunt magnam nemo totam magni, corrupti
-        quisquam delectus.
-      </p>
 
       <div className="font-quicksand space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-6 lg:space-y-0">
         {services.map((service) => (
@@ -70,7 +64,7 @@ const Expertise = () => {
               className="h-48 w-full"
             />
             <h4 className="font-bold text-pink text-xl p-4">{service.title}</h4>
-            <p>{service.desc}</p>
+            <p className="p-4">{service.desc}</p>
             <button
               className="w-40 m-4 border border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
               alt="Redirection vers la page du service de WenDev"
