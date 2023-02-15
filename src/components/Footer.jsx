@@ -98,6 +98,11 @@ const Footer = () => {
                 C.G.U.
               </li>
             </a>
+            <a href="/Cgv">
+              <li className="pt-4 font-light hover:text-pinkDark">
+                C.G.V.
+              </li>
+            </a>
           </ul>
         </div>
       </div>

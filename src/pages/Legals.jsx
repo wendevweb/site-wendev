@@ -873,7 +873,7 @@ const Legals = () => {
         <p className="hover:text-secondaryLight">
           <a
             href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:705dfb7b-c4b4-3c9f-b395-892493af1430"
-            alt="Redirect to pdf download"
+            alt="Redirection vers la page de téléchargement du document en pdf"
             aria-label="Redirection vers la page de téléchargement du document en pdf"
             rel="noreferrer"
             target="_blank"
