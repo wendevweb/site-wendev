@@ -2,12 +2,12 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 
-import maquetteMood from "../assets/maquette mood.png";
-import prototypeMood from "../assets/prototype mood.png";
-import fedmind from "../assets/refonte site fedmind.png";
-import apside from "../assets/maquette apside.png";
-import prototypeMbn from "../assets/prototype mbn.png";
-import maquetteMbn from "../assets/maquette mbn.png";
+import maquetteMood from "../assets/maquette-mood.webp";
+import prototypeMood from "../assets/prototype-mood.webp";
+import fedmind from "../assets/refonte-site-fedmind.webp";
+import apside from "../assets/maquette-apside.webp";
+import prototypeMbn from "../assets/prototype-mbn.webp";
+import maquetteMbn from "../assets/maquette-mbn.webp";
 
 const PageOffreMaquette = () => {
   return (

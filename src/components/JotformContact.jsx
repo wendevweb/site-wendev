@@ -2,7 +2,7 @@ import React from "react";
 
 const JotformContact = () => {
   return (
-    <div className="lg:ml-12 mt-32 lg:mb-24">
+    <div className="lg:ml-12 mt-10 lg:mb-24">
       <iframe
         id="JotFormIFrame-230384793454362"
         title="Contact"
@@ -14,7 +14,7 @@ const JotformContact = () => {
         frameborder="0"
         style={{
           minWidth: "100%",
-          height: "539px",
+          height: "1200px",
           border: "none",
           borderRadius: "10px",
         }}

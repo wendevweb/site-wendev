@@ -22,7 +22,7 @@ class Calendly extends Component {
           <div
             className="calendly-inline-widget"
             data-url="https://calendly.com/wendevweb/premier-rendez-vous?primary_color=ff7ecf"
-            style={{ minWidth: "320px", height: "1100px" }}
+            style={{ minWidth: "320px", height: "1200px" }}
           />
         </div>
       </div>

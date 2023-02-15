@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
 import "../components/hero.css";
-import error from "../assets/404.png";
+import error from "../assets/404.webp";
 
 const Page404 = () => {
   const navigate = useNavigate();
