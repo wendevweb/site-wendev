@@ -24,16 +24,13 @@ const Hero = () => {
                   WenDev ,<br />
                 </h1>
                 <h2 className="text-white lg:text-4xl md:text-4xl xl:text-6xl font-bold tracking-tight ">
-                  Pour créer ton site internet
+                  Des solutions numériques
                 </h2>
                 <h2 className="text-pink lg:text-4xl md:text-4xl xl:text-6xl font-bold tracking-tight mb-6">
                   sur mesure !
                 </h2>
                 <p className="font-quicksand text-xl text-white opacity-70">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Temporibus, expedita iusto veniam atque, magni tempora
-                  mollitia dolorum consequatur nulla, neque debitis eos
-                  reprehenderit quasi ab ipsum nisi dolorem modi. Quos?
+                  Besoin d'un site internet ? D'une base de données ? D'une application no-code ? D'une maquette pour le web ? <br />Fais appel à une développeuse web qualifiée pour donner vie à toutes tes envies numériques !
                 </p>
               </div>
             </Fade>

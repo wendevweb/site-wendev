@@ -1,10 +1,11 @@
 import React from "react";
 import Expertise from "../components/Expertise";
 import Hero from "../components/Hero";
-import Partenaires from "../components/Partenaires";
+// import Partenaires from "../components/Partenaires";
 import Slider from "../components/Slider";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
+import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
@@ -21,9 +22,12 @@ const Home = () => {
       <Fade>
         <Slider />
       </Fade>
-      <Fade>
+      {/* <Fade>
         <Partenaires />
-      </Fade>
+      </Fade> */}
+      {/* <Fade>
+        <Testimonials />
+      </Fade> */}
     </div>
   );
 };
