@@ -1,14 +1,16 @@
 /* Based on this package : https://www.npmjs.com/package/react-responsive-carousel */
 .carousel {
-    position: relative;
     background-color: #EDF2F4;
-    height: 300px;
+    
   }
 
  .carousel .carousel-img {
     border-radius: 10px;
     border:none;
     outline: none;
+    height: 30vh;
+    width: 30vw;
+    
   }
 
   /* Thumbnails */
@@ -21,13 +23,17 @@
     background-color: #EDF2F4;
     border:none;
     outline: none;
+    height: 50px;
+    display: none;
   }
   
   .carousel .thumb {
+    display: none;
     cursor: pointer;
     margin: 0 5px;
     border:none;
     outline: none;
+    height: 50px;
     -webkit-box-shadow: 5px 5px 15px -6px #242424;
     box-shadow: 5px 5px 15px -6px #242424;
     background-color: #EDF2F4;

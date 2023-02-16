@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import building from "../assets/building.png";
+import glide from "../assets/glide.webp";
 
 const PageOffreGlide = () => {
   return (
@@ -52,6 +53,15 @@ const PageOffreGlide = () => {
           <h3 className="text-pink text-2xl text-center mb-6">
             C'est quoi, Glide ?
           </h3>
+          <div className="flex justify-center">
+            {" "}
+            <img
+              src={glide}
+              alt="Firebase"
+              aria-label="Firebase"
+              className="w-52 p-4"
+            />
+          </div>
           <p className="text-light leading-relaxed pb-6 text-xl">
             <span className="font-bold text-pinkDark">GlideApps</span> est une
             plateforme en ligne qui permet de transformer instantanément les

@@ -8,6 +8,7 @@ import fedmind from "../assets/refonte-site-fedmind.webp";
 import apside from "../assets/maquette-apside.webp";
 import prototypeMbn from "../assets/prototype-mbn.webp";
 import maquetteMbn from "../assets/maquette-mbn.webp";
+import figma from "../assets/figma.webp";
 
 const PageOffreMaquette = () => {
   return (
@@ -104,6 +105,15 @@ const PageOffreMaquette = () => {
             Je réalise tes maquettes et prototypes sur le logiciel{" "}
             <span className="font-bold text-pinkDark">Figma</span>.
           </p>
+          <div className="flex justify-center">
+            {" "}
+            <img
+              src={figma}
+              alt="Firebase"
+              aria-label="Firebase"
+              className="w-52 p-4"
+            />
+          </div>
         </section>
       </Fade>
 

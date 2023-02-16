@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import building from "../assets/building.png";
+import firebase from "../assets/firebase.webp";
 
 const PageOffreFirebase = () => {
   return (
@@ -52,6 +53,15 @@ const PageOffreFirebase = () => {
           <h3 className="text-pink text-2xl text-center mb-6">
             C'est quoi, Firebase ?
           </h3>
+          <div className="flex justify-center">
+            {" "}
+            <img
+              src={firebase}
+              alt="Firebase"
+              aria-label="Firebase"
+              className="w-52 p-4"
+            />
+          </div>
           <p className="text-light leading-relaxed pb-6 text-xl">
             Firebase est une{" "}
             <span className="font-bold text-pinkDark">

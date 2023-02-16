@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import building from "../assets/building.png";
+import mysql from "../assets/mysql.webp";
 
 const PageOffreMysql = () => {
   return (
@@ -53,6 +54,15 @@ const PageOffreMysql = () => {
           <h3 className="text-pink text-2xl text-center mb-6">
             Pourquoi choisi MySQL pour ta base de données ?
           </h3>
+          <div className="flex justify-center">
+            {" "}
+            <img
+              src={mysql}
+              alt="Firebase"
+              aria-label="Firebase"
+              className="w-52 p-4"
+            />
+          </div>
           <p className="text-light leading-relaxed pb-6 text-xl">
             <span className="font-bold text-pinkDark">MySQL </span>
             est un système de gestion de bases de données relationnelles, basé
