@@ -2,10 +2,16 @@ import React from "react";
 import { Disclosure, Transition } from "@headlessui/react";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import PictureAsPdfIcon from "@mui/icons-material/PictureAsPdf";
+import { Helmet } from "react-helmet";
 
 const Legals = () => {
   return (
     <div className="m-6 flex flex-col justify-center justify-items-center font-quicksand">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>C.G.U. | WenDev</title>
+        <link href="https://www.wendev.fr/Legals" />
+      </Helmet>
       <h2 className="text-pink text-2xl text-center m-4">
         {" "}
         Conditions générales d'utilisation

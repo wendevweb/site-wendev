@@ -18,7 +18,7 @@ const Page404 = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Page not found | WenDev</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link href="https://www.wendev.fr/*" />
       </Helmet>
       <div className="background-radial-gradient-hero overflow-hidden h-screen">
         <div className=" px-6 py-12 lg:py-24 md:px-12 text-center lg:text-left">

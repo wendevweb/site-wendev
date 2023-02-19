@@ -10,7 +10,7 @@ const PageOffreMysql = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre base de données | WenDev</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link href="https://www.wendev.fr/OffreMysql" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div

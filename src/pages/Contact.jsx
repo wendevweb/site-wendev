@@ -10,7 +10,7 @@ const Contact = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Contact | WenDev</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link href="https://www.wendev.fr/Contact" />
       </Helmet>
       <div className="flex flex-col mt-10">
         <h2 className="text-pink text-2xl text-center">Contactons-nous !</h2>

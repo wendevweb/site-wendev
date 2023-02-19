@@ -16,7 +16,7 @@ const PageOffreMaquette = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre Maquette et prototype | WenDev</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link  href="https://www.wendev.fr/OffreMaquette" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div

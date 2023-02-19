@@ -10,7 +10,7 @@ const PageAbout = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>A propos | WenDev</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link href="https://www.wendev.fr/About" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div
