@@ -3,13 +3,14 @@ import Expertise from "../components/Expertise";
 import Hero from "../components/Hero";
 // import Partenaires from "../components/Partenaires";
 import Slider from "../components/Slider";
+import Techno from "../components/Techno";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 // import Testimonials from "../components/Testimonials";
 
 const Home = () => {
   return (
-    <div>
+    <div className="font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Accueil | WenDev</title>
@@ -18,6 +19,9 @@ const Home = () => {
       <Hero />
       <Fade>
         <Expertise />
+      </Fade>
+      <Fade>
+        <Techno />
       </Fade>
       <Fade>
         <Slider />

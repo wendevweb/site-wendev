@@ -104,6 +104,19 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
+                            to="/OffrePortfolio"
+                            className={classNames(
+                              active ? "bg-pink hover:text-white" : "",
+                              "block px-4 py-2 font-medium text-black"
+                            )}
+                          >
+                            Création de portfolio
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
                             to="/Offreauteurs"
                             className={classNames(
                               active ? "bg-pink hover:text-white" : "",
@@ -137,6 +150,19 @@ export default function Example() {
                             )}
                           >
                             Application mobile
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            to="/OffreChat"
+                            className={classNames(
+                              active ? "bg-pink hover:text-white" : "",
+                              "block px-4 py-2 font-medium text-black"
+                            )}
+                          >
+                            Application de chat et chatbot
                           </Link>
                         )}
                       </Menu.Item>

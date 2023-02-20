@@ -44,6 +44,22 @@ const Expertise = () => {
       desc: "Tu souhaites avoir une base de données claire, avec des tables de jointures et des relations correctement paramétrées et modélisées ? Voici l'offre qu'il te faut, grâce à MySQL et la méthode MERISE.",
       link: "/OffreMysql",
     },
+
+    {
+      id: 7,
+      title: "Création de ton portfolio",
+      img: "https://cdn.pixabay.com/photo/2017/08/12/09/17/industry-2633878_960_720.jpg",
+      desc: "Que tu sois artiste, expert de la tech, débutant ou chevronné, avoir un portfolio est essentiel pour présenter tes projets, mettre en valeur ton travail et qui tu es. Je code et met en page tes projets et ta présentation de manière originale et percutante, mais toujours pro !",
+      link: "/OffrePortfolio",
+    },
+
+    {
+      id: 8,
+      title: "Création de chats et chatbots personnalisés et sécurisés",
+      img: "https://cdn.pixabay.com/photo/2018/03/16/19/10/communication-3232227_960_720.jpg",
+      desc: "Echanger avec ses collègues, ses amis, sa familles, etc. de manière fun et sécurisée, ou répondre automatiquement aux questions de tes utilisateurs selon des chemins prédéfinis est dans l'air du temps. Je crée ton chatbot ou ton serveur de chat personnalisés et sécurisés.",
+      link: "/OffreChat",
+    },
   ];
 
   return (

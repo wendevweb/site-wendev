@@ -52,8 +52,26 @@ const PageOffreAuteurs = () => {
       </Fade>
       
       <Fade>
-        <section aria-label="Sites démos pour les clients">
-          <h3 className="text-pink text-2xl text-center">Démos</h3>
+        <section className="lg:flex flex-col justify-center items-center">
+          <h3 className="text-pink text-2xl text-center mb-4">Démo </h3>
+          <img
+            src="https://www.hebergeur-image.com/upload/88.174.47.6-63db7ce5436f1.png"
+            alt="Site internet de Wendy Baqué, auteure de romans"
+            aria-label="Site internet de Wendy Baqué, auteure de romans"
+            className="rounded-md shadow-md w-1/2"
+          />
+          <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+            <a
+              href="https://wendybaqueauteure.wendev.fr/"
+              alt="Site internet de Wendy Baqué, auteure de romans"
+              aria-label="Site internet de Wendy Baqué, auteure de romans"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Voir le site !
+            </a>
+          </button>
+          
         </section>
       </Fade>
     </div>
