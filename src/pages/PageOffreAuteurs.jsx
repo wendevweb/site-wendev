@@ -50,29 +50,205 @@ const PageOffreAuteurs = () => {
           <p className="text-center p-6">A venir... Stay tuned !😎</p>
         </section>
       </Fade>
-      
+
       <Fade>
         <section className="lg:flex flex-col justify-center items-center">
-          <h3 className="text-pink text-2xl text-center mb-4">Démo </h3>
-          <img
-            src="https://www.hebergeur-image.com/upload/88.174.47.6-63db7ce5436f1.png"
-            alt="Site internet de Wendy Baqué, auteure de romans"
-            aria-label="Site internet de Wendy Baqué, auteure de romans"
-            className="rounded-md shadow-md w-1/2"
-          />
-          <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
-            <a
-              href="https://wendybaqueauteure.wendev.fr/"
-              alt="Site internet de Wendy Baqué, auteure de romans"
-              aria-label="Site internet de Wendy Baqué, auteure de romans"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Voir le site !
-            </a>
-          </button>
-          
+          <h3 className="text-pink text-2xl text-center mb-4">Démos </h3>
+          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">Offre basic</h4>
+          <div className="lg:flex flex-row pb-4 items-center ">
+            <div className="lg:flex flex-col p-4 items-center ">
+              {/* JEROME MULLER */}
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-64255076ad0c3.png"
+                alt="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
+                aria-label="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
+                className="rounded-md"
+              />
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <a
+                  href="https://lightcyan-tiger-770474.builder-preview.com/"
+                  alt="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
+                  aria-label="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+            {/* LUC HORLA */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-642553a178d5e.png"
+                alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
+                aria-label="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
+                className="rounded-md"
+              />
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <a
+                  href="https://lightslategrey-alligator-289384.builder-preview.com/"
+                  alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
+                  aria-label="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+            {/* TOMAS CARLIER */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-6425548c59b1e.png"
+                alt="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
+                aria-label="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
+                className="rounded-md"
+              />
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <a
+                  href="https://lightgoldenrodyellow-lion-545728.builder-preview.com/"
+                  alt="Site internet fictif de Tomas Cariler pour illustrer l'offre basic de WenDev"
+                  aria-label="Site internet fictif de Tomas Cariler pour illustrer l'offre basic de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">Offre medium</h4>
+          <div className="lg:flex flex-row p-4 items-center ">
+            {/* HONORE SAINT HILAIRE */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-642555073fad8.png"
+                alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
+                aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
+                className="rounded-md"
+              />
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <a
+                  href="https://darkseagreen-fish-520996.builder-preview.com/"
+                  alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
+                  aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+            {/* DOM TERRENCE */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-642555876030f.png"
+                alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
+                aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
+                className="rounded-md"
+              />
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <a
+                  href="https://hotpink-cobra-376869.builder-preview.com/"
+                  alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
+                  aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+            {/* OCEANE GOUSSE */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-6425573bde2a7.png"
+                alt="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
+                aria-label="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
+                className="rounded-md"
+              />
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <a
+                  href="https://slateblue-grasshopper-490914.builder-preview.com/"
+                  alt="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
+                  aria-label="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+          </div>
+
+          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">Offre premium</h4>
+          <div className="lg:flex flex-row p-4 items-center ">
+            {/* LUCY MENARD */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-64255808be2ac.png"
+                alt="Site internet fictif de Lucy Ménard pour illustrer l'offre premium de WenDev"
+                aria-label="Site internet fictif de Lucy Ménard pour illustrer l'offre premium de WenDev"
+                className="rounded-md"
+              />
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <a
+                  href="https://greenyellow-gnu-914551.builder-preview.com/"
+                  alt="Site internet fictif de Lucy Ménard pour illustrer l'offre premium de WenDev"
+                  aria-label="Site internet fictif de Lucy Ménard pour illustrer l'offre premium de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+            {/* GREGORY HENRI */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-6425585067e24.png"
+                alt="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
+                aria-label="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
+                className="rounded-md"
+              />
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <a
+                  href="https://seashell-dog-370737.builder-preview.com/"
+                  alt="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
+                  aria-label="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+            {/* NATHALIE BEAULAC */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-642558925e51e.png"
+                alt="Site internet fictif de Nathalie Beaulac pour illustrer l'offre premium de WenDev"
+                aria-label="Site internet fictif de Nathalie Beaulac pour illustrer l'offre premium de WenDev"
+                className="rounded-md"
+              />
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <a
+                  href="https://sienna-bat-190844.builder-preview.com/"
+                  alt="Site internet fictif de Nathalie Beaulac pour illustrer l'offre premium de WenDev"
+                  aria-label="Site internet fictif de Nathalie Beaulac pour illustrer l'offre premium de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+          </div>
         </section>
+      </Fade>
+      <Fade>
+        <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">Prendre rendez-vous !</button>
       </Fade>
     </div>
   );
