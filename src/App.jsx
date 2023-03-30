@@ -12,7 +12,6 @@ import PageOffreMaquette from "./pages/PageOffreMaquette";
 import PageOffreSite from "./pages/PageOffreSite";
 import PageOffreGlide from "./pages/PageOffreGlide";
 import PageOffreFirebase from "./pages/PageOffreFirebase";
-import PageOffreMysql from "./pages/PageOffreMysql";
 import PageOffrePortfolio from "./pages/PageOffrePortfolio";
 import Page404 from "./pages/Page404";
 import Contact from "./pages/Contact";
@@ -34,7 +33,6 @@ function App() {
           <Route path="/Offreauteurs" element={<PageOffreAuteurs />} />
           <Route path="/OffreGlide" element={<PageOffreGlide />} />
           <Route path="/OffreFirebase" element={<PageOffreFirebase />} />
-          <Route path="/OffreMysql" element={<PageOffreMysql />} />
           <Route path="/OffrePortfolio" element={<PageOffrePortfolio />} />
           <Route path="/OffreChat" element={<PageOffreChat />} />
 

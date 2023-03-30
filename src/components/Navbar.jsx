@@ -130,13 +130,26 @@ export default function Example() {
                       <Menu.Item>
                         {({ active }) => (
                           <Link
-                            to="/OffreMysql"
+                            to="/OffreMaquette"
                             className={classNames(
                               active ? "bg-pink hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
                             )}
                           >
-                            Bases de données
+                            Prototype et maquette web
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            to="/OffreFirebase"
+                            className={classNames(
+                              active ? "bg-pink hover:text-white" : "",
+                              "block px-4 py-2 font-medium text-black"
+                            )}
+                          >
+                            Authentification Firebase
                           </Link>
                         )}
                       </Menu.Item>
@@ -166,39 +179,12 @@ export default function Example() {
                           </Link>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link
-                            to="/OffreFirebase"
-                            className={classNames(
-                              active ? "bg-pink hover:text-white" : "",
-                              "block px-4 py-2 font-medium text-black"
-                            )}
-                          >
-                            Authentification Firebase
-                          </Link>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link
-                            to="/OffreMaquette"
-                            className={classNames(
-                              active ? "bg-pink hover:text-white" : "",
-                              "block px-4 py-2 font-medium text-black"
-                            )}
-                          >
-                            Prototype et maquette web
-                          </Link>
-                        )}
-                      </Menu.Item>
                     </Menu.Items>
                   </Transition>
                 </Menu>
               </div>
             </div>
           </div>
-
           <Disclosure.Panel className="sm:hidden">
             <div className="space-y-1 px-2 pt-2 pb-3">
               {navigation.map((item) => (
