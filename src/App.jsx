@@ -18,6 +18,8 @@ import Contact from "./pages/Contact";
 import Legals from "./pages/Legals";
 import Cgv from "./pages/Cgv";
 import PageOffreChat from "./pages/PageOffreChat";
+import Entreprise from "./pages/Entreprise";
+import Formation from "./pages/Formation";
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<PageAbout/>} />
           <Route path="/Projets" element={<PageProjets/>} />
+          
           <Route path="/OffreSite" element={<PageOffreSite />} />
           <Route path="/OffreMaquette" element={<PageOffreMaquette />} />
           <Route path="/Offreauteurs" element={<PageOffreAuteurs />} />
@@ -35,7 +38,9 @@ function App() {
           <Route path="/OffreFirebase" element={<PageOffreFirebase />} />
           <Route path="/OffrePortfolio" element={<PageOffrePortfolio />} />
           <Route path="/OffreChat" element={<PageOffreChat />} />
-
+          
+          <Route path="/Entreprise" element={<Entreprise />} />
+          <Route path="/Formation" element={<Formation />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Legals" element={<Legals />} />
           <Route path="/Cgv" element={<Cgv />} />
