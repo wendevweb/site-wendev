@@ -14,7 +14,7 @@ const Home = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Accueil | WenDev</title>
-        <link href="https://www.wendev.fr" />
+        <link href="https://wendev.fr" />
       </Helmet>
       <Hero />
       <Fade>

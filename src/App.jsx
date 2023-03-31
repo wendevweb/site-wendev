@@ -20,6 +20,8 @@ import Cgv from "./pages/Cgv";
 import PageOffreChat from "./pages/PageOffreChat";
 import Entreprise from "./pages/Entreprise";
 import Formation from "./pages/Formation";
+import PageFonctionnement from "./pages/PageFonctionnement";
+
 
 function App() {
   return (
@@ -39,6 +41,7 @@ function App() {
           <Route path="/OffrePortfolio" element={<PageOffrePortfolio />} />
           <Route path="/OffreChat" element={<PageOffreChat />} />
           
+          <Route path="/Fonctionnement" element={<PageFonctionnement />} />
           <Route path="/Entreprise" element={<Entreprise />} />
           <Route path="/Formation" element={<Formation />} />
           <Route path="/Contact" element={<Contact />} />

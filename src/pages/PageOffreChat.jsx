@@ -9,7 +9,7 @@ const PageOffreChat = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre Chat et chatbot | WenDev</title>
-        <link href="https://www.wendev.fr/OffreChat" />
+        <link href="https://wendev.fr/OffreChat" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div

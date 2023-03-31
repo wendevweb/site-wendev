@@ -8,7 +8,7 @@ const PageProjets = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Mes projets | WenDev</title>
-        <link href="https://www.wendev.fr/Projets" />
+        <link href="https://wendev.fr/Projets" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div

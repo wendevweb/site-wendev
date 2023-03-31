@@ -10,7 +10,7 @@ const PageOffreGlide = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre Glide app | WenDev</title>
-        <link href="https://www.wendev.fr/OffreGlide" />
+        <link href="https://wendev.fr/OffreGlide" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div

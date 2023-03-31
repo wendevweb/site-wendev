@@ -8,7 +8,7 @@ const PageOffreAuteurs = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre spéciale auteurs | WenDev</title>
-        <link href="https://www.wendev.fr/Offreauteurs" />
+        <link href="https://wendev.fr/Offreauteurs" />
       </Helmet>
 
       <section aria-label="Titre et présentation du service">

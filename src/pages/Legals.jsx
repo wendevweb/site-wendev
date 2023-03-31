@@ -10,7 +10,7 @@ const Legals = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>C.G.U. | WenDev</title>
-        <link href="https://www.wendev.fr/Legals" />
+        <link href="https://wendev.fr/Legals" />
       </Helmet>
       <h2 className="text-pink text-2xl text-center m-4">
         {" "}
