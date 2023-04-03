@@ -37,9 +37,9 @@ const PageOffreMaquette = () => {
                 <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Création et mise en forme de
                   <br />
-                  <span className="text-pink">
+                  <strong className="text-pink">
                     prototypes et maquettes pour le web
-                  </span>
+                  </strong>
                 </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
                   Tu souhaites avoir un aperçu de ce que donnera le site web de tes rêves ?
@@ -59,13 +59,13 @@ const PageOffreMaquette = () => {
             A quoi sert une maquette ?
           </h3>
           <p className="text-light leading-relaxed pb-6 text-xl">
-            Le terme <span className="font-bold text-pinkDark">maquette </span>
+            Le terme <strong className="font-bold text-pinkDark">maquette </strong>
             définit l'ébauche d'un site web. En résumé, la maquette d'un site
             web est une esquisse, ou encore un prototype du site web final. Le
             maquettage se trouve à mi-chemin entre le graphisme et le
             développement.
             <br />
-            Un <span className="font-bold text-pinkDark">prototype</span> est
+            Un <strong className="font-bold text-pinkDark">prototype</strong> est
             une version de la maquette en noir et blanc, sans textes ni images.
             C'est un peu comme un brouillon ou une version très sommaire de la
             maquette. De manière générale, il n'est pas obligatoire et sa
@@ -73,37 +73,37 @@ const PageOffreMaquette = () => {
           </p>
           <p className="text-light leading-relaxed pb-6 text-xl">
             Ainsi, une maquette sert à{" "}
-            <span className="font-bold text-pinkDark">
+            <strong className="font-bold text-pinkDark">
               avoir une vision globale des pages de ton site web et ses
               composants
-            </span>
+            </strong>
             , en couleurs, avec les différents liens entre les pages, des
             polices et des couleurs utilisées. Le logo peut également être
             ajouté.{" "}
           </p>
           <p className="text-light leading-relaxed pb-6 text-xl">
             C'est une étape clé avant de se lancer dans le code de ton site,{" "}
-            <span className="font-bold text-pinkDark">
+            <strong className="font-bold text-pinkDark">
               afin de se mettre d'accord sur les différents éléments et de
               gagner du temps lors de la phase de conception.
-            </span>{" "}
+            </strong>{" "}
             Ainsi, une maquette sert à{" "}
-            <span className="font-bold text-pinkDark">
+            <strong className="font-bold text-pinkDark">
               avoir une vision globale des pages de ton qui composent ton site
               et leur disposition{" "}
-            </span>
+            </strong>
             . Tu auras également un aperçu de son rendu sur téléphone mobile
             pour répondre aux{" "}
-            <span className="font-bold text-pinkDark">
+            <strong className="font-bold text-pinkDark">
               tendances actuelles du mobile first
-            </span>{" "}
+            </strong>{" "}
             (penser le visuel d'un site d'abord en version pour smartphone, puis
             pour ordinateur de bureau), dans la version adaptée ! Cela te
             donnera un avant goût de ton site, avant le résultat final !
           </p>
           <p className="text-light leading-relaxed pb-6 text-xl">
             Je réalise tes maquettes et prototypes sur le logiciel{" "}
-            <span className="font-bold text-pinkDark">Figma</span>.
+            <strong className="font-bold text-pinkDark">Figma</strong>.
           </p>
           <div className="flex justify-center">
             {" "}

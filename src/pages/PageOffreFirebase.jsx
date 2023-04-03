@@ -32,7 +32,7 @@ const PageOffreFirebase = () => {
                 <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Création de page d'authentification sur
                   <br />
-                  <span className="text-pink">Firebase</span>
+                  <strong className="text-pink">Firebase</strong>
                 </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
                   Tu souhaites que tes utilisateurs s'authentifient sur ton
@@ -64,23 +64,23 @@ const PageOffreFirebase = () => {
           </div>
           <p className="text-light leading-relaxed pb-6 text-xl">
             Firebase est une{" "}
-            <span className="font-bold text-pinkDark">
+            <strong className="font-bold text-pinkDark">
               plateforme de développement d’applications web et mobiles soutenue
               par Google
-            </span>
+            </strong>
             , pour aider les développeurs à offrir des expériences
             d’applications plus riches. On parle de
-            <span className="font-bold text-pinkDark">
+            <strong className="font-bold text-pinkDark">
               {" "}
               Backend As A Service (BaaS)
-            </span>
+            </strong>
             . Firebase gère sa propre infrastructure avec un bel ensemble
             d’outils pour simplifier le travail du développeur en lui
             fournissant des kits de développement et un tableau de bord en
             ligne.
             <br />
             Parmis ces services, il y a l'{" "}
-            <span className="font-bold text-pinkDark">authentification</span> !
+            <strong className="font-bold text-pinkDark">authentification</strong> !
           </p>
         </section>
       </Fade>

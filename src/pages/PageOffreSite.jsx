@@ -30,7 +30,7 @@ const PageOffreSite = () => {
                 <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Création de
                   <br />
-                  <span className="text-pink">Sites internet</span>
+                  <strong className="text-pink">Sites internet</strong>
                 </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
                   Avoir son propre site internet comporte bien des avantages.

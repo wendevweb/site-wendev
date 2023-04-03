@@ -30,7 +30,7 @@ const PageOffreAuteurs = () => {
                 <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Offre spéciale
                   <br />
-                  <span className="text-pink">auteurs</span>
+                  <strong className="text-pink">auteurs</strong>
                 </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
                   Tu écris des livres et tu souhaites avoir un site web
