@@ -76,7 +76,7 @@ export default function Example() {
                 <Menu as="div" className="relative ml-3 font-quicksand">
                   <div>
                     <Menu.Button className="flex justify-center rounded-md p-2 animate-pulse text-black hover:bg-purpleDark hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
-                      <span className="sr-only">Open user menu</span>
+                      <span className="sr-only">Ouvrir le menu mobile</span>
                       <p className="text-lg font-medium">Mes services</p>
                     </Menu.Button>
                   </div>
@@ -99,7 +99,7 @@ export default function Example() {
                               "block px-4 py-2 font-medium text-black"
                             )}
                           >
-                            Création de sites
+                            Création et refonte de sites
                           </Link>
                         )}
                       </Menu.Item>

@@ -30,7 +30,7 @@ const Hero = () => {
                   sur mesure !
                 </h2>
                 <p className="font-quicksand text-xl text-white opacity-70">
-                  Besoin d'un site internet ? D'une base de données ? D'une application mobile no-code ? D'une maquette pour le web ? Tu es auteur.e et tu souhaites avoir ton site internet comme un pro ? <br />Fais appel à une développeuse web qualifiée pour donner vie à toutes tes envies numériques !
+                  Besoin d'un nouveau site internet ou de redonner un coup de neuf à un site existant ? D'une page d'authentification ? D'une application mobile no-code ? D'une maquette pour le web ? Tu es auteur.e et tu souhaites avoir ton site internet comme un pro ? <br /><br />Fais appel à une développeuse web qualifiée pour donner vie à toutes tes envies numériques !
                 </p>
               </div>
             </Fade>

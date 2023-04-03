@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import Interest from "../components/Interest";
 
 const PageOffreSite = () => {
@@ -9,7 +10,7 @@ const PageOffreSite = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre création de sites internet | WenDev</title>
-        <link  href="https://wendev.fr/OffreSite" />
+        <link href="https://wendev.fr/OffreSite" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div
@@ -59,8 +60,34 @@ const PageOffreSite = () => {
         </section>
       </Fade>
       <Fade>
+        <section className="grid justify-items-center lg:m-10">
+          <h3 className="text-pink text-2xl text-center">
+            Besoin d'une refonte de ton site ?
+          </h3>
+          <p className="text-center p-6">
+            Besoin d'un petit coup de neuf sur ta vitrine en ligne ? Avec moi,
+            ton site fera peau neuve. <br />
+            Viens en discuter avec moi pour que je te propose un service sur
+            mesure en fonction de ce qui existe déjà pour ton site ! <br />
+            (Hors Wordpress)
+          </p>
+          <Link to="/Contact">
+            <button
+              className="border border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
+              alt="Redirection vers la page du service de WenDev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Contact
+            </button>
+          </Link>
+        </section>
+      </Fade>
+      <Fade>
         <section>
-          <h3 className="text-pink text-2xl text-center">Démos</h3>
+          <h3 className="text-pink text-2xl text-center">
+            Quelques uns de mes projets...
+          </h3>
         </section>
       </Fade>
     </div>

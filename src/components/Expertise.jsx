@@ -11,7 +11,7 @@ const Expertise = () => {
     },
     {
       id: 2,
-      title: "Création de sites internet sur mesure",
+      title: "Création et refonte de sites internet sur mesure",
       img: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
       desc: "Avoir son propre site internet comporte bien des avantages. C'est un réel atout pour ta marque ou ton entreprise ! Découvre mon offre de création de site web adaptée à tes besoins numériques.",
       link: "/OffreSite",

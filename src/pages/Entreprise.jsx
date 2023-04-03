@@ -2,11 +2,11 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import Slider from "../components/Slider";
-
+import Techno from '../components/Techno';
 
 const Entreprise = () => {
   return (
-    <div className="h-screen lg:flex flex-col justify-items-center font-quicksand">
+    <div className="lg:flex flex-col justify-items-center font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Entreprise | WenDev</title>
@@ -52,6 +52,7 @@ const Entreprise = () => {
           </div>
         </section>
       </Fade>
+      <Techno />
       <Slider />
     </div>
   );

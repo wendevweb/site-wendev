@@ -35,7 +35,7 @@ const PageOffreGlide = () => {
                 </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
                   Une application mobile est le must have pour ton entreprise ou
-                  pour ta marque. FEt tout cela, sans base de données à
+                  pour ta marque. Et tout cela, sans base de données à
                   construire !
                   <br /> Je transforme ton tableur Google Sheet ou Airtable en
                   application pour mobile !<br />
