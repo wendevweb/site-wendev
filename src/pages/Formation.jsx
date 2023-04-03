@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import formation from "../assets/formation.webp";
 import evogue from "../assets/evogue.webp";
 
@@ -22,38 +23,60 @@ const Formation = () => {
       <Fade>
         <div className="lg:grid grid-cols-2">
           <section className="m-6 p-6">
-            <h3>
-              Retrouvez-moi chez <strong>Evogue formation</strong>
+            <h3 className="font-quicksand text-2xl p-10 leading-relaxed">
+              Retrouvez-moi chez{" "}
+              <strong className="text-bold text-pinkDark">
+                Evogue formation
+              </strong>
             </h3>
             <img
               src={evogue}
               alt="Evogue formation, l'équipe des formateurs, consultants, collaborateurs qui vous renforce."
+              className="m-10 rounded-md shadow-md w-64"
             />
-            <p>
-              Forte d'une expérience de <strong>formatrice référente</strong>{" "}
+            <p className="font-quicksand text-light p-10 leading-relaxed">
+              Forte d'une expérience de{" "}
+              <strong className="text-bold text-pinkDark">
+                formatrice référente
+              </strong>{" "}
               pour la préparation aux concours sanitaires et sociaux de niveau
               IV et V et ayant une réelle appétence à transmettre mon savoir en
               toute bienveillance, je suis formatrice chez{" "}
-              <strong>Evogue </strong>. <br />
-              Je privilégie une <strong>pédagogie active</strong> par la
-              pratique et accompagne mes apprenants vers leurs objectifs
+              <strong className="text-bold  text-pinkDark">Evogue </strong>.{" "}
+              <br />
+              Je privilégie une{" "}
+              <strong className="text-bold  text-pinkDark">
+                pédagogie active
+              </strong>{" "}
+              par la pratique et accompagne mes apprenants vers leurs objectifs
               réalistes et réalisables, en fonction de leurs ressources et de
               leurs besoins.
             </p>
-            <div className="lg:flex flex-col">
-              <button
-                src="https://www.evogue.fr/"
-                alt="Redirection vers le site d'Evogue"
-              >
-                En savoir plus sur Evogue
+            <div className="lg:flex flex-col m-10">
+              <button className="mb-6 w-56 border border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.evogue.fr/"
+                  alt="Redirection vers le site d'Evogue"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  En savoir plus sur Evogue
+                </a>
               </button>
-              <button src="" alt="">
-                Des besoins en formation professionnelle ?
-              </button>
+              <Link to="/Contact">
+                <button
+                  className="w-56 border border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
+                  alt="Redirection vers la page du service de WenDev"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Des besoins en formation professionnelle ?
+                </button>
+              </Link>
             </div>
           </section>
           <section>
-            <img src={formation} alt="" />
+            <img src={formation} alt="" className="ml-56 w-auto" />
           </section>
         </div>
       </Fade>
