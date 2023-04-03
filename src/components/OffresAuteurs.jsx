@@ -1,5 +1,8 @@
 import React from "react";
-
+import ClearIcon from "@mui/icons-material/Clear";
+import CheckIcon from "@mui/icons-material/Check";
+import AddIcon from "@mui/icons-material/Add";
+import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
 // Based on : https://flowbite.com/blocks/marketing/pricing/
 
 const OffresAuteurs = () => {
@@ -22,162 +25,65 @@ const OffresAuteurs = () => {
         </div>
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           {/* OFFRE 1 */}
-          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 mx-auto max-w-lg text-center text-black bg-real rounded-md shadow-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
             <h3 className="mb-4 text-2xl font-semibold">Basic</h3>
             <div className="flex justify-center items-baseline my-8">
               <span className="mr-2 text-5xl font-extrabold">60€</span>
             </div>
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>1 en-tête/header</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>1 section "A propos"</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>1 section par livre paru</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>1 pied-de-page/footer avec réseaux sociaux</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>1 page de mentions légales aux normes RGPD </span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>
                   Site réactif{" "}
                   <span className="font-semibold">
                     (adapté aux différentes tailles d'écran)
                   </span>
                 </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Gestion de l'accessibilité</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Mise en avant sur mes réseaux sociaux</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <ClearIcon style={{ color: "red" }} />
+                <span>Pas de menu de navigation</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <ClearIcon style={{ color: "red" }} />
+                <span>Paramètres minimums de SEO</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <ClearIcon style={{ color: "red" }} />
+                <span>Pas d'hébergement du site</span>
               </li>
 
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span>
-                  Site réactif{" "}
-                  <span className="font-semibold">
-                    (adapté aux différentes tailles d'écran)
-                  </span>
-                </span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span>
-                  Site réactif{" "}
-                  <span className="font-semibold">
-                    (adapté aux différentes tailles d'écran)
-                  </span>
-                </span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span>Mise en avant sur mes réseaux sociaux</span>
+                <ClearIcon style={{ color: "red" }} />
+                <span>Pas de nom de domaine (url non personnalisable)</span>
               </li>
             </ul>
             <a
@@ -199,88 +105,85 @@ const OffresAuteurs = () => {
                 90€
               </span>
             </div>
-            <ul className="mb-8 space-y-4 text-left text-white">
+            <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span>Individual configuration</span>
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 en-tête/header</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span>No setup, or hidden fees</span>
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 section "A propos"</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 section par livre paru</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  Team size:{" "}
-                  <span className="font-semibold">10 developers</span>
+                  1 section au choix parmi :{" "}
+                  <span className="font-semibold">
+                    Avis des lecteurs, chroniques, lien vers le blog, flux
+                    Instagram, vidéo, extraits du livre, actualité{" "}
+                  </span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 pied-de-page/footer avec réseaux sociaux</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 page de mentions légales aux normes RGPD </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  Premium support:{" "}
-                  <span className="font-semibold">24 months</span>
+                  Site réactif{" "}
+                  <span className="font-semibold">
+                    (adapté aux différentes tailles d'écran)
+                  </span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  Free updates: <span className="font-semibold">24 months</span>
+                  Animations au défilement, sur les boutons et les images
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Gestion de l'accessibilité</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Mise en avant sur mes réseaux sociaux</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Mise en avant permanente sur mon site</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Modification gratuite 1x/an</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Mise en avant sur mes réseaux sociaux</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <ClearIcon style={{ color: "red" }} />
+                <span>Pas de menu de navigation</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <ClearIcon style={{ color: "red" }} />
+                <span>Paramètres minimums de SEO</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <AddIcon style={{ color: "magenta" }} />
+                <span>
+                  Gestion de l'hébergement du site avec nom de domaine
+                  personnalisé : <span className="font-semibold">+10€/an</span>
                 </span>
               </li>
             </ul>
@@ -299,86 +202,87 @@ const OffresAuteurs = () => {
             </div>
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span>Individual configuration</span>
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 en-tête/header</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-                <span>No setup, or hidden fees</span>
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 section + 1 page "A propos"</span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 section + 1 page par livre paru</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  Team size:{" "}
-                  <span className="font-semibold">100+ developers</span>
+                  Nombre de sections et pages illimité parmi :{" "}
+                  <span className="font-semibold">
+                    Avis des lecteurs, chroniques, lien vers le blog, flux
+                    Instagram, vidéo, extraits du livre, actualité{" "}
+                  </span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 page de contact avec formulaire</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 pied-de-page/footer avec réseaux sociaux</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 page de mentions légales aux normes RGPD </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>1 page d'erreur 404 avec redirection</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  Premium support:{" "}
-                  <span className="font-semibold">36 months</span>
+                  Site réactif{" "}
+                  <span className="font-semibold">
+                    (adapté aux différentes tailles d'écran)
+                  </span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
-                <svg
-                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  Free updates: <span className="font-semibold">36 months</span>
+                  Animations au défilement, sur les boutons et les images
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Gestion de l'accessibilité</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Mise en avant sur mes réseaux sociaux</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Menu de navigation</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Mockups gratuits</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>Optimisation des paramètres de SEO</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>
+                  Gestion de l'hébergement avec nom de domaine personnalisé,
+                  gratuit pendant 1 an
+                  <AddIcon style={{ color: "magenta" }} />
+                  <span className="font-semibold">
+                    reconductible pour 10€/an
+                  </span>
                 </span>
               </li>
             </ul>
@@ -390,6 +294,13 @@ const OffresAuteurs = () => {
             </a>
           </div>
         </div>
+      </div>
+      <div className="flex justify-center">
+        <button className="mb-12 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+          {" "}
+          <AutoFixHighIcon />
+          Je suis auteur.e et j'ai une demande spéciale
+        </button>
       </div>
     </section>
   );

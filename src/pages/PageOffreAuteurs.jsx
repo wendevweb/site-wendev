@@ -54,7 +54,9 @@ const PageOffreAuteurs = () => {
       <Fade>
         <section className="lg:flex flex-col justify-center items-center">
           <h3 className="text-pink text-2xl text-center mb-4">Démos </h3>
-          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">Offre basic</h4>
+          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
+            Offre basic
+          </h4>
           <div className="lg:flex flex-row pb-4 items-center ">
             <div className="lg:flex flex-col p-4 items-center ">
               {/* JEROME MULLER */}
@@ -64,7 +66,7 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://lightcyan-tiger-770474.builder-preview.com/"
                   alt="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
@@ -84,7 +86,7 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://lightslategrey-alligator-289384.builder-preview.com/"
                   alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
@@ -104,7 +106,7 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://lightgoldenrodyellow-lion-545728.builder-preview.com/"
                   alt="Site internet fictif de Tomas Cariler pour illustrer l'offre basic de WenDev"
@@ -118,7 +120,9 @@ const PageOffreAuteurs = () => {
             </div>
           </div>
 
-          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">Offre medium</h4>
+          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
+            Offre medium
+          </h4>
           <div className="lg:flex flex-row p-4 items-center ">
             {/* HONORE SAINT HILAIRE */}
             <div className="lg:flex flex-col p-4 items-center ">
@@ -128,17 +132,17 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
-                <a
+              <a
                   href="https://darkseagreen-fish-520996.builder-preview.com/"
                   alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
                   aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
                   rel="noreferrer"
                   target="_blank"
-                >
+                ><button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                
                   Voir le site !
-                </a>
-              </button>
+                
+              </button></a>
             </div>
             {/* DOM TERRENCE */}
             <div className="lg:flex flex-col p-4 items-center ">
@@ -148,17 +152,17 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
-                <a
+              <a
                   href="https://hotpink-cobra-376869.builder-preview.com/"
                   alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
                   aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
                   rel="noreferrer"
                   target="_blank"
-                >
+                ><button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                
                   Voir le site !
-                </a>
-              </button>
+                
+              </button></a>
             </div>
             {/* OCEANE GOUSSE */}
             <div className="lg:flex flex-col p-4 items-center ">
@@ -168,21 +172,23 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
-                <a
+              <a
                   href="https://slateblue-grasshopper-490914.builder-preview.com/"
                   alt="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
                   aria-label="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
                   rel="noreferrer"
                   target="_blank"
-                >
+                ><button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                
                   Voir le site !
-                </a>
-              </button>
+                
+              </button></a>
             </div>
           </div>
 
-          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">Offre premium</h4>
+          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
+            Offre premium
+          </h4>
           <div className="lg:flex flex-row p-4 items-center ">
             {/* LUCY MENARD */}
             <div className="lg:flex flex-col p-4 items-center ">
@@ -192,7 +198,6 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Lucy Ménard pour illustrer l'offre premium de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
                 <a
                   href="https://greenyellow-gnu-914551.builder-preview.com/"
                   alt="Site internet fictif de Lucy Ménard pour illustrer l'offre premium de WenDev"
@@ -200,9 +205,10 @@ const PageOffreAuteurs = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Voir le site !
+                                <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+Voir le site !</button>
                 </a>
-              </button>
+              
             </div>
             {/* GREGORY HENRI */}
             <div className="lg:flex flex-col p-4 items-center ">
@@ -212,17 +218,17 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
-                <a
+              <a
                   href="https://seashell-dog-370737.builder-preview.com/"
                   alt="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
                   aria-label="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
                   rel="noreferrer"
                   target="_blank"
-                >
-                  Voir le site !
+                ><button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                
+                  Voir le site !</button>
                 </a>
-              </button>
+              
             </div>
             {/* NATHALIE BEAULAC */}
             <div className="lg:flex flex-col p-4 items-center ">
@@ -232,23 +238,27 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Nathalie Beaulac pour illustrer l'offre premium de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
-                <a
+              <a
                   href="https://sienna-bat-190844.builder-preview.com/"
                   alt="Site internet fictif de Nathalie Beaulac pour illustrer l'offre premium de WenDev"
                   aria-label="Site internet fictif de Nathalie Beaulac pour illustrer l'offre premium de WenDev"
                   rel="noreferrer"
                   target="_blank"
-                >
+                ><button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                
                   Voir le site !
-                </a>
-              </button>
+                
+              </button></a>
             </div>
           </div>
         </section>
       </Fade>
       <Fade>
-        <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">Prendre rendez-vous !</button>
+        <div className="flex justify-center">
+          <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+            Prendre rendez-vous !
+          </button>
+        </div>
       </Fade>
     </div>
   );
