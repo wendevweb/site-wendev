@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
+import OffresAuteurs from "../components/OffresAuteurs";
 
 const PageOffreAuteurs = () => {
   return (
@@ -46,8 +47,7 @@ const PageOffreAuteurs = () => {
 
       <Fade>
         <section>
-          <h3 className="text-pink text-2xl text-center">Tarifs</h3>
-          <p className="text-center p-6">A venir... Stay tuned !😎</p>
+          <OffresAuteurs />
         </section>
       </Fade>
 

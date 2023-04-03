@@ -10,7 +10,7 @@ const OffresAuteurs = () => {
     >
       <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
-          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-purple dark:text-white">
+          <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-pinkDark dark:text-white">
             Mon offre spéciale auteurs
           </h2>
           <p className="mb-5 font-light text-black sm:text-xl dark:text-black">
@@ -23,12 +23,9 @@ const OffresAuteurs = () => {
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           {/* OFFRE 1 */}
           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 mx-auto max-w-lg text-center text-black bg-real rounded-md shadow-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
-            <h3 className="mb-4 text-2xl font-semibold">Starter</h3>
-            <p className="font-light text-black sm:text-lg dark:text-black">
-              Une bonne base pour commencer...{" "}
-            </p>
+            <h3 className="mb-4 text-2xl font-semibold">Basic</h3>
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-extrabold">100€</span>
+              <span className="mr-2 text-5xl font-extrabold">60€</span>
             </div>
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
@@ -44,7 +41,7 @@ const OffresAuteurs = () => {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>Individual configuration</span>
+                <span>1 en-tête/header</span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg
@@ -59,7 +56,52 @@ const OffresAuteurs = () => {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>No setup, or hidden fees</span>
+                <span>1 section "A propos"</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>1 section par livre paru</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>1 pied-de-page/footer avec réseaux sociaux</span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>1 page de mentions légales aux normes RGPD </span>
               </li>
               <li className="flex items-center space-x-3">
                 <svg
@@ -75,8 +117,31 @@ const OffresAuteurs = () => {
                   ></path>
                 </svg>
                 <span>
-                  Team size:{" "}
-                  <span className="font-semibold">100+ developers</span>
+                  Site réactif{" "}
+                  <span className="font-semibold">
+                    (adapté aux différentes tailles d'écran)
+                  </span>
+                </span>
+              </li>
+
+              <li className="flex items-center space-x-3">
+                <svg
+                  className="flex-shrink-0 w-5 h-5 text-green dark:text-green"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+                <span>
+                  Site réactif{" "}
+                  <span className="font-semibold">
+                    (adapté aux différentes tailles d'écran)
+                  </span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -93,8 +158,10 @@ const OffresAuteurs = () => {
                   ></path>
                 </svg>
                 <span>
-                  Premium support:{" "}
-                  <span className="font-semibold">36 months</span>
+                  Site réactif{" "}
+                  <span className="font-semibold">
+                    (adapté aux différentes tailles d'écran)
+                  </span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -110,9 +177,7 @@ const OffresAuteurs = () => {
                     clip-rule="evenodd"
                   ></path>
                 </svg>
-                <span>
-                  Free updates: <span className="font-semibold">36 months</span>
-                </span>
+                <span>Mise en avant sur mes réseaux sociaux</span>
               </li>
             </ul>
             <a
@@ -128,12 +193,10 @@ const OffresAuteurs = () => {
             <p className="text-pink sm:text-lg font-bold dark:text-white">
               Formule la plus populaire !
             </p>
-            <p className="text-white sm:text-lg dark:text-white">
-              Relevant for multiple users, extended & premium support.
-            </p>
+
             <div className="flex justify-center items-baseline my-8">
               <span className="mr-2 text-5xl font-extrabold text-pink">
-                190€
+                90€
               </span>
             </div>
             <ul className="mb-8 space-y-4 text-left text-white">
@@ -230,12 +293,9 @@ const OffresAuteurs = () => {
           </div>
           {/* OFFRE 3 */}
           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 mx-auto max-w-lg text-center text-black bg-real rounded-md shadow-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
-            <h3 className="mb-4 text-2xl font-semibold">Ultimate !</h3>
-            <p className="font-light text-black sm:text-lg dark:text-black">
-              Le must du must du site internet de la mort qui tue !
-            </p>
+            <h3 className="mb-4 text-2xl font-semibold">Premium !</h3>
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-extrabold">250€</span>
+              <span className="mr-2 text-5xl font-extrabold">160€</span>
             </div>
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
