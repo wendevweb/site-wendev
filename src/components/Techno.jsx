@@ -1,10 +1,4 @@
 import React from "react";
-import mysql from "../assets/mysql.webp";
-import javascript from "../assets/javascript.webp";
-import htmlcss from "../assets/htmlcss.webp";
-import react from "../assets/react.webp";
-import express from "../assets/express.webp";
-import tailwind from "../assets/tailwind.webp";
 
 const Techno = () => {
   return (
@@ -18,31 +12,69 @@ const Techno = () => {
       </h3>
       <div className="lg:flex justify-center grid justify-items-center">
         <img
-          src={htmlcss}
-          alt="html & css"
-          aria-label="html & css"
+          alt="html"
+          aria-label="html"
           className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
         />
         <img
-          src={javascript}
+          alt="css"
+          aria-label="css"
+          className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
+        />
+
+        <img
+          alt="angular"
+          aria-label="angular"
+          className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original-wordmark.svg"
+        />
+        <img
           alt="Javascript"
           aria-label="Javascript"
           className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
         />
-        <img src={react} alt="React" aria-label="React" className="w-32 place-self-center pr-4" />
+
         <img
-          src={tailwind}
+          alt="React"
+          aria-label="React"
+          className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+        />
+
+        <img
           alt="Tailwindcss"
           aria-label="Tailwindcss"
           className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
         />
         <img
-          src={express}
-          alt="Express & Node"
-          aria-label="Express & Node"
+          alt="Node.js"
+          aria-label="Node.js"
           className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
         />
-        <img src={mysql} alt="MySQL" aria-label="MySQL" className="w-32 place-self-center pr-4" />
+        <img
+          alt="Express"
+          aria-label="Express"
+          className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
+        />
+
+        <img
+          alt="Firebase"
+          aria-label="Firebase"
+          className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
+        />
+        <img
+          alt="MySQL"
+          aria-label="MySQL"
+          className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
+        />
       </div>
     </div>
   );

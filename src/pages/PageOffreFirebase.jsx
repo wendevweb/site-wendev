@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import building from "../assets/building.png";
-import firebase from "../assets/firebase.webp";
 
 const PageOffreFirebase = () => {
   return (
@@ -56,10 +55,10 @@ const PageOffreFirebase = () => {
           <div className="flex justify-center">
             {" "}
             <img
-              src={firebase}
               alt="Firebase"
               aria-label="Firebase"
-              className="w-52 p-4"
+              className="w-52 place-self-center p4-4"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
             />
           </div>
           <p className="text-light leading-relaxed pb-6 text-xl">
@@ -80,7 +79,10 @@ const PageOffreFirebase = () => {
             ligne.
             <br />
             Parmis ces services, il y a l'{" "}
-            <strong className="font-bold text-pinkDark">authentification</strong> !
+            <strong className="font-bold text-pinkDark">
+              authentification
+            </strong>{" "}
+            !
           </p>
         </section>
       </Fade>

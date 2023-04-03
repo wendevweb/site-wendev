@@ -34,7 +34,7 @@ const Formation = () => {
               alt="Evogue formation, l'équipe des formateurs, consultants, collaborateurs qui vous renforce."
               className="m-10 rounded-md shadow-md w-64"
             />
-            <p className="font-quicksand text-light lg:p-10 leading-relaxed">
+            <p className="font-quicksand text-light text-xl lg:p-10 leading-relaxed">
               Forte d'une expérience de{" "}
               <strong className="text-bold text-pinkDark">
                 formatrice référente
