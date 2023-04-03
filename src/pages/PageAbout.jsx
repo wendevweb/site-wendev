@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import wendycolor from "../assets/wendy-color.png";
 import InstagramIcon from "@mui/icons-material/Instagram";
 
@@ -56,18 +57,20 @@ const PageAbout = () => {
               className="rounded-full shadow-md w-96 mb-6"
             />
             <p className="font-quicksand text-light leading-relaxed">
-              Je suis <strong className="text-bold text-pinkDark">Wendy</strong>,
-              fondatrice et gérante de ma micro-entreprise{" "}
+              Je suis <strong className="text-bold text-pinkDark">Wendy</strong>
+              , fondatrice et gérante de ma micro-entreprise{" "}
               <strong className="text-bold text-pinkDark">WenDev</strong>,
               développeuse web passionnée, no-code friendly et auteure de romans
               ! Après un bilan de compétences réalisé en full remote, je suis en
               reconversion professionnelle dans le domaine du développement web
               et web mobile. 💻 <br />A la suite de ma formation à la{" "}
-              <strong className="text-bold text-pinkDark">Wild Code School</strong>{" "}
+              <strong className="text-bold text-pinkDark">
+                Wild Code School
+              </strong>
               , j'ai passé mon titre diplôme de dev en février 2023, dans le but
               de créer ma propre entreprise :{" "}
-              <strong className="text-bold text-pinkDark">WenDev</strong> que voici
-              !
+              <strong className="text-bold text-pinkDark">WenDev</strong> que
+              voici !
             </p>
           </div>
         </section>
@@ -99,16 +102,17 @@ const PageAbout = () => {
               </strong>{" "}
               dans le domaine de la santé. <br />
               Mais il me manquait quelque chose... une touche de{" "}
-              <strong className="text-bold text-pinkDark">créativité</strong>, un
-              brin de concret et une once de fantaisie pour être en accord avec
-              mes valeurs. <br />
+              <strong className="text-bold text-pinkDark">créativité</strong>,
+              un brin de concret et une once de fantaisie pour être en accord
+              avec mes valeurs. <br />
               Après un bilan de compétences, le métier de développeuse web s'est
               rapidement imposé et j'ai commencé ma formation où j'ai pu
               réaliser plusieurs projets concrets et confirmer mon appétence
-              pour le{" "}
+              pour la{" "}
               <strong className="text-bold text-pinkDark">
-                code fullstack
-              </strong> ! <br />
+                programmation informatique
+              </strong>{" "}
+              ! <br />
               J'ai ensuite été en stage chez Fedmind, puis bénévole chez O
               Media, où j'ai découvert le No Code et fait partie d'une belle
               expérience humaine pour aider les personnes souffrant d'obésité à
@@ -134,9 +138,9 @@ const PageAbout = () => {
             />
             <p className="font-quicksand text-light leading-relaxed">
               ✨ Je suis une personne{" "}
-              <strong className="text-bold text-pinkDark">rigoureuse</strong>, ce
-              qui me permet de mener à bien mes projets et activités confiées de
-              A à Z et de bien gérer mon temps de travail. Je fais également
+              <strong className="text-bold text-pinkDark">rigoureuse</strong>,
+              ce qui me permet de mener à bien mes projets et activités confiées
+              de A à Z et de bien gérer mon temps de travail. Je fais également
               preuve de créativité et d'imaginativité, ce qui me pousse à
               trouver des{" "}
               <strong className="text-bold text-pinkDark">
@@ -150,8 +154,8 @@ const PageAbout = () => {
               comme le prouve ma reconversion professionnelle dans un domaine
               totalement nouveau pour moi.
               <br />✨ Etre{" "}
-              <strong className="text-bold text-pinkDark">autonome</strong> dans ma
-              pratique est important pour moi afin d'envisager tous les
+              <strong className="text-bold text-pinkDark">autonome</strong> dans
+              ma pratique est important pour moi afin d'envisager tous les
               possibles qui s'offrent à moi et repose avant tout sur un{" "}
               <strong className="text-bold text-pinkDark">
                 climat de confiance
@@ -164,7 +168,9 @@ const PageAbout = () => {
               mes acquis dans un monde en constante évolution.
               <br />
               <br />➕{" "}
-              <strong className="text-bold text-pinkDark">Mon petit plus ?</strong>
+              <strong className="text-bold text-pinkDark">
+                Mon petit plus ?
+              </strong>
               Je suis développeuse, mais aussi psychologue ! Ainsi, tout
               naturellement, je suis attirée par l' UX et l' UI. C'est un
               domaine qui me parle, et qui me tient toujours à cœur. Mon regard
@@ -189,7 +195,7 @@ const PageAbout = () => {
           <h3 className="text-pink text-2xl text-center mt-12 mb-6 font-quicksand">
             Mes objectifs
           </h3>
-          <div className="lg:grid grid-cols-2 content-center items-center">
+          <div className="lg:grid grid-cols-2">
             <p className="font-quicksand text-light p-10 leading-relaxed">
               <strong className="text-bold text-2xl text-pinkDark">
                 Te proposer une solution numérique sur mesure
@@ -200,6 +206,7 @@ const PageAbout = () => {
               même des gratuits qui font tout à ta place ! 😵‍💫 Mais cela ne
               remplacera jamais le travail d'un développeur formé à créer des
               <strong className="text-bold text-pinkDark">
+                {" "}
                 sites internet robustes et viables, avec un design à la pointe
                 des tendances
               </strong>
@@ -215,7 +222,7 @@ const PageAbout = () => {
             </p>
             <p className="font-quicksand text-light p-10 leading-relaxed">
               <strong className="text-bold text-2xl text-pinkDark">
-                Te proposer des offres adaptées à tes finances
+                Te présenter des offres adaptées à tes finances
               </strong>{" "}
               <br />
               <br />
@@ -233,36 +240,42 @@ const PageAbout = () => {
               </strong>
               🥳
             </p>
-            <p className="font-quicksand text-light p-10 leading-relaxed">
-              <strong className="text-bold text-2xl text-pinkDark">
-                Etre une référence en création de sites web pour les auteurs de
-                livres
-              </strong>{" "}
-              <br />
-              <br />
-              Aujourd'hui, les réseaux sociaux ou les boutiques en ligne ne
-              suffisent plus aux écrivains pour présenter leurs livres et se
-              faire connaître.{" "}
-              <strong className="text-bold  text-pinkDark">
-                Il est primordial de ne plus faire l'impasse sur une vitrine
-                virtuelle accessible à tous
-              </strong>
-              , comme peut l'être un site internet ! <br />
-              En tant qu'auteure de romans, je suis déjà passée par la création
-              de mon site internet et ai fait face à plusieurs difficultés que
-              je peux ainsi t'éviter !{" "}
-              <strong className="text-bold  text-pinkDark">
-                Je sais de quoi tu as besoin
-              </strong>{" "}
-              pour mettre tes livres et ton univers littéraire en valeur. 📚
-              <br /> Grâce à{" "}
-              <strong className="text-bold  text-pinkDark">
-                mes compétences et à mon réseau
-              </strong>
-              , tu bénéficieras d'une solution numérique optimale pour toucher
-              tes lecteurs et, qui sait, peut-être qu'une maison d'édition
-              passera par là ! 😉
-            </p>
+            <div>
+              <p className="font-quicksand text-light p-10 leading-relaxed">
+                <strong className="text-bold text-2xl text-pinkDark">
+                  Etre une référence en création de sites web pour les auteurs
+                  de livres
+                </strong>{" "}
+                <br />
+                <br />
+                Aujourd'hui, les réseaux sociaux ou les boutiques en ligne ne
+                suffisent plus aux écrivains pour présenter leurs livres et se
+                faire connaître.{" "}
+                <strong className="text-bold  text-pinkDark">
+                  Il est primordial de ne plus faire l'impasse sur une vitrine
+                  virtuelle accessible à tous
+                </strong>
+                , comme peut l'être un site internet ! <br />
+                En tant qu'auteure de romans, je suis déjà passée par la
+                création de mon site internet et ai fait face à plusieurs
+                difficultés que je peux ainsi t'éviter !{" "}
+                <strong className="text-bold  text-pinkDark">
+                  Je sais de quoi tu as besoin
+                </strong>{" "}
+                pour mettre tes livres et ton univers littéraire en valeur. 📚
+                <br /> Grâce à{" "}
+                <strong className="text-bold  text-pinkDark">
+                  mes compétences et à mon réseau
+                </strong>
+                , tu bénéficieras d'une solution numérique optimale pour toucher
+                tes lecteurs et, qui sait, peut-être qu'une maison d'édition
+                passera par là ! 😉
+                <br />
+                <button className="text-white bg-gradient-to-br from-purple to-pinkDark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-12">
+                  <Link to="/Offreauteurs">Voir l'offre</Link>
+                </button>
+              </p>
+            </div>
             <div>
               <p className="font-quicksand text-light p-10 leading-relaxed">
                 <strong className="text-bold text-2xl text-pinkDark">
@@ -294,18 +307,19 @@ const PageAbout = () => {
                   viens me rejoindre pour faire partie de la communauté{" "}
                 </strong>
                 !
+                <br />
+                <button className="text-white w-64 p-10 bg-gradient-to-br from-purple to-pinkDark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-12">
+                  <a
+                    href="https://www.instagram.com/wendevweb/"
+                    alt="Redirection vers le compte Instagram de WenDev"
+                    aria-label="Redirection vers le compte Instagram de WenDev"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    Rejoins-moi sur Instagram ! <InstagramIcon />
+                  </a>
+                </button>
               </p>
-              <button className="text-white w-64 m-2 p-10 bg-gradient-to-br from-purple to-pinkDark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-6">
-                <a
-                  href="https://www.instagram.com/wendevweb/"
-                  alt="Redirection vers le compte Instagram de WenDev"
-                  aria-label="Redirection vers le compte Instagram de WenDev"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Rejoins-moi sur Instagram ! <InstagramIcon />
-                </a>
-              </button>
             </div>
           </div>
         </section>
@@ -337,22 +351,22 @@ const PageAbout = () => {
                 Cela me permet de développer des compétences organisationnelles,
                 de maîtriser les normes rédactionnelles et, surtout, d'être à l'
                 avec le{" "}
-                <strong className="text-bold text-lg text-pinkDark">
+                <strong className="text-bold text-pinkDark">
                   storytelling
                 </strong>{" "}
                 lorsque j'ai un projet à te présenter !
+                <button className="text-white bg-gradient-to-br from-purple to-pinkDark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-12">
+                  <a
+                    href="https://wendybaqueauteure.wendev.fr/"
+                    alt="Redirection vers le site d'auteure de Wendy Baqué"
+                    aria-label="Redirection vers le site d'auteure de Wendy Baqué"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    En savoir plus...
+                  </a>
+                </button>
               </p>
-              <button className="text-white bg-gradient-to-br from-purple to-pinkDark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-6">
-                <a
-                  href="https://wendybaqueauteure.wendev.fr/"
-                  alt="Redirection vers le site d'auteure de Wendy Baqué"
-                  aria-label="Redirection vers le site d'auteure de Wendy Baqué"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  En savoir plus...
-                </a>
-              </button>
             </div>
           </div>
         </section>

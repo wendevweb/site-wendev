@@ -7,7 +7,7 @@ import evogue from "../assets/evogue.webp";
 
 const Formation = () => {
   return (
-    <div className="h-screen lg:flex flex-col justify-items-center font-quicksand">
+    <div className="lg:flex flex-col justify-items-center font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Formation | WenDev</title>
@@ -23,7 +23,7 @@ const Formation = () => {
       <Fade>
         <div className="lg:grid grid-cols-2">
           <section className="m-6 p-6">
-            <h3 className="font-quicksand text-2xl p-10 leading-relaxed">
+            <h3 className="font-quicksand text-2xl lg:p-10 leading-relaxed">
               Retrouvez-moi chez{" "}
               <strong className="text-bold text-pinkDark">
                 Evogue formation
@@ -34,7 +34,7 @@ const Formation = () => {
               alt="Evogue formation, l'équipe des formateurs, consultants, collaborateurs qui vous renforce."
               className="m-10 rounded-md shadow-md w-64"
             />
-            <p className="font-quicksand text-light p-10 leading-relaxed">
+            <p className="font-quicksand text-light lg:p-10 leading-relaxed">
               Forte d'une expérience de{" "}
               <strong className="text-bold text-pinkDark">
                 formatrice référente
@@ -50,10 +50,12 @@ const Formation = () => {
               </strong>{" "}
               par la pratique et accompagne mes apprenants vers leurs objectifs
               réalistes et réalisables, en fonction de leurs ressources et de
-              leurs besoins.
+              leurs besoins. <br />
+              Je privilégie les cours en{" "}
+              <strong className="text-bold  text-pinkDark">full remote</strong>.
             </p>
-            <div className="lg:flex flex-col m-10">
-              <button className="mb-6 w-56 border border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+            <div className="grid justify-items-center lg:m-10">
+              <button className="mb-6 mt-6 w-56 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.evogue.fr/"
                   alt="Redirection vers le site d'Evogue"
@@ -76,7 +78,7 @@ const Formation = () => {
             </div>
           </section>
           <section>
-            <img src={formation} alt="" className="ml-56 w-auto" />
+            <img src={formation} alt="" className="lg:ml-56 w-auto" />
           </section>
         </div>
       </Fade>
