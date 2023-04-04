@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
-import formation from "../assets/formation.webp";
+import formation from "../assets/wendev-4.webp";
 import evogue from "../assets/evogue.webp";
 
 const Formation = () => {
@@ -13,13 +13,11 @@ const Formation = () => {
         <title>Formation | WenDev</title>
         <link href="https://wendev.fr/Formation" />
       </Helmet>
-      <Fade>
         <section className="m-4 p-4">
           <h2 className="text-center font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-pink">
             Je suis aussi formatrice !
           </h2>
         </section>
-      </Fade>
       <Fade>
         <div className="lg:grid grid-cols-2">
           <section className="m-6 p-6">

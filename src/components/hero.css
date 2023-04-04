@@ -2,14 +2,14 @@
     background-color: #242621;
     background-image: radial-gradient(
       650px circle at 0% 0%,
-      hsl(313, 41%, 45%) 15%,
-      hsl(308, 41%, 30%) 35%,
+      hsl(313, 71%, 43%) 15%,
+      hsl(308, 69%, 36%) 35%,
       hsl(301, 41%, 20%) 75%,
       hsl(303, 40%, 19%) 80%,
       transparent 100%
     ),
     radial-gradient(
-      1150px circle at 100% 100%,
+      1130px circle at 100% 100%,
       hsl(313, 71%, 43%) 15%,
       hsl(308, 69%, 36%) 35%,
       hsl(301, 41%, 20%) 75%,
@@ -46,6 +46,6 @@
 
   @keyframes move-left {
     to {
-      transform: translateY(-10px), translateX(-20px);
+      transform: translateY(-10px), translateX(-30px);
     }
   }

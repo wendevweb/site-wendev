@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import wendycolor from "../assets/wendy-color.png";
+import wendev7 from '../assets/wendev-7.webp';
 import InstagramIcon from "@mui/icons-material/Instagram";
 
 const PageAbout = () => {
@@ -276,7 +277,7 @@ const PageAbout = () => {
                 </button>
               </p>
             </div>
-            <div>
+            <div className="flex">
               <p className="font-quicksand text-light p-10 leading-relaxed">
                 <strong className="text-bold text-2xl text-pinkDark">
                   Etre LE média d'information français sur le métier de
@@ -319,7 +320,9 @@ const PageAbout = () => {
                     Rejoins-moi sur Instagram ! <InstagramIcon />
                   </a>
                 </button>
+                
               </p>
+              <img src={wendev7} alt="" className="w-64 h-64" />
             </div>
           </div>
         </section>
