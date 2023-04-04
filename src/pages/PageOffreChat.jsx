@@ -1,7 +1,9 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import building from "../assets/building.png";
+// import wendev16 from '../assets/wendev-16.webp';
 
 const PageOffreChat = () => {
   return (
@@ -53,6 +55,7 @@ const PageOffreChat = () => {
         <h3 className="text-pink text-2xl text-center mb-6">
           Page en construction... Contenu à venir !
         </h3>
+
         <img
           src={building}
           alt="Page en construction"
@@ -65,6 +68,13 @@ const PageOffreChat = () => {
           <p className="text-center p-6">A venir... Stay tuned !😎</p>
         </section>
       </Fade>
+      <div className="flex justify-center">
+        <Link to="/Fonctionnement">
+          <button className="m-6 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+            Comment se déroule un projet client avec WenDev ?
+          </button>
+        </Link>
+      </div>
       <Fade>
         <section>
           <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>
@@ -91,6 +101,8 @@ const PageOffreChat = () => {
       <Fade>
         <section className="lg:flex flex-col justify-center items-center">
           <h3 className="text-pink text-2xl text-center mb-4">Démo </h3>
+          {/* <img src={wendev16} alt="" className="w-fit"/> */}
+
           <img
             src="https://www.hebergeur-image.com/upload/88.174.47.6-63f37d572d207.png"
             alt="Module Alerte"

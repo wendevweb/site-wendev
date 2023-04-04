@@ -1,6 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 
 import maquetteMood from "../assets/maquette-mood.webp";
 import prototypeMood from "../assets/prototype-mood.webp";
@@ -16,7 +17,7 @@ const PageOffreMaquette = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre Maquette et prototype | WenDev</title>
-        <link  href="https://wendev.fr/OffreMaquette" />
+        <link href="https://wendev.fr/OffreMaquette" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div
@@ -42,7 +43,8 @@ const PageOffreMaquette = () => {
                   </strong>
                 </h2>
                 <p className="font-light text-white sm:text-xl dark:text-black">
-                  Tu souhaites avoir un aperçu de ce que donnera le site web de tes rêves ?
+                  Tu souhaites avoir un aperçu de ce que donnera le site web de
+                  tes rêves ?
                   <br /> Alors cette offre est faite pour toi ! <br />
                 </p>
               </div>
@@ -59,16 +61,19 @@ const PageOffreMaquette = () => {
             A quoi sert une maquette ?
           </h3>
           <p className="text-light leading-relaxed pb-6 text-xl">
-            Le terme <strong className="font-bold text-pinkDark">maquette </strong>
+            Le terme{" "}
+            <strong className="font-bold text-pinkDark">maquette </strong>
             définit l'ébauche d'un site web. En résumé, la maquette d'un site
             web est une esquisse, ou encore un prototype du site web final. Le
             maquettage se trouve à mi-chemin entre le graphisme et le
             développement.
             <br />
-            Un <strong className="font-bold text-pinkDark">prototype</strong> est
-            une version de la maquette en noir et blanc, sans textes ni images.
-            C'est un peu comme un brouillon ou une version très sommaire de la
-            maquette. De manière générale, il n'est pas obligatoire et sa
+            Un <strong className="font-bold text-pinkDark">
+              prototype
+            </strong>{" "}
+            est une version de la maquette en noir et blanc, sans textes ni
+            images. C'est un peu comme un brouillon ou une version très sommaire
+            de la maquette. De manière générale, il n'est pas obligatoire et sa
             conception intervient avant celle de la maquette.
           </p>
           <p className="text-light leading-relaxed pb-6 text-xl">
@@ -118,10 +123,10 @@ const PageOffreMaquette = () => {
       </Fade>
 
       <Fade>
-      <section>
-        <h3 className="text-pink text-2xl text-center">Tarifs</h3>
-        <p className="text-center p-6">A venir... Stay tuned !😎</p>
-      
+        <section>
+          <h3 className="text-pink text-2xl text-center">Tarifs</h3>
+          <p className="text-center p-6">A venir... Stay tuned !😎</p>
+
           <div className="lg:grid grid-cols-1">
             <h4 className="text-pink text-xl text-center">
               Un petit mot sur mes tarifs...{" "}
@@ -142,7 +147,13 @@ const PageOffreMaquette = () => {
           </div>
         </section>
       </Fade>
-
+      <div className="flex justify-center">
+        <Link to="/Fonctionnement">
+          <button className="m-6 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+            Comment se déroule un projet client avec WenDev ?
+          </button>
+        </Link>
+      </div>
       <Fade>
         <section
           aria-label="Quelques exemples de maquettes réalisées par WenDev"
@@ -257,7 +268,6 @@ const PageOffreMaquette = () => {
           </div>
         </section>
       </Fade>
-
     </div>
   );
 };

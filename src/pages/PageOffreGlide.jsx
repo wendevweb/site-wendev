@@ -1,8 +1,10 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import building from "../assets/building.png";
 import glide from "../assets/glide.webp";
+import wendev6 from "../assets/wendev-6.webp";
 
 const PageOffreGlide = () => {
   return (
@@ -62,22 +64,29 @@ const PageOffreGlide = () => {
               className="w-52 p-4"
             />
           </div>
-          <p className="text-light leading-relaxed pb-6 text-xl">
-            <span className="font-bold text-pinkDark">GlideApps</span> est une
-            plateforme en ligne qui permet de transformer instantanément les
-            données issues de feuilles de calcul (Google Sheet, Excel) en
-            applications mobiles qui s'adaptent sur iOS, Android, les téléphones
-            et les tablettes.
-            <br />
-            L'interface propose des thèmes modernes, totalement personnalisables
-            à ton image, la synchronisation avec ta feuille de calculs, le lien
-            possible avec de nombreuses autres applications no-code (ex :
-            Zapier, Stripe...), des actions personnalisées et la gestion de profils de tes utilisateurs.
+          <div className="lg:flex">
+            <p className="text-light leading-relaxed pb-6 text-xl">
+              <span className="font-bold text-pinkDark">GlideApps</span> est une
+              plateforme en ligne qui permet de transformer instantanément les
+              données issues de feuilles de calcul (Google Sheet, Excel) en
+              applications mobiles qui s'adaptent sur iOS, Android, les
+              téléphones et les tablettes.
               <br />
-              C'est la solution idéale pour gérer ton CMS d'entreprise, ton journal d'activités, ton portfolio ou encore une application de cours personnalisés ou de quiz. 
+              L'interface propose des thèmes modernes, totalement
+              personnalisables à ton image, la synchronisation avec ta feuille
+              de calculs, le lien possible avec de nombreuses autres
+              applications no-code (ex : Zapier, Stripe...), des actions
+              personnalisées et la gestion de profils de tes utilisateurs.
               <br />
-              Je te livre une solution fonctionnelle et te donne les clés pour la faire évoluer toi-même par la suite.
-          </p>
+              C'est la solution idéale pour gérer ton CMS d'entreprise, ton
+              journal d'activités, ton portfolio ou encore une application de
+              cours personnalisés ou de quiz.
+              <br />
+              Je te livre une solution fonctionnelle et te donne les clés pour
+              la faire évoluer toi-même par la suite.
+            </p>
+            <img src={wendev6} alt="" className="h-fit" />
+          </div>
         </section>
       </Fade>
       <div className="grid justify-items-center ">
@@ -96,9 +105,15 @@ const PageOffreGlide = () => {
           <p className="text-center p-6">A venir... Stay tuned !😎</p>
         </section>
       </Fade>
+      <div className="flex justify-center">
+        <Link to="/Fonctionnement">
+          <button className="m-6 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+            Comment se déroule un projet client avec WenDev ?
+          </button>
+        </Link>
+      </div>
       <Fade>
         <section>
-          <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>
           <div className="lg:grid grid-cols-1">
             <h4 className="text-pink text-xl text-center">
               Un petit mot sur mes tarifs...{" "}

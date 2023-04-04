@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import Slider from "../components/Slider";
 import Techno from "../components/Techno";
+import wendev3 from '../assets/wendev-3.webp';
 
 const Entreprise = () => {
   return (
@@ -17,10 +18,14 @@ const Entreprise = () => {
           Un projet ? Une mission ? <br /> Besoin d'un dev freelance ou
           indépendant ?
         </h2>
+        <div className="flex h-96 justify-center">
+        <img src={wendev3} alt="" />
+
+        </div>
       </section>
       <Fade>
         <section>
-          <div className="flex justify-evenly lg:m-10">
+          <div className="lg:flex justify-evenly m-10">
             <button className="mb-6 mt-6 w-56 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
               <a
                 href="/"
@@ -51,6 +56,7 @@ const Entreprise = () => {
                 Voir mon profil sur Comet
               </a>
             </button>
+            
           </div>
         </section>
       </Fade>

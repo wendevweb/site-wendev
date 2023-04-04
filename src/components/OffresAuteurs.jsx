@@ -3,6 +3,7 @@ import ClearIcon from "@mui/icons-material/Clear";
 import CheckIcon from "@mui/icons-material/Check";
 import AddIcon from "@mui/icons-material/Add";
 import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
+import { Link } from "react-router-dom";
 // Based on : https://flowbite.com/blocks/marketing/pricing/
 
 const OffresAuteurs = () => {
@@ -296,11 +297,19 @@ const OffresAuteurs = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <button className="mb-12 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+        <button className="mb-12 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
           {" "}
           <AutoFixHighIcon />
           Je suis auteur.e et j'ai une demande spéciale
         </button>
+        
+      </div>
+      <div className="flex justify-center">
+        <Link to="/Fonctionnement">
+          <button className="m-6 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+            Comment se déroule un projet client avec WenDev ?
+          </button>
+        </Link>
       </div>
     </section>
   );

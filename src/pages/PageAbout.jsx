@@ -3,7 +3,15 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import wendycolor from "../assets/wendy-color.png";
-import wendev7 from '../assets/wendev-7.webp';
+import wendev7 from "../assets/wendev-7.webp";
+import wendev9 from "../assets/wendev-9.webp";
+import wendev10 from "../assets/wendev-10.webp";
+import wendev11 from "../assets/wendev-11.webp";
+import wenedv11 from "../assets/wenedv-11.webp";
+
+import wendev13 from "../assets/wendev-13.webp";
+import wendev15 from "../assets/wenedv-15.webp";
+
 import InstagramIcon from "@mui/icons-material/Instagram";
 
 const PageAbout = () => {
@@ -86,9 +94,9 @@ const PageAbout = () => {
           </h3>
           <div className="lg:grid grid-cols-2 content-center items-center lg:m-10 p-10">
             <img
-              src="https://cdn.pixabay.com/photo/2019/09/17/18/48/computer-4484282_960_720.jpg"
-              alt="Wendy Baqué"
-              className="rounded-md shadow-md grayscale h-72 mb-6"
+              src={wendev11}
+              alt="Le parcours professionnel de Wendy Baqué"
+              aria-label="Le parcours professionnel de Wendy Baqué"
             />
             <p className="font-quicksand text-light leading-relaxed">
               J'ai toujours été attirée par les professions mettant{" "}
@@ -133,9 +141,9 @@ const PageAbout = () => {
           </h3>
           <div className="lg:grid grid-cols-2 content-center items-center lg:m-10 p-10">
             <img
-              src="https://cdn.pixabay.com/photo/2015/05/18/23/19/gesture-772977_960_720.jpg"
-              alt="Wendy Baqué"
-              className="rounded-md shadow-md grayscale h-72 mb-6"
+              src={wendev9}
+              alt="Les valeurs de Wendy Baqué"
+              aria-label="Les valeurs de Wendy Baqué"
             />
             <p className="font-quicksand text-light leading-relaxed">
               ✨ Je suis une personne{" "}
@@ -196,52 +204,59 @@ const PageAbout = () => {
           <h3 className="text-pink text-2xl text-center mt-12 mb-6 font-quicksand">
             Mes objectifs
           </h3>
-          <div className="lg:grid grid-cols-2">
-            <p className="font-quicksand text-light p-10 leading-relaxed">
-              <strong className="text-bold text-2xl text-pinkDark">
-                Te proposer une solution numérique sur mesure
-              </strong>
-              <br />
-              <br />
-              Des services de création de sites web, il y en a plein ! Il y en a
-              même des gratuits qui font tout à ta place ! 😵‍💫 Mais cela ne
-              remplacera jamais le travail d'un développeur formé à créer des
-              <strong className="text-bold text-pinkDark">
-                {" "}
-                sites internet robustes et viables, avec un design à la pointe
-                des tendances
-              </strong>
-              . 💅
-              <br />
-              Avec moi, toi et ton site internet serez chouchoutés et, surtout,
-              écoutés ! Car oui, je suis à l'écoute de tes besoins et de tes
-              envies numériques pour pouvoir y répondre au mieux et aider ton
-              business à décoler sur internet. <br />
-              On se détend, pas de stress, je m'occupe de tout et on en discute
-              ! T'être utile fait partie de l'essence même de{" "}
-              <strong className="text-bold text-pinkDark">WenDev</strong> !
-            </p>
-            <p className="font-quicksand text-light p-10 leading-relaxed">
-              <strong className="text-bold text-2xl text-pinkDark">
-                Te présenter des offres adaptées à tes finances
-              </strong>{" "}
-              <br />
-              <br />
-              Tout le monde n'a pas les moyens d'investir dans la création d'un
-              site web du tonnerre, surtout lrosque l'on débute son activité. 😨
-              Et ça, je l'ai bien compris (et je suis passée par là aussi ! 😅)
-              !
-              <br />
-              Pas de panique, j'ai une solution adaptée à tes besoins (et sans
-              brader mes services certifiés !). Pour chaque type d'offre, je te
-              propose une gamme de fonctionnalités et des tarifs évolutifs.{" "}
-              <br />
-              <strong className="text-bold  text-pinkDark">
-                Avec tout ça, je suis persuadée que tu trouveras ton bonheur !
-              </strong>
-              🥳
-            </p>
-            <div>
+          <div className="lg:grid grid-cols-2 gap-4">
+            <div className="lg:flex">
+              <p className="font-quicksand text-light p-10 leading-relaxed">
+                <strong className="text-bold text-2xl text-pinkDark">
+                  Te proposer une solution numérique sur mesure
+                </strong>
+                <br />
+                <br />
+                Des services de création de sites web, il y en a plein ! Il y en
+                a même des gratuits qui font tout à ta place ! 😵‍💫 Mais cela ne
+                remplacera jamais le travail d'un développeur formé à créer des
+                <strong className="text-bold text-pinkDark">
+                  {" "}
+                  sites internet robustes et viables, avec un design à la pointe
+                  des tendances
+                </strong>
+                . 💅
+                <br />
+                Avec moi, toi et ton site internet serez chouchoutés et,
+                surtout, écoutés ! Car oui, je suis à l'écoute de tes besoins et
+                de tes envies numériques pour pouvoir y répondre au mieux et
+                aider ton business à décoler sur internet. <br />
+                On se détend, pas de stress, je m'occupe de tout et on en
+                discute ! T'être utile fait partie de l'essence même de{" "}
+                <strong className="text-bold text-pinkDark">WenDev</strong> !
+              </p>
+              <img src={wendev13} alt="" className="w-64 h-64 p-4" />
+            </div>
+
+            <div className="lg:flex">
+              <p className="font-quicksand text-light p-10 leading-relaxed">
+                <strong className="text-bold text-2xl text-pinkDark">
+                  Te présenter des offres adaptées à tes finances
+                </strong>{" "}
+                <br />
+                <br />
+                Tout le monde n'a pas les moyens d'investir dans la création
+                d'un site web du tonnerre, surtout lrosque l'on débute son
+                activité. 😨 Et ça, je l'ai bien compris (et je suis passée par
+                là aussi ! 😅) !
+                <br />
+                Pas de panique, j'ai une solution adaptée à tes besoins (et sans
+                brader mes services certifiés !). Pour chaque type d'offre, je
+                te propose une gamme de fonctionnalités et des tarifs évolutifs.{" "}
+                <br />
+                <strong className="text-bold  text-pinkDark">
+                  Avec tout ça, je suis persuadée que tu trouveras ton bonheur !
+                </strong>
+                🥳
+              </p>
+              <img src={wendev10} alt="" className="w-64 h-64 p-4" />
+            </div>
+            <div className="lg:flex">
               <p className="font-quicksand text-light p-10 leading-relaxed">
                 <strong className="text-bold text-2xl text-pinkDark">
                   Etre une référence en création de sites web pour les auteurs
@@ -276,8 +291,9 @@ const PageAbout = () => {
                   <Link to="/Offreauteurs">Voir l'offre</Link>
                 </button>
               </p>
+              <img src={wenedv11} alt="" className="w-64 h-64 p-4" />
             </div>
-            <div className="flex">
+            <div className="lg:flex">
               <p className="font-quicksand text-light p-10 leading-relaxed">
                 <strong className="text-bold text-2xl text-pinkDark">
                   Etre LE média d'information français sur le métier de
@@ -320,9 +336,8 @@ const PageAbout = () => {
                     Rejoins-moi sur Instagram ! <InstagramIcon />
                   </a>
                 </button>
-                
               </p>
-              <img src={wendev7} alt="" className="w-64 h-64" />
+              <img src={wendev7} alt="" className="w-64 h-64 p-4" />
             </div>
           </div>
         </section>
@@ -337,9 +352,9 @@ const PageAbout = () => {
           </h3>
           <div className="lg:grid grid-cols-2  content-center items-center lg:m-10 p-10">
             <img
-              src="https://cdn.pixabay.com/photo/2018/02/23/22/04/book-bindings-3176776_960_720.jpg"
+              src={wendev15}
               alt="Les activités d'auteure de romans de WenDev"
-              className="rounded-md shadow-md grayscale h-72 mb-6"
+              aria-label="Les activités d'auteure de romans de WenDev"
             />
             <div>
               <p className="font-quicksand text-light leading-relaxed">

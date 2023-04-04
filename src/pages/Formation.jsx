@@ -4,6 +4,7 @@ import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import formation from "../assets/wendev-4.webp";
 import evogue from "../assets/evogue.webp";
+import wendev9 from '../assets/wendev-9.webp';
 
 const Formation = () => {
   return (
@@ -52,6 +53,8 @@ const Formation = () => {
               Je privilégie les cours en{" "}
               <strong className="text-bold  text-pinkDark">full remote</strong>.
             </p>
+            <div className="lg:flex justify-center items-start">
+            <img src={wendev9} alt="" className="h-96"/>
             <div className="grid justify-items-center lg:m-10">
               <button className="mb-6 mt-6 w-56 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
@@ -73,6 +76,7 @@ const Formation = () => {
                   Des besoins en formation professionnelle ?
                 </button>
               </Link>
+              </div>
             </div>
           </section>
           <section>
