@@ -57,7 +57,7 @@ const PageOffrePortfolio = () => {
           </h3>
           <p className="text-light leading-relaxed pb-6 text-xl">
             Un <span className="font-bold text-pinkDark">porfolio</span> est un
-            très bon moyen de présenter votre travail et de vous présenter, quel
+            très bon moyen de présenter ton travail et de te présenter, quel
             que soit votre secteur d'activité.
             <br />
             C'est un peu comme un CV... mais en mieux ! 🤩 En effet, avec un
