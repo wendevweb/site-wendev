@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import OffresAuteurs from "../components/OffresAuteurs";
+import WhiteBook from "../components/WhiteBook";
 
 const PageOffreAuteurs = () => {
   return (
@@ -49,6 +50,9 @@ const PageOffreAuteurs = () => {
         <section>
           <OffresAuteurs />
         </section>
+      </Fade>
+      <Fade>
+        <WhiteBook />
       </Fade>
 
       <Fade>

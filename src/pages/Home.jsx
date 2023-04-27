@@ -7,6 +7,7 @@ import Techno from "../components/Techno";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
+import WhiteBook from "../components/WhiteBook";
 // import Testimonials from "../components/Testimonials";
 
 const Home = () => {
@@ -25,6 +26,7 @@ const Home = () => {
           </button>
         </Link>
       </div>
+      <WhiteBook />
       <Fade>
         <Expertise />
       </Fade>

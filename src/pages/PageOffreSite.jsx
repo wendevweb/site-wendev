@@ -3,10 +3,14 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import Interest from "../components/Interest";
+import projet1 from "../assets/projet1.webp";
+import projet2 from "../assets/projet2.webp";
+import projet3 from "../assets/projet3.webp";
+import projet4 from "../assets/projet4.webp";
 
 const PageOffreSite = () => {
   return (
-    <div className="flex flex-col justify-center justify-items-center">
+    <div className="font-quicksand flex flex-col justify-center justify-items-center">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre création de sites internet | WenDev</title>
@@ -92,9 +96,75 @@ const PageOffreSite = () => {
       </Fade>
       <Fade>
         <section>
-          <h3 className="text-pink text-2xl text-center">
+          <h3 className="text-pink text-2xl text-center pb-6 ">
             Quelques uns de mes projets...
           </h3>
+          <div className="lg:flex justify-around text-center ">
+            <a
+              href="https://nelixair-website-front-end-copy-elgelhh6m-wendybaque.vercel.app/"
+              alt="Site web de l'association Nelixair"
+              aria-label="Site web de l'association Nelixair"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>Site de Wendy Baqué, auteure</p>
+                <img
+                  src={projet1}
+                  alt="Site web de Wendy Baqué, auteure de romans"
+                  aria-label="Site web de Wendy Baqué, auteure de romans"
+                />
+              </div>{" "}
+            </a>
+            <a
+              href="https://wendybaqueportfoliodev.wendev.fr/"
+              alt="Porfolio de Wendy Baqué, développeuse web front-end"
+              aria-label="Porfolio de Wendy Baqué, développeuse web front-end"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>Mon portfolio</p>
+                <img
+                  src={projet4}
+                  alt="Porfolio de Wendy Baqué, développeuse web front-end"
+                  aria-label="Porfolio de Wendy Baqué, développeuse web front-end"
+                />
+              </div>
+            </a>
+            <a
+              href="https://nelixair-website-front-end-copy-elgelhh6m-wendybaque.vercel.app/"
+              alt="Site web de l'association Nelixair"
+              aria-label="Site web de l'association Nelixair"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>Site web de l'association Nelixair</p>
+                <img
+                  src={projet2}
+                  alt="Site web de l'association Nelixair"
+                  aria-label="Site web de l'association Nelixair"
+                />
+              </div>
+            </a>
+            <a
+              href="https://happy-frontend-components.vercel.app/"
+              alt="Site web Happy Front-end components"
+              aria-label="Site web Happy Front-end components"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>Happy Front-end components</p>
+                <img
+                  src={projet3}
+                  alt="Site web Happy Front-end components"
+                  aria-label="Site web Happy Front-end components"
+                />
+              </div>
+            </a>
+          </div>
         </section>
       </Fade>
     </div>

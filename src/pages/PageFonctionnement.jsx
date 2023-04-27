@@ -45,7 +45,7 @@ const PageFonctionnement = () => {
             </li>
             <br />
 
-            <li>Si tout est ok, un accompte de 30% est à payer.</li>
+            <li>Si tout est ok, un acompte de 30% est à payer.</li>
             <br />
 
             <li>
@@ -56,7 +56,7 @@ const PageFonctionnement = () => {
             <br />
 
             <li>
-              Une fois l'accompte reçu, je commence à travailler sur ton super
+              Une fois l'acompte reçu, je commence à travailler sur ton super
               projet !
             </li>
             <br />

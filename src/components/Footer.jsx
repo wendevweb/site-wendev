@@ -6,6 +6,8 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import DownloadIcon from "@mui/icons-material/Download";
+import MarkEmailUnreadIcon from "@mui/icons-material/MarkEmailUnread";
 
 const Footer = () => {
   return (
@@ -23,9 +25,34 @@ const Footer = () => {
           <h2 className="font-semibold text-purpleDark text-lg text-left">
             A propos
           </h2>
-          <p className="text-left pt-6 font-light">
-            WenDev est une micro-entreprise de développement web et web mobile, dirigée par Wendy Baqué. Elle propose des services numériques avec plusieurs offres adaptés aux besoins de ses clients. 
+          <p className="mb-2 text-left pt-6 font-light">
+            WenDev est une micro-entreprise de développement web et web mobile,
+            dirigée par Wendy Baqué. Elle propose des services numériques avec
+            plusieurs offres adaptés aux besoins de ses clients.
           </p>
+          <h2 className="mb-2 hover:text-pinkDark font-semibold text-purpleDark text-lg text-left">
+            <a
+              href="https://form.jotform.com/230383592520352"
+              alt="Redirection vers l'inscription à la newsletter de WenDev"
+              aria-label="Redirection vers l'inscription à la newsletter de WenDev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <MarkEmailUnreadIcon /> Inscris-toi à la newsletter
+            </a>
+          </h2>
+          <h2 className="hover:text-pinkDark font-semibold text-purpleDark text-lg text-left">
+            <a
+              href="https://form.jotform.com/231160807687056"
+              alt="Redirection vers le téléchargement du livre blanc pour les auteurs de livres"
+              aria-label="Redirection vers le téléchargement du livre blanc pour les auteurs de livres"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <DownloadIcon /> Ami.e auteur.e, télécharge ton livre blanc pour
+              t'aider à créer toi-même ton site internet !{" "}
+            </a>
+          </h2>
         </div>
 
         <div className="m-6">
@@ -43,7 +70,7 @@ const Footer = () => {
                 rel="noreferrer"
                 className="hover:text-pinkDark"
               >
-                <InstagramIcon/> Instagram
+                <InstagramIcon /> Instagram
               </a>
             </li>
             <li className="pt-4 font-light">
@@ -94,14 +121,10 @@ const Footer = () => {
           </h2>
           <ul className="text-left">
             <a href="/Legals">
-              <li className="pt-4 font-light hover:text-pinkDark">
-                C.G.U.
-              </li>
+              <li className="pt-4 font-light hover:text-pinkDark">C.G.U.</li>
             </a>
             <a href="/Cgv">
-              <li className="pt-4 font-light hover:text-pinkDark">
-                C.G.V.
-              </li>
+              <li className="pt-4 font-light hover:text-pinkDark">C.G.V.</li>
             </a>
           </ul>
         </div>

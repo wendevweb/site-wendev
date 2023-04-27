@@ -350,7 +350,7 @@ const Cgv = () => {
                   bancaire ; soit par virement bancaire ; le cas échéant,
                   indiquer les autres moyens de paiement acceptés (ex : Stripe).
                   <br />
-                  WenDev impose le versement d'un accompte à la signature du
+                  WenDev impose le versement d'un acompte à la signature du
                   devis, correspondant à 30% du montant total. La livraison du
                   produit fini se fera uniquement après réception de la totalité
                   du montant dû.{" "}

@@ -20,7 +20,7 @@ const Hero = () => {
           <div className="grid lg:grid-cols-2 gap-16 flex items-center">
             <Fade triggerOnce cascade="true" direction="left" duration={1000}>
               <div className="mt-32 z-10 font-quicksand ">
-                <h1 className="text-purple sm:text-6xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6">
+                <h1 className="text-pinkDark xl:text-7xl font-bold tracking-tight mb-6">
                   WenDev ,<br />
                 </h1>
                 <h2 className="text-white lg:text-4xl md:text-4xl xl:text-6xl font-bold tracking-tight ">
