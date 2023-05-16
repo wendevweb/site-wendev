@@ -8,6 +8,7 @@ import projet1 from "../assets/projet1.webp";
 import projet2 from "../assets/projet2.webp";
 import projet3 from "../assets/projet3.webp";
 import projet4 from "../assets/projet4.webp";
+import OffresSite from "../components/OffreSite";
 
 const PageOffreSite = () => {
   return (
@@ -45,6 +46,8 @@ const PageOffreSite = () => {
                   Grâce à React et Tailwindcss, deux technologies récentes,
                   personnalisables et fiables, je te propose un site moderne,
                   accessible et au coeur des tendances.
+                  <br/>
+                  Une offre en no-code est également proposée pour les petits budgets.
                   <br /> Découvre mon offre de création de site web adaptée à
                   tes besoins numériques. <br />
                 </p>
@@ -61,8 +64,28 @@ const PageOffreSite = () => {
       <Fade>
         <section>
           <h3 className="text-pink text-2xl text-center">Tarifs</h3>
-          <p className="text-center p-6">A venir... Stay tuned !😎</p>
+          <OffresSite />
         </section>
+      </Fade>
+      <Fade>
+        <div className="lg:grid grid-cols-1">
+          <h4 className="text-pink text-xl text-center">
+            Un petit mot sur mes tarifs...{" "}
+          </h4>
+          <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
+            En tant que développeuse web indépendante/freelance, je détermine le
+            prix de mes prestations en fonction du coût de mon travail, le temps
+            passé à sa réalisation, je m’adapte à des demandes différentes et je
+            me place face à la concurrence. C’est un travail de création ! Et
+            tout travail mérite salaire, non ? 😉
+          </p>
+          <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
+            En choisissant de travailler avec un développeur web, tu accèdes à
+            un service personnalisé d’une flexibilité et d’une liberté qui n’ont
+            rien à voir avec celles proposées par une agence ou une embauche
+            d’un salarié.
+          </p>
+        </div>
       </Fade>
       <ButtonFonctionnement />
       <Fade>
@@ -75,14 +98,12 @@ const PageOffreSite = () => {
             ton site fera peau neuve. <br />
             Viens en discuter avec moi pour que je te propose un service sur
             mesure en fonction de ce qui existe déjà pour ton site ! <br />
-            (Hors Wordpress)
+            (Hors Wordpress et boutiques en ligne/e-commerce)
           </p>
           <Link to="/Contact">
             <button
-              className="border border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
+              className="m-6 shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
               alt="Redirection vers la page du service de WenDev"
-              target="_blank"
-              rel="noreferrer"
             >
               Contact
             </button>

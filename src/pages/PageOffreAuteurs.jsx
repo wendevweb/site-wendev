@@ -70,7 +70,7 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://lightcyan-tiger-770474.builder-preview.com/"
                   alt="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
@@ -90,7 +90,7 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://lightslategrey-alligator-289384.builder-preview.com/"
                   alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
@@ -110,7 +110,7 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://lightgoldenrodyellow-lion-545728.builder-preview.com/"
                   alt="Site internet fictif de Tomas Cariler pour illustrer l'offre basic de WenDev"
@@ -143,7 +143,7 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
@@ -163,7 +163,7 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
@@ -183,7 +183,7 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
@@ -209,7 +209,7 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
@@ -229,7 +229,7 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
@@ -249,7 +249,7 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
@@ -269,7 +269,7 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-56  bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
