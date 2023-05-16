@@ -9,6 +9,7 @@ import apside from "../assets/maquette-apside.webp";
 import prototypeMbn from "../assets/prototype-mbn.webp";
 import maquetteMbn from "../assets/maquette-mbn.webp";
 import figma from "../assets/figma.webp";
+import OffreMaquette from "../components/OffreMaquette";
 
 const PageOffreMaquette = () => {
   return (
@@ -124,8 +125,7 @@ const PageOffreMaquette = () => {
       <Fade>
         <section>
           <h3 className="text-pink text-2xl text-center">Tarifs</h3>
-          <p className="text-center p-6">A venir... Stay tuned !😎</p>
-
+          <OffreMaquette />
           <div className="lg:grid grid-cols-1">
             <h3 className="text-pink text-2xl text-center mb-4">
               Un petit mot sur mes tarifs...{" "}
@@ -155,7 +155,7 @@ const PageOffreMaquette = () => {
           <h3 className="text-pink text-2xl text-center mb-6">
             Quelques exemples...
           </h3>
-          <div className="grid grid-cols-6 gap-4">
+          <div className="lg:grid grid-cols-6 gap-4">
             <figure style={{ display: "table" }}>
               <img
                 src={prototypeMood}
