@@ -1,8 +1,8 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
-import ButtonFonctionnement from '../components/ButtonFonctionnement';
-import building from "../assets/building.png";
+import ButtonFonctionnement from "../components/ButtonFonctionnement";
+import OffrePortfolio from "../components/OffrePortfolio";
 
 const PageOffrePortfolio = () => {
   return (
@@ -57,8 +57,8 @@ const PageOffrePortfolio = () => {
           </h3>
           <p className="text-light leading-relaxed pb-6 text-xl">
             Un <span className="font-bold text-pinkDark">porfolio</span> est un
-            très bon moyen de présenter ton travail et de te présenter, quel
-            que soit votre secteur d'activité.
+            très bon moyen de présenter ton travail et de te présenter, quel que
+            soit votre secteur d'activité.
             <br />
             C'est un peu comme un CV... mais en mieux ! 🤩 En effet, avec un
             portfolio numérique, on peut ajouter de l'interactivité, du
@@ -76,30 +76,18 @@ const PageOffrePortfolio = () => {
           </p>
         </section>
       </Fade>
-      <div className="grid justify-items-center ">
-        <h3 className="text-pink text-2xl text-center mb-6">
-          Page en construction... Contenu à venir !
-        </h3>
-        <img
-          src={building}
-          alt="Page en construction"
-          aria-label="page en construction>"
-        />
-      </div>
       <Fade>
         <section>
           <h3 className="text-pink text-2xl text-center">Tarifs</h3>
-          <p className="text-center p-6">A venir... Stay tuned !😎</p>
+          <OffrePortfolio />
         </section>
       </Fade>
-      <ButtonFonctionnement />
       <Fade>
         <section>
-          <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>
           <div className="lg:grid grid-cols-1">
-            <h4 className="text-pink text-xl text-center">
+            <h3 className="text-pink text-2xl text-center mb-4">
               Un petit mot sur mes tarifs...{" "}
-            </h4>
+            </h3>
             <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
               En tant que développeuse web indépendante/freelance, je détermine
               le prix de mes prestations en fonction du coût de mon travail, le
@@ -113,15 +101,16 @@ const PageOffrePortfolio = () => {
               n’ont rien à voir avec celles proposées par une agence ou une
               embauche d’un salarié.
             </p>
+            <ButtonFonctionnement />
           </div>
         </section>
       </Fade>
       <Fade>
-        <section className="flex flex-col justify-center items-center">
+        <section className="pt-6 flex flex-col justify-center items-center">
           <h3 className="text-pink text-2xl text-center mb-4">
             Un exemple ? Mon portfolio de dev.
           </h3>
-          <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+          <button className="w-56 bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-real">
             <a
               href="https://wendybaqueportfoliodev.wendev.fr/"
               alt="Redirection vers le portfolio de Wendy Baqué"

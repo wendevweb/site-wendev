@@ -46,8 +46,9 @@ const PageOffreSite = () => {
                   Grâce à React et Tailwindcss, deux technologies récentes,
                   personnalisables et fiables, je te propose un site moderne,
                   accessible et au coeur des tendances.
-                  <br/>
-                  Une offre en no-code est également proposée pour les petits budgets.
+                  <br />
+                  Une offre en no-code est également proposée pour les petits
+                  budgets.
                   <br /> Découvre mon offre de création de site web adaptée à
                   tes besoins numériques. <br />
                 </p>
@@ -69,9 +70,9 @@ const PageOffreSite = () => {
       </Fade>
       <Fade>
         <div className="lg:grid grid-cols-1">
-          <h4 className="text-pink text-xl text-center">
+          <h3 className="text-pink text-2xl text-center mb-4">
             Un petit mot sur mes tarifs...{" "}
-          </h4>
+          </h3>
           <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
             En tant que développeuse web indépendante/freelance, je détermine le
             prix de mes prestations en fonction du coût de mon travail, le temps

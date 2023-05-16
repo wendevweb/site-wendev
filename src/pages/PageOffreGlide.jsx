@@ -1,7 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
-import ButtonFonctionnement from '../components/ButtonFonctionnement';
+import ButtonFonctionnement from "../components/ButtonFonctionnement";
 import building from "../assets/building.png";
 import glide from "../assets/glide.webp";
 import wendev6 from "../assets/wendev-6.webp";
@@ -109,9 +109,9 @@ const PageOffreGlide = () => {
       <Fade>
         <section>
           <div className="lg:grid grid-cols-1">
-            <h4 className="text-pink text-xl text-center">
+            <h3 className="text-pink text-2xl text-center mb-4">
               Un petit mot sur mes tarifs...{" "}
-            </h4>
+            </h3>
             <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
               En tant que développeuse web indépendante/freelance, je détermine
               le prix de mes prestations en fonction du coût de mon travail, le

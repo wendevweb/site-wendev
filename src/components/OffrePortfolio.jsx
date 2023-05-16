@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 // Based on : https://flowbite.com/blocks/marketing/pricing/
 
-const OffresSite = () => {
+const OffrePortfolio = () => {
   return (
     <section
       className="bg-white dark:bg-black font-quicksand"
@@ -15,12 +15,10 @@ const OffresSite = () => {
     >
       <div className="py-8 px-4 lg:py-16 lg:px-6">
         <Fade>
-          <div className="space-y-8 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-10 lg:space-y-0">
+          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {/* OFFRE 1 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">
-                Site vitrine no-code
-              </h3>
+              <h3 className="mb-4 text-2xl font-semibold">Portfolio no-code</h3>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">250€</span>
               </div>
@@ -34,6 +32,17 @@ const OffresSite = () => {
                   <span>
                     Nombre de pages : <span className="font-bold">1</span>
                   </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>
+                    Formulaire de contact avec redirection automatique des
+                    messages vers ta boîte mail
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Logo des réseaux sociaux avec redirection </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -108,9 +117,9 @@ const OffresSite = () => {
             </div>
             {/* OFFRE 2 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">Basique</h3>
+              <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">650€</span>
+                <span className="mr-2 text-5xl font-extrabold">300€</span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
@@ -120,8 +129,19 @@ const OffresSite = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">1 à 3</span>
+                    Nombre de pages : <span className="font-bold">1 à 5</span>
                   </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <ClearIcon style={{ color: "red" }} />
+                  <span>
+                    Formulaire de contact avec redirection automatique des
+                    messages vers ta boîte mail
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Logo des réseaux sociaux avec redirection </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -183,7 +203,7 @@ const OffresSite = () => {
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
-                    <span className="font-bold">5 jours</span>
+                    <span className="font-bold">7 jours</span>
                   </span>
                 </li>
               </ul>
@@ -196,9 +216,9 @@ const OffresSite = () => {
             </div>
             {/* OFFRE 3 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
+              <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">2000€</span>
+                <span className="mr-2 text-5xl font-extrabold">450€</span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
@@ -208,8 +228,19 @@ const OffresSite = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">3 à 5</span>
+                    Nombre de pages : <span className="font-bold">1 à 5</span>
                   </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>
+                    Formulaire de contact avec redirection automatique des
+                    messages vers ta boîte mail
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Logo des réseaux sociaux avec redirection </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -228,7 +259,7 @@ const OffresSite = () => {
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
+                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en place des paramêtres SEO de base</span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -236,19 +267,19 @@ const OffresSite = () => {
                   <span>Page de mentions légales/RGPD</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                <CheckIcon style={{ color: "limegreen" }} />
+                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>Page d'erreur 404 avec redirection</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Modifications : 5 à 10 (si +, 5€ par modification)</span>
+                  <span>Modifications illimitées</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en avant sur mes réseaux sociaux</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                <ClearIcon style={{ color: "red" }} />
+                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>Maquette</span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -257,101 +288,13 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Hébergement gratuit pendant 1 an</span>
+                  <span>Hébergement inclus, gratuit 1 an</span>
                 </li>
 
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Nom de domaine personnalisé</span>
                 </li>
-                <br />
-                <br />
-                <li className="flex items-center space-x-3">
-                  <AccessTimeIcon style={{ color: "magenta" }} />
-                  <span>
-                    Délai de création :{" "}
-                    <span className="font-bold">7 jours</span>
-                  </span>
-                </li>
-              </ul>
-              <Link
-                to="/Contact"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-md text-sm px-5 py-2.5 text-center dark:text-white"
-              >
-                C'est parti !
-              </Link>
-            </div>
-            {/* OFFRE 4 */}
-            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
-              <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">3500€</span>
-              </div>
-              <ul className="mb-8 space-y-4 text-left">
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton branding (à fournir)</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>
-                    Nombre de pages :{" "}
-                    <span className="font-bold">Illimité</span>
-                  </span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>
-                    Site réactif{" "}
-                    <span className="font-semibold">
-                      (adapté aux différentes tailles d'écran)
-                    </span>
-                  </span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>
-                    Gestion de l'accessibilité (Site web accessible aux
-                    personnes atteintes de handicap)
-                  </span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramêtres SEO de base</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Page de mentions légales/RGPD</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Page d'erreur 404 avec redirection</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Nombre illimité de modifications</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en avant sur mes réseaux sociaux</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Maquette</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Code source</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Hébergement gratuit pendant 2 ans</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Nom de domaine personnalisé</span>
-                </li>
-                <br />
                 <br />
                 <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
@@ -375,4 +318,4 @@ const OffresSite = () => {
   );
 };
 
-export default OffresSite;
+export default OffrePortfolio;

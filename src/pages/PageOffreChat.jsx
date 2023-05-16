@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import building from "../assets/building.png";
-import ButtonFonctionnement from '../components/ButtonFonctionnement';
+import ButtonFonctionnement from "../components/ButtonFonctionnement";
 // import wendev16 from '../assets/wendev-16.webp';
 
 const PageOffreChat = () => {
@@ -68,14 +68,14 @@ const PageOffreChat = () => {
           <p className="text-center p-6">A venir... Stay tuned !😎</p>
         </section>
       </Fade>
-      < ButtonFonctionnement />
+      <ButtonFonctionnement />
       <Fade>
         <section>
           <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>
           <div className="lg:grid grid-cols-1">
-            <h4 className="text-pink text-xl text-center">
+            <h3 className="text-pink text-2xl text-center mb-4">
               Un petit mot sur mes tarifs...{" "}
-            </h4>
+            </h3>
             <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
               En tant que développeuse web indépendante/freelance, je détermine
               le prix de mes prestations en fonction du coût de mon travail, le
