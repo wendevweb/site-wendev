@@ -7,33 +7,45 @@ const Slider = () => {
   const datas = [
     {
       id: 1,
+      title:"Farahd",
+      image:
+        "https://www.hebergeur-image.com/upload/88.174.47.6-6463376819a7f.png",
+    },
+    {
+      id: 2,
+      title:"Antiigone",
       image:
         "https://www.hebergeur-image.com/upload/88.174.47.6-63edfe7890020.png",
     },
     {
-      id: 2,
+      id: 3,
+      title:"OMedia",
       image:
         "https://www.hebergeur-image.com/upload/88.174.47.6-63edfeaf2e19f.png",
     },
     {
-      id: 3,
+      id: 4,
+      title:"Nelixair",
       image:
-        "https://www.hebergeur-image.com/upload/88.174.47.6-63edf791be30f.png",
+        "https://www.hebergeur-image.com/upload/88.174.47.6-63edf1d36caca.png",
     },
     {
-      id: 4,
+      id: 5,
+      title:"Fedmind",
       image:
         "https://www.fedmind.com/sanacup/uploads/2022/10/Logo_Fedmind_format_carre_baseline.png",
     },
     {
-      id: 5,
+      id: 6,
+      title:"Kodework",
       image:
         "https://www.hebergeur-image.com/upload/88.174.47.6-63edf83864750.png",
     },
     {
-      id: 6,
+      id: 7,
+      title:"Mood",
       image:
-        "https://www.hebergeur-image.com/upload/88.174.47.6-63edf1d36caca.png",
+        "https://www.hebergeur-image.com/upload/88.174.47.6-63edf791be30f.png",
     },
   ];
   return (

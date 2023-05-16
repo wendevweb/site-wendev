@@ -16,9 +16,9 @@ const Footer = () => {
         <div className="lg:m-6">
           <img
             src={logonoir}
-            alt="Nelixair"
-            aria-label="Nelixair"
-            className="w-32 pt-10 lg:ml-64"
+            alt="WenDev"
+            aria-label="WenDev"
+            className="w-32 pt-10"
           />
         </div>
         <div className="m-6">

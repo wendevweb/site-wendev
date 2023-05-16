@@ -306,7 +306,7 @@ const OffresAuteurs = () => {
 
       <div className="flex justify-center">
         <Link to="/Fonctionnement">
-          <button className="m-6 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+          <button className="m-6 shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
             Comment se déroule un projet client avec WenDev ?
           </button>
         </Link>

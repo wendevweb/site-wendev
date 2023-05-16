@@ -12,7 +12,7 @@ const WhiteBook = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <button className="animate-bounce m-6 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+        <button className="m-6 shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
           <DownloadIcon /> Auteur.e de livres ? Télécharge gratuitement ton livre blanc pour
           t'aider à créer ton propre site internet !
         </button>

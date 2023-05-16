@@ -7,7 +7,6 @@ import ButtonTop from "./components/ButtonTop";
 import Home from "./pages/Home";
 import PageOffreAuteurs from "./pages/PageOffreAuteurs";
 import PageAbout from "./pages/PageAbout";
-import PageProjets from "./pages/PageProjets";
 import PageOffreMaquette from "./pages/PageOffreMaquette";
 import PageOffreSite from "./pages/PageOffreSite";
 import PageOffreGlide from "./pages/PageOffreGlide";
@@ -31,7 +30,6 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/About" element={<PageAbout/>} />
-          <Route path="/Projets" element={<PageProjets/>} />
           
           <Route path="/OffreSite" element={<PageOffreSite />} />
           <Route path="/OffreMaquette" element={<PageOffreMaquette />} />
