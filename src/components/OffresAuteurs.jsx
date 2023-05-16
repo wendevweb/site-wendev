@@ -4,6 +4,7 @@ import CheckIcon from "@mui/icons-material/Check";
 import AddIcon from "@mui/icons-material/Add";
 import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
 import { Fade } from "react-awesome-reveal";
+import { Link } from "react-router-dom";
 import ButtonFonctionnement from "./ButtonFonctionnement";
 
 // Based on : https://flowbite.com/blocks/marketing/pricing/
@@ -14,8 +15,8 @@ const OffresAuteurs = () => {
       className="bg-white dark:bg-black font-quicksand"
       aria-label="Offre de services spécialisée pour les auteurs de livres"
     >
-      <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
-        <div className="mx-auto max-w-screen-md text-center mb-8 lg:mb-12">
+      <div className="py-8 px-4 lg:py-16 lg:px-6">
+        <div className="mx-auto max-w-screen-lg text-center mb-8 lg:mb-12">
           <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-pinkDark dark:text-white">
             Mon offre spéciale auteurs
           </h2>
@@ -29,6 +30,10 @@ const OffresAuteurs = () => {
                 <span className="mr-2 text-5xl font-extrabold">60€</span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Personnalisation avec ton branding (à fournir)</span>
+                </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>1 en-tête/header</span>
@@ -60,7 +65,14 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Gestion de l'accessibilité</span>
+                  <span>
+                    Gestion de l'accessibilité (Site web accessible aux
+                    personnes atteintes de handicap)
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>1 modification gratuite (si +, 5€ par modification)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -84,26 +96,24 @@ const OffresAuteurs = () => {
                   <span>Pas de nom de domaine (url non personnalisable)</span>
                 </li>
               </ul>
-              <a
-                href="#"
+              <Link to="/Contact"
                 className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-md text-sm px-5 py-2.5 text-center dark:text-white"
               >
                 C'est parti !
-              </a>
+              </Link>
             </div>
             {/* OFFRE 2 */}
-            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-16  max-w-xl text-center text-white bg-purpleDark rounded-md shadow-md shadow-xl dark:border-black xl:p-8 dark:bg-black dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold text-real">Medium</h3>
-              <p className="text-pink sm:text-lg font-bold dark:text-white">
-                Formule la plus populaire !
-              </p>
-
+            <div className="bg-purpleDark text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
+              <h3 className="mb-4 text-2xl text-pink font-semibold">Standard</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold text-pink">
-                  90€
-                </span>
+                <span className="text-pink mr-2 text-5xl font-extrabold">90€</span>
               </div>
+              <p className="pb-6 text-pink font-bold">Formule la plus populaire !</p>
               <ul className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Personnalisation avec ton branding (à fournir)</span>
+                </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>1 en-tête/header</span>
@@ -151,7 +161,10 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Gestion de l'accessibilité</span>
+                  <span>
+                    Gestion de l'accessibilité (Site web accessible aux
+                    personnes atteintes de handicap)
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -163,7 +176,7 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Modification gratuite 1x/an</span>
+                  <span>1 à 3 modifications gratuites (si +, 5€ par modification)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -182,24 +195,27 @@ const OffresAuteurs = () => {
                   <span>
                     Gestion de l'hébergement du site avec nom de domaine
                     personnalisé :{" "}
-                    <span className="font-semibold">+10€/an</span>
+                    <span className="font-semibold">+12€/an</span>
                   </span>
                 </li>
               </ul>
-              <a
-                href="#"
-                className="text-purple bg-real hover:bg-white shadow-md rounded-md font-medium  text-sm px-5 py-2.5 text-center dark:text-white"
+              <Link to="/Contact"
+                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-md text-sm px-5 py-2.5 text-center dark:text-white"
               >
                 C'est parti !
-              </a>
+              </Link>
             </div>
             {/* OFFRE 3 */}
-            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 mx-auto max-w-lg text-center text-black bg-real rounded-md shadow-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
-              <h3 className="mb-4 text-2xl font-semibold">Premium !</h3>
+            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
+              <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">160€</span>
+                <span className="mr-2 text-5xl font-extrabold">180€</span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Personnalisation avec ton branding (à fournir)</span>
+                </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>1 en-tête/header</span>
@@ -236,10 +252,6 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>1 page d'erreur 404 avec redirection</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>
                     Site réactif{" "}
                     <span className="font-semibold">
@@ -255,7 +267,14 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Gestion de l'accessibilité</span>
+                  <span>
+                    Gestion de l'accessibilité (Site web accessible aux
+                    personnes atteintes de handicap)
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Modifications illimitées</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -280,17 +299,16 @@ const OffresAuteurs = () => {
                     gratuit pendant 1 an
                     <AddIcon style={{ color: "magenta" }} />
                     <span className="font-semibold">
-                      reconductible pour 10€/an
+                      reconductible pour 12€/an
                     </span>
                   </span>
                 </li>
               </ul>
-              <a
-                href="#"
+              <Link to="/Contact"
                 className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-md text-sm px-5 py-2.5 text-center dark:text-white"
               >
                 C'est parti !
-              </a>
+              </Link>
             </div>
           </div>
         </Fade>

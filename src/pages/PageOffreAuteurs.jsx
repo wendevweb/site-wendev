@@ -194,6 +194,26 @@ const PageOffreAuteurs = () => {
             Offre premium
           </h4>
           <div className="lg:flex flex-row p-4 items-center ">
+            {/* FARAH D. */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://www.hebergeur-image.com/upload/88.174.47.6-64634645daedb.png"
+                alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
+                className="rounded-md w-96"
+              />
+              <a
+                href="https://www.farahdauteure.com"
+                alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                  Voir le site !
+                </button>
+              </a>
+            </div>
             {/* LUCY MENARD */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
@@ -258,8 +278,8 @@ const PageOffreAuteurs = () => {
         </section>
       </Fade>
       <Fade>
-      <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
-      <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+        <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
+          <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
             Prendre rendez-vous !
           </button>
         </div>
