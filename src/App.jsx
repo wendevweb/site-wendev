@@ -38,7 +38,6 @@ function App() {
           <Route path="/OffreFirebase" element={<PageOffreFirebase />} />
           <Route path="/OffrePortfolio" element={<PageOffrePortfolio />} />
           <Route path="/OffreChat" element={<PageOffreChat />} />
-          
           <Route path="/Fonctionnement" element={<PageFonctionnement />} />
           <Route path="/Entreprise" element={<Entreprise />} />
           <Route path="/Formation" element={<Formation />} />
