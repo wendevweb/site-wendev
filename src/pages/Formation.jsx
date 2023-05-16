@@ -4,7 +4,7 @@ import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import formation from "../assets/wendev-4.webp";
 import evogue from "../assets/evogue.webp";
-import wendev9 from '../assets/wendev-9.webp';
+import wendev9 from "../assets/wendev-9.webp";
 
 const Formation = () => {
   return (
@@ -14,11 +14,11 @@ const Formation = () => {
         <title>Formation | WenDev</title>
         <link href="https://wendev.fr/Formation" />
       </Helmet>
-        <section className="m-4 p-4">
-          <h2 className="text-center font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-pink">
-            Je suis aussi formatrice !
-          </h2>
-        </section>
+      <section className="m-4 p-4">
+        <h2 className="text-center font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-pink">
+          Je suis aussi formatrice !
+        </h2>
+      </section>
       <Fade>
         <div className="lg:grid grid-cols-2">
           <section className="m-6 p-6">
@@ -31,7 +31,7 @@ const Formation = () => {
             <img
               src={evogue}
               alt="Evogue formation, l'équipe des formateurs, consultants, collaborateurs qui vous renforce."
-              className="m-10 rounded-md shadow-md w-64"
+              className="m-10 rounded-md shadow-lg w-64"
             />
             <p className="font-quicksand text-light text-xl lg:p-10 leading-relaxed">
               Forte d'une expérience de{" "}
@@ -54,28 +54,28 @@ const Formation = () => {
               <strong className="text-bold  text-pinkDark">full remote</strong>.
             </p>
             <div className="lg:flex justify-center items-start">
-            <img src={wendev9} alt="" className="h-96"/>
-            <div className="grid justify-items-center lg:m-10">
-              <button className="mb-6 mt-6 w-56 border border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                <a
-                  href="https://www.evogue.fr/"
-                  alt="Redirection vers le site d'Evogue"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  En savoir plus sur Evogue
-                </a>
-              </button>
-              <Link to="/Contact">
-                <button
-                  className="w-56 border border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
-                  alt="Redirection vers la page du service de WenDev"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Des besoins en formation professionnelle ?
+              <img src={wendev9} alt="" className="h-96" />
+              <div className="grid justify-items-center lg:m-10">
+                <button className="mb-6 mt-6 w-56 bg-real shadow-lg font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                  <a
+                    href="https://www.evogue.fr/"
+                    alt="Redirection vers le site d'Evogue"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    En savoir plus sur Evogue
+                  </a>
                 </button>
-              </Link>
+                <Link to="/Contact">
+                  <button
+                    className="w-56 bg-real shadow-lg font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
+                    alt="Redirection vers la page du service de WenDev"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Des besoins en formation professionnelle ?
+                  </button>
+                </Link>
               </div>
             </div>
           </section>

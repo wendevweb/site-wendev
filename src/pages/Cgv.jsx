@@ -64,7 +64,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Les présentes conditions générales de vente (CGV) constituent
                   le socle de la négociation commerciale et sont
                   systématiquement adressées ou remises à chaque acheteur pour
@@ -108,7 +108,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   WenDev apporte le plus grand soin à la mise en ligne des
                   informations relatives aux caractéristiques essentielles des
                   produits au moyen notamment de descriptifs techniques émanant
@@ -150,7 +150,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Le Client déclare avoir la capacité de conclure le présent
                   contrat, c'est-à-dire avoir la majorité légale en France et ne
                   pas être sous tutelle, curatelle ou sauvegarde de justice.
@@ -197,7 +197,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Les produits sont proposés à la vente dans la limite des
                   stocks disponibles et des possibilités d’approvisionnement
                   auprès des fournisseurs de WenDev. La disponibilité des
@@ -243,7 +243,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Les prix de vente des produits mentionnés sur le Site sont
                   indiqués toutes taxes comprises, hors frais de port et
                   d’emballage sur les produits. Leur montant est en tout état de
@@ -284,7 +284,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Les tarifs proposés comprennent les rabais et remise que
                   WenDev serait amenée à octroyer compte tenu de ses résultats
                   ou de la prise en charge par l'acheteur de certaines
@@ -316,7 +316,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Aucun escompte ne sera consenti en cas de paiement anticipé.
                 </Disclosure.Panel>
               </Transition>
@@ -345,7 +345,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Le règlement des sommes due peuvent se faire : soit par carte
                   bancaire ; soit par virement bancaire ; le cas échéant,
                   indiquer les autres moyens de paiement acceptés (ex : Stripe).
@@ -381,7 +381,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   En cas de défaut de paiement total ou partiel des biens et/ou
                   services à l'échéance, il lui est notifier par une mise en
                   demeure de s'acquitter des sommes due et l'acheteur doit
@@ -423,7 +423,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Si dans les quinze jours qui suivent la mise en œuvre de la
                   clause "Retard de paiement", l'acheteur ne s'est pas acquitté
                   des sommes restant dues, la vente sera résolue de plein droit
@@ -458,7 +458,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   WenDev conserve les propriété des biens et services vendus
                   jusqu’au paiement intégral du prix, en principal et en
                   accessoires. À ce titre, si l’acheteur fait l’objet d’un
@@ -492,7 +492,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   La livraison est effectuée :<br />
                   ● soit par la remise directe par e-mail de la marchandise à
                   l'acheteur ;
@@ -534,7 +534,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   En application de l’article L221-20 du Code de la Consommation
                   le Client consommateur dispose d’un délai légal de rétraction
                   de 14 jours francs à compter de la date de réception des
@@ -603,7 +603,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   L’utilisation des produits sera réalisée sous la
                   responsabilité du Client.
                   <br />
@@ -662,7 +662,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   WenDev s’engage à réaliser les obligations définies dans la
                   commande.
                   <br />
@@ -743,7 +743,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Les garanties accordées sur les biens ou services vendus
                   correspondent strictement à celles qui nous ont été consenties
                   pour chaque type de produit par nos propres fournisseurs et
@@ -780,7 +780,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   WenDev perçoit, enregistre, change, utilise et transmet des
                   données personnelles des internautes dans le cadre de
                   l’exécution des commandes passées sur le Site, des relations
@@ -836,7 +836,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   La responsabilité de WenDev ne pourra pas être mise en cause
                   si la non-exécution ou le retard dans l’exécution de l’une des
                   obligations décrites dans les présentes conditions générales
@@ -871,7 +871,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Le présent contrat est assujetti au droit français. Tout
                   litige qui résulterait de son exécution sera soumis aux
                   tribunaux dont dépend le siège de l’association.
@@ -905,7 +905,7 @@ const Cgv = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   En application de l’article L.211-15 du Code de la
                   consommation, sont reproduits ci-après les articles L 211-4, L
                   211-5 et L 211-12 du Code de la consommation, ainsi que

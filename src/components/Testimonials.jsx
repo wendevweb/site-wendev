@@ -9,7 +9,7 @@ const Testimonials = () => {
         <div className="lg:m-10 p-6 bg-bg">
           <div className="lg:grid grid-cols-4 gap-x-2 m-2 p-2 ">
             {/* CARTE 1 */}
-            <div className="flex flex-col w-full max-w-sm rounded-lg shadow-md bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
                 <h5 className="text-l font-quicksand tracking-tight p-4 dark:text-white">
                   "Très heureuse de ma collaboration avec Wendy. Elle a été
@@ -79,7 +79,7 @@ const Testimonials = () => {
               </div>
             </div>
             {/* CARTE 2  */}
-            {/* <div className="flex flex-col w-full max-w-sm rounded-lg shadow-md bg-real transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            {/* <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
                 <h5 className="text-l font-quicksand tracking-tight p-4 dark:text-white">
                   " Aucune surprise pour ce livre de Wendy Baqué qui reste dans
@@ -149,7 +149,7 @@ const Testimonials = () => {
               </div>
             </div> */}
             {/* CARTE 3  */}
-            {/* <div className="flex flex-col w-full max-w-sm rounded-lg shadow-md bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            {/* <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
                 <h5 className="text-l font-quicksand tracking-tight p-4 dark:text-white">
                   " Ce livre est clairement un chef-d'œuvre. Qu'on l'aime ou
@@ -221,7 +221,7 @@ const Testimonials = () => {
               </div>
             </div> */}
             {/* CARTE 4 */}
-            {/* <div className="flex flex-col w-full max-w-sm rounded-lg shadow-md bg-real transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            {/* <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
                 <h5 className="text-l font-quicksand tracking-tight p-4 dark:text-white">
                   " J’ai eu le plaisir de découvrir une très belle histoire à

@@ -110,7 +110,7 @@ const PageOffrePortfolio = () => {
           <h3 className="text-pink text-2xl text-center mb-4">
             Un exemple ? Mon portfolio de dev.
           </h3>
-          <button className="w-56 bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-real">
+          <button className="w-56 bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-real">
             <a
               href="https://wendybaqueportfoliodev.wendev.fr/"
               alt="Redirection vers le portfolio de Wendy Baqué"

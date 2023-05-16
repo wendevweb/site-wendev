@@ -72,7 +72,7 @@ const Expertise = () => {
         {services.map((service) => (
           <div
             key={service.id}
-            className="lg:flex items-center	transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black bg-real rounded-lg shadow-md dark:border-black dark:bg-black dark:text-white"
+            className="lg:flex items-center	transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black bg-real rounded-lg shadow-lg dark:border-black dark:bg-black dark:text-white"
           >
             <img
               src={service.img}

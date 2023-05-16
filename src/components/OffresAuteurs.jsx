@@ -25,7 +25,7 @@ const OffresAuteurs = () => {
         <Fade>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {/* OFFRE 1 */}
-            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
+            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg dark:border-black xl:p-8 dark:bg-black dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold">Basic</h3>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">60€</span>
@@ -105,13 +105,13 @@ const OffresAuteurs = () => {
                 </li>
               </ul>
               <Link to="/Contact"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-md text-sm px-5 py-2.5 text-center dark:text-white"
+                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center dark:text-white"
               >
                 C'est parti !
               </Link>
             </div>
             {/* OFFRE 2 */}
-            <div className="bg-purpleDark text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
+            <div className="bg-purpleDark text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center rounded-md shadow-lg dark:border-black xl:p-8 dark:bg-black dark:text-white">
               <h3 className="mb-4 text-2xl text-pink font-semibold">Standard</h3>
               <div className="flex justify-center items-baseline my-8">
                 <span className="text-pink mr-2 text-5xl font-extrabold">90€</span>
@@ -215,13 +215,13 @@ const OffresAuteurs = () => {
                 </li>
               </ul>
               <Link to="/Contact"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-md text-sm px-5 py-2.5 text-center dark:text-white"
+                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center dark:text-white"
               >
                 C'est parti !
               </Link>
             </div>
             {/* OFFRE 3 */}
-            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-md dark:border-black xl:p-8 dark:bg-black dark:text-white">
+            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg dark:border-black xl:p-8 dark:bg-black dark:text-white">
               <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold">180€</span>
@@ -327,7 +327,7 @@ const OffresAuteurs = () => {
                 </li>
               </ul>
               <Link to="/Contact"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-md text-sm px-5 py-2.5 text-center dark:text-white"
+                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center dark:text-white"
               >
                 C'est parti !
               </Link>
@@ -337,7 +337,7 @@ const OffresAuteurs = () => {
       </div>
 
       <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
-        <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark hover:text-white">
+        <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
           {" "}
           <AutoFixHighIcon />
           Je suis auteur.e et j'ai une demande spéciale

@@ -101,9 +101,9 @@ const PageOffreChat = () => {
             src="https://www.hebergeur-image.com/upload/88.174.47.6-63f37d572d207.png"
             alt="Module Alerte"
             aria-label="Module Alerte"
-            className="rounded-md shadow-md w-1/2"
+            className="rounded-md shadow-lg w-1/2"
           />
-          <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+          <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark">
             <a
               href="https://module-alert-deploy.vercel.app/"
               alt="Redirection vers le Module Alerte"
@@ -118,9 +118,9 @@ const PageOffreChat = () => {
             src="https://www.hebergeur-image.com/upload/88.174.47.6-63c54257c354e.png"
             alt="Firebase Chat"
             aria-label="Firebase Chat"
-            className="rounded-md shadow-md w-1/2 mt-10"
+            className="rounded-md shadow-lg w-1/2 mt-10"
           />
-          <button className="w-64 border border-pinkDark bg-real font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+          <button className="w-64 border border-pinkDark bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark">
             <a
               href="https://firebase-chat-wendybaque.vercel.app/login"
               alt="Redirection vers FirebaseChat !"

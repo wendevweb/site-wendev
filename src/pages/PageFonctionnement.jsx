@@ -117,7 +117,7 @@ const PageFonctionnement = () => {
                     leaveFrom="transform scale-100 opacity-100"
                     leaveTo="transform scale-95 opacity-0"
                   >
-                    <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                    <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                       blablabla
                     </Disclosure.Panel>
                   </Transition>
@@ -147,7 +147,7 @@ const PageFonctionnement = () => {
                     leaveFrom="transform scale-100 opacity-100"
                     leaveTo="transform scale-95 opacity-0"
                   >
-                    <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                    <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                       Blablabla
                     </Disclosure.Panel>
                   </Transition>
@@ -178,7 +178,7 @@ const PageFonctionnement = () => {
                     leaveFrom="transform scale-100 opacity-100"
                     leaveTo="transform scale-95 opacity-0"
                   >
-                    <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                    <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                       Blablabla parce que ça arrive comme les technologies et
                       logiciels évoluent
                     </Disclosure.Panel>
@@ -210,7 +210,7 @@ const PageFonctionnement = () => {
                     leaveFrom="transform scale-100 opacity-100"
                     leaveTo="transform scale-95 opacity-0"
                   >
-                    <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                    <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                       Blablabla
                     </Disclosure.Panel>
                   </Transition>
@@ -242,7 +242,7 @@ const PageFonctionnement = () => {
                     leaveFrom="transform scale-100 opacity-100"
                     leaveTo="transform scale-95 opacity-0"
                   >
-                    <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                    <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                       Blablabla
                     </Disclosure.Panel>
                   </Transition>
@@ -274,7 +274,7 @@ const PageFonctionnement = () => {
                     leaveFrom="transform scale-100 opacity-100"
                     leaveTo="transform scale-95 opacity-0"
                   >
-                    <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                    <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                       Blablabla
                     </Disclosure.Panel>
                   </Transition>

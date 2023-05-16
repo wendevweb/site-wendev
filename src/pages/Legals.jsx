@@ -67,7 +67,7 @@ const Legals = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004
                   pour la confiance dans l'économie numérique, il est précisé
                   aux utilisateurs du site internet https://wendev.fr l'identité
@@ -116,7 +116,7 @@ const Legals = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Le site https://wendev.fr permet à l'Utilisateur un accès
                   gratuit aux services suivants : <br />
                   Le site internet propose les services suivants : <br />
@@ -189,7 +189,7 @@ const Legals = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   Le site utilise la technologie JavaScript. Le site Internet ne
                   pourra être tenu responsable de dommages matériels liés à
                   l’utilisation du site. De plus, l’utilisateur du site s’engage
@@ -244,7 +244,7 @@ const Legals = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   https://wendev.fr est propriétaire des droits de propriété
                   intellectuelle et détient les droits d’usage sur tous les
                   éléments accessibles sur le site internet, notamment les
@@ -288,7 +288,7 @@ const Legals = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   <p>
                     <a href="https://wendev.fr">https://wendev.fr</a> agit en
                     tant qu’éditeur du site.{" "}
@@ -356,7 +356,7 @@ const Legals = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   <p>
                     Le Client est informé des réglementations concernant la
                     communication marketing, la loi du 21 Juin 2014 pour la
@@ -597,7 +597,7 @@ const Legals = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   <p>
                     Quels que soient les efforts fournis, aucune méthode de
                     transmission sur Internet et aucune méthode de stockage
@@ -673,7 +673,7 @@ const Legals = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   <p>
                     Le site <a href="https://wendev.fr">https://wendev.fr</a>{" "}
                     contient un certain nombre de liens hypertextes vers
@@ -863,7 +863,7 @@ const Legals = () => {
                 leaveFrom="transform scale-100 opacity-100"
                 leaveTo="transform scale-95 opacity-0"
               >
-                <Disclosure.Panel className="bg-real rounded-md shadow-md p-4">
+                <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   <p>
                     Tout litige en relation avec l’utilisation du site{" "}
                     <a href="https://wendev.fr">https://wendev.fr</a> est soumis

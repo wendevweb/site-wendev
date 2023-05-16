@@ -16,7 +16,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 const PageAbout = () => {
   return (
-    <div className="lg:flex flex-col justify-items-center">
+    <div className="font-quicksand lg:flex flex-col justify-items-center">
       <Helmet>
         <meta charSet="utf-8" />
         <title>A propos | WenDev</title>
@@ -63,7 +63,7 @@ const PageAbout = () => {
             <img
               src={wendycolor}
               alt="Wendy Baqué"
-              className="rounded-full shadow-md w-96 mb-6"
+              className="rounded-full shadow-lg w-96 mb-6"
             />
             <p className="font-quicksand text-light leading-relaxed">
               Je suis <strong className="text-bold text-pinkDark">Wendy</strong>

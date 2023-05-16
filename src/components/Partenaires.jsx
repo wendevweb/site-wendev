@@ -53,7 +53,7 @@ const Partenaires = () => {
                 <img src={partner.logo} alt="Logo du partenaire de WenDev" />
                 <h3>{partner.name}</h3>
                 <p>{partner.service}</p>
-                <button className="border border-white font-bold rounded-md shadow-md mt-2 p-2 hover:bg-pinkDark">
+                <button className="border border-white font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark">
                   <a
                     href={partner.website}
                     alt="Redirection vers le site web du partenaire de WenDev"
