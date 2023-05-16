@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
+import ButtonFonctionnement from "../components/ButtonFonctionnement";
 import Interest from "../components/Interest";
 import projet1 from "../assets/projet1.webp";
 import projet2 from "../assets/projet2.webp";
@@ -63,13 +64,7 @@ const PageOffreSite = () => {
           <p className="text-center p-6">A venir... Stay tuned !😎</p>
         </section>
       </Fade>
-      <div className="flex justify-center">
-        <Link to="/Fonctionnement">
-          <button className="m-6 shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-            Comment se déroule un projet client avec WenDev ?
-          </button>
-        </Link>
-      </div>
+      <ButtonFonctionnement />
       <Fade>
         <section className="grid justify-items-center lg:m-10">
           <h3 className="text-pink text-2xl text-center">

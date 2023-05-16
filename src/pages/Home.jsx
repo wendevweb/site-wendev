@@ -6,9 +6,9 @@ import Slider from "../components/Slider";
 import Techno from "../components/Techno";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
-import { Link } from "react-router-dom";
 import WhiteBook from "../components/WhiteBook";
 import Testimonials from "../components/Testimonials";
+import ButtonFonctionnement from '../components/ButtonFonctionnement';
 
 const Home = () => {
   return (
@@ -19,13 +19,7 @@ const Home = () => {
         <link href="https://wendev.fr" />
       </Helmet>
       <Hero />
-      <div className="flex justify-center">
-        <Link to="/Fonctionnement">
-          <button className="m-6 shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-            Comment se déroule un projet client avec WenDev ?
-          </button>
-        </Link>
-      </div>
+      < ButtonFonctionnement />
       <WhiteBook />
       <Fade>
         <Expertise />

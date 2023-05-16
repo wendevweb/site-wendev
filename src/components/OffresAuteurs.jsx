@@ -3,8 +3,8 @@ import ClearIcon from "@mui/icons-material/Clear";
 import CheckIcon from "@mui/icons-material/Check";
 import AddIcon from "@mui/icons-material/Add";
 import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
-import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
+import ButtonFonctionnement from "./ButtonFonctionnement";
 
 // Based on : https://flowbite.com/blocks/marketing/pricing/
 
@@ -304,13 +304,7 @@ const OffresAuteurs = () => {
         </button>
       </div>
 
-      <div className="flex justify-center">
-        <Link to="/Fonctionnement">
-          <button className="m-6 shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-            Comment se déroule un projet client avec WenDev ?
-          </button>
-        </Link>
-      </div>
+      <ButtonFonctionnement />
     </section>
   );
 };

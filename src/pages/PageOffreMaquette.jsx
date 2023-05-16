@@ -1,8 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
-import { Link } from "react-router-dom";
-
+import ButtonFonctionnement from "../components/ButtonFonctionnement";
 import maquetteMood from "../assets/maquette-mood.webp";
 import prototypeMood from "../assets/prototype-mood.webp";
 import fedmind from "../assets/refonte-site-fedmind.webp";
@@ -147,13 +146,7 @@ const PageOffreMaquette = () => {
           </div>
         </section>
       </Fade>
-      <div className="flex justify-center">
-        <Link to="/Fonctionnement">
-          <button className="m-6 shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-            Comment se déroule un projet client avec WenDev ?
-          </button>
-        </Link>
-      </div>
+      <ButtonFonctionnement />
       <Fade>
         <section
           aria-label="Quelques exemples de maquettes réalisées par WenDev"
