@@ -193,7 +193,7 @@ const PageOffreAuteurs = () => {
           <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
             Offre premium
           </h4>
-          <div className="lg:flex flex-row p-4 items-center ">
+          <div className="lg:flex flex-row p-4 items-center mb-6">
             {/* FARAH D. */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
@@ -280,7 +280,10 @@ const PageOffreAuteurs = () => {
       <Fade>
         <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
           <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-            Prendre rendez-vous !
+            <a href="https://calendly.com/wendevweb/premier-rendez-vous"  alt="Redirection vers le portfolio de Wendy Baqué"
+              aria-label="Redirection vers la prise de rendez-vous"
+              rel="noreferrer"
+              target="_blank">Prendre rendez-vous !</a>
           </button>
         </div>
       </Fade>

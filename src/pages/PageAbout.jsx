@@ -65,7 +65,7 @@ const PageAbout = () => {
               alt="Wendy Baqué"
               className="rounded-full shadow-lg w-96 mb-6"
             />
-            <p className="font-quicksand text-light leading-relaxed">
+            <p className="font-quicksand text-xl leading-relaxed">
               Je suis <strong className="text-bold text-pinkDark">Wendy</strong>
               , fondatrice et gérante de ma micro-entreprise{" "}
               <strong className="text-bold text-pinkDark">WenDev</strong>,
@@ -98,7 +98,7 @@ const PageAbout = () => {
               alt="Le parcours professionnel de Wendy Baqué"
               aria-label="Le parcours professionnel de Wendy Baqué"
             />
-            <p className="font-quicksand text-light leading-relaxed">
+            <p className="font-quicksand text-xl leading-relaxed">
               J'ai toujours été attirée par les professions mettant{" "}
               <strong className="text-bold text-pinkDark">
                 l'humain au cœur des actes et des pratiques
@@ -145,7 +145,7 @@ const PageAbout = () => {
               alt="Les valeurs de Wendy Baqué"
               aria-label="Les valeurs de Wendy Baqué"
             />
-            <p className="font-quicksand text-light leading-relaxed">
+            <p className="font-quicksand text-xl leading-relaxed">
               ✨ Je suis une personne{" "}
               <strong className="text-bold text-pinkDark">rigoureuse</strong>,
               ce qui me permet de mener à bien mes projets et activités confiées
@@ -191,7 +191,7 @@ const PageAbout = () => {
               Je suis no code friendly ! Face à la demande croissante sur des
               outils de solutions en ligne clés en mains, je me suis formée au
               no-code et te propose des solutions pour augmenter ta productivité
-              et votre efficacité !
+              et ton efficacité !
             </p>
           </div>
         </section>
@@ -206,7 +206,7 @@ const PageAbout = () => {
           </h3>
           <div className="lg:grid grid-cols-2 gap-4">
             <div className="lg:flex">
-              <p className="font-quicksand text-light p-10 leading-relaxed">
+              <p className="font-quicksand text-xl p-10 leading-relaxed">
                 <strong className="text-bold text-2xl text-pinkDark">
                   Te proposer une solution numérique sur mesure
                 </strong>
@@ -234,7 +234,7 @@ const PageAbout = () => {
             </div>
 
             <div className="lg:flex">
-              <p className="font-quicksand text-light p-10 leading-relaxed">
+              <p className="font-quicksand text-xl p-10 leading-relaxed">
                 <strong className="text-bold text-2xl text-pinkDark">
                   Te présenter des offres adaptées à tes finances
                 </strong>{" "}
@@ -257,7 +257,7 @@ const PageAbout = () => {
               <img src={wendev10} alt="" className="w-64 h-64 p-4" />
             </div>
             <div className="lg:flex">
-              <p className="font-quicksand text-light p-10 leading-relaxed">
+              <p className="font-quicksand text-xl p-10 leading-relaxed">
                 <strong className="text-bold text-2xl text-pinkDark">
                   Etre une référence en création de sites web pour les auteurs
                   de livres
@@ -294,7 +294,7 @@ const PageAbout = () => {
               <img src={wenedv11} alt="" className="w-64 h-64 p-4" />
             </div>
             <div className="lg:flex">
-              <p className="font-quicksand text-light p-10 leading-relaxed">
+              <p className="font-quicksand text-xl p-10 leading-relaxed">
                 <strong className="text-bold text-2xl text-pinkDark">
                   Etre LE média d'information français sur le métier de
                   développeur web
@@ -357,7 +357,7 @@ const PageAbout = () => {
               aria-label="Les activités d'auteure de romans de WenDev"
             />
             <div>
-              <p className="font-quicksand text-light leading-relaxed">
+              <p className="font-quicksand text-xl leading-relaxed">
                 Je suis aussi également{" "}
                 <strong className="text-bold text-pinkDark">
                   auteure de 4 romans contemporains

@@ -180,10 +180,6 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en avant permanente sur mon site</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>1 à 3 modifications gratuites (si +, 5€ par modification)</span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -263,6 +259,10 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Menu de navigation</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>1 page de mentions légales aux normes RGPD </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -297,11 +297,11 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Menu de navigation</span>
+                  <span>Mise en avant permanente sur mon site</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mockups gratuits</span>
+                  <span>+200 Mockups gratuits</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
