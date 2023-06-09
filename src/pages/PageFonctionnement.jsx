@@ -43,7 +43,7 @@ const PageFonctionnement = () => {
                 <span className="font-bold text-pinkDark">Calendly</span>
               </a>{" "}
               à la date et à l'heure de ton choix (réunion en visio via Google
-              Meet, d'1/2h en général) pour discuter de ton prijet et voir
+              Meet, d'1/2h en général) pour discuter de ton projet et voir
               comment je peux le mettre en valeur avec une solution numérique
               sur mesure.
             </li>
