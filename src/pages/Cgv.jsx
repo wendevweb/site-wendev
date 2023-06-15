@@ -10,7 +10,7 @@ const Cgv = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>C.G.V. | WenDev</title>
-        <link href="https://wendev.fr/Cgv" />
+        <link href="https://www.wendev.fr/Cgv" />
       </Helmet>
       <h2 className="text-pink text-2xl text-center m-4">
         {" "}

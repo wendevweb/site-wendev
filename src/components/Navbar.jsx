@@ -13,6 +13,7 @@ const navigation = [
   { name: "Fonctionnement", href: "/Fonctionnement", current: false },
   { name: "Missions en entreprise", href: "/Entreprise", current: false },
   { name: "Formation", href: "/Formation", current: false },
+  { name: "Partenaires", href: "/Partenaires", current: false },
   { name: "Contact", href: "/Contact", current: false },
 ];
 
@@ -196,7 +197,7 @@ export default function Example() {
                   href={item.href}
                   className={classNames(
                     item.current
-                      ? "bg-gray-900 text-white"
+                      ? "bg-gray-900"
                       : "text-gray-300 hover:bg-black hover:text-white",
                     "block px-3 py-2 rounded-md text-base font-medium"
                   )}

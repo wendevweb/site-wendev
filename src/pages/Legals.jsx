@@ -10,7 +10,7 @@ const Legals = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>C.G.U. | WenDev</title>
-        <link href="https://wendev.fr/Legals" />
+        <link href="https://www.wendev.fr/Legals" />
       </Helmet>
       <h2 className="text-pink text-2xl text-center m-4">
         {" "}
@@ -23,13 +23,13 @@ const Legals = () => {
         civil, ou personne morale, qui visite le Site objet des présentes
         conditions générales. <br />
         <span className="font-bold">Prestations et Services :</span>{" "}
-        https://wendev.fr met à disposition des Clients : <br />
+        https://www.wendev.fr met à disposition des Clients : <br />
         <span className="font-bold">Contenu :</span> Ensemble des éléments
         constituants l’information présente sur le Site, notamment textes –
         images – vidéos. <br />
         <span className="font-bold">Informations clients :</span> Ci après
         dénommé « Information (s) » qui correspondent à l’ensemble des données
-        personnelles susceptibles d’être détenues par https://wendev.fr pour la
+        personnelles susceptibles d’être détenues par https://www.wendev.fr pour la
         gestion de votre compte, de la gestion de la relation client et à des
         fins d’analyses et de statistiques. <br />
         <span className="font-bold">Utilisateur : </span>Internaute se
@@ -70,7 +70,7 @@ const Legals = () => {
                 <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   En vertu de l'article 6 de la loi n° 2004-575 du 21 juin 2004
                   pour la confiance dans l'économie numérique, il est précisé
-                  aux utilisateurs du site internet https://wendev.fr l'identité
+                  aux utilisateurs du site internet https://www.wendev.fr l'identité
                   des différents intervenants dans le cadre de sa réalisation et
                   de son suivi:
                   <br /> Propriétaire : Micro-entreprise WenDev – 971 Route de
@@ -117,7 +117,7 @@ const Legals = () => {
                 leaveTo="transform scale-95 opacity-0"
               >
                 <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                  Le site https://wendev.fr permet à l'Utilisateur un accès
+                  Le site https://www.wendev.fr permet à l'Utilisateur un accès
                   gratuit aux services suivants : <br />
                   Le site internet propose les services suivants : <br />
                   <ul>
@@ -141,20 +141,20 @@ const Legals = () => {
                   en aucune manière réutiliser, céder ou exploiter pour son
                   propre compte tout ou partie des éléments ou travaux du Site.
                   <br />
-                  L’utilisation du site https://wendev.fr implique l’acceptation
+                  L’utilisation du site https://www.wendev.fr implique l’acceptation
                   pleine et entière des conditions générales d’utilisation
                   ci-après décrites. Ces conditions d’utilisation sont
                   susceptibles d’être modifiées ou complétées à tout moment, les
-                  utilisateurs du site https://wendev.fr sont donc invités à les
+                  utilisateurs du site https://www.wendev.fr sont donc invités à les
                   consulter de manière régulière.
                   <br />
                   Ce site internet est normalement accessible à tout moment aux
                   utilisateurs. Une interruption pour raison de maintenance
-                  technique peut être toutefois décidée par https://wendev.fr,
+                  technique peut être toutefois décidée par https://www.wendev.fr,
                   qui s’efforcera alors de communiquer préalablement aux
                   utilisateurs les dates et heures de l’intervention. Le site
-                  web https://wendev.fr est mis à jour régulièrement par
-                  https://wendev.fr responsable. De la même façon, les mentions
+                  web https://www.wendev.fr est mis à jour régulièrement par
+                  https://www.wendev.fr responsable. De la même façon, les mentions
                   légales peuvent être modifiées à tout moment : elles
                   s’imposent néanmoins à l’utilisateur qui est invité à s’y
                   référer le plus souvent possible afin d’en prendre
@@ -195,7 +195,7 @@ const Legals = () => {
                   l’utilisation du site. De plus, l’utilisateur du site s’engage
                   à accéder au site en utilisant un matériel récent, ne
                   contenant pas de virus et avec un navigateur de dernière
-                  génération mis-à-jour Le site https://wendev.fr est hébergé
+                  génération mis-à-jour Le site https://www.wendev.fr est hébergé
                   chez un prestataire sur le territoire de l’Union Européenne
                   conformément aux dispositions du Règlement Général sur la
                   Protection des Données (RGPD : n° 2016-679)
@@ -210,7 +210,7 @@ const Legals = () => {
                   ou si les Prestations et Services génèrent un trafic réputé
                   anormal.
                   <br />
-                  https://wendev.fr et l’hébergeur ne pourront être tenus
+                  https://www.wendev.fr et l’hébergeur ne pourront être tenus
                   responsables en cas de dysfonctionnement du réseau Internet,
                   des lignes téléphoniques ou du matériel informatique et de
                   téléphonie lié notamment à l’encombrement du réseau empêchant
@@ -245,14 +245,14 @@ const Legals = () => {
                 leaveTo="transform scale-95 opacity-0"
               >
                 <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                  https://wendev.fr est propriétaire des droits de propriété
+                  https://www.wendev.fr est propriétaire des droits de propriété
                   intellectuelle et détient les droits d’usage sur tous les
                   éléments accessibles sur le site internet, notamment les
                   textes, images, graphismes, logos, vidéos, icônes et sons.
                   Toute reproduction, représentation, modification, publication,
                   adaptation de tout ou partie des éléments du site, quel que
                   soit le moyen ou le procédé utilisé, est interdite, sauf
-                  autorisation écrite préalable de : https://wendev.fr.
+                  autorisation écrite préalable de : https://www.wendev.fr.
                   <br />
                   Toute exploitation non autorisée du site ou de l’un quelconque
                   des éléments qu’il contient sera considérée comme constitutive
@@ -290,37 +290,37 @@ const Legals = () => {
               >
                 <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   <p>
-                    <a href="https://wendev.fr">https://wendev.fr</a> agit en
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> agit en
                     tant qu’éditeur du site.{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> est
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> est
                     responsable de la qualité et de la véracité du Contenu qu’il
                     publie.{" "}
                   </p>
 
                   <p>
-                    <a href="https://wendev.fr">https://wendev.fr</a> ne pourra
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> ne pourra
                     être tenu responsable des dommages directs et indirects
                     causés au matériel de l’utilisateur, lors de l’accès au site
-                    internet <a href="https://wendev.fr">https://wendev.fr</a>,
+                    internet <a href="https://www.wendev.fr">https://www.wendev.fr</a>,
                     et résultant soit de l’utilisation d’un matériel ne
                     répondant pas aux spécifications indiquées au point 4, soit
                     de l’apparition d’un bug ou d’une incompatibilité.
                   </p>
 
                   <p>
-                    <a href="https://wendev.fr">https://wendev.fr</a> ne pourra
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> ne pourra
                     également être tenu responsable des dommages indirects (tels
                     par exemple qu’une perte de marché ou perte d’une chance)
                     consécutifs à l’utilisation du site{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>. Des
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>. Des
                     espaces interactifs (possibilité de poser des questions dans
                     l’espace contact) sont à la disposition des utilisateurs.{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> se réserve
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> se réserve
                     le droit de supprimer, sans mise en demeure préalable, tout
                     contenu déposé dans cet espace qui contreviendrait à la
                     législation applicable en France, en particulier aux
                     dispositions relatives à la protection des données. Le cas
-                    échéant, <a href="https://wendev.fr">https://wendev.fr</a>{" "}
+                    échéant, <a href="https://www.wendev.fr">https://www.wendev.fr</a>{" "}
                     se réserve également la possibilité de mettre en cause la
                     responsabilité civile et/ou pénale de l’utilisateur,
                     notamment en cas de message à caractère raciste, injurieux,
@@ -372,12 +372,12 @@ const Legals = () => {
                     création du compte personnel de l’Utilisateur et de sa
                     navigation sur le Site, le responsable du traitement des
                     Données Personnelles est : WenDev.{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>est
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>est
                     représenté par Wendy Baqué, son représentant légal
                   </p>
                   <p>
                     En tant que responsable du traitement des données qu’il
-                    collecte, <a href="https://wendev.fr">https://wendev.fr</a>{" "}
+                    collecte, <a href="https://www.wendev.fr">https://www.wendev.fr</a>{" "}
                     s’engage à respecter le cadre des dispositions légales en
                     vigueur. Il lui appartient notamment au Client d’établir les
                     finalités de ses traitements de données, de fournir à ses
@@ -385,20 +385,20 @@ const Legals = () => {
                     consentements, une information complète sur le traitement de
                     leurs données personnelles et de maintenir un registre des
                     traitements conforme à la réalité. Chaque fois que{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> traite des
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> traite des
                     Données Personnelles,{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> prend
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> prend
                     toutes les mesures raisonnables pour s’assurer de
                     l’exactitude et de la pertinence des Données Personnelles au
                     regard des finalités pour lesquelles{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> les
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> les
                     traite.
                   </p>
                   <h3 className="font-bold p-4">
                     7.2 Finalité des données collectées
                   </h3>
                   <p>
-                    <a href="https://wendev.fr">https://wendev.fr</a> est
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> est
                     susceptible de traiter tout ou partie des données :{" "}
                   </p>
                   <ul>
@@ -422,7 +422,7 @@ const Legals = () => {
 
                     <li>
                       pour mener des enquêtes de satisfaction facultatives sur{" "}
-                      <a href="https://wendev.fr">https://wendev.fr</a> :
+                      <a href="https://www.wendev.fr">https://www.wendev.fr</a> :
                       adresse email{" "}
                     </li>
                     <li>
@@ -431,7 +431,7 @@ const Legals = () => {
                     </li>
                   </ul>
                   <p>
-                    <a href="https://wendev.fr">https://wendev.fr</a> ne
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> ne
                     commercialise pas vos données personnelles qui sont donc
                     uniquement utilisées par nécessité ou à des fins
                     statistiques et d’analyses.
@@ -442,7 +442,7 @@ const Legals = () => {
                   <p>
                     Conformément à la réglementation européenne en vigueur, les
                     Utilisateurs de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> disposent
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> disposent
                     des droits suivants :{" "}
                   </p>
                   <ul>
@@ -482,26 +482,26 @@ const Legals = () => {
                     <li>
                       droit de définir le sort des données des Utilisateurs
                       après leur mort et de choisir à qui{" "}
-                      <a href="https://wendev.fr">https://wendev.fr</a> devra
+                      <a href="https://www.wendev.fr">https://www.wendev.fr</a> devra
                       communiquer (ou non) ses données à un tiers qu’ils aura
                       préalablement désigné
                     </li>
                   </ul>
                   <p>
-                    Dès que <a href="https://wendev.fr">https://wendev.fr</a> a
+                    Dès que <a href="https://www.wendev.fr">https://www.wendev.fr</a> a
                     connaissance du décès d’un Utilisateur et à défaut
                     d’instructions de sa part,{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> s’engage à
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> s’engage à
                     détruire ses données, sauf si leur conservation s’avère
                     nécessaire à des fins probatoires ou pour répondre à une
                     obligation légale.
                   </p>
                   <p>
                     Si l’Utilisateur souhaite savoir comment{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> utilise
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> utilise
                     ses Données Personnelles, demander à les rectifier ou
                     s’oppose à leur traitement, l’Utilisateur peut contacter{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> par écrit
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> par écrit
                     à l’adresse suivante :{" "}
                   </p>
                   WenDev – DPO, Wendy Baqué <br />
@@ -509,7 +509,7 @@ const Legals = () => {
                   <p>
                     Dans ce cas, l’Utilisateur doit indiquer les Données
                     Personnelles qu’il souhaiterait que{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> corrige,
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> corrige,
                     mette à jour ou supprime, en s’identifiant précisément avec
                     une copie d’une pièce d’identité (carte d’identité ou
                     passeport).{" "}
@@ -517,10 +517,10 @@ const Legals = () => {
                   <p>
                     Les demandes de suppression de Données Personnelles seront
                     soumises aux obligations qui sont imposées à{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> par la
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> par la
                     loi, notamment en matière de conservation ou d’archivage des
                     documents. Enfin, les Utilisateurs de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> peuvent
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> peuvent
                     déposer une réclamation auprès des autorités de contrôle, et
                     notamment de la CNIL (https://www.cnil.fr/fr/plaintes).
                   </p>
@@ -528,35 +528,35 @@ const Legals = () => {
                     7.4 Non-communication des données personnelles
                   </h3>
                   <p>
-                    <a href="https://wendev.fr">https://wendev.fr</a> s’interdit
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> s’interdit
                     de traiter, héberger ou transférer les Informations
                     collectées sur ses Clients vers un pays situé en dehors de
                     l’Union européenne ou reconnu comme « non adéquat » par la
                     Commission européenne sans en informer préalablement le
                     client. Pour autant,{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> reste
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> reste
                     libre du choix de ses sous-traitants techniques et
                     commerciaux à la condition qu’il présentent les garanties
                     suffisantes au regard des exigences du Règlement Général sur
                     la Protection des Données (RGPD : n° 2016-679).
                   </p>
                   <p>
-                    <a href="https://wendev.fr">https://wendev.fr</a> s’engage à
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> s’engage à
                     prendre toutes les précautions nécessaires afin de préserver
                     la sécurité des Informations et notamment qu’elles ne soient
                     pas communiquées à des personnes non autorisées. Cependant,
                     si un incident impactant l’intégrité ou la confidentialité
                     des Informations du Client est portée à la connaissance de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>, celle-ci
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>, celle-ci
                     devra dans les meilleurs délais informer le Client et lui
                     communiquer les mesures de corrections prises. Par ailleurs{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> ne
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> ne
                     collecte aucune « données sensibles ».
                   </p>
                   <p>
                     Les Données Personnelles de l’Utilisateur peuvent être
                     traitées par des filiales de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> et des
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> et des
                     sous-traitants (prestataires de services), exclusivement
                     afin de réaliser les finalités de la présente politique.
                   </p>
@@ -564,7 +564,7 @@ const Legals = () => {
                     Dans la limite de leurs attributions respectives et pour les
                     finalités rappelées ci-dessus, les principales personnes
                     susceptibles d’avoir accès aux données des Utilisateurs de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> sont
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> sont
                     principalement les agents de notre service client.
                   </p>
                   <div ng-bind-html="rgpdHTML"></div>
@@ -616,29 +616,29 @@ const Legals = () => {
                   </p>
                   <p>
                     Aucune information personnelle de l'utilisateur du site{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> n'est
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> n'est
                     publiée à l'insu de l'utilisateur, échangée, transférée,
                     cédée ou vendue sur un support quelconque à des tiers. Seule
                     l'hypothèse du rachat de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> et de ses
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> et de ses
                     droits permettrait la transmission des dites informations à
                     l'éventuel acquéreur qui serait à son tour tenu de la même
                     obligation de conservation et de modification des données
                     vis à vis de l'utilisateur du site{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>.
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>.
                   </p>
                   <h3>Sécurité</h3>
                   <p>
                     Pour assurer la sécurité et la confidentialité des Données
                     Personnelles et des Données Personnelles de Santé,{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> utilise
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> utilise
                     des réseaux protégés par des dispositifs standards tels que
                     par pare-feu, la pseudonymisation, l’encryption et mot de
                     passe.{" "}
                   </p>
                   <p>
                     Lors du traitement des Données Personnelles,{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>prend
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>prend
                     toutes les mesures raisonnables visant à les protéger contre
                     toute perte, utilisation détournée, accès non autorisé,
                     divulgation, altération ou destruction.
@@ -675,11 +675,11 @@ const Legals = () => {
               >
                 <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   <p>
-                    Le site <a href="https://wendev.fr">https://wendev.fr</a>{" "}
+                    Le site <a href="https://www.wendev.fr">https://www.wendev.fr</a>{" "}
                     contient un certain nombre de liens hypertextes vers
                     d’autres sites, mis en place avec l’autorisation de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>.
-                    Cependant, <a href="https://wendev.fr">https://wendev.fr</a>{" "}
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>.
+                    Cependant, <a href="https://www.wendev.fr">https://www.wendev.fr</a>{" "}
                     n’a pas la possibilité de vérifier le contenu des sites
                     ainsi visités, et n’assumera en conséquence aucune
                     responsabilité de ce fait.
@@ -704,12 +704,12 @@ const Legals = () => {
                     d’endommager le terminal de l’Utilisateur.
                   </p>
                   <p>
-                    <a href="https://wendev.fr">https://wendev.fr</a> est
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> est
                     susceptible de traiter les informations de l’Utilisateur
                     concernant sa visite du Site, telles que les pages
                     consultées, les recherches effectuées. Ces informations
                     permettent à{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>{" "}
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>{" "}
                     d’améliorer le contenu du Site, de la navigation de
                     l’Utilisateur.
                   </p>
@@ -725,7 +725,7 @@ const Legals = () => {
                     le refus des Cookies lui soient proposés ponctuellement,
                     avant qu’un Cookie soit susceptible d’être enregistré dans
                     son terminal.{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> informe
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> informe
                     l’Utilisateur que, dans ce cas, il se peut que les
                     fonctionnalités de son logiciel de navigation ne soient pas
                     toutes disponibles.
@@ -736,7 +736,7 @@ const Legals = () => {
                     ceux qui y sont enregistrés, l’Utilisateur est informé que
                     sa navigation et son expérience sur le Site peuvent être
                     limitées. Cela pourrait également être le cas lorsque{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> ou l’un de
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> ou l’un de
                     ses prestataires ne peut pas reconnaître, à des fins de
                     compatibilité technique, le type de navigateur utilisé par
                     le terminal, les paramètres de langue et d’affichage ou le
@@ -744,14 +744,14 @@ const Legals = () => {
                   </p>
                   <p>
                     Le cas échéant,{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> décline
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> décline
                     toute responsabilité pour les conséquences liées au
                     fonctionnement dégradé du Site et des services
                     éventuellement proposés par{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>, résultant
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>, résultant
                     (i) du refus de Cookies par l’Utilisateur (ii) de
                     l’impossibilité pour{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>{" "}
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>{" "}
                     d’enregistrer ou de consulter les Cookies nécessaires à leur
                     fonctionnement du fait du choix de l’Utilisateur. Pour la
                     gestion des Cookies et des choix de l’Utilisateur, la
@@ -763,7 +763,7 @@ const Legals = () => {
                   <p>
                     À tout moment, l’Utilisateur peut faire le choix d’exprimer
                     et de modifier ses souhaits en matière de Cookies.{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> pourra en
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> pourra en
                     outre faire appel aux services de prestataires externes pour
                     l’aider à recueillir et traiter les informations décrites
                     dans cette section.
@@ -772,11 +772,11 @@ const Legals = () => {
                     Enfin, en cliquant sur les icônes dédiées aux réseaux
                     sociaux Twitter, Facebook, Linkedin et Google Plus figurant
                     sur le Site de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> ou dans
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> ou dans
                     son application mobile et si l’Utilisateur a accepté le
                     dépôt de cookies en poursuivant sa navigation sur le Site
                     Internet ou l’application mobile de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>, Twitter,
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>, Twitter,
                     Facebook, Linkedin et Google Plus peuvent également déposer
                     des cookies sur vos terminaux (ordinateur, tablette,
                     téléphone portable).
@@ -785,17 +785,17 @@ const Legals = () => {
                     Ces types de cookies ne sont déposés sur vos terminaux qu’à
                     condition que vous y consentiez, en continuant votre
                     navigation sur le Site Internet ou l’application mobile de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>. À tout
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>. À tout
                     moment, l’Utilisateur peut néanmoins revenir sur son
                     consentement à ce que{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> dépose ce
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> dépose ce
                     type de cookies.
                   </p>
                   <h3 className="font-bold p-4">
                     Article 9.2. BALISES (“TAGS”) INTERNET
                   </h3>
                   <p>
-                    <a href="https://wendev.fr">https://wendev.fr</a> peut
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> peut
                     employer occasionnellement des balises Internet (également
                     appelées « tags », ou balises d’action, GIF à un pixel, GIF
                     transparents, GIF invisibles et GIF un à un) et les déployer
@@ -811,7 +811,7 @@ const Legals = () => {
                   </p>
                   <p>
                     Cette technologie permet à{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> d’évaluer
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> d’évaluer
                     les réponses des visiteurs face au Site et l’efficacité de
                     ses actions (par exemple, le nombre de fois où une page est
                     ouverte et les informations consultées), ainsi que
@@ -822,7 +822,7 @@ const Legals = () => {
                     informations sur les visiteurs du Site et d’autres sites
                     Internet grâce à ces balises, constituer des rapports sur
                     l’activité du Site à l’attention de{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a>, et
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a>, et
                     fournir d’autres services relatifs à l’utilisation de
                     celui-ci et d’Internet.
                   </p>
@@ -830,7 +830,7 @@ const Legals = () => {
                   <h2>10. Droit applicable et attribution de juridiction.</h2>
                   <p>
                     Tout litige en relation avec l’utilisation du site{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> est soumis
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> est soumis
                     au droit français. En dehors des cas où la loi ne le permet
                     pas, il est fait attribution exclusive de juridiction aux
                     tribunaux compétents de Tours
@@ -866,7 +866,7 @@ const Legals = () => {
                 <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                   <p>
                     Tout litige en relation avec l’utilisation du site{" "}
-                    <a href="https://wendev.fr">https://wendev.fr</a> est soumis
+                    <a href="https://www.wendev.fr">https://www.wendev.fr</a> est soumis
                     au droit français. En dehors des cas où la loi ne le permet
                     pas, il est fait attribution exclusive de juridiction aux
                     tribunaux compétents de Tours.

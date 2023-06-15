@@ -20,7 +20,7 @@ const PageAbout = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>A propos | WenDev</title>
-        <link href="https://wendev.fr/About" />
+        <link href="https://www.wendev.fr/About" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div

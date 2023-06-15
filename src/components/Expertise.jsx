@@ -30,20 +30,13 @@ const Expertise = () => {
       desc: "Tu souhaites que tes utilisateurs s'authentifient sur ton application ou ton site internet de manière sécurisée ? Grâce à Firebase, je te propose une solution clefs en mains !",
       link: "/OffreFirebase",
     },
-    {
-      id: 5,
-      title: "Création d'application mobile avec Glide",
-      img: "https://cdn.pixabay.com/photo/2015/07/03/17/23/iphone-830480_960_720.jpg",
-      desc: "Une application mobile est le must have pour ton entreprise ou pour ta marque ! Et tout cela, sans base de données à construire. Je transforme ton tableur Google Sheet ou Airtable en application pour mobile.",
-      link: "/OffreGlide",
-    },
-    {
-      id: 6,
-      title: "Paramétrage et modélisation de bases de données MySQL",
-      img: "https://images.pexels.com/photos/10325707/pexels-photo-10325707.png?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      desc: "Tu souhaites avoir une base de données claire, avec des tables de jointures et des relations correctement paramétrées et modélisées ? Voici l'offre qu'il te faut, grâce à MySQL et la méthode MERISE.",
-      link: "/OffreMysql",
-    },
+    // {
+    //   id: 5,
+    //   title: "Création d'application mobile avec Glide",
+    //   img: "https://cdn.pixabay.com/photo/2015/07/03/17/23/iphone-830480_960_720.jpg",
+    //   desc: "Une application mobile est le must have pour ton entreprise ou pour ta marque ! Et tout cela, sans base de données à construire. Je transforme ton tableur Google Sheet ou Airtable en application pour mobile.",
+    //   link: "/OffreGlide",
+    // },
 
     {
       id: 7,

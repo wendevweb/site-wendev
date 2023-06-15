@@ -16,7 +16,7 @@ const PageOffreSite = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre création de sites internet | WenDev</title>
-        <link href="https://wendev.fr/OffreSite" />
+        <link href="https://www.wendev.fr/OffreSite" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
         <div

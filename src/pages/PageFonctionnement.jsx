@@ -14,7 +14,7 @@ const PageFonctionnement = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Fonctionnement | WenDev</title>
-        <link href="https://wendev.fr/Fonctionnement" />
+        <link href="https://www.wendev.fr/Fonctionnement" />
       </Helmet>
       <section className="m-4 p-4">
         <h2 className="text-center font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-pink">

@@ -12,7 +12,7 @@ const Formation = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Formation | WenDev</title>
-        <link href="https://wendev.fr/Formation" />
+        <link href="https://www.wendev.fr/Formation" />
       </Helmet>
       <section className="m-4 p-4">
         <h2 className="text-center font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-pink">

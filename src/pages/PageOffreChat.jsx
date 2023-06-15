@@ -71,7 +71,7 @@ const PageOffreChat = () => {
       <ButtonFonctionnement />
       <Fade>
         <section>
-          <h3 className="text-pink text-2xl text-center mb-6">Tarifs</h3>
+          {" "}
           <div className="lg:grid grid-cols-1">
             <h3 className="text-pink text-2xl text-center mb-4">
               Un petit mot sur mes tarifs...{" "}
@@ -98,12 +98,12 @@ const PageOffreChat = () => {
           {/* <img src={wendev16} alt="" className="w-fit"/> */}
 
           <img
-            src="https://www.hebergeur-image.com/upload/88.174.47.6-63f37d572d207.png"
+            src="https://i.goopics.net/f7mwpn.png"
             alt="Module Alerte"
             aria-label="Module Alerte"
             className="rounded-md shadow-lg w-1/2"
           />
-          <button className="w-56 border border-pinkDark bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark">
+          <button className="w-56 bg-real font-bold rounded-md shadow-lg mt-6 p-2 hover:bg-pinkDark hover:text-real">
             <a
               href="https://module-alert-deploy.vercel.app/"
               alt="Redirection vers le Module Alerte"
@@ -112,23 +112,6 @@ const PageOffreChat = () => {
               target="_blank"
             >
               Teste en live !
-            </a>
-          </button>
-          <img
-            src="https://www.hebergeur-image.com/upload/88.174.47.6-63c54257c354e.png"
-            alt="Firebase Chat"
-            aria-label="Firebase Chat"
-            className="rounded-md shadow-lg w-1/2 mt-10"
-          />
-          <button className="w-64 border border-pinkDark bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark">
-            <a
-              href="https://firebase-chat-wendybaque.vercel.app/login"
-              alt="Redirection vers FirebaseChat !"
-              aria-label="Redirection vers FirebaseChat !"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Teste en live ! (droits requis)
             </a>
           </button>
         </section>

@@ -20,6 +20,7 @@ import PageOffreChat from "./pages/PageOffreChat";
 import Entreprise from "./pages/Entreprise";
 import Formation from "./pages/Formation";
 import PageFonctionnement from "./pages/PageFonctionnement";
+import Partenaires from './pages/Partenaires';
 
 
 function App() {
@@ -41,6 +42,7 @@ function App() {
           <Route path="/Fonctionnement" element={<PageFonctionnement />} />
           <Route path="/Entreprise" element={<Entreprise />} />
           <Route path="/Formation" element={<Formation />} />
+          <Route path="/Partenaires" element={<Partenaires />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Legals" element={<Legals />} />
           <Route path="/Cgv" element={<Cgv />} />

@@ -10,7 +10,7 @@ const PageOffreAuteurs = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre spéciale auteurs | WenDev</title>
-        <link href="https://wendev.fr/Offreauteurs" />
+        <link href="https://www.wendev.fr/Offreauteurs" />
       </Helmet>
 
       <section aria-label="Titre et présentation du service">
@@ -65,7 +65,7 @@ const PageOffreAuteurs = () => {
             <div className="lg:flex flex-col p-4 items-center ">
               {/* JEROME MULLER */}
               <img
-                src="https://www.hebergeur-image.com/upload/88.174.47.6-64255076ad0c3.png"
+                src="https://i.goopics.net/t8qp4y.png"
                 alt="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
                 aria-label="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
@@ -85,7 +85,7 @@ const PageOffreAuteurs = () => {
             {/* LUC HORLA */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://www.hebergeur-image.com/upload/88.174.47.6-642553a178d5e.png"
+                src="https://i.goopics.net/lxccuk.png"
                 alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
                 aria-label="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
@@ -105,7 +105,7 @@ const PageOffreAuteurs = () => {
             {/* TOMAS CARLIER */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://www.hebergeur-image.com/upload/88.174.47.6-6425548c59b1e.png"
+                src="https://i.goopics.net/7s7i56.png"
                 alt="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
                 aria-label="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
@@ -131,7 +131,7 @@ const PageOffreAuteurs = () => {
             {/* HONORE SAINT HILAIRE */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://www.hebergeur-image.com/upload/88.174.47.6-642555073fad8.png"
+                src="https://i.goopics.net/s0fo8g.png"
                 alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
                 aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
                 className="rounded-md"
@@ -151,7 +151,7 @@ const PageOffreAuteurs = () => {
             {/* DOM TERRENCE */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://www.hebergeur-image.com/upload/88.174.47.6-642555876030f.png"
+                src="https://i.goopics.net/lbuaht.png"
                 alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
                 aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
                 className="rounded-md"
@@ -171,7 +171,7 @@ const PageOffreAuteurs = () => {
             {/* OCEANE GOUSSE */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://www.hebergeur-image.com/upload/88.174.47.6-6425573bde2a7.png"
+                src="https://i.goopics.net/2tl6bf.png"
                 alt="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
                 aria-label="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
                 className="rounded-md"
@@ -197,7 +197,7 @@ const PageOffreAuteurs = () => {
             {/* FARAH D. */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://www.hebergeur-image.com/upload/88.174.47.6-64634645daedb.png"
+                src="https://i.goopics.net/gb2alk.png"
                 alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
                 className="rounded-md w-96"
@@ -214,7 +214,27 @@ const PageOffreAuteurs = () => {
                 </button>
               </a>
             </div>
-            {/* LUCY MENARD */}
+             {/* ALEXANDRA ROCH*/}
+             <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src="https://i.goopics.net/pbowtq.png"
+                alt="Site internet d'alexandra Roch, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
+                className="rounded-md w-96"
+              />
+              <a
+                href="https://www.alexandraroch.com/"
+                alt="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                  Voir le site !
+                </button>
+              </a>
+            </div>
+            {/* LUCY MENARD
             <div className="lg:flex flex-col p-4 items-center ">
               <img
                 src="https://www.hebergeur-image.com/upload/88.174.47.6-64255808be2ac.png"
@@ -233,11 +253,11 @@ const PageOffreAuteurs = () => {
                   Voir le site !
                 </button>
               </a>
-            </div>
+            </div> */}
             {/* GREGORY HENRI */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://www.hebergeur-image.com/upload/88.174.47.6-6425585067e24.png"
+                src="https://i.goopics.net/vp65lb.png"
                 alt="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
                 aria-label="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
                 className="rounded-md"
@@ -257,7 +277,7 @@ const PageOffreAuteurs = () => {
             {/* NATHALIE BEAULAC */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://www.hebergeur-image.com/upload/88.174.47.6-642558925e51e.png"
+                src="https://i.goopics.net/kbvo6m.png"
                 alt="Site internet fictif de Nathalie Beaulac pour illustrer l'offre premium de WenDev"
                 aria-label="Site internet fictif de Nathalie Beaulac pour illustrer l'offre premium de WenDev"
                 className="rounded-md"

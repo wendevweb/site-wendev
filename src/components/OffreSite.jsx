@@ -249,11 +249,11 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                 <ClearIcon style={{ color: "red" }} />
-                  <span>Maquette</span>
+                  <span>Pas de maquette</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Code source</span>
+                  <span>Pas de code source</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />

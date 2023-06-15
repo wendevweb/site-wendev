@@ -10,7 +10,7 @@ const PageOffreFirebase = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre Firebase | WenDev</title>
-        <link href="https://wendev.fr/OffreFirebase" />
+        <link href="https://www.wendev.fr/OffreFirebase" />
       </Helmet>
 
       <section aria-label="Titre et présentation du service">
