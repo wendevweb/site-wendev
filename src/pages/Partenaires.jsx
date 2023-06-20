@@ -31,6 +31,15 @@ const Partenaires = () => {
       img: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=144,h=144,fit=crop/mv0LN7ebOPipRqNq/logo_noir-removebg-preview-AMq27aX1WwFE7DKJ.png",
       link: "https://www.farahdauteure.com/avis-prestation-beta-lectureresume",
     },
+    {
+      id: 4,
+      name: "Annuaire Auto-édités",
+      title: "Répertoire des auteurs et des livres en auto-édition",
+      descr:
+        "Ce site a été créé dans le but de référencer les auteurs auto-édités, afin de leur donner un peu plus de visibilité. Vous y trouverez des fiches auteurs ainsi que des fiches livres que vous pourrez noter et commenter. Vous pourrez aussi gérer votre collection de livres d’auteurs auto-édités et utiliser des fonctionnalités telles que : Marquer un livre comme lu, Ajouter un livre à ses envies, Ajouter un livre à ses favoris, Ajouter un auteur à ses favoris. Bénéficiez d'une réduction de -10% sur mes offres de services aux auteurs en étant référencé sur ce site.",
+      img: "https://annuaire-auto-edites.johnlucas.fr/wp-content/uploads/2021/02/logo.png",
+      link: "https://annuaire-auto-edites.johnlucas.fr/",
+    },
   ];
   return (
     <div>
@@ -50,7 +59,7 @@ const Partenaires = () => {
         </p>
       </section>
       <Fade>
-        <section className="m-4 p-4 lg:flex font-quicksand">
+        <section className="m-4 p-4 font-quicksand lg:grid grid-cols-3 gap-4">
           {partenaires.map((partenaire) => (
             <div
               key={partenaire.id}
@@ -58,7 +67,7 @@ const Partenaires = () => {
             >
               <img
                 src={partenaire.img}
-                alt="Illustration du service de WenDev"
+                alt="Logo du partenaire"
                 className="h-56"
               />
               <h4 className="font-bold text-pink text-xl p-4">
@@ -67,11 +76,11 @@ const Partenaires = () => {
               <p className="p-6">{partenaire.descr}</p>
               <button
                 className="w-40 m-4 border border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
-                alt="Redirection vers la page du service de WenDev"
-                
+                alt="Redirection vers la page du partenaire"
               >
-                <a href={partenaire.link} target="_blank"
-                rel="noreferrer">En savoir plus...</a>
+                <a href={partenaire.link} target="_blank" rel="noreferrer">
+                  En savoir plus...
+                </a>
               </button>
             </div>
           ))}

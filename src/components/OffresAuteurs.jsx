@@ -2,7 +2,6 @@ import React from "react";
 import ClearIcon from "@mui/icons-material/Clear";
 import CheckIcon from "@mui/icons-material/Check";
 import AddIcon from "@mui/icons-material/Add";
-import AutoFixHighIcon from "@mui/icons-material/AutoFixHigh";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
@@ -335,15 +334,6 @@ const OffresAuteurs = () => {
           </div>
         </Fade>
       </div>
-
-      <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
-        <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-          {" "}
-          <AutoFixHighIcon />
-          Je suis auteur.e et j'ai une demande spéciale
-        </button>
-      </div>
-
       <ButtonFonctionnement />
     </section>
   );

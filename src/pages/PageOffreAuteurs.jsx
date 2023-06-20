@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import OffresAuteurs from "../components/OffresAuteurs";
 import WhiteBook from "../components/WhiteBook";
+import RedeemIcon from "@mui/icons-material/Redeem";
 
 const PageOffreAuteurs = () => {
   return (
@@ -54,6 +55,21 @@ const PageOffreAuteurs = () => {
       <Fade>
         <WhiteBook />
       </Fade>
+      <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
+        <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+          {" "}
+          <RedeemIcon />
+          <a
+            href="https://annuaire-auto-edites.johnlucas.fr/partenaires/"
+            alt="Redirection vers l'annuaire Auto-édités"
+            aria-label="Redirection vers l'annuaire Auto-édités"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Bénéficie de -10% en étant référencé ici
+          </a>
+        </button>
+      </div>
 
       <Fade>
         <section className="font-quicksand lg:flex flex-col justify-center items-center">
@@ -214,8 +230,8 @@ const PageOffreAuteurs = () => {
                 </button>
               </a>
             </div>
-             {/* ALEXANDRA ROCH*/}
-             <div className="lg:flex flex-col p-4 items-center ">
+            {/* ALEXANDRA ROCH*/}
+            <div className="lg:flex flex-col p-4 items-center ">
               <img
                 src="https://i.goopics.net/pbowtq.png"
                 alt="Site internet d'alexandra Roch, auteure, qui a choisi l'offre Premium"
@@ -300,10 +316,15 @@ const PageOffreAuteurs = () => {
       <Fade>
         <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
           <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-            <a href="https://calendly.com/wendevweb/premier-rendez-vous"  alt="Redirection vers le portfolio de Wendy Baqué"
+            <a
+              href="https://calendly.com/wendevweb/premier-rendez-vous"
+              alt="Redirection vers le portfolio de Wendy Baqué"
               aria-label="Redirection vers la prise de rendez-vous"
               rel="noreferrer"
-              target="_blank">Prendre rendez-vous !</a>
+              target="_blank"
+            >
+              Prendre rendez-vous !
+            </a>
           </button>
         </div>
       </Fade>
