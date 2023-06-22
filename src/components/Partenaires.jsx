@@ -15,14 +15,14 @@ const Partenaires = () => {
       name: "GraphArt's",
       service: "Infographiste Metteur en page",
       website: "https://ccgrapharts.wixsite.com/graphart-s?fbclid=PAAabS0o9R4h8O6PcPrk3b9wd_7fRuM6R12Dk906-KLgD2JXXNW0E9TEtvHr8",
-      logo: "https://static.wixstatic.com/media/c090d8_0a2787f5c2444bb4aac9cf1b7a7b5104~mv2.png/v1/fill/w_204,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%20grapharts%20definitif-07.png",
+      logo: "https://i.goopics.net/brcvle.png",
     },
     {
       id: 3,
       name: "Farah D.",
       service: "Ecriture de résumés et bêta-lecture",
       website: "https://www.farahdauteure.com/avis-prestation-beta-lectureresume",
-      logo: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=144,h=144,fit=crop/mv0LN7ebOPipRqNq/logo_noir-removebg-preview-AMq27aX1WwFE7DKJ.png",
+      logo: "https://i.goopics.net/hzqhgj.png",
     },
     {
       id: 4,
@@ -63,6 +63,7 @@ const Partenaires = () => {
                     rel="noreferrer"
                   >Voir son site</a>
                 </button>
+             
               </div>
             </div>
           </div>
