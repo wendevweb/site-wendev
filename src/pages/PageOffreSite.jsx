@@ -4,11 +4,12 @@ import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import ButtonFonctionnement from "../components/ButtonFonctionnement";
 import Interest from "../components/Interest";
+import OffresSite from "../components/OffreSite";
 import projet1 from "../assets/projet1.webp";
 import projet2 from "../assets/projet2.webp";
 import projet3 from "../assets/projet3.webp";
 import projet4 from "../assets/projet4.webp";
-import OffresSite from "../components/OffreSite";
+import projet5 from "../assets/projet5.webp";
 
 const PageOffreSite = () => {
   return (
@@ -178,6 +179,22 @@ const PageOffreSite = () => {
                   src={projet3}
                   alt="Site web Happy Front-end components"
                   aria-label="Site web Happy Front-end components"
+                />
+              </div>
+            </a>
+            <a
+              href="https://www.cinosconsulting.com/"
+              alt="Site web CINOS Consulting"
+              aria-label="Site web CINOS Consulting"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>CINOS Consulting</p>
+                <img
+                  src={projet5}
+                  alt="Site web CINOS Consulting"
+                  aria-label="Site web CINOS Consulting"
                 />
               </div>
             </a>

@@ -18,7 +18,7 @@ const Partenaires = () => {
       name: "GraphArt's",
       title: "Infographiste metteur en page",
       descr:
-        "Je m'appelle Cindy, je suis infographiste metteur en page, je travaille pour toutes les femmes artistes et créatrices fait main. Petit ou gros budget, j'ai à coeur de vous aider à gagner plus de clients et plus de visibilité grâce à des visuels de qualités.",
+        "Je m'appelle Cindy, je suis infographiste metteur en page, je travaille pour toutes les femmes artistes et créatrices fait main. Petit ou gros budget, j'ai à coeur de vous aider à gagner plus de clients et plus de visibilité grâce à des visuels de qualités. Pour votre première commande, vous bénéficierez d'une remise immédiate de 15%.",
       img: "https://static.wixstatic.com/media/c090d8_0a2787f5c2444bb4aac9cf1b7a7b5104~mv2.png/v1/fill/w_204,h_204,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo%20grapharts%20definitif-07.png",
       link: "https://ccgrapharts.wixsite.com/graphart-s?fbclid=PAAabS0o9R4h8O6PcPrk3b9wd_7fRuM6R12Dk906-KLgD2JXXNW0E9TEtvHr8",
     },
