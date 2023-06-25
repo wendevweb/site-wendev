@@ -74,17 +74,15 @@ const Testimonials = () => {
                   </span>
                 </div>
                 <span className="text-xl text-center font-quicksand text-black dark:text-white">
-                  Farah D.
+                  Farah, auteure
                 </span>
               </div>
             </div>
             {/* CARTE 2  */}
-            {/* <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
                 <h5 className="text-l font-quicksand tracking-tight p-4 dark:text-white">
-                  " Aucune surprise pour ce livre de Wendy Baqué qui reste dans
-                  la veine de mes ressentis précédents, j'ai plus qu'adoré et
-                  l'auteure s'installe durablement dans mes « indispensables ».
+                  " La création de notre site internet s'est très bien passée grâce à Wendy. Elle nous a donné de bons conseils, nous a fourni un site à notre image et est à l'écoute de nos besoins. Elle propose des offres et des tarifs adaptés à tous et est très professionnelle.
                   "
                 </h5>
 
@@ -144,20 +142,15 @@ const Testimonials = () => {
                   </span>
                 </div>
                 <span className="text-xl text-center font-quicksand text-black dark:text-white">
-                  Robin, Les lectures de Florelle et Robin
+                  CINOS Consulting
                 </span>
               </div>
-            </div> */}
+            </div>
             {/* CARTE 3  */}
-            {/* <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
                 <h5 className="text-l font-quicksand tracking-tight p-4 dark:text-white">
-                  " Ce livre est clairement un chef-d'œuvre. Qu'on l'aime ou
-                  pas, il restera dans notre tête et dans notre cœur. De part
-                  son sujet déjà : une histoire interdite, un sujet encore tabou
-                  dans la société et pour beaucoup de monde et par toutes les
-                  questions qu'on est amené nous aussi à se poser au fur et à
-                  mesure de l'histoire. "
+                  "Un super site réalisé en une semaine. Du très bon travail et Wendy est réactive et l'écoute de son client."
                 </h5>
 
                 <div className="flex content-center justify-center justify-items-centermt-2.5 mb-5">
@@ -216,10 +209,10 @@ const Testimonials = () => {
                   </span>
                 </div>
                 <span className="text-xl text-center font-quicksand text-black dark:text-white">
-                  Aurore, Les lectures d'Aurore
+                  Alexandra, auteure
                 </span>
               </div>
-            </div> */}
+            </div>
             {/* CARTE 4 */}
             {/* <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
