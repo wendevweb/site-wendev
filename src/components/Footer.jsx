@@ -90,9 +90,9 @@ const Footer = () => {
             <li className="pt-4 font-light">
               {" "}
               <a
-                href="https://discord.com/"
-                alt="Redirect to Discord"
-                aria-label="Redirect to Discord"
+                href="https://github.com/wendybaque"
+                alt="Redirect to Github"
+                aria-label="Redirect to Github"
                 target="_blank"
                 rel="noreferrer"
                 className="hover:text-pinkDark"
@@ -103,7 +103,7 @@ const Footer = () => {
             <li className="pt-4 font-light">
               {" "}
               <a
-                href="https://www.linkedin.com/company/92696774/admin/"
+                href="https://www.linkedin.com/company/wendev/"
                 alt="Redirect to LinkedIn"
                 aria-label="Redirect to LinkedIn"
                 target="_blank"
@@ -126,6 +126,9 @@ const Footer = () => {
             <a href="/Cgv">
               <li className="pt-4 font-light hover:text-pinkDark">C.G.V.</li>
             </a>
+            <li className="pt-4 font-light">SIRET : 95400298600014</li>
+            <li className="pt-4 font-light">© 2022-2023 wendev.fr par WenDev</li>
+
           </ul>
         </div>
       </div>

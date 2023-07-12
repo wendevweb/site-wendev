@@ -8,7 +8,7 @@ const Partenaires = () => {
       name: "Nono du web",
       service: "Développeur web et formateur",
       website: "https://www.nonoweb17.fr/",
-      logo: "https://www.nonoweb17.fr/static/media/logo.4c7d8262a72e29a3bea0.png",
+      logo: "https://www.nonoweb17.fr/assets/logo-97c07f1d.png",
     },
     {
       id: 2,

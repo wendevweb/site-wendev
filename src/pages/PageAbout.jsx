@@ -70,11 +70,17 @@ const PageAbout = () => {
               , fondatrice et gérante de ma micro-entreprise{" "}
               <strong className="text-bold text-pinkDark">WenDev</strong>,
               développeuse web passionnée, no-code friendly et auteure de romans
-              ! Après un bilan de compétences réalisé en full remote, je suis en
-              reconversion professionnelle dans le domaine du développement web
-              et web mobile. 💻 <br />A la suite de ma formation à la{" "}
+              ! <br />A la suite de ma formation à la{" "}
               <strong className="text-bold text-pinkDark">
-                Wild Code School
+                <a
+                  href="https://www.wildcodeschool.com/fr-fr/"
+                  alt="Redirection vers le site web de la Wild Code School"
+                  aria-label="Redirection vers le site web de la Wild Code School"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Wild Code School
+                </a>
               </strong>
               , j'ai passé mon titre diplôme de dev en février 2023, dans le but
               de créer ma propre entreprise :{" "}

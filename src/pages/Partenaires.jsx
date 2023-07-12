@@ -10,7 +10,7 @@ const Partenaires = () => {
       title: "Développeur web & formateur",
       descr:
         "Je m'appelle Arnaud et j'ai 34 ans. Je suis développeur web depuis février 2022 et formateur depuis octobre 2022. En tant que développeur web, je suis dévoué à offrir un service de qualité à mes clients et à concrétiser leurs projets. Je suis constamment à la recherche de nouvelles opportunités pour améliorer mes compétences et proposer des sites encore meilleurs à mes clients. Je suis une personne curieuse, toujours en quête de connaissances pour rester à la pointe des dernières tendances et technologies du secteur. Je tiens également à exprimer ma gratitude envers WenDev pour ce partenariat prometteur. Je suis convaincu que cette collaboration sera enrichissante et nous permettra de réaliser de belles choses ensemble.",
-      img: "https://www.nonoweb17.fr/static/media/logo.4c7d8262a72e29a3bea0.png",
+      img: "https://www.nonoweb17.fr/assets/logo-97c07f1d.png",
       link: "https://www.nonoweb17.fr/",
     },
     {
