@@ -74,18 +74,34 @@
 
     <!-- Axeptio cookies -->
     <script>
-      window.axeptioSettings = {
-        clientId: "63edeb5f86cbc73b5fd466cf",
-        cookiesVersion: "wendev-fr",
+      window.axeptioSettings = {
+        clientId: "63edeb5f86cbc73b5fd466cf",
+        cookiesVersion: "wendev-fr",
       };
-       
-      (function(d, s) {
-        var t = d.getElementsByTagName(s)[0], e = d.createElement(s);
-        e.async = true; e.src = "//static.axept.io/sdk-slim.js";
-        t.parentNode.insertBefore(e, t);
+      (function (d, s) {
+        var t = d.getElementsByTagName(s)[0],
+          e = d.createElement(s);
+        e.async = true;
+        e.src = "//static.axept.io/sdk-slim.js";
+        t.parentNode.insertBefore(e, t);
       })(document, "script");
-      </script>
-      <!-- End Axeptio cookies -->
+    </script>
+    <!-- End Axeptio cookies -->
+
+    <!-- Widget Buy me a coffee -->
+    <script
+      data-name="BMC-Widget"
+      data-cfasync="false"
+      src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js"
+      data-id="wendevwebA"
+      data-description="Support me on Buy me a coffee!"
+      data-message="Merci beaucoup pour votre visite ! Un petit café ? ☕"
+      data-color="#F471FF"
+      data-position="Right"
+      data-x_margin="18"
+      data-y_margin="18"
+    ></script>
+    <!-- End Widget Buy me a coffee -->
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>

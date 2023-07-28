@@ -8,6 +8,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DownloadIcon from "@mui/icons-material/Download";
 import MarkEmailUnreadIcon from "@mui/icons-material/MarkEmailUnread";
+import ButtonBmc from "./ButtonBmc";
 
 const Footer = () => {
   return (
@@ -53,6 +54,8 @@ const Footer = () => {
               t'aider à créer toi-même ton site internet !{" "}
             </a>
           </h2>
+          <br />
+          <ButtonBmc />
         </div>
 
         <div className="m-6">
@@ -127,8 +130,9 @@ const Footer = () => {
               <li className="pt-4 font-light hover:text-pinkDark">C.G.V.</li>
             </a>
             <li className="pt-4 font-light">SIRET : 95400298600014</li>
-            <li className="pt-4 font-light">© 2022-2023 wendev.fr par WenDev</li>
-
+            <li className="pt-4 font-light">
+              © 2022-2023 wendev.fr par WenDev
+            </li>
           </ul>
         </div>
       </div>
