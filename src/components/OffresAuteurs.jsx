@@ -72,7 +72,7 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>1 modification gratuite (si +, 5€ par modification)</span>
+                  <span>Modifications : ajout d'une nouvelle page pour la sortie d'un nouveau livre, ajout d'un nouvel événement, ajout d'une section : 5€/modification.</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -86,14 +86,12 @@ const OffresAuteurs = () => {
                   <ClearIcon style={{ color: "red" }} />
                   <span>Paramètres minimums de SEO</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
-                  <span>Pas d'hébergement du site</span>
-                </li>
-
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
-                  <span>Pas de nom de domaine (url non personnalisable)</span>
+                <li>
+                  <AddIcon style={{ color: "magenta" }} />
+                  <span>
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément. Sinon, url non personnalisable, par défaut.
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
@@ -115,7 +113,6 @@ const OffresAuteurs = () => {
               <div className="flex justify-center items-baseline my-8">
                 <span className="text-pink mr-2 text-5xl font-extrabold">90€</span>
               </div>
-              <p className="pb-6 text-pink font-bold">Formule la plus populaire !</p>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -139,7 +136,7 @@ const OffresAuteurs = () => {
                     1 section au choix parmi :{" "}
                     <span className="font-semibold">
                       Avis des lecteurs, chroniques, lien vers le blog, flux
-                      Instagram, vidéo, extraits du livre, actualité{" "}
+                      Instagram, vidéo, extraits du livre, actualité, événements littéraires{" "}
                     </span>
                   </span>
                 </li>
@@ -179,7 +176,7 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>1 à 3 modifications gratuites (si +, 5€ par modification)</span>
+                  <span>Modifications : ajout d'une nouvelle page pour la sortie d'un nouveau livre, ajout d'un nouvel événement, ajout d'une section : 5€/modification.</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -193,12 +190,11 @@ const OffresAuteurs = () => {
                   <ClearIcon style={{ color: "red" }} />
                   <span>Paramètres minimums de SEO</span>
                 </li>
-                <li className="flex items-center space-x-3">
+                <li>
                   <AddIcon style={{ color: "magenta" }} />
                   <span>
-                    Gestion de l'hébergement du site avec nom de domaine
-                    personnalisé :{" "}
-                    <span className="font-semibold">+12€/an</span>
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément. Sinon, url non personnalisable, par défaut.
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -244,7 +240,7 @@ const OffresAuteurs = () => {
                     Nombre de sections et pages illimité parmi :{" "}
                     <span className="font-semibold">
                       Avis des lecteurs, chroniques, lien vers le blog, flux
-                      Instagram, vidéo, extraits du livre, actualité{" "}
+                      Instagram, vidéo, extraits du livre, actualité, événements littéraires{" "}
                     </span>
                   </span>
                 </li>
@@ -306,15 +302,11 @@ const OffresAuteurs = () => {
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Optimisation des paramètres de SEO</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
+                <li>
+                  <AddIcon style={{ color: "magenta" }} />
                   <span>
-                    Gestion de l'hébergement avec nom de domaine personnalisé,
-                    gratuit pendant 1 an
-                    <AddIcon style={{ color: "magenta" }} />
-                    <span className="font-semibold">
-                      reconductible pour 12€/an
-                    </span>
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément. Sinon, url non personnalisable, par défaut.
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">

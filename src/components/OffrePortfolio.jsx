@@ -1,6 +1,7 @@
 import React from "react";
 import ClearIcon from "@mui/icons-material/Clear";
 import CheckIcon from "@mui/icons-material/Check";
+import AddIcon from "@mui/icons-material/Add";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
@@ -74,10 +75,6 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Modifications : 1 à 3 (si +, 5€ par modification)</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en avant sur mes réseaux sociaux</span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -88,16 +85,12 @@ const OffrePortfolio = () => {
                   <ClearIcon style={{ color: "red" }} />
                   <span>Pas de code source</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
-                  <span>Pas d'hébergement du site</span>
-                </li>
-
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
+                <li>
+                  <AddIcon style={{ color: "magenta" }} />
                   <span>
-                    Pas de nom de domaine (url non personnalisable) ou +12€/an
-                    pour la gestion de l'hébergement et du nom de domaine
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément. Sinon, url non
+                    personnalisable, par défaut.
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -173,10 +166,6 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Modifications : 3 à 5 (si +, 5€ par modification)</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en avant sur mes réseaux sociaux</span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -187,23 +176,18 @@ const OffrePortfolio = () => {
                   <ClearIcon style={{ color: "red" }} />
                   <span>Pas de code source</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
-                  <span>Pas d'hébergement du site</span>
-                </li>
-
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
+                <li>
+                  <AddIcon style={{ color: "magenta" }} />
                   <span>
-                    Pas de nom de domaine (url non personnalisable) ou +12€/an
-                    pour la gestion de l'hébergement et du nom de domaine
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément.
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
-                    <span className="font-bold">7 jours</span>
+                    <span className="font-bold">7 à 10 jours</span>
                   </span>
                 </li>
               </ul>
@@ -260,7 +244,10 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramêtres SEO de base</span>
+                  <span>
+                    Mise en place des paramêtres SEO et optimisation du
+                    référencement
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -269,10 +256,6 @@ const OffrePortfolio = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Page d'erreur 404 avec redirection</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Modifications illimitées</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -286,21 +269,18 @@ const OffrePortfolio = () => {
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Code source</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Hébergement inclus, gratuit 1 an</span>
+                <li>
+                  <AddIcon style={{ color: "magenta" }} />
+                  <span>
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément.
+                  </span>
                 </li>
-
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Nom de domaine personnalisé</span>
-                </li>
-                <br />
                 <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
-                    <span className="font-bold">10 jours</span>
+                    <span className="font-bold">En fonction de la demande</span>
                   </span>
                 </li>
               </ul>

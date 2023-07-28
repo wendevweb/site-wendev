@@ -1,6 +1,7 @@
 import React from "react";
 import ClearIcon from "@mui/icons-material/Clear";
 import CheckIcon from "@mui/icons-material/Check";
+import AddIcon from "@mui/icons-material/Add";
 import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
@@ -32,7 +33,7 @@ const OffresSite = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">1</span>
+                    Nombre de pages : <span className="font-bold">1 à 3</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -53,7 +54,7 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramêtres SEO de base</span>
+                  <span>Mise en place des paramètres SEO de base</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -61,12 +62,9 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
-                  <span>Page d'erreur 404 avec redirection</span>
+                  <span>Pas de page d'erreur 404 avec redirection</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Modifications : 1 à 3 (si +, 5€ par modification)</span>
-                </li>
+
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en avant sur mes réseaux sociaux</span>
@@ -79,16 +77,11 @@ const OffresSite = () => {
                   <ClearIcon style={{ color: "red" }} />
                   <span>Pas de code source</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
-                  <span>Pas d'hébergement du site</span>
-                </li>
-
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
+                <li>
+                  <AddIcon style={{ color: "magenta" }} />
                   <span>
-                    Pas de nom de domaine (url non personnalisable) ou +12€/an
-                    pour la gestion de l'hébergement et du nom de domaine
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément. Sinon, url non personnalisable, par défaut.
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -120,7 +113,7 @@ const OffresSite = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">1 à 3</span>
+                    Nombre de pages : <span className="font-bold">3 à 5</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -141,7 +134,7 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
-                  <span>Mise en place des paramêtres SEO de base</span>
+                  <span>Mise en place des paramètres SEO de base</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -149,12 +142,9 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
-                  <span>Page d'erreur 404 avec redirection</span>
+                  <span>Pas de page d'erreur 404 avec redirection</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Modifications : 3 à 5 (si +, 5€ par modification)</span>
-                </li>
+
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en avant sur mes réseaux sociaux</span>
@@ -167,16 +157,11 @@ const OffresSite = () => {
                   <ClearIcon style={{ color: "red" }} />
                   <span>Pas de code source</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
-                  <span>Pas d'hébergement du site</span>
-                </li>
-
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
+                <li>
+                  <AddIcon style={{ color: "magenta" }} />
                   <span>
-                    Pas de nom de domaine (url non personnalisable) ou +12€/an
-                    pour la gestion de l'hébergement et du nom de domaine
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément{" "}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -208,7 +193,7 @@ const OffresSite = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">3 à 5</span>
+                    Nombre de pages : <span className="font-bold">5 à 10</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -229,48 +214,41 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
-                  <span>Mise en place des paramêtres SEO de base</span>
+                  <span>Mise en place des paramètres SEO de base</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Page de mentions légales/RGPD</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                <CheckIcon style={{ color: "limegreen" }} />
+                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>Page d'erreur 404 avec redirection</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Modifications : 5 à 10 (si +, 5€ par modification)</span>
-                </li>
+
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en avant sur mes réseaux sociaux</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                <ClearIcon style={{ color: "red" }} />
+                  <ClearIcon style={{ color: "red" }} />
                   <span>Pas de maquette</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
+                <ClearIcon style={{ color: "red" }} />
                   <span>Pas de code source</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Hébergement gratuit pendant 1 an</span>
+                <li>
+                  <AddIcon style={{ color: "magenta" }} />
+                  <span>
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément{" "}
+                  </span>
                 </li>
-
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Nom de domaine personnalisé</span>
-                </li>
-                <br />
-                <br />
                 <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
-                    <span className="font-bold">7 jours</span>
+                    <span className="font-bold">7 à 10 jours jours</span>
                   </span>
                 </li>
               </ul>
@@ -317,19 +295,22 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramêtres SEO de base</span>
+                  <span>Mise en place des paramètres SEO de base</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Page de mentions légales/RGPD</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                <CheckIcon style={{ color: "limegreen" }} />
+                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>Page d'erreur 404 avec redirection</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Nombre illimité de modifications</span>
+                  <span>
+                    Modules et widgets en fonction de vos besoins (ex : prise de
+                    rendez-vous, cookies, carte, etc.)
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -343,21 +324,18 @@ const OffresSite = () => {
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Code source</span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Hébergement gratuit pendant 2 ans</span>
+                <li>
+                  <AddIcon style={{ color: "magenta" }} />
+                  <span>
+                    Nom de domaine personnalisé et hébergement pour 1 an,
+                    renouvelable : 15€/an, en supplément{" "}
+                  </span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Nom de domaine personnalisé</span>
-                </li>
-                <br />
-                <br />
                 <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
-                    <span className="font-bold">10 jours</span>
+                    <span className="font-bold">En fonction de la demande</span>
                   </span>
                 </li>
               </ul>
