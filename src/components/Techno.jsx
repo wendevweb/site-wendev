@@ -14,13 +14,13 @@ const Techno = () => {
         <img
           alt="html"
           aria-label="html"
-          className="w-32 place-self-center pr-4"
+          className="mt-4 w-32 place-self-center pr-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg"
         />
         <img
           alt="css"
           aria-label="css"
-          className="w-32 place-self-center pr-4"
+          className="mt-4 w-32 place-self-center pr-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
         />
 
@@ -40,8 +40,15 @@ const Techno = () => {
         <img
           alt="React"
           aria-label="React"
-          className="w-32 place-self-center pr-4"
+          className="mt-4 w-32 place-self-center pr-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original-wordmark.svg"
+        />
+
+        <img
+          alt="Next.js"
+          aria-label="Nex.js"
+          className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original-wordmark.svg"
         />
 
         <img

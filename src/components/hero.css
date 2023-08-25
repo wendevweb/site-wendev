@@ -1,18 +1,18 @@
 .background-radial-gradient-hero {
     background-color: #242621;
     background-image: radial-gradient(
-      650px circle at 0% 0%,
-      hsl(313, 71%, 43%) 15%,
-      hsl(308, 69%, 36%) 35%,
-      hsl(301, 41%, 20%) 75%,
+      400px circle at 0% 0%,
+      hsl(321, 95%, 74%) 15%,
+      hsl(304, 100%, 67%) 35%,
+      hsl(321, 48%, 23%) 75%,
       hsl(303, 40%, 19%) 80%,
       transparent 100%
     ),
     radial-gradient(
-      1130px circle at 100% 100%,
-      hsl(313, 71%, 43%) 15%,
-      hsl(308, 69%, 36%) 35%,
-      hsl(301, 41%, 20%) 75%,
+      650px circle at 100% 100%,
+      hsl(321, 95%, 74%) 15%,
+      hsl(304, 100%, 67%) 35%,
+      hsl(321, 48%, 23%) 75%,
       hsl(303, 40%, 19%) 80%,
       transparent 100%
     );

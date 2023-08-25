@@ -44,7 +44,7 @@ const PageOffreSite = () => {
                   Avoir son propre site internet comporte bien des avantages.
                   C'est un réel atout pour ta marque ou ton entreprise !
                   <br />
-                  Grâce à React et Tailwindcss, deux technologies récentes,
+                  Grâce à React, Next.js et Tailwindcss, deux technologies récentes,
                   personnalisables et fiables, je te propose un site moderne,
                   accessible et au coeur des tendances.
                   <br />
