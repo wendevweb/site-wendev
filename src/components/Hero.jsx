@@ -4,7 +4,7 @@ import "./hero.css";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
 
-import EventAvailableIcon from '@mui/icons-material/EventAvailable';
+import EventAvailableIcon from "@mui/icons-material/EventAvailable";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -87,10 +87,15 @@ const Hero = () => {
               </div>
             </div>
             <div className="drop-shadow-2xl flex items-center justify-center animate-bounce">
-             <button className="shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-              <EventAvailableIcon  />
-              Prendre rendez-vous
-              </button>
+              <Link
+                to="https://calendly.com/wendevweb/premier-rendez-vous"
+                target={"_blank"}
+              >
+                <button className="shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                  <EventAvailableIcon />
+                  Prendre rendez-vous
+                </button>
+              </Link>
             </div>
           </div>
         </div>
