@@ -6,7 +6,7 @@ const WhiteBook = () => {
   return (
     <div className="flex justify-center">
       <a
-        href="https://form.jotform.com/231160807687056"
+        href="https://wendevweb.systeme.io/ebook"
         alt="Redirection vers le téléchargement du livre blanc pour les auteurs de livres"
         aria-label="Redirection vers le téléchargement du livre blanc pour les auteurs de livres"
         target="_blank"

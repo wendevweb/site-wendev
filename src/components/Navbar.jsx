@@ -12,7 +12,7 @@ const navigation = [
   { name: "A propos", href: "/About", current: false },
   { name: "Fonctionnement", href: "/Fonctionnement", current: false },
   { name: "Missions en entreprise", href: "/Entreprise", current: false },
-  { name: "Formation", href: "/Formation", current: false },
+  // { name: "Formation", href: "/Formation", current: false },
   { name: "Partenaires", href: "/Partenaires", current: false },
   { name: "Contact", href: "/Contact", current: false },
 ];

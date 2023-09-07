@@ -33,7 +33,7 @@ const Footer = () => {
           </p>
           <h2 className="mb-2 hover:text-pinkDark font-semibold text-purpleDark text-lg text-left">
             <a
-              href="https://form.jotform.com/230383592520352"
+              href="https://wendevweb.systeme.io/inscription"
               alt="Redirection vers l'inscription à la newsletter de WenDev"
               aria-label="Redirection vers l'inscription à la newsletter de WenDev"
               target="_blank"

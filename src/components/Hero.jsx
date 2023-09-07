@@ -3,7 +3,8 @@ import React from "react";
 import "./hero.css";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
-
+import img from "../assets/wendev.png"
+import MarkEmailUnreadIcon from "@mui/icons-material/MarkEmailUnread";
 import EventAvailableIcon from "@mui/icons-material/EventAvailable";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -11,7 +12,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import AutoStoriesIcon from "@mui/icons-material/AutoStories";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
-import JotformNewsletter from "./JotformNewsletter";
+// import JotformNewsletter from "./JotformNewsletter";
 
 const Hero = () => {
   return (
@@ -48,14 +49,21 @@ const Hero = () => {
                 className="absolute rounded-full shadow-lg"
               ></div>
               <div id="radius-shape-2" className="absolute shadow-lg"></div>
-              <JotformNewsletter />
+              {/* <JotformNewsletter /> */}
               <div className="flex flex-col p-4 ">
+              <img src={img} alt="" className="sticky"></img>
                 <h2 className="text-center p-6 text-xl text-white relative">
                   <ArrowDropDownIcon className="text-pinkDark animate-bounce" />
                   Restons connectés !
                   <ArrowDropDownIcon className="text-pinkDark animate-bounce" />
                 </h2>
                 <div className="flex justify-around drop-shadow-lg">
+                <Link
+                    to="https://wendevweb.systeme.io/inscription"
+                    target={"_blank"}
+                  >
+                    <MarkEmailUnreadIcon className="text-white hover:text-pinkDark mr-2" />
+                  </Link>
                   <Link
                     to="https://www.facebook.com/WenDevWeb"
                     target={"_blank"}
@@ -83,9 +91,11 @@ const Hero = () => {
                   >
                     <AutoStoriesIcon className="text-white hover:text-pinkDark mr-2" />
                   </Link>
+                  
                 </div>
               </div>
             </div>
+            
             <div className="drop-shadow-2xl flex items-center justify-center animate-bounce">
               <Link
                 to="https://calendly.com/wendevweb/premier-rendez-vous"
