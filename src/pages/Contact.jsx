@@ -6,7 +6,7 @@ import JotformContact from "../components/JotformContact";
 
 const Contact = () => {
   return (
-    <div className="lg:grid grid-cols-2">
+    <div className="font-quicksand lg:grid grid-cols-2">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Contact | WenDev</title>

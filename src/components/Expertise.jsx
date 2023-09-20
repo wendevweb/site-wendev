@@ -23,13 +23,13 @@ const Expertise = () => {
       desc: "Tu souhaites avoir un aperçu de ce que donnera le site web de tes rêves ? Alors viens vite me demander une maquette !",
       link: "/OffreMaquette",
     },
-    {
-      id: 4,
-      title: "Pages d'authentification sécurisée avec Firebase",
-      img: "https://cdn.pixabay.com/photo/2016/08/13/20/07/credit-card-1591492_960_720.jpg",
-      desc: "Tu souhaites que tes utilisateurs s'authentifient sur ton application ou ton site internet de manière sécurisée ? Grâce à Firebase, je te propose une solution clefs en mains !",
-      link: "/OffreFirebase",
-    },
+    // {
+    //   id: 4,
+    //   title: "Pages d'authentification sécurisée avec Firebase",
+    //   img: "https://cdn.pixabay.com/photo/2016/08/13/20/07/credit-card-1591492_960_720.jpg",
+    //   desc: "Tu souhaites que tes utilisateurs s'authentifient sur ton application ou ton site internet de manière sécurisée ? Grâce à Firebase, je te propose une solution clefs en mains !",
+    //   link: "/OffreFirebase",
+    // },
     // {
     //   id: 5,
     //   title: "Création d'application mobile avec Glide",
@@ -46,13 +46,13 @@ const Expertise = () => {
       link: "/OffrePortfolio",
     },
 
-    {
-      id: 8,
-      title: "Création de chats et chatbots personnalisés et sécurisés",
-      img: "https://cdn.pixabay.com/photo/2018/03/16/19/10/communication-3232227_960_720.jpg",
-      desc: "Echanger avec ses collègues, ses amis, sa familles, etc. de manière fun et sécurisée, ou répondre automatiquement aux questions de tes utilisateurs selon des chemins prédéfinis est dans l'air du temps. Je crée ton chatbot ou ton serveur de chat personnalisés et sécurisés.",
-      link: "/OffreChat",
-    },
+    // {
+    //   id: 8,
+    //   title: "Création de chats et chatbots personnalisés et sécurisés",
+    //   img: "https://cdn.pixabay.com/photo/2018/03/16/19/10/communication-3232227_960_720.jpg",
+    //   desc: "Echanger avec ses collègues, ses amis, sa familles, etc. de manière fun et sécurisée, ou répondre automatiquement aux questions de tes utilisateurs selon des chemins prédéfinis est dans l'air du temps. Je crée ton chatbot ou ton serveur de chat personnalisés et sécurisés.",
+    //   link: "/OffreChat",
+    // },
   ];
 
   return (
@@ -61,7 +61,7 @@ const Expertise = () => {
         Mes services
       </h3>
 
-      <div className="font-quicksand space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-6 lg:space-y-0">
+      <div className="font-quicksand space-y-8 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-6 lg:space-y-0">
         {services.map((service) => (
           <div
             key={service.id}

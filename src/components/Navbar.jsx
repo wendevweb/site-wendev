@@ -143,7 +143,7 @@ export default function Example() {
                           </Link>
                         )}
                       </Menu.Item>
-                      <Menu.Item>
+                      {/* <Menu.Item>
                         {({ active }) => (
                           <Link
                             to="/OffreFirebase"
@@ -155,8 +155,8 @@ export default function Example() {
                             Authentification Firebase
                           </Link>
                         )}
-                      </Menu.Item>
-                      <Menu.Item>
+                      </Menu.Item> */}
+                      {/* <Menu.Item>
                         {({ active }) => (
                           <Link
                             to="/OffreGlide"
@@ -168,8 +168,8 @@ export default function Example() {
                             Application mobile
                           </Link>
                         )}
-                      </Menu.Item>
-                      <Menu.Item>
+                      </Menu.Item> */}
+                      {/* <Menu.Item>
                         {({ active }) => (
                           <Link
                             to="/OffreChat"
@@ -181,7 +181,7 @@ export default function Example() {
                             Application de chat et chatbot
                           </Link>
                         )}
-                      </Menu.Item>
+                      </Menu.Item> */}
                     </Menu.Items>
                   </Transition>
                 </Menu>

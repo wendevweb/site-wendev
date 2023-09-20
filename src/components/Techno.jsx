@@ -76,12 +76,12 @@ const Techno = () => {
           className="w-32 place-self-center pr-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
         />
-        <img
+        {/* <img
           alt="MySQL"
           aria-label="MySQL"
           className="w-32 place-self-center pr-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg"
-        />
+        /> */}
       </div>
     </div>
   );

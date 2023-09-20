@@ -59,7 +59,7 @@ const Partenaires = () => {
         </p>
       </section>
       <Fade>
-        <section className="m-4 p-4 font-quicksand lg:grid grid-cols-3 gap-4">
+        <section className="m-4 p-4 font-quicksand lg:grid grid-cols-4 gap-4">
           {partenaires.map((partenaire) => (
             <div
               key={partenaire.id}
@@ -68,7 +68,7 @@ const Partenaires = () => {
               <img
                 src={partenaire.img}
                 alt="Logo du partenaire"
-                className="h-56"
+                className="h-56 mt-6"
               />
               <h4 className="font-bold text-pink text-xl p-4">
                 {partenaire.title}

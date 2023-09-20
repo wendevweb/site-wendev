@@ -4,6 +4,8 @@ import { Fade } from "react-awesome-reveal";
 import OffresAuteurs from "../components/OffresAuteurs";
 import WhiteBook from "../components/WhiteBook";
 import RedeemIcon from "@mui/icons-material/Redeem";
+import Farah from "../assets/Farah.webp";
+import Andraroc from "../assets/Andraroc.webp";
 
 const PageOffreAuteurs = () => {
   return (
@@ -213,7 +215,7 @@ const PageOffreAuteurs = () => {
             {/* FARAH D. */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://i.goopics.net/gb2alk.png"
+                src={Farah}
                 alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
                 className="rounded-md w-96"
@@ -233,7 +235,7 @@ const PageOffreAuteurs = () => {
             {/* ALEXANDRA ROCH*/}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://i.goopics.net/pbowtq.png"
+                src={Andraroc}
                 alt="Site internet d'alexandra Roch, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
                 className="rounded-md w-96"

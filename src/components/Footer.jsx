@@ -44,7 +44,7 @@ const Footer = () => {
           </h2>
           <h2 className="hover:text-pinkDark font-semibold text-purpleDark text-lg text-left">
             <a
-              href="https://form.jotform.com/231160807687056"
+              href="https://wendevweb.systeme.io/ebook"
               alt="Redirection vers le téléchargement du livre blanc pour les auteurs de livres"
               aria-label="Redirection vers le téléchargement du livre blanc pour les auteurs de livres"
               target="_blank"
