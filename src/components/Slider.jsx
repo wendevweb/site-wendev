@@ -7,24 +7,30 @@ const Slider = () => {
   const datas = [
     {
       id: 1,
+      title:"Franck",
+      image:
+        "https://i.goopics.net/ags7bq.png",
+    },
+    {
+      id: 2,
       title:"Farahd",
       image:
         "https://i.goopics.net/z5e4k5.png",
     },
     {
-      id: 2,
+      id:3,
       title:"Andraroc",
       image:
         "https://i.goopics.net/ncpc8d.png",
     },
     {
-      id: 3,
+      id: 4,
       title:"Cinos",
       image:
         "https://i.goopics.net/d4yxtp.png",
     },
     {
-      id: 4,
+      id: 5,
       title:"Antiigone",
       image:
         "https://i.goopics.net/t8a7nb.png",
@@ -36,16 +42,16 @@ const Slider = () => {
     //     "https://www.hebergeur-image.com/upload/88.174.47.6-63edfeaf2e19f.png",
     // },
     {
-      id: 5,
+      id: 6,
       title:"Nelixair",
       image:
         "https://nelixair-website-front-end-copy-elgelhh6m-wendybaque.vercel.app/static/media/newlogo.47a17871978e339cd786.png",
     },
     {
-      id: 6,
+      id: 7,
       title:"Fedmind",
       image:
-        "https://www.fedmind.com/sanacup/uploads/2022/10/Logo_Fedmind_format_carre_baseline.png",
+        "https://i.goopics.net/4at2g4.png",
     },
     
   ];
