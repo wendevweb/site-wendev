@@ -13,24 +13,30 @@ const Slider = () => {
     },
     {
       id: 2,
+      title:"Elisa",
+      image:
+        "https://i.goopics.net/389bgt.png",
+    },
+    {
+      id: 3,
       title:"Farahd",
       image:
         "https://i.goopics.net/z5e4k5.png",
     },
     {
-      id:3,
+      id:4,
       title:"Andraroc",
       image:
         "https://i.goopics.net/ncpc8d.png",
     },
     {
-      id: 4,
+      id: 5,
       title:"Cinos",
       image:
         "https://i.goopics.net/d4yxtp.png",
     },
     {
-      id: 5,
+      id: 6,
       title:"Antiigone",
       image:
         "https://i.goopics.net/t8a7nb.png",
@@ -42,13 +48,13 @@ const Slider = () => {
     //     "https://www.hebergeur-image.com/upload/88.174.47.6-63edfeaf2e19f.png",
     // },
     {
-      id: 6,
+      id: 7,
       title:"Nelixair",
       image:
         "https://nelixair-website-front-end-copy-elgelhh6m-wendybaque.vercel.app/static/media/newlogo.47a17871978e339cd786.png",
     },
     {
-      id: 7,
+      id: 8,
       title:"Fedmind",
       image:
         "https://i.goopics.net/4at2g4.png",

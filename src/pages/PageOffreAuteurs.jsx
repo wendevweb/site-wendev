@@ -7,6 +7,7 @@ import RedeemIcon from "@mui/icons-material/Redeem";
 import Farah from "../assets/Farah.webp";
 import Andraroc from "../assets/Andraroc.webp";
 import Franck from "../assets/franck.webp";
+import Elisa from "../assets/Elisa.webp";
 
 const PageOffreAuteurs = () => {
   return (
@@ -131,14 +132,14 @@ const PageOffreAuteurs = () => {
             <div className="lg:flex flex-col p-4 items-center ">
               <img
                 src={Franck}
-                alt="Site internet de Franck J. Matthews, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet de Franck J. Matthews, auteure, qui a choisi l'offre Premium"
+                alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
+                aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
               <a
                 href="https://www.franckjmatthews.com/"
-                alt="Site internet de Franck J. Matthews, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet de Franck J. Matthews, auteure, qui a choisi l'offre Premium"
+                alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
+                aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
                 rel="noreferrer"
                 target="_blank"
               >
@@ -147,18 +148,18 @@ const PageOffreAuteurs = () => {
                 </button>
               </a>
             </div>
-            {/* GREGORY HENRI */}
+            {/* ELISA AVRAIN */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
-                src="https://i.goopics.net/vp65lb.png"
-                alt="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
-                aria-label="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
+                src={Elisa}
+                alt="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
               <a
-                href="https://seashell-dog-370737.builder-preview.com/"
-                alt="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
-                aria-label="Site internet fictif de Gregory Henri pour illustrer l'offre premium de WenDev"
+                href="https://www.elisaavrainauteure.fr"
+                alt="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
                 rel="noreferrer"
                 target="_blank"
               >
