@@ -7,9 +7,9 @@ import Interest from "../components/Interest";
 import OffresSite from "../components/OffreSite";
 import projet1 from "../assets/projet1.webp";
 import projet2 from "../assets/projet2.webp";
-import projet3 from "../assets/projet3.webp";
 import projet4 from "../assets/projet4.webp";
 import projet5 from "../assets/projet5.webp";
+import projet6 from "../assets/projet6.webp";
 
 const PageOffreSite = () => {
   return (
@@ -166,22 +166,7 @@ const PageOffreSite = () => {
                 />
               </div>
             </a>
-            <a
-              href="https://happy-frontend-components.vercel.app/"
-              alt="Site web Happy Front-end components"
-              aria-label="Site web Happy Front-end components"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
-                <p>Happy Front-end components</p>
-                <img
-                  src={projet3}
-                  alt="Site web Happy Front-end components"
-                  aria-label="Site web Happy Front-end components"
-                />
-              </div>
-            </a>
+           
             <a
               href="https://www.cinosconsulting.com/"
               alt="Site web CINOS Consulting"
@@ -195,6 +180,23 @@ const PageOffreSite = () => {
                   src={projet5}
                   alt="Site web CINOS Consulting"
                   aria-label="Site web CINOS Consulting"
+                />
+              </div>
+            </a>
+
+            <a
+              href="https://www.lesnettoyeursdetombesreunis.fr/"
+              alt="Site web des Nettoyeurs de Tombes Réunis"
+              aria-label="Site web des Nettoyeurs de Tombes Réunis"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>Les Nettoyeurs de Tombes Réunis</p>
+                <img
+                  src={projet6}
+                  alt="Site web des Nettoyeurs de Tombes Réunis"
+                  aria-label="Site web des Nettoyeurs de Tombes Réunis"
                 />
               </div>
             </a>

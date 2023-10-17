@@ -7,6 +7,18 @@ const Slider = () => {
   const datas = [
     {
       id: 1,
+      title:"Elisabet",
+      image:
+        "https://i.goopics.net/iv6y9o.png",
+    },
+    // {
+    //   id: 1,
+    //   title:"Kay Norde,
+    //   image:
+    //     "https://i.goopics.net/ags7bq.png",
+    // },
+    {
+      id: 1,
       title:"Franck",
       image:
         "https://i.goopics.net/ags7bq.png",
@@ -58,6 +70,12 @@ const Slider = () => {
       title:"Fedmind",
       image:
         "https://i.goopics.net/4at2g4.png",
+    },
+    {
+      id: 9,
+      title:"Nettoyeurs",
+      image:
+        "https://i.goopics.net/luvrq3.png",
     },
     
   ];

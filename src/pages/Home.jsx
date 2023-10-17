@@ -6,7 +6,6 @@ import Slider from "../components/Slider";
 import Techno from "../components/Techno";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
-import WhiteBook from "../components/WhiteBook";
 import Testimonials from "../components/Testimonials";
 import ButtonFonctionnement from '../components/ButtonFonctionnement';
 
@@ -19,11 +18,13 @@ const Home = () => {
         <link href="https://wendev.fr" />
       </Helmet>
       <Hero />
-      < ButtonFonctionnement />
-      <WhiteBook />
+      <Fade>
+        <Testimonials />
+      </Fade>
       <Fade>
         <Expertise />
       </Fade>
+       < ButtonFonctionnement />
       <Fade>
         <Techno />
       </Fade>
@@ -33,9 +34,7 @@ const Home = () => {
       <Fade>
         <Partenaires />
       </Fade>
-      <Fade>
-        <Testimonials />
-      </Fade>
+      
     </div>
   );
 };
