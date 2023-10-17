@@ -31,6 +31,27 @@ const Partenaires = () => {
       website: "https://annuaire-auto-edites.johnlucas.fr/",
       logo: "https://annuaire-auto-edites.johnlucas.fr/wp-content/uploads/2021/02/logo.png",
     },
+    {
+      id: 5,
+      name: "Métavers facile",
+      service: "Architecte métavers 2d, créateur de bureaux et événements virtuels.",
+      website: "https://www.vanhille.fr",
+      logo: "https://vanhille.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c817013-9bb3-4026-8b4d-2412233dcbfe%2Fprofile-pic4.png?table=block&id=71b7aa7d-9127-4e53-ae63-2af2a669dcb3&spaceId=e4a3b1de-7a81-4268-95d9-73d0920f3acc&width=250&userId=&cache=v2",
+    },
+    {
+      id: 6,
+      name: "Franck J. Matthews",
+      service: "Coach littéraire",
+      website: "https://www.franckjmatthews.com/coaching-litteraire",
+      logo: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=128,fit=crop,q=95/AoPZ2xegaQt8NqLy/fjm-AE02QeowRjhqkRWy.png",
+    },
+    {
+      id: 7,
+      name: "Cardebook",
+      service: "Des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
+      website: "https://www.cardebook.net",
+      logo: "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/325367068_1132676490758536_5259520594100132938_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0DwUqcRv5RMAX-6iYGE&_nc_ht=scontent-cdg4-1.xx&oh=00_AfDJbeqrd508r-dlYqLCI0_q1IYJaShoIrNh5sq925Kpuw&oe=6533F39E",
+    },
     
   ];
   return (

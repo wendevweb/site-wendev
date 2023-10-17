@@ -1,7 +1,7 @@
 .flip-card {
   background-color: transparent;
   width: 300px;
-  height: 300px;
+  height: 350px;
   perspective: 1000px;
 }
 .flip-card-inner {
@@ -40,6 +40,7 @@
 }
 .flip-card-back img {
   width: 140px;
+  height: 130px;
 }
 .flip-card-back h3 {
   font-weight: bold;
