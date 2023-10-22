@@ -2,7 +2,7 @@ import React from "react";
 import ClearIcon from "@mui/icons-material/Clear";
 import CheckIcon from "@mui/icons-material/Check";
 import AddIcon from "@mui/icons-material/Add";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
+// import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 
@@ -84,13 +84,13 @@ const OffresSite = () => {
                     renouvelable : 15€/an, en supplément. Sinon, url non personnalisable, par défaut.
                   </span>
                 </li>
-                <li className="flex items-center space-x-3">
+                {/* <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
                     <span className="font-bold">3 jours</span>
                   </span>
-                </li>
+                </li> */}
               </ul>
               <Link
                 to="/Contact"
@@ -164,13 +164,13 @@ const OffresSite = () => {
                     renouvelable : 15€/an, en supplément{" "}
                   </span>
                 </li>
-                <li className="flex items-center space-x-3">
+                {/* <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
                     <span className="font-bold">5 jours</span>
                   </span>
-                </li>
+                </li> */}
               </ul>
               <Link
                 to="/Contact"
@@ -244,13 +244,13 @@ const OffresSite = () => {
                     renouvelable : 15€/an, en supplément{" "}
                   </span>
                 </li>
-                <li className="flex items-center space-x-3">
+                {/* <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
                     <span className="font-bold">7 à 10 jours jours</span>
                   </span>
-                </li>
+                </li> */}
               </ul>
               <Link
                 to="/Contact"
@@ -331,13 +331,13 @@ const OffresSite = () => {
                     renouvelable : 15€/an, en supplément{" "}
                   </span>
                 </li>
-                <li className="flex items-center space-x-3">
+                {/* <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
                     <span className="font-bold">En fonction de la demande</span>
                   </span>
-                </li>
+                </li> */}
               </ul>
               <Link
                 to="/Contact"

@@ -6,7 +6,7 @@ const Partenaires = () => {
     {
       id: 1,
       name: "Nono du web",
-      service: "Développeur web et formateur",
+      service: "Développeur web, copywriter et formateur",
       website: "https://www.nonoweb17.fr/",
       logo: "https://www.nonoweb17.fr/assets/logo-97c07f1d.png",
     },
@@ -50,7 +50,7 @@ const Partenaires = () => {
       name: "Cardebook",
       service: "Des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
       website: "https://www.cardebook.net",
-      logo: "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/325367068_1132676490758536_5259520594100132938_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0DwUqcRv5RMAX-6iYGE&_nc_ht=scontent-cdg4-1.xx&oh=00_AfDJbeqrd508r-dlYqLCI0_q1IYJaShoIrNh5sq925Kpuw&oe=6533F39E",
+      logo: "https://i.goopics.net/t5h0ss.jpg",
     },
     
   ];
@@ -60,11 +60,11 @@ const Partenaires = () => {
         Mes super partenaires à votre service !
       </h3>
       <p className="text-black font-quicksand text-center mb-6">
-        Il est temps de voir ton projet en grand ! Et si tu faisais appel à mes partenaires de fconfiance, avec lesquels je partage mes valeurs et ma manière de travailler ? Je te propose un large choix de professionnels à ton écoute.
+        Il est temps de voir ton projet en grand ! Et si tu faisais appel à mes partenaires de fconfiance, avec lesquels je partage mes valeurs et ma manière de travailler ? <br /> Je te propose un large choix de professionnels à ton écoute.
       </p>
       <div className="pt-10 lg:grid grid-cols-4 gap-2">
         {partners.map((partner) => (
-          <div key={partner.id} className="flip-card ml-6 mr-6 font-quicksand">
+          <div key={partner.id} className="flip-card mt-6 font-quicksand">
             <div className="flip-card-inner ">
               <div className="flip-card-front">
                 <img src={partner.logo} alt="Logo du partenaire de WenDev" className="p-4"/>

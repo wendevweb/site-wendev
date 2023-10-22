@@ -5,7 +5,7 @@ const Testimonials = () => {
   return (
     <div>
       <section aria-label="Avis des clients sur l'offre aux auteurs">
-        <h3 className="text-pink text-2xl text-center">Vous en parlez !</h3>
+        <h3 className="mt-6 text-pink text-2xl text-center">Vous en parlez !</h3>
         <div className="lg:m-10 p-6 bg-bg">
           <div className="lg:grid grid-cols-4 gap-4 p-4">
             {/* CARTE 1 */}
@@ -95,7 +95,7 @@ const Testimonials = () => {
 
             {/* CARTE 2  */}
 
-            <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            <div className="mt-6 flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
                 <figure className="max-w-screen-md mx-auto text-center">
                   <blockquote>
@@ -181,7 +181,7 @@ const Testimonials = () => {
             </div>
 
             {/* CARTE 3  */}
-            <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            <div className="mt-6 flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
                 <figure className="max-w-screen-md mx-auto text-center">
                   <blockquote>
@@ -264,7 +264,7 @@ const Testimonials = () => {
             </div>
 
             {/* CARTE 4 */}
-            <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            <div className="mt-6 flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className="flex flex-col content-center justify-center justify-items-center px-5 pb-5">
                 <figure className="max-w-screen-md mx-auto text-center">
                   <blockquote>

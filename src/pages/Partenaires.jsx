@@ -7,7 +7,7 @@ const Partenaires = () => {
     {
       id: 1,
       name: "Nono du Web",
-      title: "Nono du Web - Développeur web & formateur, créateur de logos",
+      title: "Nono du Web - Développeur web, formateur en informatique, copywriter spécialisé dans les emails marketing et créateur de logos",
       descr:
         "Je m'appelle Arnaud et j'ai 34 ans. Je suis développeur web depuis février 2022 et formateur depuis octobre 2022. En tant que développeur web, je suis dévoué à offrir un service de qualité à mes clients et à concrétiser leurs projets. Je suis constamment à la recherche de nouvelles opportunités pour améliorer mes compétences et proposer des sites encore meilleurs à mes clients. Je suis une personne curieuse, toujours en quête de connaissances pour rester à la pointe des dernières tendances et technologies du secteur. Je tiens également à exprimer ma gratitude envers WenDev pour ce partenariat prometteur. Je suis convaincu que cette collaboration sera enrichissante et nous permettra de réaliser de belles choses ensemble.",
       img: "https://www.nonoweb17.fr/assets/logo-97c07f1d.png",
@@ -77,7 +77,7 @@ const Partenaires = () => {
         "Inventeur multi-récompensé et développeur de plusieurs applications à succès. Innovateur dans l'âme, il crée et lance des concepts novateurs dans le domaine de l'édition. Il est devenu, en 3 ans, une référence dans l'innovation numérique. La marque cardebook : des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
       offer:
         "20% de réduction sur tous les services complet auteurs.",
-      img: "https://scontent-cdg4-1.xx.fbcdn.net/v/t39.30808-6/325367068_1132676490758536_5259520594100132938_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0DwUqcRv5RMAX-6iYGE&_nc_ht=scontent-cdg4-1.xx&oh=00_AfDJbeqrd508r-dlYqLCI0_q1IYJaShoIrNh5sq925Kpuw&oe=6533F39E",
+      img: "https://i.goopics.net/t5h0ss.jpg",
       link: "https://www.cardebook.net",
     },
   ];

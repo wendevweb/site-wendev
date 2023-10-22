@@ -1,6 +1,6 @@
 import React from "react";
 import CheckIcon from "@mui/icons-material/Check";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
+// import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 
@@ -52,12 +52,12 @@ const OffreMaquette = () => {
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>Design inspiré des tendances et de la psychologie cognitive et de l'utilisateur</span>
               </li>
-              <li className="flex items-center space-x-3">
+              {/* <li className="flex items-center space-x-3">
                 <AccessTimeIcon style={{ color: "magenta" }} />
                 <span>
                   Délai de création : <span className="font-bold">1.5 jour par page</span>
                 </span>
-              </li>
+              </li> */}
             </ul>
             <Link
               to="/Contact"

@@ -2,7 +2,7 @@ import React from "react";
 import ClearIcon from "@mui/icons-material/Clear";
 import CheckIcon from "@mui/icons-material/Check";
 import AddIcon from "@mui/icons-material/Add";
-import AccessTimeIcon from "@mui/icons-material/AccessTime";
+// import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import ButtonFonctionnement from "./ButtonFonctionnement";
@@ -93,13 +93,13 @@ const OffresAuteurs = () => {
                     renouvelable : 15€/an, en supplément. Sinon, url non personnalisable, par défaut.
                   </span>
                 </li>
-                <li className="flex items-center space-x-3">
+                {/* <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
                     <span className="font-bold">3 jours</span>
                   </span>
-                </li>
+                </li> */}
               </ul>
               <Link to="/Contact"
                 className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center dark:text-white"
@@ -197,13 +197,13 @@ const OffresAuteurs = () => {
                     renouvelable : 15€/an, en supplément. Sinon, url non personnalisable, par défaut.
                   </span>
                 </li>
-                <li className="flex items-center space-x-3">
+                {/* <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
                     <span className="font-bold">5 jours</span>
                   </span>
-                </li>
+                </li> */}
               </ul>
               <Link to="/Contact"
                 className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center dark:text-white"
@@ -309,13 +309,13 @@ const OffresAuteurs = () => {
                     renouvelable : 15€/an, en supplément. Sinon, url non personnalisable, par défaut.
                   </span>
                 </li>
-                <li className="flex items-center space-x-3">
+                {/* <li className="flex items-center space-x-3">
                   <AccessTimeIcon style={{ color: "magenta" }} />
                   <span>
                     Délai de création :{" "}
                     <span className="font-bold">7 jours</span>
                   </span>
-                </li>
+                </li> */}
               </ul>
               <Link to="/Contact"
                 className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center dark:text-white"
