@@ -8,6 +8,7 @@ import Farah from "../assets/Farah.webp";
 import Andraroc from "../assets/Andraroc.webp";
 import Franck from "../assets/franck.webp";
 import Elisa from "../assets/Elisa.webp";
+import Elisabet from "../assets/Elisabet.webp";
 
 const PageOffreAuteurs = () => {
   return (
@@ -168,9 +169,30 @@ const PageOffreAuteurs = () => {
                 </button>
               </a>
             </div>
+
+            {/* ELISABET GUILLOT*/}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src={Elisabet}
+                alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <a
+                href="https://www.elisabetguillot.com/"
+                alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                  Voir le site !
+                </button>
+              </a>
+            </div>
           </div>
           <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
-            Offre medium
+            Offre Standard
           </h4>
           <div className="lg:flex flex-row p-4 items-center ">
             {/* HONORE SAINT HILAIRE */}

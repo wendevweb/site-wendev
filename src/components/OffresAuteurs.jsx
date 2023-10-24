@@ -32,7 +32,7 @@ const OffresAuteurs = () => {
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton branding (à fournir)</span>
+                  <span>Personnalisation avec ton contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -116,7 +116,7 @@ const OffresAuteurs = () => {
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton branding (à fournir)</span>
+                  <span>Personnalisation avec ton contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -220,7 +220,7 @@ const OffresAuteurs = () => {
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton branding (à fournir)</span>
+                  <span>Personnalisation avec ton contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />

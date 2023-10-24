@@ -9,7 +9,7 @@ const Testimonials = () => {
         <div className="lg:m-10 p-6 bg-bg">
           <div className="lg:grid grid-cols-4 gap-4 p-4">
             {/* CARTE 1 */}
-            <div className="flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
+            <div className="mt-6 flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className=" flex flex-col content-center justify-center justify-items-center pb-6">
                 <figure className="max-w-screen-md mx-auto text-center">
                   <blockquote>

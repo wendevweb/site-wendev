@@ -69,7 +69,7 @@ const PageAbout = () => {
               Je suis <strong className="text-bold text-pinkDark">Wendy</strong>
               , fondatrice et gérante de ma micro-entreprise{" "}
               <strong className="text-bold text-pinkDark">WenDev</strong>,
-              développeuse web passionnée, no-code friendly et auteure de romans
+              développeuse web en freelance,  passionnée, no-code friendly et auteure de romans
               ! <br />A la suite de ma formation à la{" "}
               <strong className="text-bold text-pinkDark">
                 <a
@@ -302,34 +302,18 @@ const PageAbout = () => {
             <div className="lg:flex">
               <p className="font-quicksand text-xl p-10 leading-relaxed">
                 <strong className="text-bold text-2xl text-pinkDark">
-                  Etre LE média d'information français sur le métier de
-                  développeur web
+                  Etre LE média d'information français qui allie activités littéraires et tech !
                 </strong>{" "}
                 <br />
                 <br />
-                Lors de mon auto-formation, j'ai remarqué que beaucoup de médias
-                relatifs au développement web sont en anglais. Logique, me
-                diras-tu, comme il est important de connaître cette langue dans
-                ce métier. <br />
+               Lorsque je construisais mon propre site internet d'auteure de livres, je me suis heurtée à pas mal de freins et fait quelques erreursdans le choix de mes outils, par exemple. Je me suis rendue compte que réaliser un site ne s'improvise pas et qu'il nécessite du temps pour saisir les bonnes pratiques sur le web. <br /> Le web est un vaste monde bien complexe et je ne suis pas la seule à avoir fait ces erreurs.<br/>
                 <strong className="text-bold  text-pinkDark">
-                  Mais pour ceux qui débutent et qui ne sont pas habitués ? 🥺{" "}
+                  Et si je t'évitais de faire ces erreurs en t'informant sur tout cela de manière fun et didactique ? 🤩
                 </strong>
                 <br />
-                C'est pourquoi je compte bien devenir un média de référence pour
-                informer les apprentis développeurs web français qui souhaitent
-                se lancer dans le code. <br />
-                Principalement sur mon{" "}
-                <strong className="text-bold  text-pinkDark">
-                  compte Instagram
-                </strong>
-                , je publie des ressources utiles et partage la culture du web
-                pour mieux la faire connaître. Infos sur le diplôme, les écoles,
-                des sites gratuits pour s'entraîner, des mêmes ou encore de bons
-                tuyaux,
-                <strong className="text-bold  text-pinkDark">
-                  viens me rejoindre pour faire partie de la communauté{" "}
-                </strong>
-                !
+                Sur <strong className="text-bold  text-pinkDark">mes réseaux sociaux et dans ma newsletter
+                </strong>, je publie des ressources utiles et partage la culture du web
+                pour mieux la faire connaître !
                 <br />
                 <button className="text-white w-64 p-10 bg-gradient-to-br from-purple to-pinkDark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-12">
                   <a
