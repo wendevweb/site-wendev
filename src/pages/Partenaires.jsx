@@ -94,7 +94,7 @@ const Partenaires = () => {
         </h2>
         <p className="text-center font-quicksand text-xl md:text-xl xl:text-xl font-bold tracking-tight mb-12 text-pink">
           Chez Wendev, j'ai à coeur de travailler avec des personnes de
-          confiance, avec des compétences roches et variées. Voici la crème de
+          confiance, avec des compétences proches et variées. Voici la crème de
           la crème à votre service !
         </p>
       </section>

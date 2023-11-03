@@ -84,6 +84,10 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
+                  <span>Pas de formulaire de contact</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <ClearIcon style={{ color: "red" }} />
                   <span>Paramètres minimums de SEO</span>
                 </li>
                 <li>
@@ -135,8 +139,7 @@ const OffresAuteurs = () => {
                   <span>
                     1 section au choix parmi :{" "}
                     <span className="font-semibold">
-                      Avis des lecteurs, chroniques, lien vers le blog, flux
-                      Instagram, vidéo, extraits du livre, actualité, événements littéraires{" "}
+                      Avis des lecteurs, chroniques, vidéo, extraits du livre, actualité, événements littéraires{" "}
                     </span>
                   </span>
                 </li>
@@ -172,10 +175,6 @@ const OffresAuteurs = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en avant sur mes réseaux sociaux</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>Modifications : ajout d'une nouvelle page pour la sortie d'un nouveau livre, ajout d'un nouvel événement, ajout d'une section : 5€/modification.</span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -185,6 +184,10 @@ const OffresAuteurs = () => {
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
                   <span>Pas de menu de navigation</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <ClearIcon style={{ color: "red" }} />
+                  <span>Pas de formulaire de contact</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
@@ -239,8 +242,7 @@ const OffresAuteurs = () => {
                   <span>
                     Nombre de sections et pages illimité parmi :{" "}
                     <span className="font-semibold">
-                      Avis des lecteurs, chroniques, lien vers le blog, flux
-                      Instagram, vidéo, extraits du livre, actualité, événements littéraires{" "}
+                      Avis des lecteurs, chroniques, vidéo, extraits du livre, actualité, événements littéraires{" "}
                     </span>
                   </span>
                 </li>
