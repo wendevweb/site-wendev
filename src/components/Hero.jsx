@@ -86,7 +86,7 @@ const Hero = () => {
                     <GitHubIcon className="text-white hover:text-pinkDark mr-2" />
                   </Link>
                   <Link
-                    to="https://wendybaqueauteure.wendev.fr/"
+                    to="https://www.wendybaqueauteure.com/"
                     target={"_blank"}
                   >
                     <AutoStoriesIcon className="text-white hover:text-pinkDark mr-2" />

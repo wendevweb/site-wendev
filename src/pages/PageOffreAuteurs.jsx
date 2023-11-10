@@ -9,6 +9,8 @@ import Andraroc from "../assets/Andraroc.webp";
 import Franck from "../assets/franck.webp";
 import Elisa from "../assets/Elisa.webp";
 import Elisabet from "../assets/Elisabet.webp";
+import Kay from "../assets/Kay.webp";
+
 
 const PageOffreAuteurs = () => {
   return (
@@ -88,7 +90,7 @@ const PageOffreAuteurs = () => {
           <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
             Offre premium
           </h4>
-          <div className="lg:flex flex-row p-4 items-center mb-6">
+          <div className="lg:grid grid-flow-row-dense grid-cols-3 grid-rows-2 p-4 items-center mb-6">
             {/* FARAH D. */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
@@ -182,6 +184,27 @@ const PageOffreAuteurs = () => {
                 href="https://www.elisabetguillot.com/"
                 alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                  Voir le site !
+                </button>
+              </a>
+            </div>
+
+            {/* KAY NORDE*/}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src={Kay}
+                alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <a
+                href="https://www.kaynorde.com/"
+                alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                 rel="noreferrer"
                 target="_blank"
               >

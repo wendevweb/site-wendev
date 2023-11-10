@@ -119,9 +119,9 @@ const PageOffreSite = () => {
           </h3>
           <div className="lg:flex justify-around text-center ">
             <a
-              href="https://nelixair-website-front-end-copy-elgelhh6m-wendybaque.vercel.app/"
-              alt="Site web de l'association Nelixair"
-              aria-label="Site web de l'association Nelixair"
+              href="https://www.wendybaqueauteure.com/"
+              alt="Site web de Wendy Baqué, auteure de romans"
+              aria-label="Site web de Wendy Baqué, auteure de romans"
               target="_blank"
               rel="noreferrer"
             >

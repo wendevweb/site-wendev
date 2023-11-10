@@ -140,7 +140,7 @@ const Footer = () => {
         <p>
           Made with ❤ by{" "}
           <a
-            href="https://linktr.ee/wendybaque"
+            href="https://www.wendybaqueauteure.com/"
             alt="redirection vers le site de Wendy Baqué"
             aria-label="redirection vers le site de Wendy Baqué"
             target="_blank"

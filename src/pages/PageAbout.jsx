@@ -366,7 +366,7 @@ const PageAbout = () => {
               </p>
               <button className="text-white bg-gradient-to-br from-purple to-pinkDark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-12">
                 <a
-                  href="https://wendybaqueauteure.wendev.fr/"
+                  href="https://www.wendybaqueauteure.com/"
                   alt="Redirection vers le site d'auteure de Wendy Baqué"
                   aria-label="Redirection vers le site d'auteure de Wendy Baqué"
                   rel="noreferrer"
