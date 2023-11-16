@@ -10,6 +10,7 @@ import Franck from "../assets/franck.webp";
 import Elisa from "../assets/Elisa.webp";
 import Elisabet from "../assets/Elisabet.webp";
 import Kay from "../assets/Kay.webp";
+import Lea from "../assets/Lea.webp";
 
 
 const PageOffreAuteurs = () => {
@@ -218,6 +219,26 @@ const PageOffreAuteurs = () => {
             Offre Standard
           </h4>
           <div className="lg:flex flex-row p-4 items-center ">
+            {/* LEA SAMSON */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src={Lea}
+                alt="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                aria-label="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                className="rounded-md"
+              />
+              <a
+                href="https://www.leasamsonauteure.fr/"
+                alt="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                aria-label="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                  Voir le site !
+                </button>
+              </a>
+            </div>
             {/* HONORE SAINT HILAIRE */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
@@ -234,7 +255,7 @@ const PageOffreAuteurs = () => {
                 target="_blank"
               >
                 <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-                  Voir le site !
+                  Voir la démo !
                 </button>
               </a>
             </div>
@@ -254,34 +275,14 @@ const PageOffreAuteurs = () => {
                 target="_blank"
               >
                 <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-                  Voir le site !
-                </button>
-              </a>
-            </div>
-            {/* OCEANE GOUSSE */}
-            <div className="lg:flex flex-col p-4 items-center ">
-              <img
-                src="https://i.goopics.net/2tl6bf.png"
-                alt="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
-                aria-label="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
-                className="rounded-md"
-              />
-              <a
-                href="https://slateblue-grasshopper-490914.builder-preview.com/"
-                alt="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
-                aria-label="Site internet fictif de Océane Gousse pour illustrer l'offre medium de WenDev"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-                  Voir le site !
+                  Voir la démo !
                 </button>
               </a>
             </div>
           </div>
 
           <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
-            Offre basic
+            Offre Basic
           </h4>
           <div className="lg:flex flex-row pb-4 items-center ">
             <div className="lg:flex flex-col p-4 items-center ">
@@ -300,7 +301,7 @@ const PageOffreAuteurs = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Voir le site !
+                  Voir la démo !
                 </a>
               </button>
             </div>
@@ -320,7 +321,7 @@ const PageOffreAuteurs = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Voir le site !
+                  Voir la démo !
                 </a>
               </button>
             </div>
@@ -340,7 +341,7 @@ const PageOffreAuteurs = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Voir le site !
+                  Voir la démo !
                 </a>
               </button>
             </div>
