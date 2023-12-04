@@ -18,7 +18,7 @@ const PageOffrePortfolio = () => {
           style={{
             backgroundPosition: "50%",
             backgroundImage:
-              "url('https://cdn.pixabay.com/photo/2017/08/12/09/17/industry-2633878_960_720.jpg')",
+              "url('https://images.pexels.com/photos/1036848/pexels-photo-1036848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
             height: "500px",
           }}
         >
@@ -108,8 +108,19 @@ const PageOffrePortfolio = () => {
       <Fade>
         <section className="pt-6 flex flex-col justify-center items-center">
           <h3 className="text-pink text-2xl text-center mb-4">
-            Un exemple ? Mon portfolio de dev.
+            Exemples de réalisations
           </h3>
+          <button className="w-64 mb-6 bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-real">
+            <a
+              href="https://www.kaynorde.com/portfolio"
+              alt="Redirection vers le portfolio de Kay Norde"
+              aria-label="Redirection vers le portfolio de Kay Norde"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Voir le portfolio de Nerodart, graphiste et illustratrice
+            </a>
+          </button>
           <button className="w-56 bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-real">
             <a
               href="https://wendybaqueportfoliodev.wendev.fr/"

@@ -10,6 +10,7 @@ import projet2 from "../assets/projet2.webp";
 import projet4 from "../assets/projet4.webp";
 import projet5 from "../assets/projet5.webp";
 import projet6 from "../assets/projet6.webp";
+import projet7 from '../assets/projet7.webp';
 
 const PageOffreSite = () => {
   return (
@@ -117,7 +118,7 @@ const PageOffreSite = () => {
           <h3 className="text-pink text-2xl text-center pb-6 ">
             Quelques uns de mes projets...
           </h3>
-          <div className="lg:flex justify-around text-center ">
+          <div className="lg:grid grid-cols-3 gap-4">
             <a
               href="https://www.wendybaqueauteure.com/"
               alt="Site web de Wendy Baqué, auteure de romans"
@@ -197,6 +198,23 @@ const PageOffreSite = () => {
                   src={projet6}
                   alt="Site web des Nettoyeurs de Tombes Réunis"
                   aria-label="Site web des Nettoyeurs de Tombes Réunis"
+                />
+              </div>
+            </a>
+
+            <a
+              href="https://www.diagimmogeraldo.fr/"
+              alt="Site web Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
+              aria-label="Site web Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>Diag Immo Geraldo</p>
+                <img
+                  src={projet7}
+                  alt="Site web de Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
+                  aria-label="Site web de Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
                 />
               </div>
             </a>

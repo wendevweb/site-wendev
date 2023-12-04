@@ -25,7 +25,7 @@ const PageOffreMaquette = () => {
           style={{
             backgroundPosition: "50%",
             backgroundImage:
-              "url('https://assets-global.website-files.com/615b6910fed3ab29278f1893/6239bc9233d83795915b0c50_collaboration-figma2x.png')",
+              "url('https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
             height: "500px",
           }}
         >

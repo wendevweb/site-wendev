@@ -28,7 +28,7 @@ const PageOffreAuteurs = () => {
           style={{
             backgroundPosition: "50%",
             backgroundImage:
-              "url('https://cdn.pixabay.com/photo/2016/03/27/19/32/book-1283865_960_720.jpg')",
+              "url('https://images.pexels.com/photos/796603/pexels-photo-796603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
             height: "500px",
           }}
         >

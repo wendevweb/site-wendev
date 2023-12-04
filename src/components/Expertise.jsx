@@ -5,7 +5,7 @@ const Expertise = () => {
     {
       id: 1,
       title: "Offre spéciale auteurs",
-      img: "https://cdn.pixabay.com/photo/2016/03/27/19/32/book-1283865_960_720.jpg",
+      img: "https://images.pexels.com/photos/796603/pexels-photo-796603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       desc: "Tu écris des livres et tu souhaites avoir un site web professionnel dédié à ton activité ? Moi aussi, je suis auteure et suis passée par là. Je te propose une offre accessible et adaptée à tes besoins pour promouvoir ton univers littéraire et le partager autour de toi.",
       link: "/Offreauteurs",
     },
@@ -19,7 +19,7 @@ const Expertise = () => {
     {
       id: 3,
       title: "Création de maquettes et de prototypes pour le web",
-      img: "https://assets-global.website-files.com/615b6910fed3ab29278f1893/6239bc9233d83795915b0c50_collaboration-figma2x.png",
+      img: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       desc: "Tu souhaites avoir un aperçu de ce que donnera le site web de tes rêves ? Alors viens vite me demander une maquette !",
       link: "/OffreMaquette",
     },
@@ -41,7 +41,7 @@ const Expertise = () => {
     {
       id: 7,
       title: "Création de ton portfolio",
-      img: "https://cdn.pixabay.com/photo/2017/08/12/09/17/industry-2633878_960_720.jpg",
+      img: "https://images.pexels.com/photos/1036848/pexels-photo-1036848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       desc: "Que tu sois artiste, expert de la tech, débutant ou chevronné, avoir un portfolio est essentiel pour présenter tes projets, mettre en valeur ton travail et qui tu es. Je code et met en page tes projets et ta présentation de manière originale et percutante, mais toujours pro !",
       link: "/OffrePortfolio",
     },
