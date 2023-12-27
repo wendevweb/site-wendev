@@ -19,10 +19,10 @@ const Home = () => {
       </Helmet>
       <Hero />
       <Fade>
-        <Testimonials />
+        <Expertise />
       </Fade>
       <Fade>
-        <Expertise />
+        <Testimonials />
       </Fade>
        < ButtonFonctionnement />
       <Fade>

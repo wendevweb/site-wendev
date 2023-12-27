@@ -77,6 +77,27 @@ const Slider = () => {
       image:
         "https://i.goopics.net/luvrq3.png",
     },
+
+    {
+      id: 10,
+      title:"Mélodie Ducoeur",
+      image:
+        "https://i.goopics.net/n205py.png",
+    },
+
+    {
+      id: 11,
+      title:"Plumes de Coeur éditions",
+      image:
+        "https://i.goopics.net/14wkyn.png",
+    },
+
+    {
+      id: 12,
+      title:"Diag Immo Geraldo",
+      image:
+        "https://i.goopics.net/tuf0by.jpg",
+    },
     
   ];
   return (

@@ -49,8 +49,22 @@ const Testimonials = () => {
     {
       id: 7,
       client: "Léa, auteure",
-      avis: "Je recommande les yeux fermés, Wendy ! Elle est serieuse et professionnelle. Je lui ai donnée carte blanche car malheureusement je n'avais mas trop d'idées, et elle a su m'épater en me rendant un site vraiment bien construit. Les couleurs choisies sont tops ! Merci encore.",
+      avis: "Je recommande les yeux fermés, Wendy ! Elle est sérieuse et professionnelle. Je lui ai donné carte blanche car malheureusement je n'avais pas trop d'idées, et elle a su m'épater en me rendant un site vraiment bien construit. Les couleurs choisies sont tops ! Merci encore.",
       avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=400,h=504,fit=crop/YNqpLVDw6JtlPaw6/photo-lea-taille-normal-YD0Dr6VwrRH3l5zv.webp",
+    },
+
+    {
+      id: 8,
+      client: "Mélodie, auteure",
+      avis: "Un service pro, en un temps record.",
+      avatar: "https://www.melodieducoeur.com/gallery_gen/d7110ef61f2a93a3d1da07fbfbb78407_692x832_fit.jpg?ts=1702025445",
+    },
+
+    {
+      id: 9,
+      client: "Elsa, auteure",
+      avis: "Wendy a su créer le site web qui correspondait à mes besoins d'auteure et à mes désirs. Elle a été à l'écoute de mes demandes et s'est montrée très réactive tout au long de nos échanges. Le travail effectué est de grande qualité. Je recommande vivement ses services.",
+      avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=503,h=424,fit=crop/AR07O73aVWFGrMg0/p1190999-meP1D5nM9ZsPDazY.webp",
     },
     
   ];

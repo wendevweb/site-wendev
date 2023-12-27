@@ -11,6 +11,7 @@ import Elisa from "../assets/Elisa.webp";
 import Elisabet from "../assets/Elisabet.webp";
 import Kay from "../assets/Kay.webp";
 import Lea from "../assets/Lea.webp";
+import Elsa from "../assets/Elsa.webp";
 
 
 const PageOffreAuteurs = () => {
@@ -92,6 +93,26 @@ const PageOffreAuteurs = () => {
             Offre premium
           </h4>
           <div className="lg:grid grid-flow-row-dense grid-cols-3 grid-rows-2 p-4 items-center mb-6">
+            {/* ELSA ERRACK */}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src={Elsa}
+                alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <a
+                href="https://www.elsaerrackauteure.com/"
+                alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                  Voir le site !
+                </button>
+              </a>
+            </div>
             {/* FARAH D. */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
