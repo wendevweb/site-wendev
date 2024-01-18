@@ -66,6 +66,13 @@ const Testimonials = () => {
       avis: "Wendy a su créer le site web qui correspondait à mes besoins d'auteure et à mes désirs. Elle a été à l'écoute de mes demandes et s'est montrée très réactive tout au long de nos échanges. Le travail effectué est de grande qualité. Je recommande vivement ses services.",
       avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=503,h=424,fit=crop/AR07O73aVWFGrMg0/p1190999-meP1D5nM9ZsPDazY.webp",
     },
+
+    {
+      id: 10,
+      client: "Les Gardiennes du Souvenir",
+      avis: "Wendy nous a réalisé un site web très professionnel et répondant exactement à nos attentes, en un temps record. Nous recommandons vivement ses services et son écoute bienveillante auprès de ses clients !",
+      avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=136,h=136,fit=crop/AGB3XwRQJ0HQoNp1/logo_lgds-removebg-preview-m2WlV7QOrVce5oe7.png",
+    },
     
   ];
   return (
@@ -75,7 +82,7 @@ const Testimonials = () => {
           Vous en parlez !
         </h3>
         <div className="lg:m-10 p-6 bg-bg">
-          <div className="lg:grid grid-cols-4 gap-4 p-4">
+          <div className="lg:grid grid-cols-5 gap-4 p-4">
           {avis.map((avi) => (
             <div key={avi.id} className="mt-6 flex flex-col w-full max-w-sm rounded-lg shadow-lg bg-real  transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden dark:bg-gray-800 dark:border-gray-700">
               <div className=" flex flex-col content-center justify-center justify-items-center pb-6">

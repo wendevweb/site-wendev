@@ -13,7 +13,6 @@ import Kay from "../assets/Kay.webp";
 import Lea from "../assets/Lea.webp";
 import Elsa from "../assets/Elsa.webp";
 
-
 const PageOffreAuteurs = () => {
   return (
     <div className="font-quicksand flex flex-col justify-center justify-items-center">
@@ -68,21 +67,23 @@ const PageOffreAuteurs = () => {
       <Fade>
         <WhiteBook />
       </Fade>
-      <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
-        <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-          {" "}
-          <RedeemIcon />
-          <a
-            href="https://annuaire-auto-edites.johnlucas.fr/partenaires/"
-            alt="Redirection vers l'annuaire Auto-édités"
-            aria-label="Redirection vers l'annuaire Auto-édités"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Bénéficie de -10% en étant référencé ici
-          </a>
-        </button>
-      </div>
+      <Fade>
+        <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
+          <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+            {" "}
+            <RedeemIcon />
+            <a
+              href="https://annuaire-auto-edites.johnlucas.fr/partenaires/"
+              alt="Redirection vers l'annuaire Auto-édités"
+              aria-label="Redirection vers l'annuaire Auto-édités"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Bénéficie de -10% en étant référencé ici
+            </a>
+          </button>
+        </div>
+      </Fade>
 
       <Fade>
         <section className="font-quicksand lg:flex flex-col justify-center items-center">
@@ -92,7 +93,49 @@ const PageOffreAuteurs = () => {
           <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
             Offre premium
           </h4>
+
           <div className="lg:grid grid-flow-row-dense grid-cols-3 grid-rows-2 p-4 items-center mb-6">
+            {/* KAY NORDE*/}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src={Kay}
+                alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <a
+                href="https://www.kaynorde.com/"
+                alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                  Voir le site !
+                </button>
+              </a>
+            </div>
+
+            {/* ELISABET GUILLOT*/}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src={Elisabet}
+                alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <a
+                href="https://www.elisabetguillot.com/"
+                alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                  Voir le site !
+                </button>
+              </a>
+            </div>
             {/* ELSA ERRACK */}
             <div className="lg:flex flex-col p-4 items-center ">
               <img
@@ -185,48 +228,6 @@ const PageOffreAuteurs = () => {
                 href="https://www.elisaavrainauteure.fr"
                 alt="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-                  Voir le site !
-                </button>
-              </a>
-            </div>
-
-            {/* ELISABET GUILLOT*/}
-            <div className="lg:flex flex-col p-4 items-center ">
-              <img
-                src={Elisabet}
-                alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
-                className="rounded-md"
-              />
-              <a
-                href="https://www.elisabetguillot.com/"
-                alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-                  Voir le site !
-                </button>
-              </a>
-            </div>
-
-            {/* KAY NORDE*/}
-            <div className="lg:flex flex-col p-4 items-center ">
-              <img
-                src={Kay}
-                alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
-                aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
-                className="rounded-md"
-              />
-              <a
-                href="https://www.kaynorde.com/"
-                alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
-                aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                 rel="noreferrer"
                 target="_blank"
               >

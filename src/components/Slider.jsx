@@ -82,7 +82,7 @@ const Slider = () => {
       id: 10,
       title:"Mélodie Ducoeur",
       image:
-        "https://i.goopics.net/n205py.png",
+        "https://www.melodieducoeur.com/gallery_gen/d7110ef61f2a93a3d1da07fbfbb78407_692x832_fit.jpg?ts=1702025445",
     },
 
     {
@@ -97,6 +97,13 @@ const Slider = () => {
       title:"Diag Immo Geraldo",
       image:
         "https://i.goopics.net/tuf0by.jpg",
+    },
+
+    {
+      id: 12,
+      title:"Les Gardiennes du Souvenir",
+      image:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=136,h=136,fit=crop/AGB3XwRQJ0HQoNp1/logo_lgds-removebg-preview-m2WlV7QOrVce5oe7.png",
     },
     
   ];

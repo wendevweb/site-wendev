@@ -12,6 +12,9 @@ import projet5 from "../assets/projet5.webp";
 import projet6 from "../assets/projet6.webp";
 import projet7 from '../assets/projet7.webp';
 import projet8 from "../assets/projet8.webp";
+import projet9 from "../assets/projet9.webp";
+import projet10 from "../assets/projet10.webp";
+import projet11 from "../assets/projet11.webp";
 
 const PageOffreSite = () => {
   return (
@@ -139,6 +142,40 @@ const PageOffreSite = () => {
             </a>
 
             <a
+              href="https://www.frenchholidaygites.co.uk/?lang=fr"
+              alt="Site web des Gîtes des Guissinnières, à Noyant-Villages."
+              aria-label="Site web des Gîtes des Guissinnières, à Noyant-Villages."
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>Refonte du site des Gîtes des Guissinnières (49)</p>
+                <img
+                  src={projet10}
+                  alt="Site web des Gîtes des Guissinnières, à Noyant-Village"
+                  aria-label="Site web des Gîtes des Guissinnières, à Noyant-Village"
+                />
+              </div>
+            </a>
+
+            <a
+              href="https://www.plumesdecoeur.com/"
+              alt="Site web des éditions Plumes de Coeur."
+              aria-label="Site web des éditions Plumes de Coeur."
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>Refonte du site des éditions Plumes de Coeur</p>
+                <img
+                  src={projet11}
+                  alt="Site web des éditions Plumes de Coeur."
+                  aria-label="Site web des éditions Plumes de Coeur."
+                />
+              </div>
+            </a>
+
+            <a
               href="https://www.wendybaqueauteure.com/"
               alt="Site web de Wendy Baqué, auteure de romans"
               aria-label="Site web de Wendy Baqué, auteure de romans"
@@ -234,6 +271,25 @@ const PageOffreSite = () => {
                   src={projet7}
                   alt="Site web de Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
                   aria-label="Site web de Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
+                />
+              </div>
+            </a>
+
+            
+
+            <a
+              href="https://www.lesgardiennesdusouvenir.fr/"
+              alt="Site web des Gardiennes du Souvenir"
+              aria-label="Site web des Gardiennes du Souvenir"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+                <p>Les Gardiennes du Souvenir</p>
+                <img
+                  src={projet9}
+                  alt="Site web des Gardiennes du Souvenir."
+                  aria-label="Site web des Gardiennes du Souvenir."
                 />
               </div>
             </a>
