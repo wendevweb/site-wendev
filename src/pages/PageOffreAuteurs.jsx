@@ -43,7 +43,7 @@ const PageOffreAuteurs = () => {
                   <br />
                   <strong className="text-pink">auteurs</strong>
                 </h2>
-                <p className="font-light text-white sm:text-xl dark:text-black">
+                <p className="font-light text-white dark:text-white sm:text-xl">
                   Tu écris des livres et tu souhaites avoir un site web
                   professionnel dédié à ton activité ? <br /> Moi aussi, je suis
                   auteure et suis passée par là.

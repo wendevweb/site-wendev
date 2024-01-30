@@ -34,7 +34,7 @@ const PageOffreChat = () => {
                   <br />
                   <span className="text-pink">Chat et Chatbot</span>
                 </h2>
-                <p className="font-light text-white sm:text-xl dark:text-black">
+                <p className="font-light text-white sm:text-xl dark:text-white">
                   Echanger avec ses collègues, ses amis, sa familles, etc. de
                   manière fun et sécurisée, ou répondre automatiquement aux
                   questions de tes utilisateurs selon des chemins prédéfinis est

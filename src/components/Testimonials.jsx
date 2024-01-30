@@ -55,9 +55,9 @@ const Testimonials = () => {
 
     {
       id: 8,
-      client: "Mélodie, auteure",
-      avis: "Un service pro, en un temps record.",
-      avatar: "https://www.melodieducoeur.com/gallery_gen/d7110ef61f2a93a3d1da07fbfbb78407_692x832_fit.jpg?ts=1702025445",
+      client: "Babeth, gérante de gîtes",
+      avis: "Au top ! Disponibilité, réactivité, patience et professionnalisme sont au rdv avec Wendev. Je recommande vivement pour tout ce qui concerne créations et refonte de sites internet.",
+      avatar: "https://i.goopics.net/s2oa0a.png",
     },
 
     {
@@ -88,7 +88,7 @@ const Testimonials = () => {
               <div className=" flex flex-col content-center justify-center justify-items-center pb-6">
                 <figure className="max-w-screen-md mx-auto text-center">
                   <blockquote>
-                    <p className="text-l font-quicksand tracking-tight p-4 dark:text-white">
+                    <p className="dark:text-purpleDark text-l font-quicksand tracking-tight p-4">
                      {avi.avis}
                     </p>
                   </blockquote>
@@ -100,7 +100,7 @@ const Testimonials = () => {
                       aria-label="avatar"
                     />
                     <div className="flex items-center divide-x-2 divide-gray-500 dark:divide-gray-700">
-                      <cite className="pr-3 font-medium text-gray-900 dark:text-white">
+                      <cite className=" dark:text-purpleDark pr-3 font-medium text-gray-900">
                         {avi.client}
                       </cite>
                     </div>

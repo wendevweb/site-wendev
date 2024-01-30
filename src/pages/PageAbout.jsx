@@ -43,7 +43,7 @@ const PageAbout = () => {
                   <br />
                   <strong className="text-pink">WenDev</strong>
                 </h2>
-                <p className="font-light text-white sm:text-xl dark:text-black">
+                <p className="font-light text-white dark:text-white sm:text-xl">
                   Mais qui se cache derrière ce logo ? Quelle est l'histoire de
                   WenDev ?
                   <br /> Rendez-vous dans les sections ci-dessous pour le

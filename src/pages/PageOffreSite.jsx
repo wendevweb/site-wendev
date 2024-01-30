@@ -45,7 +45,7 @@ const PageOffreSite = () => {
                   <br />
                   <strong className="text-pink">Sites internet</strong>
                 </h2>
-                <p className="font-light text-white sm:text-xl dark:text-black">
+                <p className="font-light text-white dark:text-white sm:text-xl">
                   Avoir son propre site internet comporte bien des avantages.
                   C'est un réel atout pour ta marque ou ton entreprise !
                   <br />
@@ -131,7 +131,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg">
                 <p>Refonte du site de Mélodie Ducoeur, auteure</p>
                 <img
                   src={projet8}
@@ -148,7 +148,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
                 <p>Refonte du site des Gîtes des Guissinnières (49)</p>
                 <img
                   src={projet10}
@@ -165,7 +165,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
                 <p>Refonte du site des éditions Plumes de Coeur</p>
                 <img
                   src={projet11}
@@ -182,7 +182,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
                 <p>Site de Wendy Baqué, auteure</p>
                 <img
                   src={projet1}
@@ -198,7 +198,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
                 <p>Mon portfolio</p>
                 <img
                   src={projet4}
@@ -214,7 +214,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
                 <p>Site web de l'association Nelixair</p>
                 <img
                   src={projet2}
@@ -231,7 +231,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
                 <p>CINOS Consulting</p>
                 <img
                   src={projet5}
@@ -248,7 +248,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
                 <p>Les Nettoyeurs de Tombes Réunis</p>
                 <img
                   src={projet6}
@@ -265,7 +265,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
                 <p>Diag Immo Geraldo</p>
                 <img
                   src={projet7}
@@ -284,7 +284,7 @@ const PageOffreSite = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg dark:border-black dark:bg-black dark:text-white">
+              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
                 <p>Les Gardiennes du Souvenir</p>
                 <img
                   src={projet9}
