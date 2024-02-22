@@ -42,7 +42,7 @@ const PageOffreMaquette = () => {
                     prototypes et maquettes pour le web
                   </strong>
                 </h2>
-                <p className="font-light text-white dark:text-white sm:text-xl">
+                <p className="font-light text-white sm:text-xl">
                   Tu souhaites avoir un aperçu de ce que donnera le site web de
                   tes rêves ?
                   <br /> Alors cette offre est faite pour toi ! <br />

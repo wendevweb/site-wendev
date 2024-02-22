@@ -33,7 +33,7 @@ const PageOffrePortfolio = () => {
                   <br />
                   <span className="text-pink">portfolio</span>
                 </h2>
-                <p className="font-light text-white sm:text-xl dark:text-white">
+                <p className="font-light text-white sm:text-xl">
                   Que tu sois artiste, expert de la tech, débutant ou chevronné,
                   avoir un portfolio est essentiel pour présenter tes projets,
                   mettre en valeur ton travail et qui tu es.

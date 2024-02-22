@@ -84,6 +84,7 @@ const Entreprise = () => {
                 aria-label="Logo de Comet"
                 className="w-56"
               />
+              
             </div>
           </div>
         </section>

@@ -9,12 +9,12 @@ import { Link } from "react-router-dom";
 const OffreMaquette = () => {
   return (
     <section
-      className="bg-white dark:bg-black font-quicksand"
+      className="bg-white  font-quicksand"
       aria-label="Offre de services de création et de refonte de site web"
     >
       <div className="p-4 grid grid-cols-1 justify-items-center py-8 px-4 lg:py-16 lg:px-6">
         <Fade>
-          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden w-auto p-6 text-center text-black bg-real rounded-md shadow-lg dark:border-black xl:p-8 dark:bg-black dark:text-white">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden w-auto p-6 text-center text-black bg-real rounded-md shadow-lg">
             <h3 className="mb-4 text-2xl font-semibold">
               Une offre unique qui s'adapte à toutes tes envies !
             </h3>
@@ -61,7 +61,7 @@ const OffreMaquette = () => {
             </ul>
             <Link
               to="/Contact"
-              className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center dark:text-white"
+              className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center"
             >
               C'est parti !
             </Link>

@@ -12,6 +12,7 @@ import Elisabet from "../assets/Elisabet.webp";
 import Kay from "../assets/Kay.webp";
 import Lea from "../assets/Lea.webp";
 import Elsa from "../assets/Elsa.webp";
+import Florent from "../assets/Florent.webp";
 
 const PageOffreAuteurs = () => {
   return (
@@ -43,7 +44,7 @@ const PageOffreAuteurs = () => {
                   <br />
                   <strong className="text-pink">auteurs</strong>
                 </h2>
-                <p className="font-light text-white dark:text-white sm:text-xl">
+                <p className="font-light text-white sm:text-xl">
                   Tu écris des livres et tu souhaites avoir un site web
                   professionnel dédié à ton activité ? <br /> Moi aussi, je suis
                   auteure et suis passée par là.
@@ -95,6 +96,27 @@ const PageOffreAuteurs = () => {
           </h4>
 
           <div className="lg:grid grid-flow-row-dense grid-cols-3 grid-rows-2 p-4 items-center mb-6">
+            {/* FLORENT BARTHEL*/}
+            <div className="lg:flex flex-col p-4 items-center ">
+              <img
+                src={Florent}
+                alt="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
+                aria-label="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <a
+                href="https://www.florentbarthelauteur.com/"
+                alt="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
+                aria-label="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                  Voir le site !
+                </button>
+              </a>
+            </div>
+
             {/* KAY NORDE*/}
             <div className="lg:flex flex-col p-4 items-center ">
               <img

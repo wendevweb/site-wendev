@@ -52,6 +52,13 @@ const Partenaires = () => {
       website: "https://www.cardebook.net",
       logo: "https://i.goopics.net/t5h0ss.jpg",
     },
+    {
+      id: 8,
+      name: "Emilie David - ED Multi-Services (en langue française)",
+      service: "Corections d'écrits, transcription, rédaction de courriers, prête-plume et rédaction web.",
+      website: "https://ed-multi-services.jimdosite.com/",
+      logo: "https://jimdo-storage.freetls.fastly.net/image/440839526/6e276933-a6a2-4ef8-b865-da9a0b5d4b38.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1024&height=1024&trim=67,208,645,204",
+    },
     
   ];
   return (

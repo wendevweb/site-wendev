@@ -20,7 +20,7 @@ const Contact = () => {
       <div className="flex flex-col mt-10">
         <h2 className="text-pink text-2xl text-center ">Rencontrons-nous !</h2>
         <Calendly />
-        <button className="w-96 mb-6 self-center text-white bg-pink hover:bg-pinkDark font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:text-white">
+        <button className="w-96 mb-6 self-center text-white bg-pink hover:bg-pinkDark font-medium rounded-lg text-sm px-5 py-2.5 text-center">
           <a
             href="https://forms.gle/CLK88Hz5eKFGXZFr7"
             alt="Redirection vers le formulaire de demande de devis"

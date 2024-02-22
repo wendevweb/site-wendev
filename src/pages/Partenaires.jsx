@@ -80,6 +80,18 @@ const Partenaires = () => {
       img: "https://i.goopics.net/t5h0ss.jpg",
       link: "https://www.cardebook.net",
     },
+    {
+      id: 8,
+      name: "Emilie David - ED Multiservices (en langue française)",
+      title:
+        "Emilie David - ED Multiservices (en langue française)",
+      descr:
+        "• Correction : romans, nouvelles, recueils... • Transcription : sous-titres, interviews, enquêtes... • Rédaction : articles, mails, courriers... • Prête-plume : panne d'inspiration, besoin de mettre des idées en ordre, j'écris pour vous à partir de votre idée originale ou de la mienne.",
+      offer:
+        "5% de réduction sont offerts sur la première prestation en passant par WenDev. Offre non cumulable avec d'autres promotions en cours.",
+      img: "https://jimdo-storage.freetls.fastly.net/image/440839526/6e276933-a6a2-4ef8-b865-da9a0b5d4b38.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1024&height=1024&trim=67,208,645,204",
+      link: "https://ed-multi-services.jimdosite.com/",
+    },
   ];
   return (
     <div>
@@ -103,7 +115,7 @@ const Partenaires = () => {
           {partenaires.map((partenaire) => (
             <div
               key={partenaire.id}
-              className="mt-6 lg:flex items-center	transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black bg-real rounded-lg shadow-lg dark:border-black dark:bg-black dark:text-white"
+              className="mt-6 lg:flex items-center	transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black bg-real rounded-lg shadow-lg"
             >
               <img
                 src={partenaire.img}

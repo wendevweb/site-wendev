@@ -34,7 +34,7 @@ const PageOffreFirebase = () => {
                   <br />
                   <strong className="text-pink">Firebase</strong>
                 </h2>
-                <p className="font-light text-white sm:text-xl dark:text-white">
+                <p className="font-light text-white sm:text-xl">
                   Tu souhaites que tes utilisateurs s'authentifient sur ton
                   application ou ton site internet de manière sécurisée ?
                   <br /> Alors cette offre est faite pour toi ! <br />

@@ -35,7 +35,7 @@ const PageOffreGlide = () => {
                   <br />
                   <span className="text-pink">application mobile</span>
                 </h2>
-                <p className="font-light dark:text-white text-white sm:text-xl">
+                <p className="font-light text-white sm:text-xl">
                   Une application mobile est le must have pour ton entreprise ou
                   pour ta marque. Et tout cela, sans base de données à
                   construire !

@@ -43,7 +43,7 @@ const PageAbout = () => {
                   <br />
                   <strong className="text-pink">WenDev</strong>
                 </h2>
-                <p className="font-light text-white dark:text-white sm:text-xl">
+                <p className="font-light text-white sm:text-xl">
                   Mais qui se cache derrière ce logo ? Quelle est l'histoire de
                   WenDev ?
                   <br /> Rendez-vous dans les sections ci-dessous pour le
@@ -86,7 +86,21 @@ const PageAbout = () => {
               de créer ma propre entreprise :{" "}
               <strong className="text-bold text-pinkDark">WenDev</strong> que
               voici !
+<br/>
+              <button className="text-white bg-gradient-to-br from-purple to-pinkDark hover:bg-gradient-to-bl focus:ring-4 focus:outline-none font-medium rounded-lg text-sm px-5 py-2.5 text-center mr-2 mb-2 mt-12">
+                <a
+                  href="https://www.wildcodeschool.com/fr-fr/blog/devenir-d%C3%A9veloppeurse-web-en-freelance-les-conseils-cl%C3%A9s-pour-se-lancer"
+                  alt="Redirection vers mon article sur le blog de la Wild Code School"
+                  aria-label="Redirection vers mon article sur le blog de la Wild Code School"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Lire mon article sur le blog de la Wild Code School
+                </a>
+              </button>
             </p>
+
+            
           </div>
         </section>
       </Fade>

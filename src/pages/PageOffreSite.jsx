@@ -45,7 +45,7 @@ const PageOffreSite = () => {
                   <br />
                   <strong className="text-pink">Sites internet</strong>
                 </h2>
-                <p className="font-light text-white dark:text-white sm:text-xl">
+                <p className="font-light text-white sm:text-xl">
                   Avoir son propre site internet comporte bien des avantages.
                   C'est un réel atout pour ta marque ou ton entreprise !
                   <br />

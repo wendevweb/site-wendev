@@ -23,24 +23,24 @@ const Slider = () => {
       image:
         "https://i.goopics.net/ags7bq.png",
     },
-    {
-      id: 2,
-      title:"Elisa",
-      image:
-        "https://i.goopics.net/389bgt.png",
-    },
+    // {
+    //   id: 2,
+    //   title:"Elisa",
+    //   image:
+    //     "https://i.goopics.net/389bgt.png",
+    // },
     {
       id: 3,
       title:"Farahd",
       image:
         "https://i.goopics.net/z5e4k5.png",
     },
-    {
-      id:4,
-      title:"Andraroc",
-      image:
-        "https://i.goopics.net/ncpc8d.png",
-    },
+    // {
+    //   id:4,
+    //   title:"Andraroc",
+    //   image:
+    //     "https://i.goopics.net/ncpc8d.png",
+    // },
     {
       id: 5,
       title:"Cinos",
@@ -78,12 +78,12 @@ const Slider = () => {
         "https://i.goopics.net/luvrq3.png",
     },
 
-    {
-      id: 10,
-      title:"Mélodie Ducoeur",
-      image:
-        "https://www.melodieducoeur.com/gallery_gen/d7110ef61f2a93a3d1da07fbfbb78407_692x832_fit.jpg?ts=1702025445",
-    },
+    // {
+    //   id: 10,
+    //   title:"Mélodie Ducoeur",
+    //   image:
+    //     "https://www.melodieducoeur.com/gallery_gen/d7110ef61f2a93a3d1da07fbfbb78407_692x832_fit.jpg?ts=1702025445",
+    // },
 
     {
       id: 11,
@@ -104,6 +104,12 @@ const Slider = () => {
       title:"Les Gardiennes du Souvenir",
       image:
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=136,h=136,fit=crop/AGB3XwRQJ0HQoNp1/logo_lgds-removebg-preview-m2WlV7QOrVce5oe7.png",
+    },
+    {
+      id: 13,
+      title:"Les Gîtes des Guissinnières",
+      image:
+        "https://i.goopics.net/s2oa0a.png",
     },
     
   ];
