@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
-import wendycolor from "../assets/wendy-color.png";
+import wendycolor from "../assets/wendywildcodeschool.webp";
 import wendev7 from "../assets/wendev-7.webp";
 import wendev9 from "../assets/wendev-9.webp";
 import wendev10 from "../assets/wendev-10.webp";
@@ -19,7 +19,7 @@ const PageAbout = () => {
     <div className="font-quicksand lg:flex flex-col justify-items-center">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>A propos | WenDev</title>
+        <title>À propos | WenDev</title>
         <link href="https://www.wendev.fr/About" />
       </Helmet>
       <section aria-label="Titre et présentation du service">
@@ -39,7 +39,7 @@ const PageAbout = () => {
             <div className="flex justify-center items-center h-full">
               <div className="text-center text-white px-6 md:px-12">
                 <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-                  A propos de
+                À propos de
                   <br />
                   <strong className="text-pink">WenDev</strong>
                 </h2>

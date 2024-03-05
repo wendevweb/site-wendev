@@ -1,6 +1,4 @@
 import React from "react";
-import StarBorderIcon from "@mui/icons-material/StarBorder";
-
 
 const Testimonials = () => {
   const avis = [

@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
-import img from "../assets/wendev.png";
+import img from "../assets/wendywildcodeschool.webp";
 import EventAvailableIcon from "@mui/icons-material/EventAvailable";
 
 const Hero2 = () => {
@@ -38,7 +38,7 @@ const Hero2 = () => {
         </div>
 
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
-          <img src={img} alt="mockup" />
+          <img src={img} alt="mockup" className="rounded-full shadow-lg w-96 mb-6"/>
         </div>
       </div>
     </header>

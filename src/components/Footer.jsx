@@ -8,6 +8,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import DownloadIcon from "@mui/icons-material/Download";
 import MarkEmailUnreadIcon from "@mui/icons-material/MarkEmailUnread";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 import ButtonBmc from "./ButtonBmc";
 
 const Footer = () => {
@@ -23,15 +24,15 @@ const Footer = () => {
           />
         </div>
         <div className="m-6">
-          <h2 className="font-semibold text-purpleDark text-lg text-left">
-            A propos
+          <h2 className="font-semibold text-black text-lg text-left">
+            À propos
           </h2>
-          <p className="mb-2 text-left pt-6 font-light">
+          <p className="mb-2 text-left pt-6">
             WenDev est une micro-entreprise de développement web et web mobile,
             dirigée par Wendy Baqué. Elle propose des services numériques avec
             plusieurs offres adaptés aux besoins de ses clients.
           </p>
-          <h2 className="mb-2 hover:text-pinkDark font-semibold text-purpleDark text-lg text-left">
+          <h2 className="mb-2 hover:font-bold text-pinkDark font-semibold text-lg text-left">
             <a
               href="https://wendevweb.systeme.io/inscription"
               alt="Redirection vers l'inscription à la newsletter de WenDev"
@@ -42,7 +43,7 @@ const Footer = () => {
               <MarkEmailUnreadIcon /> Inscris-toi à la newsletter
             </a>
           </h2>
-          <h2 className="hover:text-pinkDark font-semibold text-purpleDark text-lg text-left">
+          <h2 className="hover:font-bold text-pinkDark font-semibold text-lg text-left">
             <a
               href="https://wendevweb.systeme.io/ebook"
               alt="Redirection vers le téléchargement du livre blanc pour les auteurs de livres"
@@ -59,7 +60,7 @@ const Footer = () => {
         </div>
 
         <div className="m-6">
-          <h2 className="font-semibold text-purpleDark text-lg text-left">
+          <h2 className="font-semibold text-black text-lg text-left">
             Stay tuned !
           </h2>
           <ul className="text-left pt-6">
@@ -71,12 +72,12 @@ const Footer = () => {
                 aria-label="Redirect to Instagram"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-pinkDark"
+                className="hover:text-bold text-pinkDark"
               >
                 <InstagramIcon /> Instagram
               </a>
             </li>
-            <li className="pt-4 font-light">
+            <li className="pt-4">
               {" "}
               <a
                 href="https://www.facebook.com/WenDevWeb"
@@ -84,13 +85,13 @@ const Footer = () => {
                 aria-label="Redirect to Facebook"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-pinkDark"
+                className="hover:text-bold text-pinkDark"
               >
                 {" "}
                 <FacebookIcon /> Facebook{" "}
               </a>
             </li>
-            <li className="pt-4 font-light">
+            <li className="pt-4">
               {" "}
               <a
                 href="https://github.com/wendybaque"
@@ -98,12 +99,12 @@ const Footer = () => {
                 aria-label="Redirect to Github"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-pinkDark"
+                className="hover:text-bold text-pinkDark"
               >
                 <GitHubIcon /> Github
               </a>
             </li>
-            <li className="pt-4 font-light">
+            <li className="pt-4">
               {" "}
               <a
                 href="https://www.linkedin.com/company/wendev/"
@@ -111,45 +112,54 @@ const Footer = () => {
                 aria-label="Redirect to LinkedIn"
                 target="_blank"
                 rel="noreferrer"
-                className="hover:text-pinkDark"
+                className="hover:text-bold text-pinkDark"
               >
                 <LinkedInIcon /> LinkedIn{" "}
+              </a>
+            </li>
+
+            <li className="pt-4">
+              {" "}
+              <a
+                href="https://www.youtube.com/@wendevweb"
+                alt="Redirect to YouTube"
+                aria-label="Redirect to YouTube"
+                target="_blank"
+                rel="noreferrer"
+                className="hover:text-bold text-pinkDark"
+              >
+                <YouTubeIcon /> YouTube{" "}
               </a>
             </li>
           </ul>
         </div>
         <div className="m-6">
-          <h2 className="font-semibold text-purpleDark text-lg text-left">
+          <h2 className="font-semibold text-black text-lg text-left">
             Mentions légales
           </h2>
           <ul className="text-left">
             <a href="/Legals">
-              <li className="pt-4 font-light hover:text-pinkDark">C.G.U.</li>
+              <li className="pt-4 text-pinkDark hover:font-bold">C.G.U.</li>
             </a>
             <a href="/Cgv">
-              <li className="pt-4 font-light hover:text-pinkDark">C.G.V.</li>
+              <li className="pt-4 text-pinkDark hover:font-bold">C.G.V.</li>
             </a>
-            <li className="pt-4 font-light">SIRET : 95400298600014</li>
-            <li className="pt-4 font-light">
-              © 2022-2023 wendev.fr par WenDev
+            <li className="pt-4">SIRET : 95400298600014</li>
+            <li className="pt-4">
+              © 2022-2024 Made with ❤ by{" "}
+              <a
+                href="https://www.wendybaqueauteure.com/"
+                alt="redirection vers le site de Wendy Baqué"
+                aria-label="redirection vers le site de Wendy Baqué"
+                target="_blank"
+                rel="noreferrer"
+                className="text-pinkDark hover:font-bold"
+              >
+                Wendy Baqué
+              </a>
             </li>
           </ul>
         </div>
-      </div>
-      <div className="bg-white text-black font-light p-4">
-        <p>
-          Made with ❤ by{" "}
-          <a
-            href="https://www.wendybaqueauteure.com/"
-            alt="redirection vers le site de Wendy Baqué"
-            aria-label="redirection vers le site de Wendy Baqué"
-            target="_blank"
-            rel="noreferrer"
-            className="hover:text-pinkDark"
-          >
-            Wendy Baqué
-          </a>
-        </p>
       </div>
     </footer>
   );
