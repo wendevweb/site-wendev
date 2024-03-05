@@ -2,7 +2,6 @@ import React from "react";
 import Expertise from "../components/Expertise";
 import Hero2 from "../components/Hero2";
 import Partenaires from "../components/Partenaires";
-import Slider from "../components/Slider";
 import Techno from "../components/Techno";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
@@ -27,9 +26,6 @@ const Home = () => {
        < ButtonFonctionnement />
       <Fade>
         <Techno />
-      </Fade>
-      <Fade>
-        <Slider />
       </Fade>
       <Fade>
         <Partenaires />

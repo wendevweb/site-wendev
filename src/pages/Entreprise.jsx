@@ -1,7 +1,6 @@
 import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
-import Slider from "../components/Slider";
 import Techno from "../components/Techno";
 import wendev3 from "../assets/wendev-3.webp";
 import malt from "../assets/logomalt.webp";
@@ -90,7 +89,6 @@ const Entreprise = () => {
         </section>
       </Fade>
       <Techno />
-      <Slider />
     </div>
   );
 };

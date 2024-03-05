@@ -167,20 +167,6 @@ const Testimonials = () => {
           </div>
           </div>
       </section>
- 
-      <section className="flex justify-center">
-        <a
-          href="https://g.page/r/CYWv0F3b4eiiEBI/review"
-          alt="Redirection les avis Google de WenDev"
-          aria-label="Redirection les avis Google de WenDev"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <button className="m-6 shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-            <StarBorderIcon /> Mettre un avis sur Google <StarBorderIcon />
-          </button>
-        </a>
-      </section>
     </div>
     
   );

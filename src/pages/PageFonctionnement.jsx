@@ -10,22 +10,22 @@ import wendev2 from "../assets/wendev-2.webp";
 
 const PageFonctionnement = () => {
   return (
-    <div className="lg:flex flex-col justify-items-center font-quicksand">
+    <div className="font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Fonctionnement | WenDev</title>
         <link href="https://www.wendev.fr/Fonctionnement" />
       </Helmet>
-      <section className="m-4 p-4">
-        <h2 className="text-center font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-pink">
+      <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+        <h2 className="font-quicksand text-4xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
           Comment se passe la création <br />
           d'un projet de A à Z avec WenDev ?{" "}
         </h2>
       </section>
       <Fade>
-        <section className="m-4 p-4 lg:flex">
+        <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
           <img src={wendev1} alt="" className="h-fit" />
-          <ol className="list-decimal font-quicksand text-light text-xl lg:p-10 leading-relaxed">
+          <ol className="list-decimal font-quicksand text-xl leading-relaxed">
             <li className="list-decimal">
               Tu as un projet web et tu es intéressé.e par un ou plusieurs de
               mes services. C'est trop cool ! 🤩
@@ -103,20 +103,18 @@ const PageFonctionnement = () => {
         </section>
       </Fade>
       <Fade>
-        <section className="m-4 p-4">
-          <h2 className="text-center font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12 text-pink">
+        <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+          <h2 className="font-quicksand text-4xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
             Foire aux questions
           </h2>
         </section>
-        <section className="m-4 p-4 lg:flex">
-          <div className="font-poppins lg:p-10 lg:grid grid-cols-1 gap-4">
+        <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+          <div className="text-xl lg:p-10 lg:grid grid-cols-1 gap-4">
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="font-bold p-2">
-                    <span className="font-bold">
-                      Comment contacter WenDev ?
-                    </span>{" "}
+                  <Disclosure.Button className="p-2">
+                    <span>Comment contacter WenDev ?</span>{" "}
                     <ChevronRightIcon
                       className={
                         open
@@ -136,7 +134,7 @@ const PageFonctionnement = () => {
                     <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                       Pour toute question ou demande, tu peux me contacter par
                       e-mail à cette adresse :{" "}
-                      <span className="font-bold text-pinkDark">
+                      <span className=" text-pinkDark">
                         wendevweb@gmail.com
                       </span>
                       .
@@ -150,12 +148,14 @@ const PageFonctionnement = () => {
                         rel="noreferrer"
                         target="_blank"
                       >
-                        <span className="font-bold text-pinkDark">par ici</span>
+                        <span className="hover:font-bold text-pinkDark">
+                          par ici
+                        </span>
                       </a>
                       . <br /> Enfin, tu peux me contacter via{" "}
                       <Link to="/Contact">
                         {" "}
-                        <span className="font-bold text-pinkDark">
+                        <span className="hover:font-bold text-pinkDark">
                           le formulaire de contact du site
                         </span>
                       </Link>
@@ -168,8 +168,8 @@ const PageFonctionnement = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="font-bold p-2">
-                    <span className="font-bold">
+                  <Disclosure.Button className="p-2">
+                    <span>
                       Avec quelles technologies travaille WenDev ? Est-ce fiable
                       ?{" "}
                     </span>{" "}
@@ -213,10 +213,8 @@ const PageFonctionnement = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="font-bold p-2">
-                    <span className="font-bold">
-                      Pourquoi dois-je payer un accompte de 30% ?
-                    </span>{" "}
+                  <Disclosure.Button className="p-2">
+                    <span>Pourquoi dois-je payer un accompte de 30% ?</span>{" "}
                     <ChevronRightIcon
                       className={
                         open
@@ -250,8 +248,8 @@ const PageFonctionnement = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="font-bold p-2">
-                    <span className="font-bold">
+                  <Disclosure.Button className="p-2">
+                    <span>
                       Que se passe-t-il si ma solution numérique ne fonctionne
                       plus après quelques temps ?
                     </span>{" "}
@@ -287,8 +285,8 @@ const PageFonctionnement = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="font-bold p-2">
-                    <span className="font-bold">
+                  <Disclosure.Button className="p-2">
+                    <span>
                       J'ai un besoin numérique spécifique qui ne figure pas dans
                       les offres proposées par WenDev. Que faire ?
                     </span>{" "}
@@ -313,10 +311,13 @@ const PageFonctionnement = () => {
                       travailler sur ton projet s'il sort des sentiers battus et
                       de ce que je propose comme services. Tu peux me contacter
                       directement via la page Contact de ce site ou m'envoyer un
-                      mail à l'adresse suivante : wendevweb@gmail.com pour me
-                      parler de ton projet numérique. Je suis sûre que nous
-                      pourrons trouver une solution ensemble et je pourrais te
-                      faire un devis totalement personnalisé.
+                      mail à l'adresse suivante :{" "}
+                      <span className=" text-pinkDark">
+                        wendevweb@gmail.com
+                      </span>{" "}
+                      pour me parler de ton projet numérique. Je suis sûre que
+                      nous pourrons trouver une solution ensemble et je pourrais
+                      te faire un devis totalement personnalisé.
                     </Disclosure.Panel>
                   </Transition>
                 </>
@@ -325,8 +326,8 @@ const PageFonctionnement = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="font-bold p-2">
-                    <span className="font-bold">
+                  <Disclosure.Button className="p-2">
+                    <span>
                       Que se passe-t-il si je souhaite faire évoluer (ajouter
                       des fonctionnalités, changer le design, etc.) de ma
                       solution numérique une fois terminée ?
@@ -354,7 +355,9 @@ const PageFonctionnement = () => {
                       ton projet est déjà terminé depuis quelques temps ? C'est
                       super ! 🤩
                       <br /> Tu n'as qu'à me contacter par e-mail à cette
-                      adresse : wendevweb@gmail ou reprendre rendez-vous via la
+                      adresse : <span className=" text-pinkDark">
+                        wendevweb@gmail.com
+                      </span> ou reprendre rendez-vous via la
                       page de Contact pour que je puisse te faire une offre sur
                       mesure en fonction de ce que tu veux ajouter. 😉
                     </Disclosure.Panel>
@@ -365,8 +368,8 @@ const PageFonctionnement = () => {
             <Disclosure>
               {({ open }) => (
                 <>
-                  <Disclosure.Button className="font-bold p-2">
-                    <span className="font-bold">
+                  <Disclosure.Button className="p-2">
+                    <span>
                       Que se passe-t-il si je me rends compte que j'ai besoin
                       d'une fonctionnalité en plus de ce qui a été décidé dans
                       le devis de départ ?
@@ -390,7 +393,9 @@ const PageFonctionnement = () => {
                     <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                       Oups ! 😱 Un oubli ou quelque chose que nous n'avions pas
                       anticipé, cela arrive ! 😉 Tu peux me contacter par e-mail
-                      à cette adresse : wendevweb@gmail.com ou via le formulaire
+                      à cette adresse : <span className=" text-pinkDark">
+                        wendevweb@gmail.com
+                      </span> ou via le formulaire
                       de Contact du site. Nous trouverons un accord pour que ton
                       projet soit tip top avant son lancement et cela donnera
                       lieu à un nouveau devis et une nouvelle facture.{" "}
