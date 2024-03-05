@@ -56,16 +56,15 @@ const Expertise = () => {
   ];
 
   return (
-    <div className="lg:m-10 p-10">
-      <h3 className="text-pink text-2xl text-center mt-12 mb-6">
-        Mes services
-      </h3>
-
-      <div className="font-quicksand space-y-8 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-6 lg:space-y-0">
+    <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div><h3 className="text-pink text-4xl mt-6 mb-6">
+        Mes services et prestations
+      </h3> </div>
+      <div className=" grid lg:grid-cols-2 gap-10">
         {services.map((service) => (
           <div
             key={service.id}
-            className="lg:flex items-center	transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black bg-real rounded-lg shadow-lg"
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden text-black bg-real rounded-lg shadow-lg"
           >
             <img
               src={service.img}
@@ -75,7 +74,7 @@ const Expertise = () => {
             <h4 className="font-bold text-pink text-xl p-4">{service.title}</h4>
             <p className="p-4">{service.desc}</p>
             <button
-              className="w-40 m-4 border border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
+              className="w-40 m-4 border shadow-lg text-pinkDark border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
               alt="Redirection vers la page du service de WenDev"
               target="_blank"
               rel="noreferrer"

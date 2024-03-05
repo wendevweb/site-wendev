@@ -5,7 +5,6 @@ import { Fade } from "react-awesome-reveal";
 import img from "../assets/wendev.png";
 import EventAvailableIcon from "@mui/icons-material/EventAvailable";
 
-
 const Hero2 = () => {
   return (
     <header className="bg-gradient-to-r from-white to-pink  dark:bg-black">
@@ -15,26 +14,27 @@ const Hero2 = () => {
             WenDev,
           </h1>
           <br />
-          <h2 className="text-pinkDark drop-shadow-sm	 max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-            la WebDev <br /> des auteurs de livres !
-          </h2>
           <Fade triggerOnce cascade="true" direction="left" duration={1000}>
-            <p className="text-2xl pt-4 pb-4 max-w-2xl mb-6 font-light text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              Fais appel à une développeuse web qualifiée <br/> et autrice de romans <br /> pour mettre en
-              avant tes livres sur le net !
-            </p>
+            <h2 className="text-pinkDark drop-shadow-sm	 max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
+              la WebDev <br /> des auteurs de livres !
+            </h2>
           </Fade>
+
+          <p className="text-2xl pt-4 pb-4 max-w-2xl mb-6 text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+            Fais appel à une développeuse web qualifiée <br /> et autrice de
+            romans <br /> pour mettre en avant tes livres sur le net !
+          </p>
           <div className="drop-shadow-2xl">
-              <Link
-                to="https://calendly.com/wendevweb/premier-rendez-vous"
-                target={"_blank"}
-              >
-                <button className="text-xl border-solid border-2 border-pinkDark hover:border-none shadow-lg bg-white text-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                  <EventAvailableIcon />
-                  Prendre rendez-vous
-                </button>
-              </Link>
-            </div>
+            <Link
+              to="https://calendly.com/wendevweb/premier-rendez-vous"
+              target={"_blank"}
+            >
+              <button className="text-xl border-solid border-2 border-pinkDark hover:border-none shadow-lg bg-white text-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <EventAvailableIcon />
+                Prendre rendez-vous
+              </button>
+            </Link>
+          </div>
         </div>
 
         <div className="hidden lg:mt-0 lg:col-span-5 lg:flex">
