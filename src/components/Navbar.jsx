@@ -9,7 +9,7 @@ import CloseIcon from "@mui/icons-material/Close";
 
 const navigation = [
   { name: "Accueil", href: "/", current: true },
-  { name: "A propos", href: "/About", current: false },
+  { name: "	À propos", href: "/About", current: false },
   { name: "Fonctionnement", href: "/Fonctionnement", current: false },
   { name: "Missions en entreprise", href: "/Entreprise", current: false },
   // { name: "Formation", href: "/Formation", current: false },
@@ -23,14 +23,14 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-white sticky top-0 z-50">
+    <Disclosure as="nav" className="bg-white sticky top-0 z-50 font-quicksand border-b border-pink">
       {({ open }) => (
         <>
           <div className="font-quicksand mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-            <div className="relative flex h-16 items-center justify-between">
+            <div className="relative flex h-24 items-center justify-between">
               <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
                 {/* Mobile menu button*/}
-                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-purpleDark hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                <Disclosure.Button className="inline-flex items-center justify-center rounded-md p-2 text-black hover:bg-pinkDark hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                   <span className="sr-only">Open main menu</span>
                   {open ? (
                     <CloseIcon className="block h-6 w-6" aria-hidden="true" />
@@ -60,8 +60,8 @@ export default function Example() {
                         href={item.href}
                         className={classNames(
                           item.current
-                            ? "background-radial-gradient-navbar text-white hover:bg-purpleDark bg-purple hover:text-white"
-                            : "text-lg text-black hover:bg-purpleDark hover:text-white",
+                            ? "background-radial-gradient-navbar text-black hover:text-pinkDark"
+                            : "text-lg text-black  hover:text-pinkDark",
                           "px-3 py-2 rounded-md text-lg font-medium"
                         )}
                         aria-current={item.current ? "page" : undefined}
@@ -76,9 +76,9 @@ export default function Example() {
                 {/* Services dropdown */}
                 <Menu as="div" className="relative ml-3 font-quicksand">
                   <div>
-                    <Menu.Button className="flex justify-center rounded-md p-2 animate-pulse text-black hover:bg-purpleDark hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                    <Menu.Button className="flex justify-center p-2 text-black  hover:text-pinkDark">
                       <span className="sr-only">Ouvrir le menu mobile</span>
-                      <p className="text-lg font-medium">Mes services</p>
+                      <p className="text-lg font-medium">Prestations</p>
                     </Menu.Button>
                   </div>
                   <Transition
@@ -96,7 +96,7 @@ export default function Example() {
                           <Link
                             to="/OffreSite"
                             className={classNames(
-                              active ? "bg-pink hover:text-white" : "",
+                              active ? "bg-pinkDark hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
                             )}
                           >
