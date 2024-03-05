@@ -53,9 +53,9 @@ const Hero = () => {
               <div className="flex flex-col p-4 ">
               <img src={img} alt="" className="sticky"></img>
                 <h2 className="text-center p-6 text-xl text-white relative">
-                  <ArrowDropDownIcon className="text-pinkDark animate-bounce" />
+                  <ArrowDropDownIcon className="text-pinkDark" />
                   Restons connectés !
-                  <ArrowDropDownIcon className="text-pinkDark animate-bounce" />
+                  <ArrowDropDownIcon className="text-pinkDark" />
                 </h2>
                 <div className="flex justify-around drop-shadow-lg">
                 <Link
@@ -96,7 +96,7 @@ const Hero = () => {
               </div>
             </div>
             
-            <div className="drop-shadow-2xl flex items-center justify-center animate-bounce">
+            <div className="drop-shadow-2xl flex items-center justify-center">
               <Link
                 to="https://calendly.com/wendevweb/premier-rendez-vous"
                 target={"_blank"}

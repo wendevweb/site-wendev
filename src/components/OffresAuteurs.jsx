@@ -18,7 +18,7 @@ const OffresAuteurs = () => {
       <div className="py-8 px-4 lg:py-16 lg:px-6">
         <div className="mx-auto max-w-screen-lg text-center mb-8 lg:mb-12">
         <Fade>
-        <div className="grid grid-cols-1 place-items-center h-32 animate-pulse">
+        <div className="grid grid-cols-1 place-items-center h-32">
           <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
             <a
               href="https://www.cardebook.net/post/d%C3%A9veloppez-votre-pr%C3%A9sence-litt%C3%A9raire-pourquoi-chaque-auteur-devrait-avoir-un-site-web"
