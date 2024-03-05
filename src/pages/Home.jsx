@@ -1,6 +1,6 @@
 import React from "react";
 import Expertise from "../components/Expertise";
-import Hero from "../components/Hero";
+import Hero2 from "../components/Hero2";
 import Partenaires from "../components/Partenaires";
 import Slider from "../components/Slider";
 import Techno from "../components/Techno";
@@ -17,7 +17,7 @@ const Home = () => {
         <title>Accueil | WenDev</title>
         <link href="https://wendev.fr" />
       </Helmet>
-      <Hero />
+      <Hero2 />
       <Fade>
         <Expertise />
       </Fade>
