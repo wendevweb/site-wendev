@@ -20,9 +20,9 @@ const Hero2 = () => {
             </h2>
           </Fade>
 
-          <p className="text-2xl pt-4 pb-4 max-w-2xl mb-6 text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-            Fais appel à une développeuse web qualifiée <br /> et autrice de
-            romans <br /> pour mettre en avant tes livres sur le net !
+          <p className="tracking-tight text-2xl pt-4 pb-4 max-w-2xl mb-6 text-black lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
+          Je réalise ton site internet pour tes activités littéraires. <br/>Fais appel à une développeuse web qualifiée et autrice de
+            romans pour mettre tes livres en vitrine sur le net !
           </p>
           <div className="drop-shadow-2xl">
             <Link

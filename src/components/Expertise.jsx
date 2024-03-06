@@ -57,9 +57,11 @@ const Expertise = () => {
 
   return (
     <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
-      <div><h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
-        Mes services et prestations
-      </h3> </div>
+      <div>
+        <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+          Mes services et prestations
+        </h3>{" "}
+      </div>
       <div className="grid lg:grid-cols-2 gap-10">
         {services.map((service) => (
           <div
@@ -71,8 +73,10 @@ const Expertise = () => {
               alt="Illustration du service de WenDev"
               className="h-48 w-full"
             />
-            <h4 className="font-bold text-pinkDark text-xl p-4">{service.title}</h4>
-            <p className="p-4">{service.desc}</p>
+            <h4 className="font-bold text-pinkDark text-xl p-4">
+              {service.title}
+            </h4>
+            <p className="p-4 tracking-tight">{service.desc}</p>
             <button
               className="w-40 m-4 border shadow-lg text-pinkDark border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
               alt="Redirection vers la page du service de WenDev"
