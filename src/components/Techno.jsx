@@ -3,12 +3,11 @@ import React from "react";
 const Techno = () => {
   return (
     <div
-      className="lg:m-10"
+      className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
       aria-label="Avis des clients sur l'offre aux auteurs"
     >
-      <h3 className="text-pink text-2xl text-center mt-12 mb-6">
-        Mes technologies préférées et celles avec lesquelles je réalise tous vos
-        projets
+      <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+        Mon expertise
       </h3>
       <div className="lg:flex justify-center grid justify-items-center">
         <img
@@ -55,7 +54,7 @@ const Techno = () => {
           alt="Tailwindcss"
           aria-label="Tailwindcss"
           className="w-32 place-self-center pr-4"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original-wordmark.svg"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-plain-wordmark.svg"
         />
         <img
           alt="Node.js"

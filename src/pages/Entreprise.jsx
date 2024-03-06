@@ -15,17 +15,13 @@ const Entreprise = () => {
         <title>Entreprise | WenDev</title>
         <link href="https://www.wendev.fr/Entreprise" />
       </Helmet>
-      <section className="m-4 p-4">
+      <section>
         <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
-          Besoin d'une développeuse web front-end freelance ou indépendant ?
+          Besoin d'une développeuse web front-end freelance ?
         </h2>
-        <div className="flex h-96 justify-center">
-          <img src={wendev3} alt="" />
-        </div>
       </section>
       <Fade>
-        <section>
-          <div className="lg:flex justify-evenly m-10">
+        <section className="lg:flex justify-evenly">
             <div>
               <button className="mt-10 mb-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
@@ -83,9 +79,11 @@ const Entreprise = () => {
                 className="w-56"
               />
             </div>
-          </div>
         </section>
       </Fade>
+      <div className="mt-10 flex h-96 justify-center">
+          <img src={wendev3} alt="" />
+        </div>
       <Techno />
     </div>
   );
