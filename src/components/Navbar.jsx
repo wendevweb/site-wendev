@@ -11,8 +11,9 @@ const navigation = [
   { name: "Accueil", href: "/", current: true },
   { name: "	À propos", href: "/About", current: false },
   { name: "Fonctionnement", href: "/Fonctionnement", current: false },
-  { name: "Missions en entreprise", href: "/Entreprise", current: false },
+  // { name: "Missions en entreprise", href: "/Entreprise", current: false },
   // { name: "Formation", href: "/Formation", current: false },
+  { name: "Témoignages", href: "/Temoignages", current: false },
   { name: "Partenaires", href: "/Partenaires", current: false },
   { name: "Contact", href: "/Contact", current: false },
 ];
@@ -23,7 +24,7 @@ function classNames(...classes) {
 
 export default function Example() {
   return (
-    <Disclosure as="nav" className="bg-white sticky top-0 z-50 font-quicksand border-b border-pink">
+    <Disclosure as="nav" className="bg-white shadow-lg	sticky top-0 z-50 font-quicksand border-b border-pinkDark">
       {({ open }) => (
         <>
           <div className="font-quicksand mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">

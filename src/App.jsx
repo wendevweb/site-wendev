@@ -17,11 +17,11 @@ import Contact from "./pages/Contact";
 import Legals from "./pages/Legals";
 import Cgv from "./pages/Cgv";
 // import PageOffreChat from "./pages/PageOffreChat";
-import Entreprise from "./pages/Entreprise";
+// import Entreprise from "./pages/Entreprise";
 // import Formation from "./pages/Formation";
 import PageFonctionnement from "./pages/PageFonctionnement";
-import Partenaires from './pages/Partenaires';
-
+import Partenaires from "./pages/Partenaires";
+import PageTestimonials from "./pages/PageTestimonials";
 
 function App() {
   return (
@@ -30,8 +30,9 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/About" element={<PageAbout/>} />
-          
+          <Route path="/About" element={<PageAbout />} />
+          <Route path="/Temoignages" element={<PageTestimonials />} />
+
           <Route path="/OffreSite" element={<PageOffreSite />} />
           <Route path="/OffreMaquette" element={<PageOffreMaquette />} />
           <Route path="/Offreauteurs" element={<PageOffreAuteurs />} />
@@ -40,7 +41,7 @@ function App() {
           <Route path="/OffrePortfolio" element={<PageOffrePortfolio />} />
           {/* <Route path="/OffreChat" element={<PageOffreChat />} /> */}
           <Route path="/Fonctionnement" element={<PageFonctionnement />} />
-          <Route path="/Entreprise" element={<Entreprise />} />
+          {/* <Route path="/Entreprise" element={<Entreprise />} /> */}
           {/* <Route path="/Formation" element={<Formation />} /> */}
           <Route path="/Partenaires" element={<Partenaires />} />
           <Route path="/Contact" element={<Contact />} />
