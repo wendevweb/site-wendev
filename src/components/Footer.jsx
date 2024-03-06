@@ -107,7 +107,7 @@ const Footer = () => {
             <li className="pt-4">
               {" "}
               <a
-                href="https://www.linkedin.com/company/wendev/"
+                href="https://www.linkedin.com/services/page/a818a03257a06b8589/"
                 alt="Redirect to LinkedIn"
                 aria-label="Redirect to LinkedIn"
                 target="_blank"

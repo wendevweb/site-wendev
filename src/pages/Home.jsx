@@ -6,7 +6,7 @@ import Techno from "../components/Techno";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import Testimonials from "../components/Testimonials";
-import ButtonFonctionnement from '../components/ButtonFonctionnement';
+import Networks from "../components/Networks";
 
 const Home = () => {
   return (
@@ -23,14 +23,13 @@ const Home = () => {
       <Fade>
         <Testimonials />
       </Fade>
-       < ButtonFonctionnement />
+        <Networks />
       <Fade>
         <Techno />
       </Fade>
       <Fade>
         <Partenaires />
       </Fade>
-      
     </div>
   );
 };
