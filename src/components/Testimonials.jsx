@@ -83,7 +83,7 @@ const Testimonials = () => {
       <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
         Vous en parlez !
       </h3>
-      <div className="grid grid-rows-1 grid-flow-rows gap-10">
+      <div className=" tracking-tight grid grid-rows-1 grid-flow-rows gap-10">
         {avis.map((avi) => (
           <div
             key={avi.id}

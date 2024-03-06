@@ -10,14 +10,14 @@ import wendev2 from "../assets/wendev-2.webp";
 
 const PageFonctionnement = () => {
   return (
-    <div className="font-quicksand">
+    <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Fonctionnement | WenDev</title>
         <link href="https://www.wendev.fr/Fonctionnement" />
       </Helmet>
       <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
-        <h2 className="font-quicksand text-4xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
+        <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
           Comment se passe la création <br />
           d'un projet de A à Z avec WenDev ?{" "}
         </h2>
@@ -25,7 +25,7 @@ const PageFonctionnement = () => {
       <Fade>
         <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
           <img src={wendev1} alt="" className="h-fit" />
-          <ol className="list-decimal font-quicksand text-xl leading-relaxed">
+          <ol className="tracking-tight list-decimal font-quicksand text-xl leading-relaxed">
             <li className="list-decimal">
               Tu as un projet web et tu es intéressé.e par un ou plusieurs de
               mes services. C'est trop cool ! 🤩
@@ -104,12 +104,12 @@ const PageFonctionnement = () => {
       </Fade>
       <Fade>
         <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
-          <h2 className="font-quicksand text-4xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
+          <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
             Foire aux questions
           </h2>
         </section>
         <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
-          <div className="text-xl lg:p-10 lg:grid grid-cols-1 gap-4">
+          <div className="tracking-tight text-xl lg:p-10 lg:grid grid-cols-1 gap-4">
             <Disclosure>
               {({ open }) => (
                 <>
