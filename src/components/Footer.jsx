@@ -27,7 +27,7 @@ const Footer = () => {
           <h2 className="font-semibold text-black text-lg text-left">
             À propos
           </h2>
-          <p className="mb-2 text-left pt-6">
+          <p className="tracking-tight mb-2 text-left pt-6">
             WenDev est une micro-entreprise de développement web et web mobile,
             dirigée par Wendy Baqué. Elle propose des services numériques avec
             plusieurs offres adaptés aux besoins de ses clients.

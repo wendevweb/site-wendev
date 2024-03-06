@@ -6,32 +6,39 @@ import JotformContact from "../components/JotformContact";
 
 const Contact = () => {
   return (
-    <div className="font-quicksand lg:grid grid-cols-2">
+    <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Contact | WenDev</title>
         <link href="https://www.wendev.fr/Contact" />
       </Helmet>
-      <div className="flex flex-col mt-10">
-        <h2 className="text-pink text-2xl text-center">Contactons-nous !</h2>
+      <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+        <div className="lg:flex justify-between items-stretch">
+          <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
+            Rencontrons-nous !
+          </h2>
+          <button className="self-center mt-10 mb-6 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+            <a
+              href="https://forms.gle/CLK88Hz5eKFGXZFr7"
+              alt="Redirection vers le formulaire de demande de devis"
+              aria-label="Redirection vers le formulaire de demande de devis"
+              rel="noreferrer"
+              target="_blank"
+            >
+              Demande un devis sans prendre de rendez-vous
+            </a>
+          </button>
+        </div>
+
+        <Calendly />
+      </section>
+      <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+        <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
+          Contactons-nous !
+        </h2>
         {/* <Airtable /> */}
         <JotformContact />
-      </div>
-      <div className="flex flex-col mt-10">
-        <h2 className="text-pink text-2xl text-center ">Rencontrons-nous !</h2>
-        <Calendly />
-        <button className="w-96 mb-6 self-center text-white bg-pink hover:bg-pinkDark font-medium rounded-lg text-sm px-5 py-2.5 text-center">
-          <a
-            href="https://forms.gle/CLK88Hz5eKFGXZFr7"
-            alt="Redirection vers le formulaire de demande de devis"
-            aria-label="Redirection vers le formulaire de demande de devis"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Demande un devis sans prendre de rendez-vous
-          </a>
-        </button>
-      </div>
+      </section>
     </div>
   );
 };
