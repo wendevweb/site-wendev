@@ -1,99 +1,96 @@
 import React from "react";
-import "./partenaires.css";
 
 const Partenaires = () => {
   const partners = [
     {
       id: 1,
       name: "Nono du web",
-      service: "Développeur web, copywriter et formateur",
+      desc: "Développeur web, copywriter, création de logos et formateur en informatique. C'est le cosmonaute de l'espace !",
       website: "https://www.nonoweb17.fr/",
       logo: "https://www.nonoweb17.fr/assets/logo-97c07f1d.png",
     },
     {
       id: 2,
       name: "GraphArt's",
-      service: "Infographiste Metteur en page",
+      desc: "Infographiste Metteur en page, conseils en identité numérique et design sur Instagram.",
       website: "https://ccgrapharts.wixsite.com/graphart-s?fbclid=PAAabS0o9R4h8O6PcPrk3b9wd_7fRuM6R12Dk906-KLgD2JXXNW0E9TEtvHr8",
-      logo: "https://i.goopics.net/brcvle.png",
+      logo: "https://i.goopics.net/968zt6.png",
     },
     {
       id: 3,
       name: "Farah D.",
-      service: "Ecriture de résumés et bêta-lecture",
+      desc: "Autrice en autoédition, Ecriture de résumés et bêta-lecture",
       website: "https://www.farahdauteure.com/avis-prestation-beta-lectureresume",
-      logo: "https://i.goopics.net/hzqhgj.png",
+      logo: "https://i.goopics.net/7oe33h.png",
     },
     {
       id: 4,
       name: "Annuaire Auto-édités",
-      service: "Répertoire des auteurs et des livres en auto-édition. ",
+      desc: "Répertoire des auteurs et des livres en auto-édition pour améliorer ta visibilité et rejoindre une communauté d'entraide. ",
       website: "https://annuaire-auto-edites.johnlucas.fr/",
       logo: "https://annuaire-auto-edites.johnlucas.fr/wp-content/uploads/2021/02/logo.png",
     },
     {
       id: 5,
       name: "Métavers facile",
-      service: "Architecte métavers 2d, créateur de bureaux et événements virtuels.",
+      desc: "Architecte métavers 2d, créateur de bureaux et événements virtuels. Organisation du Salon métaversel des Livres Auteurs.",
       website: "https://www.vanhille.fr",
       logo: "https://vanhille.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c817013-9bb3-4026-8b4d-2412233dcbfe%2Fprofile-pic4.png?table=block&id=71b7aa7d-9127-4e53-ae63-2af2a669dcb3&spaceId=e4a3b1de-7a81-4268-95d9-73d0920f3acc&width=250&userId=&cache=v2",
     },
     {
       id: 6,
       name: "Franck J. Matthews",
-      service: "Coach littéraire",
+      desc: "Auteur de fantasy et Coach littéraire. Expertise, écoute et atmosphère rassurante sont au rendez-vous !",
       website: "https://www.franckjmatthews.com/coaching-litteraire",
-      logo: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=128,fit=crop,q=95/AoPZ2xegaQt8NqLy/fjm-AE02QeowRjhqkRWy.png",
+      logo: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=534,h=400,fit=crop/AoPZ2xegaQt8NqLy/biographie-m2WBNjpe2buQRBO6.jpg",
     },
     {
       id: 7,
       name: "Cardebook",
-      service: "Des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
+      desc: "Des cartes à flasher contenant un ouvrage numérique/vidéos/audios, outil d'aide à l'écriture et générateur de livre audio par IA.",
       website: "https://www.cardebook.net",
       logo: "https://i.goopics.net/t5h0ss.jpg",
     },
     {
       id: 8,
-      name: "Emilie David - ED Multi-Services (en langue française)",
-      service: "Corections d'écrits, transcription, rédaction de courriers, prête-plume et rédaction web.",
-      website: "https://ed-multi-services.jimdosite.com/",
+      name: "Emilie David - ED Multi-Services",
+      desc: "Corrections d'écrits, transcription, rédaction de courriers, prête-plume et rédaction web.",
+      website: "https://ed-multi-partners.jimdosite.com/",
       logo: "https://jimdo-storage.freetls.fastly.net/image/440839526/6e276933-a6a2-4ef8-b865-da9a0b5d4b38.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1024&height=1024&trim=67,208,645,204",
     },
     
   ];
   return (
-    <div className="lg:m-10 p-10">
-      <h3 className="text-pink text-2xl text-center mt-12 mb-6">
-        Mes super partenaires à votre service !
-      </h3>
-      <p className="text-black font-quicksand text-center mb-6">
-        Il est temps de voir ton projet en grand ! Et si tu faisais appel à mes partenaires de fconfiance, avec lesquels je partage mes valeurs et ma manière de travailler ? <br /> Je te propose un large choix de professionnels à ton écoute.
-      </p>
-      <div className="pt-10 lg:grid grid-cols-4 gap-2">
+    <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
+      <div>
+        <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+          Mes partners et prestations
+        </h3>{" "}
+        <p className="tracking-tight pt-10 pb-10">Il est temps de voir ton projet en grand ! Et si tu faisais appel à mes partenaires de confiance, avec lesquels je partage mes valeurs et ma manière de travailler ? <br /> Je te propose un large choix de professionnels à ton écoute.</p>
+      </div>
+      <div className="grid lg:grid-cols-4 gap-10">
         {partners.map((partner) => (
-          <div key={partner.id} className="flip-card mt-6 font-quicksand">
-            <div className="flip-card-inner ">
-              <div className="flip-card-front">
-                <img src={partner.logo} alt="Logo du partenaire de WenDev" className="p-4"/>
-                <h3>{partner.name}</h3>
-                <p>{partner.service}</p>
-              </div>
-              <div className="flip-card-back font-quicksand">
-                <img src={partner.logo} alt="Logo du partenaire de WenDev" className="m-4" />
-                <h3>{partner.name}</h3>
-                <p>{partner.service}</p>
-                <button className="border border-white font-bold rounded-md mt-2 p-2 hover:bg-real hover:border-real hover:text-pinkDark">
-                  <a
-                    href={partner.website}
-                    alt="Redirection vers le site web du partenaire de WenDev"
-                    aria-label="Redirection vers le site web du partenaire de WenDev"
-                    target="_blank"
-                    rel="noreferrer"
-                  >Voir son site</a>
-                </button>
-             
-              </div>
-            </div>
+          <div
+            key={partner.id}
+            className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden text-black bg-real rounded-lg shadow-lg"
+          >
+            <img
+              src={partner.logo}
+              alt="Logo du partenaire de WenDev"
+              className="h-48 w-full"
+            />
+            <h4 className="font-bold text-pinkDark text-xl p-4">
+              {partner.name}
+            </h4>
+            <p className="p-4 tracking-tight">{partner.desc}</p>
+            <button
+              className="w-40 m-4 border shadow-lg text-pinkDark border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
+              alt="Redirection vers la page du partner de WenDev"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <a href={partner.website}>Voir ses services</a>
+            </button>
           </div>
         ))}
       </div>
