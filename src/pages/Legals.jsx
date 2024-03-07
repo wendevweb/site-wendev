@@ -6,18 +6,18 @@ import { Helmet } from "react-helmet";
 
 const Legals = () => {
   return (
-    <div className="m-6 flex flex-col justify-center justify-items-center font-quicksand">
+    <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
       <Helmet>
         <meta charSet="utf-8" />
         <title>C.G.U. | WenDev</title>
         <link href="https://www.wendev.fr/Legals" />
       </Helmet>
-      <h2 className="text-pink text-2xl text-center m-4">
+      <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
         {" "}
         Conditions générales d'utilisation
       </h2>
-      <p className="text-center m-4">En vigueur au 14/02/2023</p>
-      <h3 className="text-center m-6">
+      <p className="text-xl pb-6">En vigueur au 14/02/2023</p>
+      <h3 className="text-xl">
         <span className="font-bold">Client : </span>tout professionnel ou
         personne physique capable au sens des articles 1123 et suivants du Code
         civil, ou personne morale, qui visite le Site objet des présentes
@@ -876,19 +876,18 @@ const Legals = () => {
             </>
           )}
         </Disclosure>
-        <p className="hover:text-secondaryLight">
+        <br />
+        <button className="mt-10 mb-6 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
           <a
             href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:705dfb7b-c4b4-3c9f-b395-892493af1430"
             alt="Redirection vers la page de téléchargement du document en pdf"
             aria-label="Redirection vers la page de téléchargement du document en pdf"
             rel="noreferrer"
             target="_blank"
-            className="text-pink hover:text-pinkDark"
           >
             <PictureAsPdfIcon /> Télécharger le document en pdf{" "}
           </a>
-        </p>
-        <br />
+        </button>
         <p>
           CGU réalisées sur{" "}
           <a
@@ -897,18 +896,18 @@ const Legals = () => {
             aria-label="Redirection sur le site de LegalPlace"
             rel="noreferrer"
             target="_blank"
-            className="hover:text-pink"
+            className="text-pinkDark  hover:font-bold"
           >
             http://legalplace.fr/
           </a>
-          , en complément de
+          , en complément de {" "}
           <a
             href="https://fr.orson.io/1371/generateur-mentions-legales"
             alt="Redirection sur le site d'Orson.io"
             aria-label="Redirection sur le site d'Orson.io'"
             rel="noreferrer"
             target="_blank"
-            className="hover:text-pink"
+            className="text-pinkDark  hover:font-bold"
           >
             https://fr.orson.io/1371/generateur-mentions-legales
           </a>

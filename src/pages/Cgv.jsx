@@ -6,19 +6,19 @@ import { Helmet } from "react-helmet";
 
 const Cgv = () => {
   return (
-    <div className="m-6 flex flex-col justify-center justify-items-center font-quicksand">
+    <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
       <Helmet>
         <meta charSet="utf-8" />
         <title>C.G.V. | WenDev</title>
         <link href="https://www.wendev.fr/Cgv" />
       </Helmet>
-      <h2 className="text-pink text-2xl text-center m-4">
+      <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
         {" "}
         Conditions générales de vente
       </h2>
-      <p className="text-center m-4">En vigueur au 14/02/2023</p>
-      <h3 className="text-center font-bold text-xl m-6"> Préambule</h3>
-      <p className="text-center m-4">
+      <p className="text-xl pb-6">En vigueur au 14/02/2023</p>
+      <h3 className="font-bold text-xl pb-6"> Préambule</h3>
+      <p className="text-xl tracking-tight">
         Les présentes conditions générales constituent un contrat de vente à
         distance, définissant les droits et obligations de WenDev et du Client
         dans le cadre de la vente des produits référencés sur le site Internet
@@ -26,7 +26,7 @@ const Cgv = () => {
         Pour toute question ou réclamation relative aux produits, à sa commande,
         à ses données personnelles, au droit de rétraction, à l’application de
         la garantie des produits le Client peut contacter WenDev : <br />
-        <span className="font-bold">
+        <span className="font-bold text-pinkDark">
           Wendev – Wendy Baqué 971 Route de Pernay 37340 Ambillou 06 98 15 71 13
           wendevweb@gmail.com
         </span>{" "}
@@ -983,19 +983,19 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
-        <p className="hover:text-secondaryLight">
+        
+        <br />
+        <button className="mt-10 mb-6 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
           <a
             href="https://acrobat.adobe.com/link/track?uri=urn:aaid:scds:US:7b75e619-9b96-340e-ba6a-22ba437f9b69"
             alt="Redirection vers la page de téléchargement du document en pdf"
             aria-label="Redirection vers la page de téléchargement du document en pdf"
             rel="noreferrer"
             target="_blank"
-            className="text-pink hover:text-pinkDark"
           >
             <PictureAsPdfIcon /> Télécharger le document en pdf{" "}
           </a>
-        </p>
-        <br />
+        </button>
       </div>
     </div>
   );
