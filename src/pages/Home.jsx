@@ -7,6 +7,7 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import Testimonials from "../components/Testimonials";
 import Networks from "../components/Networks";
+import Freebie from "../components/Freebie";
 
 const Home = () => {
   return (
@@ -19,6 +20,9 @@ const Home = () => {
       <Hero2 />
       <Fade>
         <Expertise />
+      </Fade>
+      <Fade>
+        <Freebie/>
       </Fade>
       <Fade>
         <Testimonials />

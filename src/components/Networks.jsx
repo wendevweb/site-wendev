@@ -20,6 +20,7 @@ const networks = () => {
       <h3 className="text-white font-bold text-4xl mt-6 mb-6">
         Restons connectés !
       </h3>
+      <p className="text-real text-xl mt-6 mb-6">Rejoins-moi sur les réseaux pour encore plus de fun et du contenu exclusif !</p>
       <Fade triggerOnce cascade="true" direction="left" duration={1000}>
 
       <div className="flex justify-between drop-shadow-lg">

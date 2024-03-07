@@ -2,7 +2,6 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import OffresAuteurs from "../components/OffresAuteurs";
-import WhiteBook from "../components/WhiteBook";
 import RedeemIcon from "@mui/icons-material/Redeem";
 import Farah from "../assets/Farah.webp";
 import Andraroc from "../assets/Andraroc.webp";
@@ -13,6 +12,7 @@ import Kay from "../assets/Kay.webp";
 import Lea from "../assets/Lea.webp";
 import Elsa from "../assets/Elsa.webp";
 import Florent from "../assets/Florent.webp";
+import Freebie from "../components/Freebie"
 
 const PageOffreAuteurs = () => {
   return (
@@ -66,7 +66,7 @@ const PageOffreAuteurs = () => {
       </Fade>
 
       <Fade>
-        <WhiteBook />
+        <Freebie />
       </Fade>
       <Fade>
         <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
