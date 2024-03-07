@@ -1,5 +1,4 @@
 import React from "react";
-import logonoir from "../assets/removenoir.png";
 
 // Imports MUI icons, based on : https://mui.com/material-ui/material-icons/
 import GitHubIcon from "@mui/icons-material/GitHub";
@@ -13,26 +12,18 @@ import ButtonBmc from "./ButtonBmc";
 
 const Footer = () => {
   return (
-    <footer className="font-quicksand" aria-label="footer">
-      <div className="lg:grid grid-cols-4 gap-4 lg:p-4 bg-white text-black">
-        <div className="lg:m-6">
-          <img
-            src={logonoir}
-            alt="WenDev"
-            aria-label="WenDev"
-            className="w-32 pt-10"
-          />
-        </div>
-        <div className="m-6">
-          <h2 className="font-semibold text-black text-lg text-left">
+    <footer className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2" aria-label="footer">
+      <div className="lg:grid grid-cols-3 gap-4 content-evenly bg-white text-black">
+        <div className="lg:pr-10">
+          <h2 className="mt-10 font-semibold text-black text-lg">
             À propos
           </h2>
-          <p className="tracking-tight mb-2 text-left pt-6">
+          <p className="tracking-tight mb-2 pt-6">
             WenDev est une micro-entreprise de développement web et web mobile,
             dirigée par Wendy Baqué. Elle propose des services numériques avec
             plusieurs offres adaptés aux besoins de ses clients.
           </p>
-          <h2 className="mb-2 hover:font-bold text-pinkDark font-semibold text-lg text-left">
+          <h2 className="mb-2 hover:font-bold text-pinkDark font-semibold text-lg">
             <a
               href="https://wendevweb.systeme.io/inscription"
               alt="Redirection vers l'inscription à la newsletter de WenDev"
@@ -43,7 +34,7 @@ const Footer = () => {
               <MarkEmailUnreadIcon /> Inscris-toi à la newsletter
             </a>
           </h2>
-          <h2 className="hover:font-bold text-pinkDark font-semibold text-lg text-left">
+          <h2 className="hover:font-bold text-pinkDark font-semibold text-lg">
             <a
               href="https://wendevweb.systeme.io/ebook"
               alt="Redirection vers le téléchargement du livre blanc pour les auteurs de livres"
@@ -59,11 +50,11 @@ const Footer = () => {
           <ButtonBmc />
         </div>
 
-        <div className="m-6">
-          <h2 className="font-semibold text-black text-lg text-left">
+        <div>
+          <h2 className="font-semibold text-black text-lg pt-10">
             Stay tuned !
           </h2>
-          <ul className="text-left pt-6">
+          <ul className="pt-6">
             <li>
               {" "}
               <a
@@ -133,11 +124,11 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="m-6">
-          <h2 className="font-semibold text-black text-lg text-left">
+        <div>
+          <h2 className="pt-10 font-semibold text-black text-lg">
             Mentions légales
           </h2>
-          <ul className="text-left">
+          <ul>
             <a href="/Legals">
               <li className="pt-4 text-pinkDark hover:font-bold">C.G.U.</li>
             </a>
