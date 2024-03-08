@@ -52,7 +52,7 @@ const PageFonctionnement = () => {
             <img src={wendev1} alt="" className="h-fit" />
             <ol className="tracking-tight list-decimal font-quicksand text-xl leading-relaxed">
               <li className="list-decimal">
-                Tu as un projet web et tu es intéressé.e par un ou plusieurs de
+                Vous avez un projet web et vous êtes intéressé.e par un ou plusieurs de
                 mes services. C'est trop cool ! 🤩
               </li>
               <br />
@@ -67,21 +67,21 @@ const PageFonctionnement = () => {
                 >
                   <span className="font-bold text-pinkDark">Calendly</span>
                 </a>{" "}
-                à la date et à l'heure de ton choix (réunion en visio via Google
-                Meet, d'1/2h en général) pour discuter de ton projet et voir
+                à la date et à l'heure de votrechoix (réunion en visio via Google
+                Meet, d'1/2h en général, possibilité par téléphone également) pour discuter de votre projet et voir
                 comment je peux le mettre en valeur avec une solution numérique
                 sur mesure.
               </li>
               <br />
 
               <li>
-                Je te fais un devis gratuitement, via PandaDoc (une application
+                Je vous fais un devis gratuitement, via PandaDoc (une application
                 d'envoi et de signature de documents 100% en ligne et sécurisé).
               </li>
               <br />
 
               <li>
-                J'attends ton retour et tes envies de modifications. Si besoin,
+                J'attends votre retour et vos envies de modifications. Si besoin,
                 nous reprenons rendez-vous pour en discuter.😉
               </li>
               <br />
@@ -90,23 +90,21 @@ const PageFonctionnement = () => {
               <br />
 
               <li>
-                Je peux te demander des informations supplémentaires qui me
-                seront nécessaires pour le contenu de ton site (les couvertures
-                de tes livres, tes liens vers les réseaux sociaux, ta
-                biographie, etc.).
+                Je vous demande des informations supplémentaires qui me
+                seront nécessaires pour le contenu de votre site (les couvertures des livres, leurs résumés, les liens d'achat, les avis de vos lecteurs, les liens de vos réseaux sociaux, vos prochains événements littéraires, etc.).
               </li>
               <br />
 
               <li>
-                Une fois l'acompte reçu, je commence à travailler sur ton super
+                Une fois l'acompte reçu, je commence à travailler sur votre super
                 projet !
               </li>
               <br />
 
               <li>
-                Je t'envoie une version démo de ta solution numérique en
-                fonction de l'offre ou des offres que tu as choisies. C'est le
-                moment de me dire si cela convient à tes besoins et tes envies !
+                Je vous envoie une version démo de votre solution numérique en
+                fonction de l'offre ou des offres que vous avez choisies. C'est le
+                moment de me dire si cela convient à vos envies !
                 Si besoin, nous pouvons reprendre rendez-vous pour en discuter.
               </li>
               <br />
@@ -115,15 +113,15 @@ const PageFonctionnement = () => {
               <br />
 
               <li>
-                Dès que j'ai reçu l'intégralité de la somme due, je t'envoie ta
-                solution numérique clé en main et tu n'auras plus qu'à
-                l'utiliser comme bon te semble ! 🥳
+                Dès que j'ai reçu l'intégralité de la somme due, je finalise la mise en ligne et vous envoie ta
+                solution numérique clé en main et vous n'aurez plus qu'à
+                l'utiliser comme bon vous semble ! 🥳
               </li>
               <br />
               <li>
                 <span className="font-bold text-pinkDark">Bonus !</span> Si le
-                service que tu as choisi le prévoit, je mets en avant ton projet
-                et ton profil sur mes réseaux sociaux.
+                service que vous avez choisi le prévoit, je mets en avant votre projet
+                et votre profil sur mes réseaux sociaux.
               </li>
             </ol>
           </section>

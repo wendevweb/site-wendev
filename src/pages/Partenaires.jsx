@@ -47,7 +47,7 @@ const Partenaires = () => {
     },
     {
       id: 5,
-      name: "Métavers facile",
+      name: "François Vanhille - Métavers facile",
       title: "François Vanhille - Métavers facile",
       descr:
         "Architecte métavers 2d, créateur de bureaux et événements virtuels pour le télétravail et les loisirs. Bureau et libraire virtuelle pour les auteurs et artistes autoproduits.",
@@ -68,7 +68,7 @@ const Partenaires = () => {
     },
     {
       id: 7,
-      name: "CARDEBOOK",
+      name: "Fabien Dedieu - CARDEBOOK",
       title: "Fabien Dedieu - CARDEBOOK",
       descr:
         "Inventeur multi-récompensé et développeur de plusieurs applications à succès. Innovateur dans l'âme, il crée et lance des concepts novateurs dans le domaine de l'édition. Il est devenu, en 3 ans, une référence dans l'innovation numérique. La marque cardebook : des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
@@ -138,10 +138,10 @@ const Partenaires = () => {
                   alt="Logo du partenaire"
                   className="h-56 mt-6 rounded-lg"
                 />
-                <h4 className="font-bold text-pink text-xl p-6">
+                <h4 className="font-bold text-pinkDark text-xl p-6">
                   {partenaire.title}
                 </h4>
-                <p className="p-6 tracking-tight">{partenaire.descr}</p>
+                <p className="p-6 tracking-tight text-xl">{partenaire.descr}</p>
                 <p className="p-6 font-bold tracking-tight">
                   {partenaire.offer}
                 </p>

@@ -6,21 +6,21 @@ const Expertise = () => {
       id: 1,
       title: "Offre spéciale auteurs",
       img: "https://images.pexels.com/photos/796603/pexels-photo-796603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      desc: "Tu écris des livres et tu souhaites avoir un site web professionnel dédié à ton activité ? Moi aussi, je suis auteure et suis passée par là. Je te propose une offre accessible et adaptée à tes besoins pour promouvoir ton univers littéraire et le partager autour de toi.",
+      desc: "Vous écrivez des livres et souhaitez avoir un site web professionnel dédié à votre activité ? Moi aussi, je suis auteure et suis passée par là. Je vous propose trois offres accessibles et adaptées à vos besoins pour promouvoir votre univers littéraire et le partager autour de vous.",
       link: "/Offreauteurs",
     },
     {
       id: 2,
       title: "Création et refonte de sites internet sur mesure",
       img: "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg",
-      desc: "Avoir son propre site internet comporte bien des avantages. C'est un réel atout pour ta marque ou ton entreprise ! Découvre mon offre de création de site web adaptée à tes besoins numériques.",
+      desc: "Avoir son propre site internet comporte bien des avantages et votre présence en ligne est essentielle. C'est un réel atout pour votre marque ou votre entreprise ! Découvrez mes offres de création de site web pensées selon vos besoins numériques. Je mets également au goût du jour des sites web existants.",
       link: "/OffreSite",
     },
     {
       id: 3,
       title: "Création de maquettes et de prototypes pour le web",
       img: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      desc: "Tu souhaites avoir un aperçu de ce que donnera le site web de tes rêves ? Alors viens vite me demander une maquette !",
+      desc: "Une maquette est un bon moyen d'avoir un aperçu visuel de votre futur site internet ou application, avant de commencer à coder. Vous désirez savoir ce que donnera le site web de vos rêves ? Alors venez vite me demander une maquette pour donner vie à vos envies !",
       link: "/OffreMaquette",
     },
     // {
@@ -42,7 +42,7 @@ const Expertise = () => {
       id: 7,
       title: "Création de ton portfolio",
       img: "https://images.pexels.com/photos/1036848/pexels-photo-1036848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      desc: "Que tu sois artiste, expert de la tech, débutant ou chevronné, avoir un portfolio est essentiel pour présenter tes projets, mettre en valeur ton travail et qui tu es. Je code et met en page tes projets et ta présentation de manière originale et percutante, mais toujours pro !",
+      desc: "Que vous soyez artiste, artisan, commerçant, débutant ou chevronné, avoir un portfolio est essentiel pour présenter vos projets, mettre en valeur votre travail et qui vous êtes. Je code et mets en page vos projets et votre présentation de manière originale et percutante, mais toujours pro !",
       link: "/OffrePortfolio",
     },
 
@@ -76,7 +76,7 @@ const Expertise = () => {
             <h4 className="font-bold text-pinkDark text-xl p-4">
               {service.title}
             </h4>
-            <p className="p-4 tracking-tight">{service.desc}</p>
+            <p className="p-4 tracking-tight text-xl">{service.desc}</p>
             <button
               className="w-40 m-4 border shadow-lg text-pinkDark border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
               alt="Redirection vers la page du service de WenDev"

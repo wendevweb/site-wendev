@@ -21,9 +21,8 @@ const Hero2 = () => {
           </Fade>
 
           <p className="tracking-tight text-2xl pt-4 pb-4 max-w-2xl mb-6 text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-          Je réalise ton site internet pour tes activités littéraires. <br/>Fais appel à une développeuse web qualifiée et autrice de
-            romans pour mettre tes livres en vitrine sur le net !
-          </p>
+          Je vous accompagne dans la promotion de vos produits et services littéraires sur le web, en créant un site internet qui vous ressemble.
+         <br/> Faites appel à une développeuse web professionnelle et auteure de romans assurer votre présence en ligne.</p>
           <div className="drop-shadow-2xl">
             <Link
               to="https://calendly.com/wendevweb/premier-rendez-vous"

@@ -19,9 +19,8 @@ const Footer = () => {
             À propos
           </h2>
           <p className="tracking-tight mb-2 pt-6">
-            WenDev est une micro-entreprise de développement web et web mobile,
-            dirigée par Wendy Baqué. Elle propose des services numériques avec
-            plusieurs offres adaptés aux besoins de ses clients.
+            WenDev est une micro-entreprise de développement web,
+            dirigée par Wendy Baqué, dédiée aux auteurs de livres et au monde littéraire. Elle crée des sites internet et divers solutions numériques pour promouvoir les livres et assurer une présence en ligne aux écrivains.
           </p>
           <h2 className="mb-2 hover:font-bold text-pinkDark font-semibold text-lg">
             <a

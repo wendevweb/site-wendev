@@ -87,7 +87,7 @@ const Testimonials = () => {
             className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden text-black bg-real rounded-lg shadow-lg"
           >
             <figure className="lg:grid grid-rows-1 grid-flow-col gap-4">
-              <p className="text-l tracking-tight p-4 grid content-center">
+              <p className="text-xl tracking-tight p-4 grid content-center">
                 {avi.avis}
               </p>
               <figcaption className="flex mt-6 space-x-3 p-4">

@@ -32,7 +32,7 @@ const Partenaires = () => {
     },
     {
       id: 5,
-      name: "Métavers facile",
+      name: "François Vanhille - Métavers facile",
       desc: "Architecte métavers 2d, créateur de bureaux et événements virtuels. Organisation du Salon métaversel des Livres Auteurs.",
       website: "https://www.vanhille.fr",
       logo: "https://vanhille.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c817013-9bb3-4026-8b4d-2412233dcbfe%2Fprofile-pic4.png?table=block&id=71b7aa7d-9127-4e53-ae63-2af2a669dcb3&spaceId=e4a3b1de-7a81-4268-95d9-73d0920f3acc&width=250&userId=&cache=v2",
@@ -46,7 +46,7 @@ const Partenaires = () => {
     },
     {
       id: 7,
-      name: "Cardebook",
+      name: "Fabien Dedieu - Cardebook",
       desc: "Des cartes à flasher contenant un ouvrage numérique/vidéos/audios, outil d'aide à l'écriture et générateur de livre audio par IA.",
       website: "https://www.cardebook.net",
       logo: "https://i.goopics.net/t5h0ss.jpg",
@@ -66,7 +66,7 @@ const Partenaires = () => {
         <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
           Mes partenaires du monde littéraire
         </h3>{" "}
-        <p className="tracking-tight pt-10 pb-10">Il est temps de voir votre projet en grand ! Et si vous faisiez appel à mes partenaires de confiance, avec lesquels je partage mes valeurs et ma manière de travailler ? <br /> Je vous propose un large choix de professionnels à votre écoute.</p>
+        <p className="tracking-tight text-xl pt-10 pb-10">Il est temps de voir votre projet en grand ! Et si vous faisiez appel à mes partenaires de confiance, avec lesquels je partage mes valeurs et ma manière de travailler ? <br /> Je vous propose un large choix de professionnels à votre écoute.</p>
       </div>
       <div className="grid lg:grid-cols-4 gap-10">
         {partners.map((partner) => (
@@ -82,7 +82,7 @@ const Partenaires = () => {
             <h4 className="font-bold text-pinkDark text-xl p-4">
               {partner.name}
             </h4>
-            <p className="p-4 tracking-tight">{partner.desc}</p>
+            <p className="p-4 text-xl tracking-tight">{partner.desc}</p>
             <button
               className="w-40 m-4 border shadow-lg text-pinkDark border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
               alt="Redirection vers la page du partner de WenDev"

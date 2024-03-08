@@ -9,7 +9,7 @@ import wendev10 from "../assets/wendev-10.webp";
 import wendev11 from "../assets/wendev-11.webp";
 import wendev13 from "../assets/wendev-13.webp";
 import wendev15 from "../assets/wenedv-15.webp";
-import wild from '../assets/wildcodeschool.webp'
+import wild from "../assets/wildcodeschool.webp";
 
 import InstagramIcon from "@mui/icons-material/Instagram";
 
@@ -67,12 +67,12 @@ const PageAbout = () => {
 
               <p className="tracking-tight text-xl">
                 Je suis{" "}
-                <strong className="text-bold text-pinkDark">Wendy</strong>,
+                <strong className=" text-pinkDark">Wendy</strong>,
                 fondatrice et gérante de ma micro-entreprise{" "}
-                <strong className="text-bold text-pinkDark">WenDev</strong>,
+                <strong className=" text-pinkDark">WenDev</strong>,
                 développeuse web en freelance, passionnée, no-code friendly et
                 auteure de romans ! <br />À la suite de ma formation à la{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className="text-pinkDark">
                   <a
                     href="https://www.wildcodeschool.com/fr-fr/"
                     alt="Redirection vers le site web de la Wild Code School"
@@ -83,9 +83,9 @@ const PageAbout = () => {
                     Wild Code School
                   </a>
                 </strong>
-                , j'ai passé mon titre diplôme de dev en février 2023, dans le
-                but de créer ma propre entreprise :{" "}
-                <strong className="text-bold text-pinkDark">WenDev</strong> que
+                , j'ai passé mon diplôme de developpeur web et web mobile en
+                février 2023, dans le but de créer ma propre entreprise :{" "}
+                <strong className=" text-pinkDark">WenDev</strong> que
                 voici !
                 <br />
                 <button className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
@@ -96,7 +96,7 @@ const PageAbout = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Lire mon article sur le blog de la Wild Code School
+                    Mes conseils pour se lancer en freelance
                   </a>
                 </button>
               </p>
@@ -108,7 +108,7 @@ const PageAbout = () => {
         <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-">
           <section aria-label="Le parcours professionnel de WenDev">
             <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
-              Mon pracours professionnel
+              Mon parcours professionnel
             </h3>
             <div className="lg:grid grid-cols-2 content-center items-center">
               <img
@@ -119,25 +119,25 @@ const PageAbout = () => {
               />
               <p className="text-xl tracking-tight">
                 J'ai toujours été attirée par les professions mettant{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   l'humain au cœur des actes et des pratiques
                 </strong>
                 .
                 <br /> C'est pour cela qu'en 2018, j'ai commencé à exercer en
                 tant que{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   psychologue et formatrice
                 </strong>{" "}
                 dans le domaine de la santé. <br />
                 Mais il me manquait quelque chose... une touche de{" "}
-                <strong className="text-bold text-pinkDark">créativité</strong>,
+                <strong className=" text-pinkDark">créativité</strong>,
                 un brin de concret et une once de fantaisie pour être en accord
                 avec mes valeurs. <br />
                 Après un bilan de compétences, le métier de développeuse web
                 s'est rapidement imposé et j'ai commencé ma formation où j'ai pu
                 réaliser plusieurs projets concrets et confirmer mon appétence
                 pour la{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   programmation informatique
                 </strong>{" "}
                 ! <br />
@@ -148,11 +148,11 @@ const PageAbout = () => {
                 <br />
                 Aujourd'hui, je m'épanouis à plein temps dans mon quotidien de
                 développeuse web auprès des{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   auteurs de livres
                 </strong>{" "}
                 et je suis{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   ambassadrice
                 </strong>{" "}
                 de mon école d'informatique.
@@ -175,58 +175,58 @@ const PageAbout = () => {
               />
               <p className="text-xl tracking-tight">
                 ✨ Je suis une personne{" "}
-                <strong className="text-bold text-pinkDark">rigoureuse</strong>,
+                <strong className=" text-pinkDark">rigoureuse</strong>,
                 ce qui me permet de mener à bien mes projets et activités
                 confiées de A à Z et de bien gérer mon temps de travail. Je fais
                 également preuve de créativité et d'imaginativité, ce qui me
                 pousse à trouver des{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   solutions innovantes et originales
                 </strong>{" "}
                 pour répondre à vos besoins numériques.
                 <br />
                 ✨Soucieuse d’améliorer ma pratique dans un monde en constante
                 évolution, je sais faire preuve d’
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   adaptabilité
                 </strong>
                 , comme le prouve ma reconversion professionnelle dans un
                 domaine totalement nouveau pour moi.
                 <br />✨ Être{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   autonome
                 </strong>{" "}
                 dans ma pratique est important pour moi afin d'envisager tous
                 les possibles qui s'offrent à moi et repose avant tout sur un{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   climat de confiance
                 </strong>{" "}
                 établi avec le client. Lui être utile apparaît aussi primordial
                 pour donner un sens à mon travail.
                 <br />✨ Enfin, ma{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   curiosité
                 </strong>{" "}
                 me donne un goût certain pour l'apprentissage et l'actualisation
                 de mes acquis dans un monde en constante évolution.
                 <br />
                 <br />➕{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className=" text-pinkDark">
                   Mon petit plus ?
                 </strong>
                 Je suis développeuse, mais aussi psychologue ! Ainsi, tout
-                naturellement, je suis attirée par l' UX et l' UI. C'est un
-                domaine qui me parle, et qui me tient toujours à cœur. Mon
-                regard est un bonus : 100% user first et centrage sur
-                l'accessibilité !
+                naturellement, je suis attirée par l'expérience utilisateur sur
+                le web. C'est un domaine qui me parle, et qui me tient toujours
+                à cœur. Mon regard est un bonus : 100% user first et centrage
+                sur l'accessibilité !
                 <br />➕{" "}
-                <strong className="text-bold text-pinkDark">
+                <strong className="text-pinkDark">
                   Mon autre petit plus ?
                 </strong>{" "}
                 Je suis no code friendly ! Face à la demande croissante sur des
-                outils de solutions en ligne clés en mains, je me suis formée au
-                no-code et te propose des solutions pour augmenter ta
-                productivité et ton efficacité !
+                outils de solutions en ligne clés en mains, je me suis formée
+                sur des outils innovants pour vous proposer des solutions
+                augmantenant votre productivité et votre efficacité au quotidien !
               </p>
             </div>
           </section>
@@ -242,28 +242,28 @@ const PageAbout = () => {
               <div className="lg:flex">
                 <p className="text-xl tracking-tight">
                   <strong className="text-bold text-2xl text-pinkDark">
-                    Te proposer une solution numérique sur mesure
+                    Proposer une solution numérique sur mesure et clés en main
                   </strong>
                   <br />
                   <br />
                   Des services de création de sites web, il y en a plein ! Il y
-                  en a même des gratuits qui font tout à ta place ! 😵‍💫 Mais cela
+                  en a même des gratuits qui font tout à votre place ! 😵‍💫 Mais cela
                   ne remplacera jamais le travail d'un développeur formé à créer
                   des
-                  <strong className="text-bold text-pinkDark">
+                  <strong className=" text-pinkDark">
                     {" "}
                     sites internet robustes et viables, avec un design à la
-                    pointe des tendances
+                    pointe des tendances et visibles dans les navigateurs de recherche
                   </strong>
                   . 💅
                   <br />
-                  Avec moi, toi et ton site internet serez chouchoutés et,
-                  surtout, écoutés ! Car oui, je suis à l'écoute de tes besoins
-                  et de tes envies numériques pour pouvoir y répondre au mieux
-                  et aider ton business à décoler sur internet. <br />
+                  Avec moi, vous votre site internet serez chouchoutés et,
+                  surtout, écoutés ! Car oui, je suis à l'écoute de vos besoins
+                  et de vos envies numériques pour pouvoir y répondre au mieux
+                  et aider votre business à décoler sur internet. <br />
                   On se détend, pas de stress, je m'occupe de tout et on en
-                  discute ! T'être utile fait partie de l'essence même de{" "}
-                  <strong className="text-bold text-pinkDark">WenDev</strong> !
+                  discute ! Vous être utile fait partie de l'essence même de{" "}
+                  <strong className=" text-pinkDark">WenDev</strong> !
                 </p>
                 <img src={wendev13} alt="" className="w-64 h-64 p-4" />
               </div>
@@ -271,7 +271,7 @@ const PageAbout = () => {
               <div className="lg:flex">
                 <p className="text-xl tracking-tight">
                   <strong className="text-bold text-2xl text-pinkDark">
-                    Te présenter des offres adaptées à tes finances
+                    Présenter des offres adaptées à vos finances
                   </strong>{" "}
                   <br />
                   <br />
@@ -280,12 +280,12 @@ const PageAbout = () => {
                   activité. 😨 Et ça, je l'ai bien compris (et je suis passée
                   par là aussi ! 😅) !
                   <br />
-                  Pas de panique, j'ai une solution adaptée à tes besoins (et
-                  sans brader mes services certifiés !). Pour chaque type
-                  d'offre, je te propose une gamme de fonctionnalités et des
+                  Pas de panique, j'ai une solution adaptée à vos besoins (et
+                  sans brader mes services certifiés ni rogner sur la qualité !). Pour chaque type
+                  d'offre, je vous propose une gamme de fonctionnalités et des
                   tarifs évolutifs. <br />
-                  <strong className="text-bold  text-pinkDark">
-                    Avec tout ça, je suis persuadée que tu trouveras ton bonheur
+                  <strong className="text-pinkDark">
+                    Avec tout ça, je suis persuadée que vous trouverez votre ton bonheur
                     !
                   </strong>
                   🥳
@@ -295,63 +295,63 @@ const PageAbout = () => {
               <div className="lg:flex">
                 <p className="text-xl tracking-tight">
                   <strong className="text-bold text-2xl text-pinkDark">
-                  Être une référence en création de sites web pour les auteurs
+                    Être une référence en création de sites web pour les auteurs
                     de livres
                   </strong>{" "}
                   <br />
                   <br />
-                  Aujourd'hui, les réseaux sociaux ou les boutiques en ligne ne
+                  Aujourd'hui, les réseaux sociaux, les sites marchands ou les boutiques en ligne ne
                   suffisent plus aux écrivains pour présenter leurs livres et se
                   faire connaître.{" "}
-                  <strong className="text-bold  text-pinkDark">
+                  <strong className="text-pinkDark">
                     Il est primordial de ne plus faire l'impasse sur une vitrine
                     virtuelle accessible à tous
                   </strong>
                   , comme peut l'être un site internet ! <br />
                   En tant qu'auteure de romans, je suis déjà passée par la
                   création de mon site internet et ai fait face à plusieurs
-                  difficultés que je peux ainsi t'éviter !{" "}
-                  <strong className="text-bold  text-pinkDark">
-                    Je sais de quoi tu as besoin
+                  difficultés que je peux ainsi vous éviter !{" "}
+                  <strong className=" text-pinkDark">
+                    Je sais de quoi vous et vos lecteurs avez besoin
                   </strong>{" "}
-                  pour mettre tes livres et ton univers littéraire en valeur. 📚
+                  pour mettre vos livres et votre univers en valeur, quel que soit votre genre littéraire. 📚
                   <br /> Grâce à{" "}
-                  <strong className="text-bold  text-pinkDark">
+                  <strong className="text-pinkDark">
                     mes compétences et à mon réseau
                   </strong>
-                  , tu bénéficieras d'une solution numérique optimale pour
-                  toucher tes lecteurs et, qui sait, peut-être qu'une maison
+                  , vous bénéficierez d'une solution numérique optimale pour
+                  toucher vos lecteurs et, qui sait, peut-être qu'une maison
                   d'édition passera par là ! 😉
                   <br />
                   <button className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                    <Link to="/Offreauteurs">Voir l'offre</Link>
+                    <Link to="/Offreauteurs">Je veux en savoir plus ! </Link>
                   </button>
                 </p>
                 <img src={wendev11} alt="" className="w-64 h-64" />
               </div>
               <div className="lg:flex">
                 <p className="text-xl tracking-tight">
-                  <strong className="text-bold text-2xl text-pinkDark">
-                  Devenir LE média d'information français qui allie activités
+                  <strong className="text-2xl text-pinkDark">
+                    Devenir LE média d'information français qui allie activités
                     littéraires et tech !
                   </strong>{" "}
                   <br />
                   <br />
                   Lorsque je construisais mon propre site internet d'auteure de
                   livres, je me suis heurtée à pas mal de freins et fait
-                  quelques erreursdans le choix de mes outils, par exemple. Je
+                  quelques erreurs dans le choix de mes outils, par exemple. Je
                   me suis rendue compte que réaliser un site ne s'improvise pas
                   et qu'il nécessite du temps pour saisir les bonnes pratiques
-                  sur le web. <br /> Le web est un vaste monde bien complexe et
+                  sur le web. <br /> C'est un vaste monde bien complexe et
                   je ne suis pas la seule à avoir fait ces erreurs.
                   <br />
-                  <strong className="text-bold  text-pinkDark">
-                    Et si je t'évitais de faire ces erreurs en t'informant sur
+                  <strong className="text-pinkDark">
+                    Et si je vous évitais de faire ces erreurs en vous informant sur
                     tout cela de manière fun et didactique ? 🤩
                   </strong>
                   <br />
                   Sur{" "}
-                  <strong className="text-bold  text-pinkDark">
+                  <strong className="text-pinkDark">
                     mes réseaux sociaux et dans ma newsletter
                   </strong>
                   , je publie des ressources utiles et partage la culture du web
@@ -390,7 +390,7 @@ const PageAbout = () => {
               <div>
                 <p className="text-xl tracking-tight">
                   Je suis aussi également{" "}
-                  <strong className="text-bold text-pinkDark">
+                  <strong className="text-pinkDark">
                     auteure de 4 romans contemporains
                   </strong>{" "}
                   sur des thématiques qui me tiennent à coeur : la santé
@@ -400,8 +400,8 @@ const PageAbout = () => {
                   <br />
                   Cela me permet de développer des compétences
                   organisationnelles, de maîtriser les normes rédactionnelles
-                  et, surtout, d'être à l' avec le{" "}
-                  <strong className="text-bold text-pinkDark">
+                  et, surtout, d'être à l'aise avec le{" "}
+                  <strong className=" text-pinkDark">
                     storytelling
                   </strong>{" "}
                   lorsque j'ai un projet à vous présenter ! Je suis également{" "}
