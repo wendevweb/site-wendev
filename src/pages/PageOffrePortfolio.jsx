@@ -3,6 +3,7 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import ButtonFonctionnement from "../components/ButtonFonctionnement";
 import OffrePortfolio from "../components/OffrePortfolio";
+import Rdv from "../components/Rdv";
 
 const PageOffrePortfolio = () => {
   return (
@@ -134,6 +135,7 @@ const PageOffrePortfolio = () => {
           </button>
         </section>
       </Fade>
+      < Rdv />
     </div>
   );
 };

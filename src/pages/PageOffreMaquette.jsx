@@ -10,6 +10,7 @@ import prototypeMbn from "../assets/prototype-mbn.webp";
 import maquetteMbn from "../assets/maquette-mbn.webp";
 import figma from "../assets/figma.webp";
 import OffreMaquette from "../components/OffreMaquette";
+import Rdv from "../components/Rdv";
 
 const PageOffreMaquette = () => {
   return (
@@ -261,6 +262,7 @@ const PageOffreMaquette = () => {
           </div>
         </section>
       </Fade>
+      < Rdv />
     </div>
   );
 };

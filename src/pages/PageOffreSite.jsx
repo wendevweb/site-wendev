@@ -5,6 +5,7 @@ import { Link } from "react-router-dom";
 import ButtonFonctionnement from "../components/ButtonFonctionnement";
 import Interest from "../components/Interest";
 import OffresSite from "../components/OffreSite";
+import Rdv from "../components/Rdv";
 import projet1 from "../assets/projet1.webp";
 import projet2 from "../assets/projet2.webp";
 import projet4 from "../assets/projet4.webp";
@@ -296,6 +297,7 @@ const PageOffreSite = () => {
           </div>
         </section>
       </Fade>
+      < Rdv />
     </div>
   );
 };

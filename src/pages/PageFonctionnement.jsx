@@ -7,6 +7,7 @@ import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
 import wendev1 from "../assets/wendev-1.webp";
 import wendev2 from "../assets/wendev-2.webp";
+import Rdv from "../components/Rdv";
 
 const PageFonctionnement = () => {
   return (
@@ -50,7 +51,7 @@ const PageFonctionnement = () => {
         <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
           <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
             <img src={wendev1} alt="" className="h-fit" />
-            <ol className="tracking-tight list-decimal font-quicksand text-xl leading-relaxed">
+            <ol className="tracking-tight list-decimal text-xl">
               <li className="list-decimal">
                 Vous avez un projet web et vous êtes intéressé.e par un ou plusieurs de
                 mes services. C'est trop cool ! 🤩
@@ -118,11 +119,12 @@ const PageFonctionnement = () => {
                 l'utiliser comme bon vous semble ! 🥳
               </li>
               <br />
-              <li>
+              <li className="pb-10">
                 <span className="font-bold text-pinkDark">Bonus !</span> Si le
                 service que vous avez choisi le prévoit, je mets en avant votre projet
                 et votre profil sur mes réseaux sociaux.
               </li>
+              < Rdv />
             </ol>
           </section>
         </div>

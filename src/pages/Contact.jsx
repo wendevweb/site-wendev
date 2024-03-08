@@ -25,7 +25,7 @@ const Contact = () => {
               rel="noreferrer"
               target="_blank"
             >
-              Demande un devis sans prendre de rendez-vous
+              Demandez un devis sans prendre de rendez-vous
             </a>
           </button>
         </div>

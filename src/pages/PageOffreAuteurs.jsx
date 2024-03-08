@@ -13,6 +13,7 @@ import Lea from "../assets/Lea.webp";
 import Elsa from "../assets/Elsa.webp";
 import Florent from "../assets/Florent.webp";
 import Freebie from "../components/Freebie"
+import Rdv from "../components/Rdv";
 
 const PageOffreAuteurs = () => {
   return (
@@ -392,21 +393,7 @@ const PageOffreAuteurs = () => {
           </div>
         </section>
       </Fade>
-      <Fade>
-        <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
-          <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-            <a
-              href="https://calendly.com/wendevweb/premier-rendez-vous"
-              alt="Redirection vers le portfolio de Wendy Baqué"
-              aria-label="Redirection vers la prise de rendez-vous"
-              rel="noreferrer"
-              target="_blank"
-            >
-              Prendre rendez-vous !
-            </a>
-          </button>
-        </div>
-      </Fade>
+      < Rdv />
     </div>
   );
 };

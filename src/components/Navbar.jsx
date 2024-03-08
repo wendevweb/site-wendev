@@ -110,7 +110,7 @@ export default function Example() {
                           <Link
                             to="/OffrePortfolio"
                             className={classNames(
-                              active ? "bg-pink hover:text-white" : "",
+                              active ? "bg-pinkDark hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
                             )}
                           >
@@ -123,7 +123,7 @@ export default function Example() {
                           <Link
                             to="/Offreauteurs"
                             className={classNames(
-                              active ? "bg-pink hover:text-white" : "",
+                              active ? "bg-pinkDark hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
                             )}
                           >
@@ -136,7 +136,7 @@ export default function Example() {
                           <Link
                             to="/OffreMaquette"
                             className={classNames(
-                              active ? "bg-pink hover:text-white" : "",
+                              active ? "bg-pinkDark hover:text-white" : "",
                               "block px-4 py-2 font-medium text-black"
                             )}
                           >
