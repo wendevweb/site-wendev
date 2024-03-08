@@ -16,19 +16,19 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 
 const PageAbout = () => {
   return (
-    <div className="font-quicksand lg:flex flex-col justify-items-center">
+    <div className="font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>À propos | WenDev</title>
         <link href="https://www.wendev.fr/About" />
       </Helmet>
-      <section aria-label="Titre et présentation du service">
+      <section aria-label="A propos de WenDev">
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
           style={{
             backgroundPosition: "50%",
             backgroundImage:
-              "url('https://cdn.pixabay.com/photo/2019/09/17/18/48/computer-4484282_960_720.jpg')",
+              "url('https://i.goopics.net/ay4x9z.png')",
             height: "500px",
           }}
         >
@@ -43,7 +43,7 @@ const PageAbout = () => {
                   <br />
                   <strong className="text-pink">WenDev</strong>
                 </h2>
-                <p className="font-light text-white sm:text-xl">
+                <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
                   Mais qui se cache derrière ce logo ? Quelle est l'histoire de
                   WenDev ?
                   <br /> Rendez-vous dans les sections ci-dessous pour le

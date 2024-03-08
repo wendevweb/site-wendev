@@ -6,48 +6,70 @@ import { Helmet } from "react-helmet";
 
 const Cgv = () => {
   return (
-    <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+    <div className="font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>C.G.V. | WenDev</title>
         <link href="https://www.wendev.fr/Cgv" />
       </Helmet>
-      <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
-        {" "}
-        Conditions générales de vente
-      </h2>
-      <p className="text-xl pb-6">En vigueur au 14/02/2023</p>
-      <h3 className="font-bold text-xl pb-6"> Préambule</h3>
-      <p className="text-xl tracking-tight">
-        Les présentes conditions générales constituent un contrat de vente à
-        distance, définissant les droits et obligations de WenDev et du Client
-        dans le cadre de la vente des produits référencés sur le site Internet
-        www.wendev.fr ci-après dénommé le « Site ». <br />
-        Pour toute question ou réclamation relative aux produits, à sa commande,
-        à ses données personnelles, au droit de rétraction, à l’application de
-        la garantie des produits le Client peut contacter WenDev : <br />
-        <span className="font-bold text-pinkDark">
-          Wendev – Wendy Baqué 971 Route de Pernay 37340 Ambillou 06 98 15 71 13
-          wendevweb@gmail.com
-        </span>{" "}
-        <br />
-        L’ensemble du contenu du Site (illustrations, textes, libellés, marques,
-        images, vidéos…) est la propriété de WenDev. Toute reproduction
-        intégrale ou partielle de ce Site est interdite, sauf si WenDev donne
-        son autorisation expresse et préalable. WenDev n’autorise pas la
-        création de liens hypertextes sauf accord exprès et préalable. WenDev ne
-        saurait être responsable des dommages, temporaires ou permanents, causés
-        au système informatique du Client ni des pertes ou dommages éventuels
-        qui seraient subis notamment suite à l’accès ou la navigation sur son
-        Site, sauf faute de sa part.
-      </p>
-      <div className="font-poppins p-10 lg:grid grid-cols-1 gap-4">
+      <section aria-label="Bannière de présentation des conditions générales de vente de WenDev.">
+        <div
+          className="relative overflow-hidden bg-no-repeat bg-cover"
+          style={{
+            backgroundPosition: "50%",
+            backgroundImage: "url('https://i.goopics.net/ay4x9z.png')",
+            height: "500px",
+          }}
+        >
+          <div
+            className="absolute top-0 right-0 bottom-0 left-0 w-full h-full overflow-hidden bg-fixed"
+            style={{ backgroundColor: "rgba(0, 0, 0, 0.65)" }}
+          >
+            <div className="flex justify-center items-center h-full">
+              <div className="text-center text-white px-6 md:px-12">
+                <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
+                  Conditions générales de vente
+                  <br />
+                  <strong className="text-pinkDark">
+                    {" "}
+                    En vigueur au 14/02/2023
+                  </strong>
+                </h2>
+                <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
+                  Les présentes conditions générales constituent un contrat de
+                  vente à distance, définissant les droits et obligations de
+                  WenDev et du Client dans le cadre de la vente des produits
+                  référencés sur le site Internet www.wendev.fr ci-après dénommé
+                  le « Site ». Pour toute question ou réclamation relative aux
+                  produits, à sa commande, à ses données personnelles, au droit
+                  de rétraction, à l’application de la garantie des produits le
+                  Client peut contacter WenDev :<br />
+                  <span className="font-bold"> Wendev – Wendy Baqué 971 Route de Pernay 37340 Ambillou 06 98
+                  15 71 13 wendevweb@gmail.com</span>
+                  <br />
+                  L’ensemble du contenu du Site (illustrations, textes,
+                  libellés, marques, images, vidéos…) est la propriété de
+                  WenDev. Toute reproduction intégrale ou partielle de ce Site
+                  est interdite, sauf si WenDev donne son autorisation expresse
+                  et préalable. WenDev n’autorise pas la création de liens
+                  hypertextes sauf accord exprès et préalable. WenDev ne saurait
+                  être responsable des dommages, temporaires ou permanents,
+                  causés au système informatique du Client ni des pertes ou
+                  dommages éventuels qui seraient subis notamment suite à
+                  l’accès ou la navigation sur son Site, sauf faute de sa part.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
         {/* Article 1 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Objet et champ d'application</span>{" "}
+                <span className="font-bold">1. Objet et champ d'application</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -84,13 +106,14 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 2 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
                 <span className="font-bold">
-                  Les produits ou services proposés
+                  2. Les produits ou services proposés
                 </span>{" "}
                 <ChevronRightIcon
                   className={
@@ -128,12 +151,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 3 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Les commande ou adhésion</span>{" "}
+                <span className="font-bold">3. Les commande ou adhésion</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -175,12 +199,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 4 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Disponibilité des produits</span>{" "}
+                <span className="font-bold">4. Disponibilité des produits</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -221,12 +246,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 5 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Prix</span>{" "}
+                <span className="font-bold">5. Prix</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -262,12 +288,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 6 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Rabais et remise</span>{" "}
+                <span className="font-bold">6. Rabais et remise</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -294,12 +321,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 7 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Escompte</span>{" "}
+                <span className="font-bold">7. Escompte</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -323,12 +351,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 8 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Modalités de paiement</span>{" "}
+                <span className="font-bold">8. Modalités de paiement</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -359,12 +388,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 9 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Retard de paiement </span>{" "}
+                <span className="font-bold">9. Retard de paiement </span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -401,12 +431,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 10 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Clause résolutoire</span>{" "}
+                <span className="font-bold">10. Clause résolutoire</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -434,13 +465,14 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 11 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
                 <span className="font-bold">
-                  Clause de réserve de propriété
+                 11. Clause de réserve de propriété
                 </span>{" "}
                 <ChevronRightIcon
                   className={
@@ -470,12 +502,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 12 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Livraison</span>{" "}
+                <span className="font-bold">12. Livraison</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -512,12 +545,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
+        <br/>
         {/* Article 13 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Délai de rétractation</span>{" "}
+                <span className="font-bold">13. Délai de rétractation</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -581,12 +615,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
-        {/* Article 13 */}
+        <br/>
+        {/* Article 14 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Obligations du client</span>{" "}
+                <span className="font-bold">14. Obligations du client</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -640,12 +675,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
-        {/* Article 14 */}
+        <br/>
+        {/* Article 15 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Responsabilité</span>{" "}
+                <span className="font-bold">15. Responsabilité</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -721,12 +757,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
-        {/* Article 15 */}
+        <br/>
+        {/* Article 16 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Garanties</span>{" "}
+                <span className="font-bold">16. Garanties</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -756,13 +793,14 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
-        {/* Article 16 */}
+        <br/>
+        {/* Article 17 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
                 <span className="font-bold">
-                  RGPD et traitement des données
+                  17. RGPD et traitement des données
                 </span>{" "}
                 <ChevronRightIcon
                   className={
@@ -814,12 +852,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
-        {/* Article 17 */}
+        <br/>
+        {/* Article 18 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Force majeure</span>{" "}
+                <span className="font-bold">18. Force majeure</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -849,12 +888,13 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
-        {/* Article 18 */}
+        <br/>
+        {/* Article 19 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
-                <span className="font-bold">Tribunal compétent</span>{" "}
+                <span className="font-bold">19. Tribunal compétent</span>{" "}
                 <ChevronRightIcon
                   className={
                     open
@@ -880,13 +920,14 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
-        {/* Article 19 */}
+        <br/>
+        {/* Article 20 */}
         <Disclosure>
           {({ open }) => (
             <>
               <Disclosure.Button className="font-bold p-2">
                 <span className="font-bold">
-                  Mentions obligatoires à destination des clients consommateurs
+                  20. Mentions obligatoires à destination des clients consommateurs
                   relatifs à la garantie commerciale
                 </span>{" "}
                 <ChevronRightIcon
@@ -983,7 +1024,7 @@ const Cgv = () => {
             </>
           )}
         </Disclosure>
-        
+
         <br />
         <button className="mt-10 mb-6 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
           <a

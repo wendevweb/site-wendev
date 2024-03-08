@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { useNavigate } from "react-router-dom";
-import "../components/hero.css";
 import error from "../assets/404.webp";
 
 const Page404 = () => {
@@ -14,16 +13,16 @@ const Page404 = () => {
   });
 
   return (
-    <div>
+    <div className="font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Page not found | WenDev</title>
         <link href="https://www.wendev.fr/*" />
       </Helmet>
-      <div className="background-radial-gradient-hero overflow-hidden h-screen">
-        <div className=" px-6 py-12 lg:py-24 md:px-12 text-center lg:text-left">
-          <div className="container mx-auto xl:px-32 ">
-            <div className="lg:grid lg:grid-cols-2 gap-16 flex items-center pt-48">
+      <div className="bg-gradient-to-r from-purple via-pinkDark to-pink dark:bg-black overflow-hidden">
+      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+          <div>
+            <div className="lg:grid lg:grid-cols-2 gap-16 flex items-center">
               <img src={error} alt="" />
               <div className="px-40 py-20 bg-white rounded-md shadow-xl">
                 <div className="flex flex-col items-center">
