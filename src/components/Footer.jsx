@@ -31,7 +31,7 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <MarkEmailUnreadIcon /> Inscris-toi à la newsletter
+              <MarkEmailUnreadIcon /> Inscrivez-vous à la newsletter
             </a>
           </h2>
           <h2 className="hover:font-bold text-pinkDark font-semibold text-lg">
@@ -42,8 +42,8 @@ const Footer = () => {
               target="_blank"
               rel="noreferrer"
             >
-              <DownloadIcon /> Ami.e auteur.e, télécharge ton livre blanc pour
-              t'aider à créer toi-même ton site internet !{" "}
+              <DownloadIcon /> Ami.e auteur.e, téléchargez votre livre blanc pour
+              vous aider à créer vous-mêmes votre site internet !{" "}
             </a>
           </h2>
           <br />

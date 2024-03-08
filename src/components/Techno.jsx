@@ -7,7 +7,7 @@ const Techno = () => {
       aria-label="Avis des clients sur l'offre aux auteurs"
     >
       <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
-        Mon expertise
+        Mon expertise à votre service
       </h3>
       <div className="lg:flex justify-center grid justify-items-center">
         <img

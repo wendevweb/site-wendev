@@ -81,7 +81,7 @@ const Testimonials = () => {
       aria-label="Avis des clients sur l'offre aux auteurs"
     >
       <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
-        Vous en parlez !
+        Vos avis sur mes prestations
       </h3>
       <div className=" tracking-tight grid grid-rows-1 grid-flow-rows gap-10">
         {avis.map((avi) => (
@@ -167,7 +167,7 @@ const Testimonials = () => {
         target="_blank"
         rel="noreferrer"
       >
-        <a href="/Temoignages">Consultez les autres témoignages</a>
+        <a href="/Temoignages">Consultez les autres témoignages de clients satisfaits ! </a>
       </button>
     </section>
   );

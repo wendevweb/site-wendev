@@ -64,9 +64,9 @@ const Partenaires = () => {
     <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div>
         <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
-          Mes partners et prestations
+          Mes partenaires du monde littéraire
         </h3>{" "}
-        <p className="tracking-tight pt-10 pb-10">Il est temps de voir ton projet en grand ! Et si tu faisais appel à mes partenaires de confiance, avec lesquels je partage mes valeurs et ma manière de travailler ? <br /> Je te propose un large choix de professionnels à ton écoute.</p>
+        <p className="tracking-tight pt-10 pb-10">Il est temps de voir votre projet en grand ! Et si vous faisiez appel à mes partenaires de confiance, avec lesquels je partage mes valeurs et ma manière de travailler ? <br /> Je vous propose un large choix de professionnels à votre écoute.</p>
       </div>
       <div className="grid lg:grid-cols-4 gap-10">
         {partners.map((partner) => (
