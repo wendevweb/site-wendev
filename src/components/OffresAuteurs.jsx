@@ -5,7 +5,6 @@ import AddIcon from "@mui/icons-material/Add";
 // import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
-import ButtonFonctionnement from "./ButtonFonctionnement";
 
 // Based on : https://flowbite.com/blocks/marketing/pricing/
 
@@ -15,7 +14,7 @@ const OffresAuteurs = () => {
       <Fade>
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
           {/* OFFRE 1 */}
-          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
+            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
             <h3 className="mb-4 text-2xl font-semibold">Basic</h3>
             <div className="flex justify-center items-baseline my-8">
               <span className="text-pinkDark mr-2 text-5xl font-extrabold">
@@ -341,7 +340,6 @@ const OffresAuteurs = () => {
           </div>
         </div>
       </Fade>
-      <ButtonFonctionnement />
     </section>
   );
 };

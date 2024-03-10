@@ -3,7 +3,7 @@ import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
 import ButtonFonctionnement from "../components/ButtonFonctionnement";
-import Interest from "../components/Interest";
+// import Interest from "../components/Interest";
 import OffresSite from "../components/OffreSite";
 import Rdv from "../components/Rdv";
 import projet1 from "../assets/projet1.webp";
@@ -11,7 +11,7 @@ import projet2 from "../assets/projet2.webp";
 import projet4 from "../assets/projet4.webp";
 import projet5 from "../assets/projet5.webp";
 import projet6 from "../assets/projet6.webp";
-import projet7 from '../assets/projet7.webp';
+import projet7 from "../assets/projet7.webp";
 import projet8 from "../assets/projet8.webp";
 import projet9 from "../assets/projet9.webp";
 import projet10 from "../assets/projet10.webp";
@@ -19,7 +19,7 @@ import projet11 from "../assets/projet11.webp";
 
 const PageOffreSite = () => {
   return (
-    <div className="font-quicksand flex flex-col justify-center justify-items-center">
+    <div className="font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre création de sites internet | WenDev</title>
@@ -50,9 +50,9 @@ const PageOffreSite = () => {
                   Avoir son propre site internet comporte bien des avantages.
                   C'est un réel atout pour ta marque ou ton entreprise !
                   <br />
-                  Grâce à React, Next.js et Tailwindcss, deux technologies récentes,
-                  personnalisables et fiables, je te propose un site moderne,
-                  accessible et au coeur des tendances.
+                  Grâce à React, Next.js et Tailwindcss, deux technologies
+                  récentes, personnalisables et fiables, je te propose un site
+                  moderne, accessible et au coeur des tendances.
                   <br />
                   Une offre en no-code est également proposée pour les petits
                   budgets.
@@ -64,53 +64,39 @@ const PageOffreSite = () => {
           </div>
         </div>
       </section>
-      <Fade>
+      {/* <Fade>
         <section aria-label="Intérêts d'avoir un site internet - section d'informations">
           <Interest />
         </section>
-      </Fade>
+      </Fade> */}
       <Fade>
-        <section>
-          <h3 className="text-pink text-2xl text-center">Tarifs</h3>
+        <section
+          aria-label="Grille tarifaire de création de sites internet."
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
+        >
           <OffresSite />
         </section>
       </Fade>
-      <Fade>
-        <div className="lg:grid grid-cols-1">
-          <h3 className="text-pink text-2xl text-center mb-4">
-            Un petit mot sur mes tarifs...{" "}
-          </h3>
-          <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
-            En tant que développeuse web indépendante/freelance, je détermine le
-            prix de mes prestations en fonction du coût de mon travail, le temps
-            passé à sa réalisation, je m’adapte à des demandes différentes et je
-            me place face à la concurrence. C’est un travail de création ! Et
-            tout travail mérite salaire, non ? 😉
-          </p>
-          <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
-            En choisissant de travailler avec un développeur web, tu accèdes à
-            un service personnalisé d’une flexibilité et d’une liberté qui n’ont
-            rien à voir avec celles proposées par une agence ou une embauche
-            d’un salarié.
-          </p>
-        </div>
-      </Fade>
+
       <ButtonFonctionnement />
       <Fade>
-        <section className="grid justify-items-center lg:m-10">
-          <h3 className="text-pink text-2xl text-center">
-            Besoin d'une refonte de ton site ?
+        <section
+          aria-label="Refonte et mise à jour de site existan,t"
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
+        >
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+            Besoin d'une refonte/mise à jour de votre site ?
           </h3>
-          <p className="text-center p-6">
-            Besoin d'un petit coup de neuf sur ta vitrine en ligne ? Avec moi,
-            ton site fera peau neuve. <br />
-            Viens en discuter avec moi pour que je te propose un service sur
-            mesure en fonction de ce qui existe déjà pour ton site ! <br />
+          <p className="text-xl tracking-tight">
+            Besoin d'un petit coup de neuf sur votre vitrine en ligne ? Avec
+            moi, votre site fera peau neuve. <br />
+            Venez en discuter avec moi pour que je vous propose un service sur
+            mesure en fonction de ce qui existe déjà pour votre site ! <br />
             (Hors Wordpress et boutiques en ligne/e-commerce)
           </p>
           <Link to="/Contact">
             <button
-              className="m-6 shadow-lg bg-real font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+              className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
               alt="Redirection vers la page du service de WenDev"
             >
               Contact
@@ -119,185 +105,231 @@ const PageOffreSite = () => {
         </section>
       </Fade>
       <Fade>
-        <section>
-          <h3 className="text-pink text-2xl text-center pb-6 ">
+        <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
             Quelques uns de mes projets...
           </h3>
           <div className="lg:grid grid-cols-3 gap-4">
-
-          <a
-              href="https://melodieducoeur.com/"
-              alt="Site web de Mélodie Ducoeur, auteure de romans"
-              aria-label="Site web de Mélodie Ducoeur, auteure de romans"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg">
-                <p>Refonte du site de Mélodie Ducoeur, auteure</p>
-                <img
-                  src={projet8}
+            {/* REFONTE MELODIE DUCOEUR AUTEURE */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg">
+              <img
+                src={projet8}
+                alt="Site web de Mélodie Ducoeur, auteure de romans"
+                aria-label="Site web de Mélodie Ducoeur, auteure de romans"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://melodieducoeur.com/"
                   alt="Site web de Mélodie Ducoeur, auteure de romans"
                   aria-label="Site web de Mélodie Ducoeur, auteure de romans"
-                />
-              </div>{" "}
-            </a>
-
-            <a
-              href="https://www.frenchholidaygites.co.uk/?lang=fr"
-              alt="Site web des Gîtes des Guissinnières, à Noyant-Villages."
-              aria-label="Site web des Gîtes des Guissinnières, à Noyant-Villages."
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-                <p>Refonte du site des Gîtes des Guissinnières (49)</p>
-                <img
-                  src={projet10}
-                  alt="Site web des Gîtes des Guissinnières, à Noyant-Village"
-                  aria-label="Site web des Gîtes des Guissinnières, à Noyant-Village"
-                />
-              </div>
-            </a>
-
-            <a
-              href="https://www.plumesdecoeur.com/"
-              alt="Site web des éditions Plumes de Coeur."
-              aria-label="Site web des éditions Plumes de Coeur."
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-                <p>Refonte du site des éditions Plumes de Coeur</p>
-                <img
-                  src={projet11}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Refonte du site de Mélodie Ducoeur, auteure
+                </a>
+              </button>
+            </div>
+            {/* REFONTE GITES DES GUISSINNIERES */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={projet10}
+                alt="Site web des Gîtes des Guissinnières, à Noyant-Village"
+                aria-label="Site web des Gîtes des Guissinnières, à Noyant-Village"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.frenchholidaygites.co.uk/?lang=fr"
+                  alt="Site web des Gîtes des Guissinnières, à Noyant-Villages."
+                  aria-label="Site web des Gîtes des Guissinnières, à Noyant-Villages."
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Refonte du site des Gîtes des Guissinnières (49)
+                </a>{" "}
+              </button>
+            </div>
+            {/* REFONTE PLUMES DE COEUR */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={projet11}
+                alt="Site web des éditions Plumes de Coeur."
+                aria-label="Site web des éditions Plumes de Coeur."
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.plumesdecoeur.com/"
                   alt="Site web des éditions Plumes de Coeur."
                   aria-label="Site web des éditions Plumes de Coeur."
-                />
-              </div>
-            </a>
-
-            <a
-              href="https://www.wendybaqueauteure.com/"
-              alt="Site web de Wendy Baqué, auteure de romans"
-              aria-label="Site web de Wendy Baqué, auteure de romans"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-                <p>Site de Wendy Baqué, auteure</p>
-                <img
-                  src={projet1}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Refonte du site des éditions Plumes de Coeur
+                </a>{" "}
+              </button>
+            </div>
+            {/* WENDY BAQUE AUTEURE */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={projet1}
+                alt="Site web de Wendy Baqué, auteure de romans"
+                aria-label="Site web de Wendy Baqué, auteure de romans"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.wendybaqueauteure.com/"
                   alt="Site web de Wendy Baqué, auteure de romans"
                   aria-label="Site web de Wendy Baqué, auteure de romans"
-                />
-              </div>{" "}
-            </a>
-            <a
-              href="https://wendybaqueportfoliodev.wendev.fr/"
-              alt="Porfolio de Wendy Baqué, développeuse web front-end"
-              aria-label="Porfolio de Wendy Baqué, développeuse web front-end"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-                <p>Mon portfolio</p>
-                <img
-                  src={projet4}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  {" "}
+                  Wendy Baqué, auteure
+                </a>
+              </button>
+            </div>
+            {/* PORTFOLIO WENDY BAQUE */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={projet4}
+                alt="Porfolio de Wendy Baqué, développeuse web front-end"
+                aria-label="Porfolio de Wendy Baqué, développeuse web front-end"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://wendybaqueportfoliodev.wendev.fr/"
                   alt="Porfolio de Wendy Baqué, développeuse web front-end"
                   aria-label="Porfolio de Wendy Baqué, développeuse web front-end"
-                />
-              </div>
-            </a>
-            <a
-              href="https://nelixair-website-front-end-copy-elgelhh6m-wendybaque.vercel.app/"
-              alt="Site web de l'association Nelixair"
-              aria-label="Site web de l'association Nelixair"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-                <p>Site web de l'association Nelixair</p>
-                <img
-                  src={projet2}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Mon portfolio (mise à jour en cours)
+                </a>{" "}
+              </button>
+            </div>
+            {/* NELIXAIR */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={projet2}
+                alt="Site web de l'association Nelixair"
+                aria-label="Site web de l'association Nelixair"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://nelixair-website-front-end-copy-elgelhh6m-wendybaque.vercel.app/"
                   alt="Site web de l'association Nelixair"
                   aria-label="Site web de l'association Nelixair"
-                />
-              </div>
-            </a>
-           
-            <a
-              href="https://www.cinosconsulting.com/"
-              alt="Site web CINOS Consulting"
-              aria-label="Site web CINOS Consulting"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-                <p>CINOS Consulting</p>
-                <img
-                  src={projet5}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Site web de l'association Nelixair
+                </a>{" "}
+              </button>
+            </div>
+            {/* CINOS CONSULTING */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={projet5}
+                alt="Site web CINOS Consulting"
+                aria-label="Site web CINOS Consulting"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.cinosconsulting.com/"
                   alt="Site web CINOS Consulting"
                   aria-label="Site web CINOS Consulting"
-                />
-              </div>
-            </a>
-
-            <a
-              href="https://www.lesnettoyeursdetombesreunis.fr/"
-              alt="Site web des Nettoyeurs de Tombes Réunis"
-              aria-label="Site web des Nettoyeurs de Tombes Réunis"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-                <p>Les Nettoyeurs de Tombes Réunis</p>
-                <img
-                  src={projet6}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  CINOS Consulting
+                </a>{" "}
+              </button>
+            </div>
+            {/* LES NETTOYEURS DE TOMBES REUNIS */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              {" "}
+              <img
+                src={projet6}
+                alt="Site web des Nettoyeurs de Tombes Réunis"
+                aria-label="Site web des Nettoyeurs de Tombes Réunis"
+              />{" "}
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.lesnettoyeursdetombesreunis.fr/"
                   alt="Site web des Nettoyeurs de Tombes Réunis"
                   aria-label="Site web des Nettoyeurs de Tombes Réunis"
-                />
-              </div>
-            </a>
-
-            <a
-              href="https://www.diagimmogeraldo.fr/"
-              alt="Site web Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
-              aria-label="Site web Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-                <p>Diag Immo Geraldo</p>
-                <img
-                  src={projet7}
-                  alt="Site web de Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
-                  aria-label="Site web de Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
-                />
-              </div>
-            </a>
-
-            
-
-            <a
-              href="https://www.lesgardiennesdusouvenir.fr/"
-              alt="Site web des Gardiennes du Souvenir"
-              aria-label="Site web des Gardiennes du Souvenir"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 duration-300 overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-                <p>Les Gardiennes du Souvenir</p>
-                <img
-                  src={projet9}
-                  alt="Site web des Gardiennes du Souvenir."
-                  aria-label="Site web des Gardiennes du Souvenir."
-                />
-              </div>
-            </a>
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Les Nettoyeurs de Tombes Réunis
+                </a>
+              </button>
+            </div>
+            {/* DIAG IMMO GERALDO */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              {" "}
+              <img
+                src={projet7}
+                alt="Site web de Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
+                aria-label="Site web de Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
+              />{" "}
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.diagimmogeraldo.fr/"
+                  alt="Site web Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
+                  aria-label="Site web Diag Immo Geraldo, diagnostiqueur immobilier dans le Sud Touraine"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Diag Immo Geraldo
+                </a>{" "}
+              </button>
+            </div>
+            {/* LES GARDIENNES DU SOUVENIR */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              {" "}
+              <img
+                src={projet9}
+                alt="Site web des Gardiennes du Souvenir."
+                aria-label="Site web des Gardiennes du Souvenir."
+              />{" "}
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.lesgardiennesdusouvenir.fr/"
+                  alt="Site web des Gardiennes du Souvenir"
+                  aria-label="Site web des Gardiennes du Souvenir"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Les Gardiennes du Souvenir
+                </a>{" "}
+              </button>
+            </div>
           </div>
         </section>
       </Fade>
-      < Rdv />
+      <div className="grid justify-items-center">
+        <Rdv />
+      </div>
+      <Fade>
+        <section
+          aria-label="Un petit mot sur mes tairfs"
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
+        >
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+            Un petit mot sur mes tarifs...{" "}
+          </h3>
+          <p className="text-xl tracking-tight">
+            En tant que développeuse web indépendante/freelance, je détermine le
+            prix de mes prestations en fonction du coût de mon travail, le temps
+            passé à sa réalisation, je m’adapte à des demandes différentes et je
+            me place face à la concurrence. C’est un travail de création ! Et
+            tout travail mérite salaire, non ? 😉 En choisissant de travailler
+            avec un développeur web, tu accèdes à un service personnalisé d’une
+            flexibilité et d’une liberté qui n’ont rien à voir avec celles
+            proposées par une agence ou une embauche d’un salarié.
+          </p>
+        </section>
+      </Fade>
     </div>
   );
 };

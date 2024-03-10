@@ -10,10 +10,7 @@ import { Link } from "react-router-dom";
 
 const OffresSite = () => {
   return (
-    <section
-      className="bg-white font-quicksand"
-      aria-label="Offre de services de création et de refonte de site web"
-    >
+    <section aria-label="Offre de services de création et de refonte de site web">
       <div className="py-8 px-4 lg:py-16 lg:px-6">
         <Fade>
           <div className="space-y-8 lg:grid lg:grid-cols-4 sm:gap-6 xl:gap-10 lg:space-y-0">
@@ -23,7 +20,9 @@ const OffresSite = () => {
                 Site vitrine no-code
               </h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">250€</span>
+                <span className="mr-2 text-5xl font-extrabold text-pinkDark">
+                  250€
+                </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
@@ -81,7 +80,8 @@ const OffresSite = () => {
                   <AddIcon style={{ color: "magenta" }} />
                   <span>
                     Nom de domaine personnalisé et hébergement pour 1 an,
-                    renouvelable : 15€/an, en supplément. Sinon, url non personnalisable, par défaut.
+                    renouvelable : 15€/an, en supplément. Sinon, url non
+                    personnalisable, par défaut.
                   </span>
                 </li>
                 {/* <li className="flex items-center space-x-3">
@@ -94,7 +94,7 @@ const OffresSite = () => {
               </ul>
               <Link
                 to="/Contact"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center"
+                className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
               >
                 C'est parti !
               </Link>
@@ -103,7 +103,9 @@ const OffresSite = () => {
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
               <h3 className="mb-4 text-2xl font-semibold">Basique</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">650€</span>
+                <span className="text-pinkDark mr-2 text-5xl font-extrabold">
+                  650€
+                </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
@@ -174,8 +176,8 @@ const OffresSite = () => {
               </ul>
               <Link
                 to="/Contact"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center"
-              >
+                className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+                >
                 C'est parti !
               </Link>
             </div>
@@ -183,7 +185,9 @@ const OffresSite = () => {
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
               <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">2000€</span>
+                <span className="text-pinkDark mr-2 text-5xl font-extrabold">
+                  2000€
+                </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
@@ -234,7 +238,7 @@ const OffresSite = () => {
                   <span>Pas de maquette</span>
                 </li>
                 <li className="flex items-center space-x-3">
-                <ClearIcon style={{ color: "red" }} />
+                  <ClearIcon style={{ color: "red" }} />
                   <span>Pas de code source</span>
                 </li>
                 <li>
@@ -254,8 +258,8 @@ const OffresSite = () => {
               </ul>
               <Link
                 to="/Contact"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center "
-              >
+                className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+                >
                 C'est parti !
               </Link>
             </div>
@@ -263,7 +267,9 @@ const OffresSite = () => {
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg">
               <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold">3500€</span>
+                <span className="text-pinkDark mr-2 text-5xl font-extrabold">
+                  3500€
+                </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
@@ -341,8 +347,8 @@ const OffresSite = () => {
               </ul>
               <Link
                 to="/Contact"
-                className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center"
-              >
+                className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+                >
                 C'est parti !
               </Link>
             </div>

@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import OffresAuteurs from "../components/OffresAuteurs";
+import ButtonFonctionnement from "../components/ButtonFonctionnement";
 import Farah from "../assets/Farah.webp";
 import Andraroc from "../assets/Andraroc.webp";
 import Franck from "../assets/matthews.webp";
@@ -74,10 +75,15 @@ const PageOffreAuteurs = () => {
       </section>
 
       <Fade>
-        <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+        <section
+          aria-label="Grille tarifaire pour l'offre spéciale auteurs de livres."
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
+        >
           <OffresAuteurs />
         </section>
       </Fade>
+      <section className="mb-10" aria-label="Comment se déroule un projet avec Wendev"><ButtonFonctionnement /></section>
+      
 
       <Fade>
         <Freebie />
@@ -91,238 +97,235 @@ const PageOffreAuteurs = () => {
           <h4 className="text-pinkDark text-2xl mt-6 mb-6">
             Offre premium, l'offre préférée des auteurs !
           </h4>
-          <div className="lg:grid grid-flow-row-dense grid-cols-3 grid-rows-2 items-center mb-6">
+          <div className="lg:grid grid-cols-3 gap-4">
             {/* FLORENT BARTHEL*/}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Florent}
                 alt="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
                 aria-label="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <a
-                href="https://www.florentbarthelauteur.com/"
-                alt="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
-                aria-label="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.florentbarthelauteur.com/"
+                  alt="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
+                  aria-label="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir le site !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
-
             {/* KAY NORDE*/}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Kay}
                 alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                 aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <a
-                href="https://www.kaynorde.com/"
-                alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
-                aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.kaynorde.com/"
+                  alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                  aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir le site !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
-
             {/* ELISABET GUILLOT*/}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Elisabet}
                 alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <a
-                href="https://www.elisabetguillot.com/"
-                alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.elisabetguillot.com/"
+                  alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir le site !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
             {/* ELSA ERRACK */}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Elsa}
                 alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <a
-                href="https://www.elsaerrackauteure.com/"
-                alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.elsaerrackauteure.com/"
+                  alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir le site !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
             {/* FARAH D. */}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Farah}
                 alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <a
-                href="https://www.farahdauteure.com"
-                alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.farahdauteure.com"
+                  alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir le site !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
             {/* ALEXANDRA ROCH*/}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Andraroc}
                 alt="Site internet d'alexandra Roch, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <a
-                href="https://www.alexandraroch.com/"
-                alt="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.alexandraroch.com/"
+                  alt="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir le site !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
             {/* FRANCK J. MATTHEWS */}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Franck}
                 alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
                 aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <a
-                href="https://www.franckjmatthews.com/"
-                alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
-                aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.franckjmatthews.com/"
+                  alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
+                  aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir le site !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
             {/* ELISA AVRAIN */}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Elisa}
                 alt="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <a
-                href="https://www.elisaavrainauteure.fr"
-                alt="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.elisaavrainauteure.fr"
+                  alt="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir le site !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
           </div>
           <h4 className="text-pinkDark text-2xl mt-6 mb-6">Offre Standard</h4>
-          <div className="lg:flex flex-row items-center ">
+          <div className="lg:grid grid-cols-3 gap-4">
             {/* LEA SAMSON */}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Lea}
                 alt="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
                 aria-label="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
                 className="rounded-md"
               />
-              <a
-                href="https://www.leasamsonauteure.fr/"
-                alt="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
-                aria-label="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.leasamsonauteure.fr/"
+                  alt="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                  aria-label="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir le site !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
             {/* HONORE SAINT HILAIRE */}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src="https://i.goopics.net/s0fo8g.png"
                 alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
                 aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
                 className="rounded-md"
               />
-              <a
-                href="https://darkseagreen-fish-520996.builder-preview.com/"
-                alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
-                aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://darkseagreen-fish-520996.builder-preview.com/"
+                  alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
+                  aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir la démo !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
             {/* DOM TERRENCE */}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src="https://i.goopics.net/lbuaht.png"
                 alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
                 aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
                 className="rounded-md"
               />
-              <a
-                href="https://hotpink-cobra-376869.builder-preview.com/"
-                alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
-                aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
-                rel="noreferrer"
-                target="_blank"
-              >
-                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://hotpink-cobra-376869.builder-preview.com/"
+                  alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
+                  aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
+                  rel="noreferrer"
+                  target="_blank"
+                >
                   Voir la démo !
-                </button>
-              </a>
+                </a>
+              </button>
             </div>
           </div>
-
           <h4 className="text-pinkDark text-2xl mt-6 mb-6">Offre Basic</h4>
-          <div className="lg:flex flex-row pb-4">
-            <div className="lg:flex flex-col items-center">
-              {/* JEROME MULLER */}
+          <div className="lg:grid grid-cols-3 gap-4">
+            {/* JEROME MULLER */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src="https://i.goopics.net/t8qp4y.png"
                 alt="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
@@ -337,12 +340,12 @@ const PageOffreAuteurs = () => {
                   rel="noreferrer"
                   target="_blank"
                 >
-                  Voir la démo !
+                  Voir la démo
                 </a>
               </button>
             </div>
             {/* LUC HORLA */}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src="https://i.goopics.net/lxccuk.png"
                 alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
@@ -362,7 +365,7 @@ const PageOffreAuteurs = () => {
               </button>
             </div>
             {/* TOMAS CARLIER */}
-            <div className="lg:flex flex-col items-center">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src="https://i.goopics.net/7s7i56.png"
                 alt="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
@@ -382,6 +385,26 @@ const PageOffreAuteurs = () => {
               </button>
             </div>
           </div>
+        </section>
+      </Fade>
+      <Fade>
+        <section
+          aria-label="Un petit mot sur mes tairfs"
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
+        >
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+            Un petit mot sur mes tarifs...{" "}
+          </h3>
+          <p className="text-xl tracking-tight">
+            En tant que développeuse web indépendante/freelance, je détermine le
+            prix de mes prestations en fonction du coût de mon travail, le temps
+            passé à sa réalisation, je m’adapte à des demandes différentes et je
+            me place face à la concurrence. C’est un travail de création ! Et
+            tout travail mérite salaire, non ? 😉 En choisissant de travailler
+            avec un développeur web, tu accèdes à un service personnalisé d’une
+            flexibilité et d’une liberté qui n’ont rien à voir avec celles
+            proposées par une agence ou une embauche d’un salarié.
+          </p>
         </section>
       </Fade>
       <div className="grid justify-items-center">
