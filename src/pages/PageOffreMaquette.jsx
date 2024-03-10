@@ -43,7 +43,7 @@ const PageOffreMaquette = () => {
                     prototypes et maquettes pour le web
                   </strong>
                 </h2>
-                <p className="font-light text-white sm:text-xl">
+                <p className="tracking-tight text-white sm:text-xl">
                   Tu souhaites avoir un aperçu de ce que donnera le site web de
                   tes rêves ?
                   <br /> Alors cette offre est faite pour toi ! <br />
@@ -61,7 +61,7 @@ const PageOffreMaquette = () => {
           <h3 className="text-pink text-2xl text-center mb-6">
             A quoi sert une maquette ?
           </h3>
-          <p className="text-light leading-relaxed pb-6 text-xl">
+          <p className="tracking-tightpb-6 text-xl">
             Le terme{" "}
             <strong className="font-bold text-pinkDark">maquette </strong>
             définit l'ébauche d'un site web. En résumé, la maquette d'un site
@@ -77,7 +77,7 @@ const PageOffreMaquette = () => {
             de la maquette. De manière générale, il n'est pas obligatoire et sa
             conception intervient avant celle de la maquette.
           </p>
-          <p className="text-light leading-relaxed pb-6 text-xl">
+          <p className="tracking-tightpb-6 text-xl">
             Ainsi, une maquette sert à{" "}
             <strong className="font-bold text-pinkDark">
               avoir une vision globale des pages de ton site web et ses
@@ -87,7 +87,7 @@ const PageOffreMaquette = () => {
             polices et des couleurs utilisées. Le logo peut également être
             ajouté.{" "}
           </p>
-          <p className="text-light leading-relaxed pb-6 text-xl">
+          <p className="tracking-tight pb-6 text-xl">
             C'est une étape clé avant de se lancer dans le code de ton site,{" "}
             <strong className="font-bold text-pinkDark">
               afin de se mettre d'accord sur les différents éléments et de
@@ -107,7 +107,7 @@ const PageOffreMaquette = () => {
             pour ordinateur de bureau), dans la version adaptée ! Cela te
             donnera un avant goût de ton site, avant le résultat final !
           </p>
-          <p className="text-light leading-relaxed pb-6 text-xl">
+          <p className="tracking-tightpb-6 text-xl">
             Je réalise tes maquettes et prototypes sur le logiciel{" "}
             <strong className="font-bold text-pinkDark">Figma</strong>.
           </p>
@@ -131,14 +131,14 @@ const PageOffreMaquette = () => {
             <h3 className="text-pink text-2xl text-center mb-4">
               Un petit mot sur mes tarifs...{" "}
             </h3>
-            <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
+            <p className="tracking-tightlg:pr-64 lg:pl-64 m-4">
               En tant que développeuse web indépendante/freelance, je détermine
               le prix de mes prestations en fonction du coût de mon travail, le
               temps passé à sa réalisation, je m’adapte à des demandes
               différentes et je me place face à la concurrence. C’est un travail
               de création ! Et tout travail mérite salaire, non ? 😉
             </p>
-            <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
+            <p className="tracking-tight lg:pr-64 lg:pl-64 m-4">
               En choisissant de travailler avec un développeur web, tu accèdes à
               un service personnalisé d’une flexibilité et d’une liberté qui
               n’ont rien à voir avec celles proposées par une agence ou une

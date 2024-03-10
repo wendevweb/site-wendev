@@ -34,7 +34,7 @@ const PageOffreFirebase = () => {
                   <br />
                   <strong className="text-pink">Firebase</strong>
                 </h2>
-                <p className="font-light text-white sm:text-xl">
+                <p className="tracking-tight text-white sm:text-xl">
                   Tu souhaites que tes utilisateurs s'authentifient sur ton
                   application ou ton site internet de manière sécurisée ?
                   <br /> Alors cette offre est faite pour toi ! <br />
@@ -62,7 +62,7 @@ const PageOffreFirebase = () => {
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
             />
           </div>
-          <p className="text-light leading-relaxed pb-6 text-xl">
+          <p className="tracking-tight pb-6 text-xl">
             Firebase est une{" "}
             <strong className="font-bold text-pinkDark">
               plateforme de développement d’applications web et mobiles soutenue
@@ -111,14 +111,14 @@ const PageOffreFirebase = () => {
             <h3 className="text-pink text-2xl text-center mb-4">
               Un petit mot sur mes tarifs...{" "}
             </h3>
-            <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
+            <p className="tracking-tight lg:pr-64 lg:pl-64 m-4">
               En tant que développeuse web indépendante/freelance, je détermine
               le prix de mes prestations en fonction du coût de mon travail, le
               temps passé à sa réalisation, je m’adapte à des demandes
               différentes et je me place face à la concurrence. C’est un travail
               de création ! Et tout travail mérite salaire, non ? 😉
             </p>
-            <p className="text-light leading-relaxed lg:pr-64 lg:pl-64 m-4">
+            <p className="tracking-tight lg:pr-64 lg:pl-64 m-4">
               En choisissant de travailler avec un développeur web, tu accèdes à
               un service personnalisé d’une flexibilité et d’une liberté qui
               n’ont rien à voir avec celles proposées par une agence ou une

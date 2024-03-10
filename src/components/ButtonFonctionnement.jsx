@@ -13,7 +13,7 @@ const ButtonFonctionnement = () => {
           alt="redirection vers la page de Fonctionnemement."
           aria-label="redirection vers la page de Fonctionnemement."
         >
-          <button className="text-xl border-solid border-2 border-pinkDark shadow-lg bg-real text-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-real">
+          <button className="m-4 text-xl border-solid border-2 border-pinkDark shadow-lg bg-real text-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-real">
             Comment se déroule un projet client avec WenDev ?
           </button>
         </Link>

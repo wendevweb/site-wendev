@@ -123,7 +123,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
+        <div className="text-right">
           <h2 className="pt-10 font-semibold text-black text-lg">
             Mentions légales
           </h2>

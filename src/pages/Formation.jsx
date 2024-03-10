@@ -22,7 +22,7 @@ const Formation = () => {
       <Fade>
         <div className="lg:grid grid-cols-2">
           <section className="m-6 p-6">
-            <h3 className="font-quicksand text-2xl lg:p-10 leading-relaxed">
+            <h3 className="font-quicksand text-2xl lg:p-10 tracking-tight">
               Retrouvez-moi chez{" "}
               <strong className="text-bold text-pinkDark">
                 Evogue formation
@@ -33,7 +33,7 @@ const Formation = () => {
               alt="Evogue formation, l'équipe des formateurs, consultants, collaborateurs qui vous renforce."
               className="m-10 rounded-md shadow-lg w-64"
             />
-            <p className="font-quicksand text-light text-xl lg:p-10 leading-relaxed">
+            <p className="text-xl lg:p-10 tracking-tight">
               Forte d'une expérience de{" "}
               <strong className="text-bold text-pinkDark">
                 formatrice référente

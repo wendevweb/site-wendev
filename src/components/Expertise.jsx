@@ -42,7 +42,7 @@ const Expertise = () => {
       id: 7,
       title: "Création de ton portfolio",
       img: "https://images.pexels.com/photos/1036848/pexels-photo-1036848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      desc: "Que vous soyez artiste, artisan, commerçant, débutant ou chevronné, avoir un portfolio est essentiel pour présenter vos projets, mettre en valeur votre travail et qui vous êtes. Je code et mets en page vos projets et votre présentation de manière originale et percutante, mais toujours pro !",
+      desc: "Que vous soyez artiste, artisan, commerçant, débutant ou chevronné, avoir un portfolio est essentiel pour présenter vos projets, mettre en valeur votre travail et qui vous êtes. Je vous livre une solution fonctionnelle, personnalisée, faite pour en mettre plein les yeux à ceux qui le regarderont ! 🤩",
       link: "/OffrePortfolio",
     },
 

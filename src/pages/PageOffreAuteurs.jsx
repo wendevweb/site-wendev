@@ -45,7 +45,7 @@ const PageOffreAuteurs = () => {
                   <br />
                   <strong className="text-pinkDark">auteurs</strong>
                 </h2>
-                <p className="font-light text-white sm:text-xl">
+                <p className="text-white sm:text-xl">
                   Tu écris des livres et tu souhaites avoir un site web
                   professionnel dédié à ton activité ? <br /> Moi aussi, je suis
                   auteure et suis passée par là.
@@ -128,7 +128,7 @@ const PageOffreAuteurs = () => {
               />
               <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
-                  href="https://www.kaynorde.com/"
+                  href="https://www.kaynorde.com/portfolio"
                   alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                   aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                   rel="noreferrer"
