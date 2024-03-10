@@ -48,16 +48,16 @@ const PageOffreSite = () => {
                 </h2>
                 <p className="text-white sm:text-xl">
                   Avoir son propre site internet comporte bien des avantages.
-                  C'est un réel atout pour ta marque ou ton entreprise !
+                  C'est un réel atout pour votre marque ou votre entreprise !
                   <br />
-                  Grâce à React, Next.js et Tailwindcss, deux technologies
-                  récentes, personnalisables et fiables, je te propose un site
+                  Grâce à React, Next.js et Tailwindcss, des technologies
+                  récentes, personnalisables et fiables, jevous propose un site
                   moderne, accessible et au coeur des tendances.
                   <br />
                   Une offre en no-code est également proposée pour les petits
                   budgets.
-                  <br /> Découvre mon offre de création de site web adaptée à
-                  tes besoins numériques. <br />
+                  <br /> Découvrez mon offre de création de site web adaptée à
+                  vos besoins numériques. <br />
                 </p>
               </div>
             </div>

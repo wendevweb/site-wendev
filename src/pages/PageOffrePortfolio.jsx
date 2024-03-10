@@ -61,7 +61,7 @@ const PageOffrePortfolio = () => {
       </Fade>
       <ButtonFonctionnement />
       <Fade>
-        <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+        <section aria-label="Exemples de réalisations de portfolios, de Wendev." className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
           <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
             Exemples de réalisations
           </h3>

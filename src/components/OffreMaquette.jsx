@@ -9,8 +9,7 @@ import { Link } from "react-router-dom";
 const OffreMaquette = () => {
   return (
     <section
-      className="bg-white  font-quicksand"
-      aria-label="Offre de services de création et de refonte de site web"
+      aria-label="Offre de services de création maquettes et prototypes pour le web."
     >
       <div className="p-4 grid grid-cols-1 justify-items-center py-8 px-4 lg:py-16 lg:px-6">
         <Fade>
@@ -19,7 +18,7 @@ const OffreMaquette = () => {
               Une offre unique qui s'adapte à toutes tes envies !
             </h3>
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-extrabold">
+              <span className="mr-2 text-5xl font-extrabold text-pinkDark">
                 100€ par page
               </span>
             </div>
@@ -61,8 +60,8 @@ const OffreMaquette = () => {
             </ul>
             <Link
               to="/Contact"
-              className="text-white bg-pink hover:bg-pinkDark font-medium rounded-md shadow-lg text-sm px-5 py-2.5 text-center"
-            >
+              className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+              >
               C'est parti !
             </Link>
           </div>

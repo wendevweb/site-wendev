@@ -14,7 +14,7 @@ import Rdv from "../components/Rdv";
 
 const PageOffreMaquette = () => {
   return (
-    <div className="flex flex-col justify-center justify-items-center font-quicksand">
+    <div className="font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre Maquette et prototype | WenDev</title>
@@ -39,75 +39,34 @@ const PageOffreMaquette = () => {
                 <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Création et mise en forme de
                   <br />
-                  <strong className="text-pink">
+                  <strong className="text-pinkDark">
                     prototypes et maquettes pour le web
                   </strong>
                 </h2>
                 <p className="tracking-tight text-white sm:text-xl">
-                  Tu souhaites avoir un aperçu de ce que donnera le site web de
-                  tes rêves ?
-                  <br /> Alors cette offre est faite pour toi ! <br />
+                  Une maquette est un bon moyen d'avoir un aperçu visuel de
+                  votre futur site internet ou application, <br /> avant de
+                  commencer à créer votre site ou coder. Vous désirez savoir ce
+                  que donnera le site web de vos rêves ? <br /> Alors venez vite
+                  me demander une maquette pour donner vie à vos envies !
                 </p>
               </div>
             </div>
           </div>
         </div>
       </section>
+
       <Fade>
         <section
-          aria-label="A quoi sert une maquette ?"
-          className="lg:m-10 p-10"
+          aria-label="Grille tarifaire de l'offre de création de maquettes et prototypes pour le web."
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
         >
-          <h3 className="text-pink text-2xl text-center mb-6">
-            A quoi sert une maquette ?
-          </h3>
-          <p className="tracking-tightpb-6 text-xl">
-            Le terme{" "}
-            <strong className="font-bold text-pinkDark">maquette </strong>
-            définit l'ébauche d'un site web. En résumé, la maquette d'un site
-            web est une esquisse, ou encore un prototype du site web final. Le
-            maquettage se trouve à mi-chemin entre le graphisme et le
-            développement.
-            <br />
-            Un <strong className="font-bold text-pinkDark">
-              prototype
-            </strong>{" "}
-            est une version de la maquette en noir et blanc, sans textes ni
-            images. C'est un peu comme un brouillon ou une version très sommaire
-            de la maquette. De manière générale, il n'est pas obligatoire et sa
-            conception intervient avant celle de la maquette.
-          </p>
-          <p className="tracking-tightpb-6 text-xl">
-            Ainsi, une maquette sert à{" "}
-            <strong className="font-bold text-pinkDark">
-              avoir une vision globale des pages de ton site web et ses
-              composants
-            </strong>
-            , en couleurs, avec les différents liens entre les pages, des
-            polices et des couleurs utilisées. Le logo peut également être
-            ajouté.{" "}
-          </p>
-          <p className="tracking-tight pb-6 text-xl">
-            C'est une étape clé avant de se lancer dans le code de ton site,{" "}
-            <strong className="font-bold text-pinkDark">
-              afin de se mettre d'accord sur les différents éléments et de
-              gagner du temps lors de la phase de conception.
-            </strong>{" "}
-            Ainsi, une maquette sert à{" "}
-            <strong className="font-bold text-pinkDark">
-              avoir une vision globale des pages de ton qui composent ton site
-              et leur disposition{" "}
-            </strong>
-            . Tu auras également un aperçu de son rendu sur téléphone mobile
-            pour répondre aux{" "}
-            <strong className="font-bold text-pinkDark">
-              tendances actuelles du mobile first
-            </strong>{" "}
-            (penser le visuel d'un site d'abord en version pour smartphone, puis
-            pour ordinateur de bureau), dans la version adaptée ! Cela te
-            donnera un avant goût de ton site, avant le résultat final !
-          </p>
-          <p className="tracking-tightpb-6 text-xl">
+          <OffreMaquette />
+        </section>
+      </Fade>
+      <Fade>
+        <section aria-label="Figma">
+          <p className="tracking-tight text-center pb-6 text-xl">
             Je réalise tes maquettes et prototypes sur le logiciel{" "}
             <strong className="font-bold text-pinkDark">Figma</strong>.
           </p>
@@ -115,48 +74,22 @@ const PageOffreMaquette = () => {
             {" "}
             <img
               src={figma}
-              alt="Firebase"
-              aria-label="Firebase"
+              alt="Figma"
+              aria-label="Figma"
               className="w-52 p-4"
             />
           </div>
         </section>
       </Fade>
+      <ButtonFonctionnement />
 
       <Fade>
-        <section>
-          <h3 className="text-pink text-2xl text-center">Tarifs</h3>
-          <OffreMaquette />
-          <div className="lg:grid grid-cols-1">
-            <h3 className="text-pink text-2xl text-center mb-4">
-              Un petit mot sur mes tarifs...{" "}
-            </h3>
-            <p className="tracking-tightlg:pr-64 lg:pl-64 m-4">
-              En tant que développeuse web indépendante/freelance, je détermine
-              le prix de mes prestations en fonction du coût de mon travail, le
-              temps passé à sa réalisation, je m’adapte à des demandes
-              différentes et je me place face à la concurrence. C’est un travail
-              de création ! Et tout travail mérite salaire, non ? 😉
-            </p>
-            <p className="tracking-tight lg:pr-64 lg:pl-64 m-4">
-              En choisissant de travailler avec un développeur web, tu accèdes à
-              un service personnalisé d’une flexibilité et d’une liberté qui
-              n’ont rien à voir avec celles proposées par une agence ou une
-              embauche d’un salarié.
-            </p>
-          </div>
-        </section>
-      </Fade>
-      <ButtonFonctionnement />
-      <Fade>
-        <section
-          aria-label="Quelques exemples de maquettes réalisées par WenDev"
-          className="lg:m-10 p-10"
-        >
-          <h3 className="text-pink text-2xl text-center mb-6">
-            Quelques exemples...
+      <section aria-label="Exemples de réalisations de maquettes et prototypes pour le web, de Wendev." className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+
+      <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+            Exemples de réalisations
           </h3>
-          <div className="lg:grid grid-cols-6 gap-4">
+          <div className="lg:grid grid-cols-3 gap-4">
             <figure style={{ display: "table" }}>
               <img
                 src={prototypeMood}
@@ -262,7 +195,29 @@ const PageOffreMaquette = () => {
           </div>
         </section>
       </Fade>
-      < Rdv />
+      <Fade>
+        <section
+          aria-label="Un petit mot sur mes tairfs"
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
+        >
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+            Un petit mot sur mes tarifs...{" "}
+          </h3>
+          <p className="text-xl tracking-tight">
+            En tant que développeuse web indépendante/freelance, je détermine le
+            prix de mes prestations en fonction du coût de mon travail, le temps
+            passé à sa réalisation, je m’adapte à des demandes différentes et je
+            me place face à la concurrence. C’est un travail de création ! Et
+            tout travail mérite salaire, non ? 😉 En choisissant de travailler
+            avec un développeur web, tu accèdes à un service personnalisé d’une
+            flexibilité et d’une liberté qui n’ont rien à voir avec celles
+            proposées par une agence ou une embauche d’un salarié.
+          </p>
+        </section>
+      </Fade>
+      <div className="grid justify-items-center">
+        <Rdv />
+      </div>
     </div>
   );
 };

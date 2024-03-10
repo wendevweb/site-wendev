@@ -46,12 +46,9 @@ const PageOffreAuteurs = () => {
                   <strong className="text-pinkDark">auteurs</strong>
                 </h2>
                 <p className="text-white sm:text-xl">
-                  Tu écris des livres et tu souhaites avoir un site web
-                  professionnel dédié à ton activité ? <br /> Moi aussi, je suis
-                  auteure et suis passée par là.
-                  <br /> Alors cette offre est faite pour toi ! <br />
+                Vous écrivez des livres et souhaitez avoir un site web professionnel dédié à votre activité ? <br/> Moi aussi, je suis auteure et suis passée par là. <br/> Je vous propose trois offres accessibles et adaptées à vos besoins pour promouvoir votre univers littéraire et le partager autour de vous.
                   <br />
-                  Je te propose une bonne alternative à une boutique
+                  Je vous propose une bonne alternative à une boutique
                   e-commerce... sans les frais habituels ! 😉
                 </p>
                 <div className="grid grid-cols-1 place-items-center">
