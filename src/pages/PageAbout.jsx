@@ -8,7 +8,7 @@ import wendev9 from "../assets/wendev-9.webp";
 import wendev10 from "../assets/wendev-10.webp";
 import wendev11 from "../assets/wendev-11.webp";
 import wendev13 from "../assets/wendev-13.webp";
-import wendev15 from "../assets/wenedv-15.webp";
+import wendev14 from "../assets/wendev-14.webp";
 import wild from "../assets/wildcodeschool.webp";
 
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -27,7 +27,7 @@ const PageAbout = () => {
           style={{
             backgroundPosition: "50%",
             backgroundImage: "url('https://i.goopics.net/ay4x9z.png')",
-            height: "500px",
+            height: "600px",
           }}
         >
           <div
@@ -383,7 +383,7 @@ const PageAbout = () => {
             </h3>
             <div className="lg:grid grid-cols-2 content-center items-center">
               <img
-                src={wendev15}
+                src={wendev14}
                 alt="Les activités d'auteure de romans de WenDev"
                 aria-label="Les activités d'auteure de romans de WenDev"
               />

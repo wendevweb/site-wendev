@@ -32,7 +32,7 @@ const PageOffreSite = () => {
             backgroundPosition: "50%",
             backgroundImage:
               "url('https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg')",
-            height: "500px",
+            height: "600px",
           }}
         >
           <div

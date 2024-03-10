@@ -20,7 +20,7 @@ const PageOffrePortfolio = () => {
             backgroundPosition: "50%",
             backgroundImage:
               "url('https://images.pexels.com/photos/1036848/pexels-photo-1036848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
-            height: "500px",
+            height: "600px",
           }}
         >
           <div

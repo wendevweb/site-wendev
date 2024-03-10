@@ -18,7 +18,7 @@ const Cgv = () => {
           style={{
             backgroundPosition: "50%",
             backgroundImage: "url('https://i.goopics.net/ay4x9z.png')",
-            height: "500px",
+            height: "600px",
           }}
         >
           <div

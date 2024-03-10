@@ -2,22 +2,21 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import OffresAuteurs from "../components/OffresAuteurs";
-import RedeemIcon from "@mui/icons-material/Redeem";
 import Farah from "../assets/Farah.webp";
 import Andraroc from "../assets/Andraroc.webp";
-import Franck from "../assets/franck.webp";
+import Franck from "../assets/matthews.webp";
 import Elisa from "../assets/Elisa.webp";
 import Elisabet from "../assets/Elisabet.webp";
 import Kay from "../assets/Kay.webp";
 import Lea from "../assets/Lea.webp";
 import Elsa from "../assets/Elsa.webp";
 import Florent from "../assets/Florent.webp";
-import Freebie from "../components/Freebie"
+import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
 
 const PageOffreAuteurs = () => {
   return (
-    <div className="font-quicksand flex flex-col justify-center justify-items-center">
+    <div className="font-quicksand">
       <Helmet>
         <meta charSet="utf-8" />
         <title>Offre spéciale auteurs | WenDev</title>
@@ -31,7 +30,7 @@ const PageOffreAuteurs = () => {
             backgroundPosition: "50%",
             backgroundImage:
               "url('https://images.pexels.com/photos/796603/pexels-photo-796603.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')",
-            height: "500px",
+            height: "600px",
           }}
         >
           <div
@@ -43,7 +42,7 @@ const PageOffreAuteurs = () => {
                 <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
                   Offre spéciale
                   <br />
-                  <strong className="text-pink">auteurs</strong>
+                  <strong className="text-pinkDark">auteurs</strong>
                 </h2>
                 <p className="font-light text-white sm:text-xl">
                   Tu écris des livres et tu souhaites avoir un site web
@@ -52,8 +51,22 @@ const PageOffreAuteurs = () => {
                   <br /> Alors cette offre est faite pour toi ! <br />
                   <br />
                   Je te propose une bonne alternative à une boutique
-                  e-commerce... sans les frais habituels !
+                  e-commerce... sans les frais habituels ! 😉
                 </p>
+                <div className="grid grid-cols-1 place-items-center">
+                  <button className="mt-10 mb-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                    <a
+                      href="https://www.cardebook.net/post/d%C3%A9veloppez-votre-pr%C3%A9sence-litt%C3%A9raire-pourquoi-chaque-auteur-devrait-avoir-un-site-web"
+                      alt="Redirection vers l'article de Cardebook"
+                      aria-label="Redirection vers l'article de Cardebook"
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Lire l'article : Pourquoi chaque auteur devrait avoir un
+                      site web.
+                    </a>
+                  </button>
+                </div>
               </div>
             </div>
           </div>
@@ -61,7 +74,7 @@ const PageOffreAuteurs = () => {
       </section>
 
       <Fade>
-        <section>
+        <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
           <OffresAuteurs />
         </section>
       </Fade>
@@ -69,36 +82,18 @@ const PageOffreAuteurs = () => {
       <Fade>
         <Freebie />
       </Fade>
-      <Fade>
-        <div className="grid grid-cols-1 place-items-center h-32 bg-pink">
-          <button className="place-self-center  border border-pink bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
-            {" "}
-            <RedeemIcon />
-            <a
-              href="https://annuaire-auto-edites.johnlucas.fr/partenaires/"
-              alt="Redirection vers l'annuaire Auto-édités"
-              aria-label="Redirection vers l'annuaire Auto-édités"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Bénéficie de -10% en étant référencé ici
-            </a>
-          </button>
-        </div>
-      </Fade>
 
       <Fade>
-        <section className="font-quicksand lg:flex flex-col justify-center items-center">
-          <h3 className="pt-6 text-pink text-2xl text-center mb-4">
+        <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
             Exemples de réalisations et démos{" "}
           </h3>
-          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
-            Offre premium
+          <h4 className="text-pinkDark text-2xl mt-6 mb-6">
+            Offre premium, l'offre préférée des auteurs !
           </h4>
-
-          <div className="lg:grid grid-flow-row-dense grid-cols-3 grid-rows-2 p-4 items-center mb-6">
+          <div className="lg:grid grid-flow-row-dense grid-cols-3 grid-rows-2 items-center mb-6">
             {/* FLORENT BARTHEL*/}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src={Florent}
                 alt="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
@@ -112,14 +107,14 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
             </div>
 
             {/* KAY NORDE*/}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src={Kay}
                 alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
@@ -133,14 +128,14 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
             </div>
 
             {/* ELISABET GUILLOT*/}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src={Elisabet}
                 alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
@@ -154,13 +149,13 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
             </div>
             {/* ELSA ERRACK */}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src={Elsa}
                 alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
@@ -174,13 +169,13 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
             </div>
             {/* FARAH D. */}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src={Farah}
                 alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
@@ -194,13 +189,13 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
             </div>
             {/* ALEXANDRA ROCH*/}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src={Andraroc}
                 alt="Site internet d'alexandra Roch, auteure, qui a choisi l'offre Premium"
@@ -214,13 +209,13 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
             </div>
             {/* FRANCK J. MATTHEWS */}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src={Franck}
                 alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
@@ -234,13 +229,13 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
             </div>
             {/* ELISA AVRAIN */}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src={Elisa}
                 alt="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
@@ -254,18 +249,16 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
             </div>
           </div>
-          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
-            Offre Standard
-          </h4>
-          <div className="lg:flex flex-row p-4 items-center ">
+          <h4 className="text-pinkDark text-2xl mt-6 mb-6">Offre Standard</h4>
+          <div className="lg:flex flex-row items-center ">
             {/* LEA SAMSON */}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src={Lea}
                 alt="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
@@ -279,13 +272,13 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir le site !
                 </button>
               </a>
             </div>
             {/* HONORE SAINT HILAIRE */}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src="https://i.goopics.net/s0fo8g.png"
                 alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
@@ -299,13 +292,13 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir la démo !
                 </button>
               </a>
             </div>
             {/* DOM TERRENCE */}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src="https://i.goopics.net/lbuaht.png"
                 alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
@@ -319,18 +312,16 @@ const PageOffreAuteurs = () => {
                 rel="noreferrer"
                 target="_blank"
               >
-                <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+                <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   Voir la démo !
                 </button>
               </a>
             </div>
           </div>
 
-          <h4 className="font-quicksand text-center uppercase text-pinkDark text-2xl font-bold">
-            Offre Basic
-          </h4>
-          <div className="lg:flex flex-row pb-4 items-center ">
-            <div className="lg:flex flex-col p-4 items-center ">
+          <h4 className="text-pinkDark text-2xl mt-6 mb-6">Offre Basic</h4>
+          <div className="lg:flex flex-row pb-4">
+            <div className="lg:flex flex-col items-center">
               {/* JEROME MULLER */}
               <img
                 src="https://i.goopics.net/t8qp4y.png"
@@ -338,7 +329,7 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://lightcyan-tiger-770474.builder-preview.com/"
                   alt="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
@@ -351,14 +342,14 @@ const PageOffreAuteurs = () => {
               </button>
             </div>
             {/* LUC HORLA */}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src="https://i.goopics.net/lxccuk.png"
                 alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
                 aria-label="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://lightslategrey-alligator-289384.builder-preview.com/"
                   alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
@@ -371,14 +362,14 @@ const PageOffreAuteurs = () => {
               </button>
             </div>
             {/* TOMAS CARLIER */}
-            <div className="lg:flex flex-col p-4 items-center ">
+            <div className="lg:flex flex-col items-center">
               <img
                 src="https://i.goopics.net/7s7i56.png"
                 alt="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
                 aria-label="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
                 className="rounded-md"
               />
-              <button className="w-56  bg-real font-bold rounded-md shadow-lg mt-2 p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://lightgoldenrodyellow-lion-545728.builder-preview.com/"
                   alt="Site internet fictif de Tomas Cariler pour illustrer l'offre basic de WenDev"
@@ -393,7 +384,9 @@ const PageOffreAuteurs = () => {
           </div>
         </section>
       </Fade>
-      < Rdv />
+      <div className="grid justify-items-center">
+        <Rdv />
+      </div>
     </div>
   );
 };
