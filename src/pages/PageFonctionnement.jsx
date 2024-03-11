@@ -39,8 +39,8 @@ const PageFonctionnement = () => {
                 </h2>
                 <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
                   Vous avez envie de me confier la création de votre projet
-                  numérique ? <br/> Découvrez vite comment nous allons travailler
-                  ensemble.
+                  numérique ? <br/> Découvrez étape par étape comment nous allons travailler
+                  ensemble et les questions les plus fréquentes.
                 </p>
               </div>
             </div>
@@ -49,7 +49,7 @@ const PageFonctionnement = () => {
       </section>
       <Fade>
         <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
-          <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+          <section aria-label="Description tape par étape du déroulement d'un projet avec Wendev." className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
             <img src={wendev1} alt="" className="h-fit" />
             <ol className="tracking-tight list-decimal text-xl">
               <li className="list-decimal">
@@ -76,7 +76,7 @@ const PageFonctionnement = () => {
               <br />
 
               <li>
-                Je vous fais un devis gratuitement, via PandaDoc (une application
+                Je vous fais un devis gratuitement, que vous pourrez signer directement via PandaDoc (une application
                 d'envoi et de signature de documents 100% en ligne et sécurisé).
               </li>
               <br />
@@ -130,13 +130,11 @@ const PageFonctionnement = () => {
         </div>
       </Fade>
       <Fade>
-        <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
-          <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
-            <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
+        <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+            <h2 className="text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight text-pinkDark">
               Foire aux questions
             </h2>
-          </section>
-          <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+          <section aria-label="Foire aux questions."  className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
             <div className="tracking-tight text-xl lg:p-10 lg:grid grid-cols-1 gap-4">
               <Disclosure>
                 {({ open }) => (
@@ -160,14 +158,14 @@ const PageFonctionnement = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                        Pour toute question ou demande, tu peux me contacter par
+                        Pour toute question ou demande, vous pouvez me contacter par
                         e-mail à cette adresse :{" "}
                         <span className=" text-pinkDark">
                           wendevweb@gmail.com
                         </span>
                         .
                         <br />
-                        Tu peux aussi prendre rendez-vous pour discuter de ton
+                        Vous pouvez aussi prendre rendez-vous pour discuter de votre
                         projet{" "}
                         <a
                           href="https://calendly.com/wendevweb/premier-rendez-vous"
@@ -180,7 +178,7 @@ const PageFonctionnement = () => {
                             par ici
                           </span>
                         </a>
-                        . <br /> Enfin, tu peux me contacter via{" "}
+                        . <br /> Enfin, vous pouvez me contacter via{" "}
                         <Link to="/Contact">
                           {" "}
                           <span className="hover:font-bold text-pinkDark">
@@ -218,21 +216,21 @@ const PageFonctionnement = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                        Je développe mes sites internet à l'aide d'une librairie
-                        Javascript : React.js, une référence pour les
+                        Je développe mes sites internet à l'aide de librairies
+                        Javascript : React.js et Next.js, des références pour les
                         applications et les sites web dynamiques en quelques
-                        pages, comme ce que je te propose ! C'est une
-                        technologie récente, bien documentée et sécurisée. Pour
+                        pages, comme ceux que je vous propose ! Ce sont des
+                        technologies récentes, bien documentées et sécurisées. Pour
                         le style et le design, il est réalisé à l'aide de
                         Tailwindcss, qui permet de créer des visuels en phase
                         avec les tendances actuelles. <br /> Pour les offres en
                         no-code et celles réservées aux auteurs de livres, je
                         réalise mes solutions numériques avec le Website Builder
                         de Hostinger, mon hébergeur chouchou. Il permet de
-                        réaliser des sites web sécurisées, au top du modernisme,
+                        réaliser rapidement des sites web sécurisées, au top du modernisme,
                         avec une optimisation des paramètres SEO.
                         <br /> De manière générale, je réalise une veille
-                        documentaire hebdomadaire pour te proposer des solutions
+                        documentaire hebdomadaire pour vous proposer des solutions
                         numériques actualisées et sécurisées.
                       </Disclosure.Panel>
                     </Transition>
@@ -261,14 +259,13 @@ const PageFonctionnement = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                        Un acompte est un paiement partiel que tu verses avant
-                        que je commence à travailler sur ton projet, donc d'y
+                        Un acompte est un paiement partiel que vous versez avant
+                        que je commence à travailler sur votre projet, donc d'y
                         engager mon temps et mon énergie. Il nous permet de nous
                         engager tous les deux de manière sécure et pérenne, en
                         toute légalité !<br /> Bon à savoir : Une fois l'acompte
-                        versé, si tu ne souhiates plus travailler avec moi, tu
-                        perds la totalité de ton acompte versé et je serai en
-                        mesure de te réclamer des dommages et intérêts.
+                        versé, si vous ne souhaitez plus travailler avec moi, vous perdez la totalité de votre acompte versé et je serai en
+                        mesure de vous réclamer des dommages et intérêts.
                       </Disclosure.Panel>
                     </Transition>
                   </>
@@ -301,10 +298,10 @@ const PageFonctionnement = () => {
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                         Dans le monde du web, les techniques et technologies
                         évoluent sans cesse, alors il se peut qu'une solution
-                        numérique devienne obsolète. Je te rassure, c'est très
-                        rare... mais possible ! Pas de panique.😉 Il te suffit
-                        de me le signaler (si je ne l'ai pas vu avant toi) et je
-                        mettrais ton projet au goût du jour dans les plus brefs
+                        numérique devienne obsolète ou ne fonctionne plus le temps d'une mise à jour. Je vous rassure, c'est très
+                        rare... mais possible ! Pas de panique.😉 Il vous suffit
+                        de me le signaler (si je ne l'ai pas vu avant vous) et je
+                        mettrai votre projet au goût du jour dans les plus brefs
                         délais.
                       </Disclosure.Panel>
                     </Transition>
@@ -338,15 +335,15 @@ const PageFonctionnement = () => {
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                         Avec WenDev, tout est possible ! Je serai ravie de
                         travailler sur ton projet s'il sort des sentiers battus
-                        et de ce que je propose comme services. Tu peux me
+                        et de ce que je propose comme services. Vous pouvez me
                         contacter directement via la page Contact de ce site ou
-                        m'envoyer un mail à l'adresse suivante :{" "}
+                        m'envoyer un e-mail à l'adresse suivante :{" "}
                         <span className=" text-pinkDark">
                           wendevweb@gmail.com
                         </span>{" "}
-                        pour me parler de ton projet numérique. Je suis sûre que
+                        pour me parler de votre projet numérique. Je suis sûre que
                         nous pourrons trouver une solution ensemble et je
-                        pourrais te faire un devis totalement personnalisé.
+                        pourrais vous faire un devis totalement personnalisé.
                       </Disclosure.Panel>
                     </Transition>
                   </>
@@ -378,19 +375,19 @@ const PageFonctionnement = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                        Tu as envie de remettre ta solution numérique au goût du
+                        Vous avez envie de remettre ta solution numérique au goût du
                         jour ou de rajouter des fonctionnalités que nous
-                        n'avions pas prévues au départ ou ton activité évolue,
-                        alors que ton projet est déjà terminé depuis quelques
+                        n'avions pas prévues au départ ou votre activité évolue,
+                        alors que votre projet est déjà terminé depuis quelques
                         temps ? C'est super ! 🤩
-                        <br /> Tu n'as qu'à me contacter par e-mail à cette
+                        <br /> Vous n'avez qu'à me contacter par e-mail à cette
                         adresse :{" "}
                         <span className=" text-pinkDark">
                           wendevweb@gmail.com
                         </span>{" "}
                         ou reprendre rendez-vous via la page de Contact pour que
-                        je puisse te faire une offre sur mesure en fonction de
-                        ce que tu veux ajouter. 😉
+                        je puisse étudier la faisabilité de l'évolution souhaitée et vous faire une offre sur mesure en fonction de
+                        ce que vous voulez ajouter. 😉
                       </Disclosure.Panel>
                     </Transition>
                   </>
@@ -423,13 +420,13 @@ const PageFonctionnement = () => {
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                         Oups ! 😱 Un oubli ou quelque chose que nous n'avions
-                        pas anticipé, cela arrive ! 😉 Tu peux me contacter par
+                        pas anticipé, cela arrive ! 😉 Vous pouvez me contacter par
                         e-mail à cette adresse :{" "}
                         <span className=" text-pinkDark">
                           wendevweb@gmail.com
                         </span>{" "}
                         ou via le formulaire de Contact du site. Nous trouverons
-                        un accord pour que ton projet soit tip top avant son
+                        un accord pour que votre projet soit tip top avant son
                         lancement et cela donnera lieu à un nouveau devis et une
                         nouvelle facture.{" "}
                       </Disclosure.Panel>

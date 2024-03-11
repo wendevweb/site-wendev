@@ -7,7 +7,6 @@ import Rdv from "../components/Rdv";
 import projet4 from "../assets/projet4.webp";
 import Kay from "../assets/Kay.webp";
 
-
 const PageOffrePortfolio = () => {
   return (
     <div className="font-quicksand">
@@ -39,12 +38,12 @@ const PageOffrePortfolio = () => {
                 </h2>
                 <p className="text-white sm:text-xl">
                   Que vous soyez artiste, artisan, commerçant, débutant ou
-                  chevronné, <br/>avoir un portfolio est essentiel pour présenter vos
-                  projets, mettre en valeur votre travail et qui vous êtes. <br/>C'est un
-                  peu comme un CV... mais en mieux ! 😉 <br/>
-                  Je vous livre une solution fonctionnelle,
-                  personnalisée, faite pour en mettre plein les yeux à ceux qui
-                  le regarderont ! 🤩
+                  chevronné, <br />
+                  avoir un portfolio est essentiel pour présenter vos projets,
+                  mettre en valeur votre travail et qui vous êtes. <br />
+                  C'est un peu comme un CV... mais en mieux ! 😉 <br />
+                  Je vous livre une solution fonctionnelle, personnalisée, faite
+                  pour en mettre plein les yeux à ceux qui le regarderont ! 🤩
                 </p>
               </div>
             </div>
@@ -61,13 +60,16 @@ const PageOffrePortfolio = () => {
       </Fade>
       <ButtonFonctionnement />
       <Fade>
-        <section aria-label="Exemples de réalisations de portfolios, de Wendev." className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+        <section
+          aria-label="Exemples de réalisations de portfolios, de Wendev."
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
+        >
           <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
             Exemples de réalisations
           </h3>
           <div className="grid grid-cols-2 gap-4">
-          {/* PORTFOLIO DE NEORDART */}
-          <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            {/* PORTFOLIO DE NEORDART */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Kay}
                 alt="Porfolio de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
@@ -75,7 +77,7 @@ const PageOffrePortfolio = () => {
               />
               <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
-                  href="https://wendybaqueportfoliodev.wendev.fr/"
+                  href="https://www.kaynorde.com/portfolio"
                   alt="Porfolio de de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                   aria-label="Porfolio de de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                   target="_blank"
@@ -85,8 +87,8 @@ const PageOffrePortfolio = () => {
                 </a>{" "}
               </button>
             </div>
-          {/* PORTFOLIO WENDY BAQUE */}
-          <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            {/* PORTFOLIO WENDY BAQUE */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={projet4}
                 alt="Porfolio de Wendy Baqué, développeuse web front-end"
@@ -104,7 +106,7 @@ const PageOffrePortfolio = () => {
                 </a>{" "}
               </button>
             </div>
-            </div>
+          </div>
         </section>
       </Fade>
 
@@ -122,8 +124,8 @@ const PageOffrePortfolio = () => {
             passé à sa réalisation, je m’adapte à des demandes différentes et je
             me place face à la concurrence. C’est un travail de création ! Et
             tout travail mérite salaire, non ? 😉 En choisissant de travailler
-            avec un développeur web, tu accèdes à un service personnalisé d’une
-            flexibilité et d’une liberté qui n’ont rien à voir avec celles
+            avec un développeur web, vous accédez à un service personnalisé
+            d’une flexibilité et d’une liberté qui n’ont rien à voir avec celles
             proposées par une agence ou une embauche d’un salarié.
           </p>
         </section>

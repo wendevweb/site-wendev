@@ -33,7 +33,7 @@ const Temoignages = () => {
                 <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
                   Certains clients ont eu la gentillesse de prendre quelques
                   minutes de leur temps précieux pour me rédiger une
-                  recommandation. Je vous laisse les découvrir. <br /> Pour plus
+                  recommandation. <br/> Je vous laisse les découvrir. <br /> Pour plus
                   d'informations, vous pouvez contacter mes clients, via leur
                   site internet !
                 </p>

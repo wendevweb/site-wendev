@@ -616,7 +616,7 @@ const Legals = () => {
             </>
           )}
         </Disclosure>
-        <br/>
+        <br />
         {/* Article 7 */}
         <Disclosure>
           {({ open }) => (
@@ -888,7 +888,7 @@ const Legals = () => {
             </>
           )}
         </Disclosure>
-        <br/>
+        <br />
         {/* Article 9 */}
         <Disclosure>
           {({ open }) => (

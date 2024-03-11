@@ -324,8 +324,8 @@ const PageOffreSite = () => {
             passé à sa réalisation, je m’adapte à des demandes différentes et je
             me place face à la concurrence. C’est un travail de création ! Et
             tout travail mérite salaire, non ? 😉 En choisissant de travailler
-            avec un développeur web, tu accèdes à un service personnalisé d’une
-            flexibilité et d’une liberté qui n’ont rien à voir avec celles
+            avec un développeur web, vous accédez à un service personnalisé
+            d’une flexibilité et d’une liberté qui n’ont rien à voir avec celles
             proposées par une agence ou une embauche d’un salarié.
           </p>
         </section>

@@ -46,7 +46,12 @@ const PageOffreAuteurs = () => {
                   <strong className="text-pinkDark">auteurs</strong>
                 </h2>
                 <p className="text-white sm:text-xl">
-                Vous écrivez des livres et souhaitez avoir un site web professionnel dédié à votre activité ? <br/> Moi aussi, je suis auteure et suis passée par là. <br/> Je vous propose trois offres accessibles et adaptées à vos besoins pour promouvoir votre univers littéraire et le partager autour de vous.
+                  Vous écrivez des livres et souhaitez avoir un site web
+                  professionnel dédié à votre activité ? <br /> Moi aussi, je
+                  suis auteure et suis passée par là. <br /> J'ai mis en place
+                  trois offres accessibles et adaptées à vos besoins pour
+                  promouvoir votre univers littéraire et le partager autour de
+                  vous.
                   <br />
                   Je vous propose une bonne alternative à une boutique
                   e-commerce... sans les frais habituels ! 😉
@@ -79,8 +84,12 @@ const PageOffreAuteurs = () => {
           <OffresAuteurs />
         </section>
       </Fade>
-      <section className="mb-10" aria-label="Comment se déroule un projet avec Wendev"><ButtonFonctionnement /></section>
-      
+      <section
+        className="mb-10"
+        aria-label="Comment se déroule un projet avec Wendev"
+      >
+        <ButtonFonctionnement />
+      </section>
 
       <Fade>
         <Freebie />
@@ -398,8 +407,8 @@ const PageOffreAuteurs = () => {
             passé à sa réalisation, je m’adapte à des demandes différentes et je
             me place face à la concurrence. C’est un travail de création ! Et
             tout travail mérite salaire, non ? 😉 En choisissant de travailler
-            avec un développeur web, tu accèdes à un service personnalisé d’une
-            flexibilité et d’une liberté qui n’ont rien à voir avec celles
+            avec un développeur web, vous accédez à un service personnalisé
+            d’une flexibilité et d’une liberté qui n’ont rien à voir avec celles
             proposées par une agence ou une embauche d’un salarié.
           </p>
         </section>

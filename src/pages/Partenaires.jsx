@@ -71,7 +71,7 @@ const Partenaires = () => {
       name: "Fabien Dedieu - CARDEBOOK",
       title: "Fabien Dedieu - CARDEBOOK",
       descr:
-        "Inventeur multi-récompensé et développeur de plusieurs applications à succès. Innovateur dans l'âme, il crée et lance des concepts novateurs dans le domaine de l'édition. Il est devenu, en 3 ans, une référence dans l'innovation numérique. La marque cardebook : des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
+        "Inventeur multi-récompensé et développeur de plusieurs applications à succès. Innovateur dans l'âme, je crée et lance des concepts novateurs dans le domaine de l'édition. Je suis devenu, en 3 ans, une référence dans l'innovation numérique. La marque cardebook : des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
       offer: "20% de réduction sur tous les services complet auteurs.",
       img: "https://i.goopics.net/t5h0ss.jpg",
       link: "https://www.cardebook.net",
@@ -111,9 +111,8 @@ const Partenaires = () => {
             <div className="flex justify-center items-center h-full">
               <div className="text-center text-white px-6 md:px-12">
                 <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-                  Mes partenaires professionnels <br/>
+                  Mes partenaires professionnels <br />
                   <strong className="text-pinkDark"> à votre service</strong>
-
                 </h2>
                 <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
                   Chez Wendev, j'ai à coeur de travailler avec des personnes de

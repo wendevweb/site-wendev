@@ -1,10 +1,10 @@
 import React from "react";
+import { Helmet } from "react-helmet";
+import { Fade } from "react-awesome-reveal";
 import Expertise from "../components/Expertise";
 import Hero2 from "../components/Hero2";
 import Partenaires from "../components/Partenaires";
 import Techno from "../components/Techno";
-import { Helmet } from "react-helmet";
-import { Fade } from "react-awesome-reveal";
 import Testimonials from "../components/Testimonials";
 import Networks from "../components/Networks";
 import Freebie from "../components/Freebie";
@@ -22,12 +22,12 @@ const Home = () => {
         <Expertise />
       </Fade>
       <Fade>
-        <Freebie/>
+        <Freebie />
       </Fade>
       <Fade>
         <Testimonials />
       </Fade>
-        <Networks />
+      <Networks />
       <Fade>
         <Techno />
       </Fade>

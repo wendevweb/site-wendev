@@ -84,9 +84,11 @@ const PageOffreMaquette = () => {
       <ButtonFonctionnement />
 
       <Fade>
-      <section aria-label="Exemples de réalisations de maquettes et prototypes pour le web, de Wendev." className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
-
-      <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+        <section
+          aria-label="Exemples de réalisations de maquettes et prototypes pour le web, de Wendev."
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
+        >
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
             Exemples de réalisations
           </h3>
           <div className="lg:grid grid-cols-3 gap-4">
@@ -209,7 +211,7 @@ const PageOffreMaquette = () => {
             passé à sa réalisation, je m’adapte à des demandes différentes et je
             me place face à la concurrence. C’est un travail de création ! Et
             tout travail mérite salaire, non ? 😉 En choisissant de travailler
-            avec un développeur web, tu accèdes à un service personnalisé d’une
+            avec un développeur web, vous accédez à un service personnalisé d’une
             flexibilité et d’une liberté qui n’ont rien à voir avec celles
             proposées par une agence ou une embauche d’un salarié.
           </p>

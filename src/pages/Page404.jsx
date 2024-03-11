@@ -20,7 +20,7 @@ const Page404 = () => {
         <link href="https://www.wendev.fr/*" />
       </Helmet>
       <div className="bg-gradient-to-r from-purple via-pinkDark to-pink dark:bg-black overflow-hidden">
-      <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+        <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
           <div>
             <div className="lg:grid lg:grid-cols-2 gap-16 flex items-center">
               <img src={error} alt="" />
@@ -31,11 +31,11 @@ const Page404 = () => {
                     Page not found...
                   </h2>
                   <p className="mb-8 text-center text-black md:text-lg">
-                    La page que tu recherches n'existe pas...
+                    La page que vous recherchez n'existe pas...
                   </p>
                   <p className="mb-8 text-center text-black md:text-lg">
-                    Tu vas être directement redirigé à l'accueil dans quelques
-                    secondes !
+                    Vous allez être directement redirigé à l'accueil dans
+                    quelques secondes !
                   </p>
                 </div>
               </div>
