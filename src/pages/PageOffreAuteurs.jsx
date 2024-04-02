@@ -12,6 +12,7 @@ import Kay from "../assets/Kay.webp";
 import Lea from "../assets/Lea.webp";
 import Elsa from "../assets/Elsa.webp";
 import Florent from "../assets/Florent.webp";
+import Olivier from '../assets/Olivier.webp'
 import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
 
@@ -104,6 +105,26 @@ const PageOffreAuteurs = () => {
             Offre premium, l'offre préférée des auteurs !
           </h4>
           <div className="lg:grid grid-cols-3 gap-4">
+            {/* OLIVIER WISLER*/}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Olivier}
+                alt="Site internet d'Olivier Wisler, auteur, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Olivier Wisler, auteur, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.sagasyane.net/"
+                  alt="Site internet d'Olivier Wisler, auteur, qui a choisi l'offre Premium"
+                  aria-label="Site internet d'Olivier Wisler, auteur, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
             {/* FLORENT BARTHEL*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -267,6 +288,26 @@ const PageOffreAuteurs = () => {
           </div>
           <h4 className="text-pinkDark text-2xl mt-6 mb-6">Offre Standard</h4>
           <div className="lg:grid grid-cols-3 gap-4">
+            {/* VIRGINIE ROGER */}
+            {/* <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Lea}
+                alt="Site internet de Virginie Roger, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                aria-label="Site internet de Virginie Roger, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.virginierogerauteure.com/"
+                  alt="Site internet de Virginie Roger, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                  aria-label="Site internet de Virginie Roger, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div> */}
             {/* LEA SAMSON */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img

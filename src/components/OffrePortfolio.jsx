@@ -13,7 +13,7 @@ const OffrePortfolio = () => {
     <section aria-label="Offre de services de création et de refonte de site web">
       <div className="py-8 px-4 lg:py-16 lg:px-6">
         <Fade>
-          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-6 lg:space-y-0">
             {/* OFFRE 1 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
               <h3 className="mb-4 text-2xl font-semibold">Portfolio no-code</h3>
@@ -30,7 +30,7 @@ const OffrePortfolio = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">1</span>
+                    Nombre de pages : <span className="font-bold">1 (landing page)</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -48,9 +48,7 @@ const OffrePortfolio = () => {
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
                     Site réactif{" "}
-                    <span className="font-semibold">
                       (adapté aux différentes tailles d'écran)
-                    </span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -66,7 +64,7 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramètres de référencement (SEO) de base</span>
+                  <span>Mise en place des paramètres de référencement (SEO) <span className="font-semibold">de base</span></span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -131,7 +129,7 @@ const OffrePortfolio = () => {
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
+                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>
                     Formulaire de contact avec redirection automatique des
                     messages vers votre boîte mail
@@ -145,9 +143,7 @@ const OffrePortfolio = () => {
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
                     Site réactif{" "}
-                    <span className="font-semibold">
                       (adapté aux différentes tailles d'écran)
-                    </span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -163,7 +159,7 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramètres de référencement (SEO) de base</span>
+                  <span>Mise en place des paramètres de référencement (SEO) <span className="font-semibold">de base</span></span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -223,7 +219,7 @@ const OffrePortfolio = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">1 à 10</span>
+                    Nombre de pages : <span className="font-bold">illimité</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -241,9 +237,7 @@ const OffrePortfolio = () => {
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
                     Site réactif{" "}
-                    <span className="font-semibold">
                       (adapté aux différentes tailles d'écran)
-                    </span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -259,7 +253,7 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramètres de référencement (SEO) de base</span>
+                  <span><span className="font-semibold">Optimisation</span> des paramètres de référencement (SEO)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
