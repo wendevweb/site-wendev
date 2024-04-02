@@ -16,6 +16,7 @@ import Page404 from "./pages/Page404";
 import Contact from "./pages/Contact";
 import Legals from "./pages/Legals";
 import Cgv from "./pages/Cgv";
+import PageOffreAudit from "./pages/PageOffreAudit";
 // import PageOffreChat from "./pages/PageOffreChat";
 // import Entreprise from "./pages/Entreprise";
 // import Formation from "./pages/Formation";
@@ -36,6 +37,8 @@ function App() {
           <Route path="/OffreSite" element={<PageOffreSite />} />
           <Route path="/OffreMaquette" element={<PageOffreMaquette />} />
           <Route path="/Offreauteurs" element={<PageOffreAuteurs />} />
+          <Route path="/OffreAudit" element={<PageOffreAudit />} />
+
           {/* <Route path="/OffreGlide" element={<PageOffreGlide />} /> */}
           {/* <Route path="/OffreFirebase" element={<PageOffreFirebase />} /> */}
           <Route path="/OffrePortfolio" element={<PageOffrePortfolio />} />

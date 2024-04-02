@@ -38,6 +38,13 @@
       <changefreq>monthly</changefreq>
       <priority>0.5</priority>
    </url>
+
+   <url>
+      <loc>https://wendev.fr/OffreAudit</loc>
+      <lastmod>2024-04-02</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
    <url>
       <loc>https://wendev.fr/Fonctionnement</loc>
       <lastmod>2024-04-02</lastmod>

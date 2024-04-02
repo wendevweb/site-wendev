@@ -18,10 +18,24 @@ const Expertise = () => {
     },
     {
       id: 3,
+      title: "Séance d'audit pour améliorer votre site web",
+      img: "https://images.pexels.com/photos/7947663/pexels-photo-7947663.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      desc: "Vous avez déjà un site internet et vous souhaitez offrir une meilleure expérience à vos utilisateurs ? Vous avez besoin des conseils d'une professionnelle du web ? Design, accessibilité, performances, sécurité, expérience utilisateur, etc. Ensemble, nous passerons en revue votre site dans les moindres détails.",
+      link: "/OffreAudit",
+    },
+    {
+      id: 4,
       title: "Création de maquettes et de prototypes pour le web",
       img: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
       desc: "Une maquette est un bon moyen d'avoir un aperçu visuel de votre futur site internet ou application, avant de commencer à coder. Vous désirez savoir ce que donnera le site web de vos rêves ? Alors venez vite me demander une maquette pour donner vie à vos envies !",
       link: "/OffreMaquette",
+    },
+    {
+      id: 5,
+      title: "Création de ton portfolio",
+      img: "https://images.pexels.com/photos/1036848/pexels-photo-1036848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+      desc: "Que vous soyez artiste, artisan, commerçant, débutant ou chevronné, avoir un portfolio est essentiel pour présenter vos projets, mettre en valeur votre travail et qui vous êtes. Je vous livre une solution fonctionnelle, personnalisée, faite pour en mettre plein les yeux à ceux qui le regarderont !",
+      link: "/OffrePortfolio",
     },
     // {
     //   id: 4,
@@ -37,14 +51,6 @@ const Expertise = () => {
     //   desc: "Une application mobile est le must have pour ton entreprise ou pour ta marque ! Et tout cela, sans base de données à construire. Je transforme ton tableur Google Sheet ou Airtable en application pour mobile.",
     //   link: "/OffreGlide",
     // },
-
-    {
-      id: 7,
-      title: "Création de ton portfolio",
-      img: "https://images.pexels.com/photos/1036848/pexels-photo-1036848.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-      desc: "Que vous soyez artiste, artisan, commerçant, débutant ou chevronné, avoir un portfolio est essentiel pour présenter vos projets, mettre en valeur votre travail et qui vous êtes. Je vous livre une solution fonctionnelle, personnalisée, faite pour en mettre plein les yeux à ceux qui le regarderont !",
-      link: "/OffrePortfolio",
-    },
 
     // {
     //   id: 8,

@@ -101,7 +101,34 @@ export default function Example() {
                               "block px-4 py-2 font-medium text-black"
                             )}
                           >
-                            Création et refonte de sites
+                            Création et refonte de sites web
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            to="/OffreAudit"
+                            className={classNames(
+                              active ? "bg-pinkDark hover:text-white" : "",
+                              "block px-4 py-2 font-medium text-black"
+                            )}
+                          >
+                            Audit de sites web
+                          </Link>
+                        )}
+                      </Menu.Item>
+                      
+                      <Menu.Item>
+                        {({ active }) => (
+                          <Link
+                            to="/Offreauteurs"
+                            className={classNames(
+                              active ? "bg-pinkDark hover:text-white" : "",
+                              "block px-4 py-2 font-medium text-black"
+                            )}
+                          >
+                            Offre spéciale auteurs
                           </Link>
                         )}
                       </Menu.Item>
@@ -115,19 +142,6 @@ export default function Example() {
                             )}
                           >
                             Création de portfolio
-                          </Link>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link
-                            to="/Offreauteurs"
-                            className={classNames(
-                              active ? "bg-pinkDark hover:text-white" : "",
-                              "block px-4 py-2 font-medium text-black"
-                            )}
-                          >
-                            Offre spéciale auteurs
                           </Link>
                         )}
                       </Menu.Item>

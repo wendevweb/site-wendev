@@ -15,25 +15,25 @@ const OffreMaquette = () => {
         <Fade>
           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden w-auto p-6 text-center text-black bg-real rounded-md shadow-lg">
             <h3 className="mb-4 text-2xl font-semibold">
-              Une offre unique qui s'adapte à toutes vos envies !
+              Une séance de 30 minutes en visio avec un compte-rendu écrit et des conseils personnalisés
             </h3>
             <div className="flex justify-center items-baseline my-8">
               <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                100€ par page
+                30€
               </span>
             </div>
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>Prototype</span>
+                <span>1/2 heure en individuel avec une pro du web</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>Personnalisation avec votre contenu (à fournir)</span>
+                <span>Des conseils personnalisés en regardant directement votre site</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>Pages pour versions desktop et mobile</span>
+                <span>1 compte-rendu écrit avec tout ce qui s'est dit pendant la séance, des exemples, des ressources gratuites et des conseils</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
