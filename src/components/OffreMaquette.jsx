@@ -29,7 +29,7 @@ const OffreMaquette = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>Personnalisation avec ton contenu (à fournir)</span>
+                <span>Personnalisation avec votre contenu (à fournir)</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />

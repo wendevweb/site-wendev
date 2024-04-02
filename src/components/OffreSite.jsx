@@ -27,7 +27,7 @@ const OffresSite = () => {
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton contenu (à fournir)</span>
+                  <span>Personnalisation avec votre contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -36,12 +36,16 @@ const OffresSite = () => {
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
+                    <CheckIcon style={{ color: "limegreen" }} />
+                    <span>
+                      1 page ou section de contact avec formulaire et redirection
+                      automatique des messages sur votre boîte mail
+                    </span>
+                  </li>
+                <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Site réactif{" "}
-                    <span className="font-semibold">
-                      (adapté aux différentes tailles d'écran)
-                    </span>
+                    Site réactif (adapté aux différentes tailles d'écran)
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -53,7 +57,9 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramètres SEO de base</span>
+                  <span>
+                    Mise en place des paramètres de référencement (SEO) de base
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -110,7 +116,7 @@ const OffresSite = () => {
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton contenu (à fournir)</span>
+                  <span>Personnalisation avec votre contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -121,10 +127,7 @@ const OffresSite = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Site réactif{" "}
-                    <span className="font-semibold">
-                      (adapté aux différentes tailles d'écran)
-                    </span>
+                    Site réactif (adapté aux différentes tailles d'écran)
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -136,7 +139,10 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
-                  <span>Mise en place des paramètres SEO de base</span>
+                  <span>
+                    Mise en place des paramètres de référencement (SEO){" "}
+                    <span className="font-semibold">de base</span>
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -177,7 +183,7 @@ const OffresSite = () => {
               <Link
                 to="/Contact"
                 className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
-                >
+              >
                 C'est parti !
               </Link>
             </div>
@@ -192,7 +198,7 @@ const OffresSite = () => {
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton contenu (à fournir)</span>
+                  <span>Personnalisation avec votre contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -203,10 +209,7 @@ const OffresSite = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Site réactif{" "}
-                    <span className="font-semibold">
-                      (adapté aux différentes tailles d'écran)
-                    </span>
+                    Site réactif (adapté aux différentes tailles d'écran)
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -218,7 +221,10 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
-                  <span>Mise en place des paramètres SEO de base</span>
+                  <span>
+                    Mise en place des paramètres de référencement (SEO){" "}
+                    <span className="font-semibold">de base</span>
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -259,7 +265,7 @@ const OffresSite = () => {
               <Link
                 to="/Contact"
                 className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
-                >
+              >
                 C'est parti !
               </Link>
             </div>
@@ -274,7 +280,7 @@ const OffresSite = () => {
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton contenu (à fournir)</span>
+                  <span>Personnalisation avec votre contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -284,12 +290,16 @@ const OffresSite = () => {
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
+                    <CheckIcon style={{ color: "limegreen" }} />
+                    <span>
+                      1 page de contact avec formulaire et redirection
+                      automatique des messages sur votre boîte mail
+                    </span>
+                  </li>
+                <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Site réactif{" "}
-                    <span className="font-semibold">
-                      (adapté aux différentes tailles d'écran)
-                    </span>
+                    Site réactif (adapté aux différentes tailles d'écran)
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -301,7 +311,9 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramètres SEO de base</span>
+                  <span>
+                    Mise en place des paramètres de référencement (SEO) de base
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -348,7 +360,7 @@ const OffresSite = () => {
               <Link
                 to="/Contact"
                 className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
-                >
+              >
                 C'est parti !
               </Link>
             </div>

@@ -12,7 +12,7 @@ const OffresAuteurs = () => {
   return (
     <section aria-label="Offre de services spécialisée pour les auteurs de livres">
       <Fade>
-        <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+        <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-6 lg:space-y-0">
           {/* OFFRE 1 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
             <h3 className="mb-4 text-2xl font-semibold">Basic</h3>
@@ -24,7 +24,7 @@ const OffresAuteurs = () => {
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>Personnalisation avec ton contenu (à fournir)</span>
+                <span>Personnalisation avec votre contenu (à fournir)</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
@@ -50,9 +50,7 @@ const OffresAuteurs = () => {
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>
                   Site réactif{" "}
-                  <span className="font-semibold">
                     (adapté aux différentes tailles d'écran)
-                  </span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -60,6 +58,12 @@ const OffresAuteurs = () => {
                 <span>
                   Gestion de l'accessibilité (Site web accessible aux personnes
                   atteintes de handicap)
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>
+                  Gestion de la sécurité du site
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -84,7 +88,7 @@ const OffresAuteurs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <ClearIcon style={{ color: "red" }} />
-                <span>Paramètres minimums de SEO</span>
+                <span>Paramètres minimums de référencement (SEO)</span>
               </li>
               <li>
                 <AddIcon style={{ color: "magenta" }} />
@@ -120,7 +124,7 @@ const OffresAuteurs = () => {
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>Personnalisation avec ton contenu (à fournir)</span>
+                <span>Personnalisation avec votre contenu (à fournir)</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
@@ -156,9 +160,7 @@ const OffresAuteurs = () => {
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>
                   Site réactif{" "}
-                  <span className="font-semibold">
                     (adapté aux différentes tailles d'écran)
-                  </span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -172,6 +174,12 @@ const OffresAuteurs = () => {
                 <span>
                   Gestion de l'accessibilité (Site web accessible aux personnes
                   atteintes de handicap)
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>
+                  Gestion de la sécurité du site
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -196,7 +204,7 @@ const OffresAuteurs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <ClearIcon style={{ color: "red" }} />
-                <span>Paramètres minimums de SEO</span>
+                <span>Paramètres minimums de référencement (SEO)</span>
               </li>
               <li>
                 <AddIcon style={{ color: "magenta" }} />
@@ -230,7 +238,7 @@ const OffresAuteurs = () => {
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>Personnalisation avec ton contenu (à fournir)</span>
+                <span>Personnalisation avec votre contenu (à fournir)</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
@@ -277,9 +285,7 @@ const OffresAuteurs = () => {
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>
                   Site réactif{" "}
-                  <span className="font-semibold">
                     (adapté aux différentes tailles d'écran)
-                  </span>
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -293,6 +299,12 @@ const OffresAuteurs = () => {
                 <span>
                   Gestion de l'accessibilité (Site web accessible aux personnes
                   atteintes de handicap)
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>
+                  Gestion de la sécurité du site
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -313,7 +325,7 @@ const OffresAuteurs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>Optimisation des paramètres de SEO</span>
+                <span>Optimisation des paramètres de référencement (SEO)</span>
               </li>
               <li>
                 <AddIcon style={{ color: "magenta" }} />

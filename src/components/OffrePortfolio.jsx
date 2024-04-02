@@ -10,22 +10,22 @@ import { Link } from "react-router-dom";
 
 const OffrePortfolio = () => {
   return (
-    <section
-      aria-label="Offre de services de création et de refonte de site web"
-    >
+    <section aria-label="Offre de services de création et de refonte de site web">
       <div className="py-8 px-4 lg:py-16 lg:px-6">
         <Fade>
-        <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
+          <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-10 lg:space-y-0">
             {/* OFFRE 1 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
               <h3 className="mb-4 text-2xl font-semibold">Portfolio no-code</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold text-pinkDark">250€</span>
+                <span className="mr-2 text-5xl font-extrabold text-pinkDark">
+                  250€
+                </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton contenu (à fournir)</span>
+                  <span>Personnalisation avec votre contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -37,7 +37,7 @@ const OffrePortfolio = () => {
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
                     Formulaire de contact avec redirection automatique des
-                    messages vers ta boîte mail
+                    messages vers votre boîte mail
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -62,7 +62,11 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramêtres SEO de base</span>
+                  <span>Gestion de la sécurité du site</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Mise en place des paramètres de référencement (SEO) de base</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -111,12 +115,14 @@ const OffrePortfolio = () => {
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
               <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold text-pinkDark">300€</span>
+                <span className="mr-2 text-5xl font-extrabold text-pinkDark">
+                  300€
+                </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton contenu (à fournir)</span>
+                  <span>Personnalisation avec votre contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -128,7 +134,7 @@ const OffrePortfolio = () => {
                   <ClearIcon style={{ color: "red" }} />
                   <span>
                     Formulaire de contact avec redirection automatique des
-                    messages vers ta boîte mail
+                    messages vers votre boîte mail
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -152,8 +158,12 @@ const OffrePortfolio = () => {
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
-                  <span>Mise en place des paramêtres SEO de base</span>
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Gestion de la sécurité du site</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Mise en place des paramètres de référencement (SEO) de base</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -201,12 +211,14 @@ const OffrePortfolio = () => {
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
               <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold text-pinkDark">450€</span>
+                <span className="mr-2 text-5xl font-extrabold text-pinkDark">
+                  450€
+                </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Personnalisation avec ton contenu (à fournir)</span>
+                  <span>Personnalisation avec votre contenu (à fournir)</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -218,7 +230,7 @@ const OffrePortfolio = () => {
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
                     Formulaire de contact avec redirection automatique des
-                    messages vers ta boîte mail
+                    messages vers votre boîte mail
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -243,10 +255,11 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>
-                    Mise en place des paramêtres SEO et optimisation du
-                    référencement
-                  </span>
+                  <span>Gestion de la sécurité du site</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Mise en place des paramètres de référencement (SEO) de base</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
