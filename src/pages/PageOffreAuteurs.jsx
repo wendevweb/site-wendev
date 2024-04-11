@@ -12,7 +12,8 @@ import Kay from "../assets/Kay.webp";
 import Lea from "../assets/Lea.webp";
 import Elsa from "../assets/Elsa.webp";
 import Florent from "../assets/Florent.webp";
-import Olivier from '../assets/Olivier.webp'
+import Olivier from '../assets/Olivier.webp';
+import Virginie from "../assets/virginie.webp";
 import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
 
@@ -289,9 +290,9 @@ const PageOffreAuteurs = () => {
           <h4 className="text-pinkDark text-2xl mt-6 mb-6">Offre Standard</h4>
           <div className="lg:grid grid-cols-3 gap-4">
             {/* VIRGINIE ROGER */}
-            {/* <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
-                src={Lea}
+                src={Virginie}
                 alt="Site internet de Virginie Roger, qui a choisi l'offre Standard pour les auteurs de WenDev."
                 aria-label="Site internet de Virginie Roger, qui a choisi l'offre Standard pour les auteurs de WenDev."
                 className="rounded-md"
@@ -307,7 +308,8 @@ const PageOffreAuteurs = () => {
                   Voir le site !
                 </a>
               </button>
-            </div> */}
+              <p className="mt-10">Avec option formulaire PayPal</p>
+            </div>
             {/* LEA SAMSON */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -328,26 +330,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
-            {/* HONORE SAINT HILAIRE */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-              <img
-                src="https://i.goopics.net/s0fo8g.png"
-                alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
-                aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
-                className="rounded-md"
-              />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                <a
-                  href="https://darkseagreen-fish-520996.builder-preview.com/"
-                  alt="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
-                  aria-label="Site internet fictif de Honoré Saint Hilaire pour illustrer l'offre medium de WenDev"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Voir la démo !
-                </a>
-              </button>
-            </div>
+            
             {/* DOM TERRENCE */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
