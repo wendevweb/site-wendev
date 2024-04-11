@@ -32,7 +32,7 @@ const Hero = () => {
                   sur mesure !
                 </h2>
                 <p className="font-quicksand text-xl text-white opacity-70">
-                  Besoin d'un nouveau site internet ou de redonner un coup de
+                  Besoin d'un nouveau <strong>site internet</strong> ou de redonner un coup de
                   neuf à un site existant ? D'une page d'authentification ? D'un
                   portfolio personnel ou professionnel ? D'une maquette pour le
                   web ? Tu es auteur.e et tu souhaites avoir ton site internet

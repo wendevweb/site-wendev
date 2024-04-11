@@ -47,7 +47,7 @@ const PageOffreSite = () => {
                   <strong className="text-pinkDark">Sites internet</strong>
                 </h2>
                 <p className="text-white sm:text-xl">
-                  Avoir son propre site internet comporte bien des avantages.
+                  Avoir son propre <strong>site internet</strong> comporte bien des avantages.
                   C'est un réel atout pour votre marque ou votre entreprise !
                   <br />
                   Grâce à React, Next.js et Tailwindcss, des technologies

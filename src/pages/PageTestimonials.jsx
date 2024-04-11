@@ -27,15 +27,15 @@ const Temoignages = () => {
             <div className="flex justify-center items-center h-full">
               <div className="text-center text-white px-6 md:px-12">
                 <h2 className="font-quicksand text-5xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-12">
-                  Témoignages <br/>
+                  Témoignages <br />
                   <strong className="text-pinkDark"> de mes clients</strong>
                 </h2>
                 <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
                   Certains clients ont eu la gentillesse de prendre quelques
                   minutes de leur temps précieux pour me rédiger une
-                  recommandation. <br/> Je vous laisse les découvrir. <br /> Pour plus
-                  d'informations, vous pouvez contacter mes clients, via leur
-                  site internet !
+                  recommandation. <br /> Je vous laisse les découvrir. <br />{" "}
+                  Pour plus d'informations, vous pouvez contacter mes clients,
+                  via leur <strong>site internet</strong> !
                 </p>
               </div>
             </div>

@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const OffresAuteurs = () => {
   return (
-    <section aria-label="Offre de services spécialisée pour les auteurs de livres">
+    <section id="offreauteur" aria-label="Offre de services spécialisée pour les auteurs de livres">
       <Fade>
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-6 lg:space-y-0">
           {/* OFFRE 1 */}

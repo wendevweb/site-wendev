@@ -13,7 +13,7 @@ const Legals = () => {
         <link href="https://www.wendev.fr/Legals" />
       </Helmet>
 
-      <section aria-label="Bannière de présentation des mentions légales et RGPD de WenDev.">
+      <section id="legals" aria-label="Bannière de présentation des mentions légales et RGPD de WenDev.">
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
           style={{

@@ -19,8 +19,8 @@ const Footer = () => {
             À propos
           </h2>
           <p className="tracking-tight mb-2 pt-6">
-            WenDev est une micro-entreprise de développement web,
-            dirigée par Wendy Baqué, dédiée aux auteurs de livres et au monde littéraire. Elle crée des sites internet et divers solutions numériques pour promouvoir les livres et assurer une présence en ligne aux écrivains.
+           <strong>WenDev </strong> est une micro-entreprise de <strong>développement web</strong>,
+            dirigée par Wendy Baqué, dédiée aux <strong>auteurs de livres</strong> et au monde littéraire. Elle crée des <strong>sites internet</strong> et divers solutions numériques pour promouvoir les livres et assurer une présence en ligne aux écrivains.
           </p>
           <h2 className="mb-2 hover:font-bold text-pinkDark font-semibold text-lg">
             <a
@@ -42,7 +42,7 @@ const Footer = () => {
               rel="noreferrer"
             >
               <DownloadIcon /> Ami.e auteur.e, téléchargez votre livre blanc pour
-              vous aider à créer vous-mêmes votre site internet !{" "}
+              vous aider à créer vous-mêmes votre <strong>site internet</strong>  !{" "}
             </a>
           </h2>
           <br />

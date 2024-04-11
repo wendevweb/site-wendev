@@ -11,18 +11,18 @@ const Hero2 = () => {
       <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
         <div className="mr-auto place-self-center lg:col-span-7">
           <h1 className="text-white drop-shadow-sm max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-            WenDev,
+            <strong>WenDev</strong>,
           </h1>
           <br />
           <Fade triggerOnce cascade="true" direction="left" duration={1000}>
             <h2 className="text-white drop-shadow-sm	 max-w-2xl mb-4 text-2xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-              la WebDev <br /> des auteurs de livres !
+              la WebDev <br /> des <strong>auteurs de livres</strong> !
             </h2>
           </Fade>
 
           <p className="tracking-tight text-2xl pt-4 pb-4 max-w-2xl mb-6 text-white lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-          Je vous accompagne dans la promotion de vos produits et services littéraires sur le web, en créant un site internet qui vous ressemble.
-         <br/> Faites appel à une développeuse web professionnelle et auteure de romans assurer votre présence en ligne.</p>
+          Je vous accompagne dans la promotion de vos produits et services littéraires sur le web, en créant un <strong>site internet</strong> qui vous ressemble.
+         <br/> Faites appel à une <strong>développeuse web professionnelle</strong> et <strong>auteure de romans</strong> assurer votre présence en ligne.</p>
           <div className="drop-shadow-2xl">
             <Link
               to="https://calendly.com/wendevweb/premier-rendez-vous"

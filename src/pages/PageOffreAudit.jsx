@@ -37,8 +37,9 @@ const PageOffreMaquette = () => {
                   </strong>
                 </h2>
                 <p className="tracking-tight text-white sm:text-xl">
-                  Vous avez déjà un site internet et vous souhaitez offrir une
-                  meilleure expérience à vos utilisateurs ? <br />
+                  Vous avez déjà un <strong>site internet</strong> et vous
+                  souhaitez offrir une meilleure expérience à vos utilisateurs ?{" "}
+                  <br />
                   Vous avez besoin des conseils d'une professionnelle du web ?
                   Design, accessibilité, performances, sécurité, expérience
                   utilisateur, etc. <br /> Ensemble, nous passerons en revue

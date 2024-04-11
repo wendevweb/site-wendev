@@ -45,7 +45,7 @@ const PageOffreMaquette = () => {
                 </h2>
                 <p className="tracking-tight text-white sm:text-xl">
                   Une maquette est un bon moyen d'avoir un aperçu visuel de
-                  votre futur site internet ou application, <br /> avant de
+                  votre futur <strong>site internet</strong> ou application, <br /> avant de
                   commencer à créer votre site ou coder. Vous désirez savoir ce
                   que donnera le site web de vos rêves ? <br /> Alors venez vite
                   me demander une maquette pour donner vie à vos envies !

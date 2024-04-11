@@ -21,7 +21,7 @@ const PageAbout = () => {
         <title>À propos | WenDev</title>
         <link href="https://www.wendev.fr/About" />
       </Helmet>
-      <section aria-label="A propos de WenDev">
+      <section id="about" aria-label="A propos de WenDev">
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
           style={{
@@ -42,8 +42,8 @@ const PageAbout = () => {
                   <strong className="text-pinkDark">WenDev</strong>
                 </h2>
                 <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
-                  Mais qui se cache derrière ce logo ? Quelle est l'histoire de
-                  WenDev ?
+                  Mais qui se cache derrière ce logo ? Quelle est l'histoire de{" "}
+                  <strong>WenDev</strong> ?
                   <br /> Rendez-vous dans les sections ci-dessous pour le
                   découvrir ! <br />
                 </p>
@@ -242,10 +242,10 @@ const PageAbout = () => {
                   </strong>
                   . 💅
                   <br />
-                  Avec moi, vous et votre site internet serez chouchoutés et,
-                  surtout, écoutés ! Je suis à l'écoute de vos besoins et de vos
-                  envies numériques pour pouvoir y répondre au mieux et aider
-                  votre business à décoler sur internet. <br />
+                  Avec moi, vous et votre <strong>site internet</strong> serez
+                  chouchoutés et, surtout, écoutés ! Je suis à l'écoute de vos
+                  besoins et de vos envies numériques pour pouvoir y répondre au
+                  mieux et aider votre business à décoler sur internet. <br />
                   On se détend, pas de stress, je m'occupe de tout et on en
                   discute ! Vous être utile fait partie de l'essence même de{" "}
                   <strong className=" text-pinkDark">WenDev</strong> !
@@ -294,9 +294,10 @@ const PageAbout = () => {
                     virtuelle accessible à tous
                   </strong>
                   , comme peut l'être un site internet ! <br />
-                  En tant qu'auteure de romans, je suis déjà passée par la
-                  création de mon site internet et ai fait face à plusieurs
-                  difficultés que je peux ainsi vous éviter !{" "}
+                  En tant qu'<strong>auteure de romans</strong>, je suis déjà
+                  passée par la création de mon <strong>site internet</strong>{" "}
+                  et ai fait face à plusieurs difficultés que je peux ainsi vous
+                  éviter !{" "}
                   <strong className=" text-pinkDark">
                     Je sais de quoi vous et vos lecteurs avez besoin
                   </strong>{" "}
@@ -324,13 +325,13 @@ const PageAbout = () => {
                   </strong>{" "}
                   <br />
                   <br />
-                  Lorsque je construisais mon propre site internet d'auteure de
-                  livres, je me suis heurtée à pas mal de freins et fait
-                  quelques bêtises. Je me suis rendue compte que réaliser un
-                  site ne s'improvise pas et qu'il nécessite du temps pour
-                  saisir les bonnes pratiques sur le web. <br /> C'est un vaste
-                  monde bien complexe et je ne suis pas la seule à avoir fait
-                  ces erreurs.
+                  Lorsque je construisais mon propre{" "}
+                  <strong>site internet</strong> d'auteure de livres, je me suis
+                  heurtée à pas mal de freins et fait quelques bêtises. Je me
+                  suis rendue compte que réaliser un site ne s'improvise pas et
+                  qu'il nécessite du temps pour saisir les bonnes pratiques sur
+                  le web. <br /> C'est un vaste monde bien complexe et je ne
+                  suis pas la seule à avoir fait ces erreurs.
                   <br />
                   <strong className="text-pinkDark">
                     Et si je vous évitais de faire ces erreurs en vous informant

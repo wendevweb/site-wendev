@@ -12,7 +12,7 @@ const Cgv = () => {
         <title>C.G.V. | WenDev</title>
         <link href="https://www.wendev.fr/Cgv" />
       </Helmet>
-      <section aria-label="Bannière de présentation des conditions générales de vente de WenDev.">
+      <section id="cgv" aria-label="Bannière de présentation des conditions générales de vente de WenDev.">
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
           style={{
@@ -39,11 +39,11 @@ const Cgv = () => {
                   Les présentes conditions générales constituent un contrat de
                   vente à distance, définissant les droits et obligations de
                   WenDev et du Client dans le cadre de la vente des produits
-                  référencés sur le site Internet www.wendev.fr ci-après dénommé
+                  référencés sur le <strong>site Internet</strong>  www.wendev.fr ci-après dénommé
                   le « Site ». Pour toute question ou réclamation relative aux
                   produits, à sa commande, à ses données personnelles, au droit
                   de rétraction, à l’application de la garantie des produits le
-                  Client peut contacter WenDev :<br />
+                  Client peut contacter <strong>WenDev</strong>  :<br />
                   <span className="font-bold">
                     {" "}
                     Wendev – Wendy Baqué 971 Route de Pernay 37340 Ambillou 06

@@ -65,7 +65,7 @@ const Expertise = () => {
     <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
       <div>
         <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
-          Mes services et prestations
+          <strong>Mes services et prestations</strong>
         </h3>{" "}
       </div>
       <div className="grid lg:grid-cols-2 gap-10">

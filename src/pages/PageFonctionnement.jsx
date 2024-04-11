@@ -17,7 +17,7 @@ const PageFonctionnement = () => {
         <title>Fonctionnement | WenDev</title>
         <link href="https://www.wendev.fr/Fonctionnement" />
       </Helmet>
-      <section aria-label="Bannière de présentation du déroulement d'un projet avec WenDev.">
+      <section id="fonctionnement" aria-label="Bannière de présentation du déroulement d'un projet avec WenDev.">
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
           style={{
@@ -333,7 +333,7 @@ const PageFonctionnement = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                        Avec WenDev, tout est possible ! Je serai ravie de
+                        Avec <strong>WenDev</strong>, tout est possible ! Je serai ravie de
                         travailler sur ton projet s'il sort des sentiers battus
                         et de ce que je propose comme services. Vous pouvez me
                         contacter directement via la page Contact de ce site ou

@@ -10,6 +10,7 @@ const OffreMaquette = () => {
   return (
     <section
       aria-label="Offre de services de création maquettes et prototypes pour le web."
+    id="offremaquette"
     >
       <div className="p-4 grid grid-cols-1 justify-items-center py-8 px-4 lg:py-16 lg:px-6">
         <Fade>

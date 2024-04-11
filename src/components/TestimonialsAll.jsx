@@ -79,6 +79,7 @@ const Testimonials = () => {
     <section
       className="font-quicksand max-w-screen-xl mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
       aria-label="Avis des clients de Wendev"
+      id="testimonials"
     >
       <div className=" tracking-tight grid grid-rows-1 grid-flow-rows gap-10">
         {avis.map((avi) => (

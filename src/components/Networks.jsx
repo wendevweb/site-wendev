@@ -15,6 +15,7 @@ const networks = () => {
     <section
       aria-label="Réseaux sociaux de WenDev"
       className="bg-gradient-to-r from-purple via-pinkDark to-pink dark:bg-black font-quicksand"
+    id="networks"
     >
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
       <h3 className="text-white font-bold text-4xl mt-6 mb-6">

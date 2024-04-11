@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 
 const OffrePortfolio = () => {
   return (
-    <section aria-label="Offre de services de création et de refonte de site web">
+    <section id="offreportfolio" aria-label="Offre de services de création et de refonte de site web">
       <div className="py-8 px-4 lg:py-16 lg:px-6">
         <Fade>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-6 lg:space-y-0">

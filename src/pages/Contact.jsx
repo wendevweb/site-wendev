@@ -12,7 +12,7 @@ const Contact = () => {
         <title>Contact | WenDev</title>
         <link href="https://www.wendev.fr/Contact" />
       </Helmet>
-      <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
+      <section id="contact" className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
         <div className="lg:flex justify-between items-stretch">
           <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
             Rencontrons-nous !

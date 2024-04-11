@@ -9,13 +9,14 @@ const Freebie = () => {
     <section
       aria-label="Télécharge ton livre blanc gratuit pour créer ton site web en toute autonomie"
       className="bg-gradient-to-r from-purple via-pinkDark to-pink dark:bg-black font-quicksand"
+    id="freebie"
     >
       <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
         <Fade>
           <div className="grid lg:grid-cols-2 gap-24 justify-items-center">
             <div>
               <h3 className="text-white font-bold text-4xl mt-6 mb-6">
-                Vous êtes auteur de livres et vous souhaitez réaliser votre site
+                Vous êtes <strong>auteur de livres</strong> et vous souhaitez réaliser votre site
                 web en toute autonomie ?
               </h3>
               <p className="text-real text-xl mt-6 mb-6 tracking-tight">
@@ -76,7 +77,7 @@ const Freebie = () => {
                 className="h-96"
               />
               <p className="text-real font-bold text-xl mt-6 mb-6 tracking-tight">
-                Plus de 300 téléchargements <br /> et autant d'auteurs conquis !
+                Plus de 300 téléchargements <br /> et autant d'<strong>auteurs </strong>conquis !
               </p>
             </div>
           </div>
