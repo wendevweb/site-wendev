@@ -14,7 +14,7 @@ const OffresAuteurs = () => {
       <Fade>
         <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-6 lg:space-y-0">
           {/* OFFRE 1 */}
-            <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
+          <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
             <h3 className="mb-4 text-2xl font-semibold">Basic</h3>
             <div className="flex justify-center items-baseline my-8">
               <span className="text-pinkDark mr-2 text-5xl font-extrabold">
@@ -49,8 +49,7 @@ const OffresAuteurs = () => {
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  Site réactif{" "}
-                    (adapté aux différentes tailles d'écran)
+                  Site réactif (adapté aux différentes tailles d'écran)
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -62,9 +61,7 @@ const OffresAuteurs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>
-                  Gestion de la sécurité du site
-                </span>
+                <span>Gestion de la sécurité du site</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
@@ -93,8 +90,24 @@ const OffresAuteurs = () => {
               <li>
                 <AddIcon style={{ color: "magenta" }} />
                 <span>
+                  Formulaire d'achat en ligne, via PayPal, une bonne alternative à la boutique en ligne : <span className="font-bold">40€</span>.{" "}
+                  <a
+                    href="https://www.virginierogerauteure.com/#commandes"
+                    alt="Redirection le site d'exemple"
+                    aria-label="Redirection vers le site d'exemple"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-pinkDark hover:font-bold text-decoration-line: underline"
+                  >
+                    Voir un exemple.
+                  </a>
+                </span>
+              </li>
+              <li>
+                <AddIcon style={{ color: "magenta" }} />
+                <span>
                   Nom de domaine personnalisé et hébergement pour 1 an,
-                  renouvelable : 15€/an, en supplément. Sinon, url non
+                  renouvelable : <span className="font-bold">15€/an</span>, en supplément. Sinon, url non
                   personnalisable, par défaut.
                 </span>
               </li>
@@ -117,9 +130,7 @@ const OffresAuteurs = () => {
           <div className="bg-gradient-to-r from-purple  to-pinkDark dark:bg-black text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center rounded-md shadow-lg xl:p-8">
             <h3 className="mb-4 text-2xl text-real font-semibold">Standard</h3>
             <div className="flex justify-center items-baseline my-8">
-              <span className="text-realmr-2 text-5xl font-extrabold">
-                90€
-              </span>
+              <span className="text-realmr-2 text-5xl font-extrabold">90€</span>
             </div>
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
@@ -159,8 +170,7 @@ const OffresAuteurs = () => {
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  Site réactif{" "}
-                    (adapté aux différentes tailles d'écran)
+                  Site réactif (adapté aux différentes tailles d'écran)
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -178,9 +188,7 @@ const OffresAuteurs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>
-                  Gestion de la sécurité du site
-                </span>
+                <span>Gestion de la sécurité du site</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
@@ -209,8 +217,24 @@ const OffresAuteurs = () => {
               <li>
                 <AddIcon style={{ color: "magenta" }} />
                 <span>
+                  Formulaire d'achat en ligne, via PayPal, une bonne alternative à la boutique en ligne : <span className="font-bold">40€</span>.{" "}
+                  <a
+                    href="https://www.virginierogerauteure.com/#commandes"
+                    alt="Redirection le site d'exemple"
+                    aria-label="Redirection vers le site d'exemple"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-white hover:font-bold text-decoration-line: underline"
+                  >
+                    Voir un exemple.
+                  </a>
+                </span>
+              </li>
+              <li>
+                <AddIcon style={{ color: "magenta" }} />
+                <span>
                   Nom de domaine personnalisé et hébergement pour 1 an,
-                  renouvelable : 15€/an, en supplément. Sinon, url non
+                  renouvelable : <span className="font-bold">15€/an</span>, en supplément. Sinon, url non
                   personnalisable, par défaut.
                 </span>
               </li>
@@ -233,7 +257,9 @@ const OffresAuteurs = () => {
           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
             <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
             <div className="flex justify-center items-baseline my-8">
-              <span className="mr-2 text-5xl font-extrabold text-pinkDark">180€</span>
+              <span className="mr-2 text-5xl font-extrabold text-pinkDark">
+                180€
+              </span>
             </div>
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
@@ -284,8 +310,7 @@ const OffresAuteurs = () => {
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  Site réactif{" "}
-                    (adapté aux différentes tailles d'écran)
+                  Site réactif (adapté aux différentes tailles d'écran)
                 </span>
               </li>
               <li className="flex items-center space-x-3">
@@ -303,9 +328,7 @@ const OffresAuteurs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>
-                  Gestion de la sécurité du site
-                </span>
+                <span>Gestion de la sécurité du site</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
@@ -330,8 +353,24 @@ const OffresAuteurs = () => {
               <li>
                 <AddIcon style={{ color: "magenta" }} />
                 <span>
+                  Formulaire d'achat en ligne, via PayPal, une bonne alternative à la boutique en ligne : <span className="font-bold">40€</span>.{" "}
+                  <a
+                    href="https://www.virginierogerauteure.com/#commandes"
+                    alt="Redirection le site d'exemple"
+                    aria-label="Redirection vers le site d'exemple"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-pinkDark hover:font-bold text-decoration-line: underline"
+                  >
+                    Voir un exemple.
+                  </a>
+                </span>
+              </li>
+              <li>
+                <AddIcon style={{ color: "magenta" }} />
+                <span>
                   Nom de domaine personnalisé et hébergement pour 1 an,
-                  renouvelable : 15€/an, en supplément. Sinon, url non
+                  renouvelable : <span className="font-bold">15€/an</span>, en supplément. Sinon, url non
                   personnalisable, par défaut.
                 </span>
               </li>
