@@ -2,7 +2,6 @@ import React from "react";
 
 const JotformContact = () => {
   return (
-    <div className="lg:ml-12 mt-10 lg:mb-24">
       <iframe
         id="JotFormIFrame-230384793454362"
         title="Contact"
@@ -22,7 +21,6 @@ const JotformContact = () => {
       >
         {" "}
       </iframe>
-    </div>
   );
 };
 

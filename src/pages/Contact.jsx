@@ -13,7 +13,7 @@ const Contact = () => {
         <link href="https://www.wendev.fr/Contact" />
       </Helmet>
       <section id="contact" className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
-        <div className="lg:flex justify-between items-stretch">
+        <div>
           <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
             Rencontrons-nous !
           </h2>
@@ -32,10 +32,7 @@ const Contact = () => {
 
         <Calendly />
       </section>
-      <section className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
-        <h2 className="font-quicksand text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight mb-6 text-pinkDark">
-          Contactons-nous !
-        </h2>
+      <section >
         {/* <Airtable /> */}
         <JotformContact />
       </section>
