@@ -6,35 +6,40 @@ const Testimonials = () => {
       id: 1,
       client: "Farah, auteure",
       avis: "Très heureuse de ma collaboration avec Wendy. Elle a été gentille, attentive, qui sait de quoi elle parle. Elle arrive à retranscrire nos envies et nos besoin. Au top !! Je recommande les yeux fermés.",
-      avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=438,fit=crop/mv0LN7ebOPipRqNq/20230817_130945-m6LrwqQ697ULRoZr.jpg",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=328,h=438,fit=crop/mv0LN7ebOPipRqNq/20230817_130945-m6LrwqQ697ULRoZr.jpg",
     },
 
     {
       id: 2,
       client: "CINOS Consulting",
       avis: " La création de notre site internet s'est très bien passée grâce à Wendy. Elle nous a donné de bons conseils, nous a fourni un site à notre image et est à l'écoute de nos besoins. Elle propose des offres et des tarifs adaptés à tous et est très professionnelle.",
-      avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=256,fit=crop,q=95/AR0lLk5KMqsBZEgG/15-AVLD7kD1qRhoj5lx.png",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=256,fit=crop,q=95/AR0lLk5KMqsBZEgG/15-AVLD7kD1qRhoj5lx.png",
     },
 
     {
       id: 3,
       client: "Alexandra, auteure",
       avis: "Un super site réalisé en une semaine. Du très bon travail et Wendy est réactive et l'écoute de son client.",
-      avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=449,h=675,fit=crop/AoPEN2pLJpukJVMJ/photo-a-propos-YKbo6XKe3RUDN72w.jpg",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=449,h=675,fit=crop/AoPEN2pLJpukJVMJ/photo-a-propos-YKbo6XKe3RUDN72w.jpg",
     },
 
     {
       id: 4,
       client: "Elisa, auteure",
       avis: "Un grand MERCI à Wendy qui a travaillé sur mon projet de site internet pour mon activité d'autrice ! Merci pour ta patience et bravo pour ta créativité et ta réactivité. Tu as su répondre à ma demande et être de bons conseils et disponible au besoin. Je recommande si vous souhaitez réaliser votre site !",
-      avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1212,h=992,fit=crop/meP5GXQMoZHKanEx/photo_elisa-YKb1ELe42xigle5e.jpg",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1212,h=992,fit=crop/meP5GXQMoZHKanEx/photo_elisa-YKb1ELe42xigle5e.jpg",
     },
 
     {
       id: 5,
       client: "Elisabet, auteure",
       avis: "Excellents échanges. Professionnelle rapide, efficace, patiente. Le résultat va au-delà de mes attentes.",
-      avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=606,fit=crop/YrD1MeGzKXhb8OB9/elisabet-guillot-2-YNqORDJ88et8eNnw.png",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=606,fit=crop/YrD1MeGzKXhb8OB9/elisabet-guillot-2-YNqORDJ88et8eNnw.png",
     },
 
     {
@@ -49,7 +54,8 @@ const Testimonials = () => {
       id: 7,
       client: "Léa, auteure",
       avis: "Je recommande les yeux fermés, Wendy ! Elle est sérieuse et professionnelle. Je lui ai donné carte blanche car malheureusement je n'avais pas trop d'idées, et elle a su m'épater en me rendant un site vraiment bien construit. Les couleurs choisies sont tops ! Merci encore.",
-      avatar: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=400,h=504,fit=crop/YNqpLVDw6JtlPaw6/photo-lea-taille-normal-YD0Dr6VwrRH3l5zv.webp",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=400,h=504,fit=crop/YNqpLVDw6JtlPaw6/photo-lea-taille-normal-YD0Dr6VwrRH3l5zv.webp",
     },
 
     {
@@ -73,6 +79,22 @@ const Testimonials = () => {
       avis: "Wendy nous a réalisé un site web très professionnel et répondant exactement à nos attentes, en un temps record. Nous recommandons vivement ses services et son écoute bienveillante auprès de ses clients !",
       avatar:
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=136,h=136,fit=crop/AGB3XwRQJ0HQoNp1/logo_lgds-removebg-preview-m2WlV7QOrVce5oe7.png",
+    },
+
+    {
+      id: 11,
+      client: "Virginie Roger",
+      avis: "Un super boulot d'une efficacité remarquable ! Un site est indispensable pour les auteurs, mais c'est tellement dur quand on n'y connait rien… Alors Wendy est là pour vous et elle le fait très bien. Patiente, bienveillante, attentive, efficace : je recommande à 100% ! Foncez, vous serez aussi convaincus que moi ! Encore merci Wendy pour cette superbe collaboration !",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1006,h=1006,fit=crop/mnl5QxKqZxUgbbJ0/portrait-virginie-roger-A3QrRkW6zviDM6po.webp",
+    },
+
+    {
+      id: 12,
+      client: "Nicolas Pellolio",
+      avis: "Super travail et super créatrice ! Wendy m'a fignolé un site parfait pour mon activité d'auteur ! Beau, facile de navigation et techniquement parfait. Je recommande ses services !",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1212,h=1814,fit=crop/dJoJxjOnzRHqoa4N/portrait2-reduit-YbNaxxk3aeC79p6W.webp",
     },
   ];
   return (
@@ -159,7 +181,6 @@ const Testimonials = () => {
           </div>
         ))}
       </div>
-
     </section>
   );
 };
