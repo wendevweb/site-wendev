@@ -94,7 +94,19 @@ const PageAbout = () => {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Mes conseils pour se lancer en freelance
+                    💡 Mes conseils pour se lancer en freelance
+                  </a>
+                </button>
+
+                <button className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                  <a
+                    href="https://youtu.be/8jBEco6KGR0?si=DcWtZ2hpnuWzVj-w"
+                    alt="Redirection vers le replay du live Twitch avec la Wild Code School"
+                    aria-label="Redirection vers le replay du live Twitch avec la Wild Code School"
+                    rel="noreferrer"
+                    target="_blank"
+                  >
+                    🎬 Replay : Je pars en live avec la Wild Code School !
                   </a>
                 </button>
               </p>

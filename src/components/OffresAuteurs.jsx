@@ -107,7 +107,7 @@ const OffresAuteurs = () => {
                 <AddIcon style={{ color: "magenta" }} />
                 <span>
                   Nom de domaine personnalisé et hébergement pour 1 an,
-                  renouvelable : <span className="font-bold">15€/an</span>, en supplément. Sinon, url non
+                  renouvelable : <span className="font-bold">20€/an</span>, en supplément. Sinon, url non
                   personnalisable, par défaut.
                 </span>
               </li>
@@ -234,7 +234,7 @@ const OffresAuteurs = () => {
                 <AddIcon style={{ color: "magenta" }} />
                 <span>
                   Nom de domaine personnalisé et hébergement pour 1 an,
-                  renouvelable : <span className="font-bold">15€/an</span>, en supplément. Sinon, url non
+                  renouvelable : <span className="font-bold">20€/an</span>, en supplément. Sinon, url non
                   personnalisable, par défaut.
                 </span>
               </li>
@@ -370,7 +370,7 @@ const OffresAuteurs = () => {
                 <AddIcon style={{ color: "magenta" }} />
                 <span>
                   Nom de domaine personnalisé et hébergement pour 1 an,
-                  renouvelable : <span className="font-bold">15€/an</span>, en supplément. Sinon, url non
+                  renouvelable : <span className="font-bold">20€/an</span>, en supplément. Sinon, url non
                   personnalisable, par défaut.
                 </span>
               </li>

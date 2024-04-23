@@ -90,7 +90,7 @@ const OffrePortfolio = () => {
                   <AddIcon style={{ color: "magenta" }} />
                   <span>
                     Nom de domaine personnalisé et hébergement pour 1 an,
-                    renouvelable : <span className="font-bold">15€/an</span>, en supplément. Sinon, url non
+                    renouvelable : <span className="font-bold">20€/an</span>, en supplément. Sinon, url non
                     personnalisable, par défaut.
                   </span>
                 </li>
@@ -185,7 +185,7 @@ const OffrePortfolio = () => {
                   <AddIcon style={{ color: "magenta" }} />
                   <span>
                     Nom de domaine personnalisé et hébergement pour 1 an,
-                    renouvelable : <span className="font-bold">15€/an</span>, en supplément.
+                    renouvelable : <span className="font-bold">20€/an</span>, en supplément.
                   </span>
                 </li>
                 {/* <li className="flex items-center space-x-3">
@@ -279,7 +279,7 @@ const OffrePortfolio = () => {
                   <AddIcon style={{ color: "magenta" }} />
                   <span>
                     Nom de domaine personnalisé et hébergement pour 1 an,
-                    renouvelable : <span className="font-bold">15€/an</span>, en supplément.
+                    renouvelable : <span className="font-bold">20€/an</span>, en supplément.
                   </span>
                 </li>
                 {/* <li className="flex items-center space-x-3">
