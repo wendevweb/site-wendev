@@ -12,9 +12,10 @@ import Kay from "../assets/Kay.webp";
 import Lea from "../assets/Lea.webp";
 import Elsa from "../assets/Elsa.webp";
 import Florent from "../assets/Florent.webp";
-import Olivier from '../assets/Olivier.webp';
+import Olivier from "../assets/Olivier.webp";
 import Virginie from "../assets/virginie.webp";
 import Nicolas from "../assets/Nicolas.webp";
+import Loriot from "../assets/Loriot.webp";
 import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
 
@@ -107,6 +108,27 @@ const PageOffreAuteurs = () => {
             Offre premium, l'offre préférée des auteurs !
           </h4>
           <div className="lg:grid grid-cols-3 gap-4">
+            {/* ANNE-SOPHIE LORIOT*/}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Loriot}
+                alt="Site internet d'Anne-Sophie Loriot, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Anne-Sophie Loriot, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.annesophieloriotauteure.com/"
+                  alt="Site internet d'Anne-Sophie Loriot, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet d'Anne-Sophie Loriot, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+              <p className="mt-10">Avec option formulaire PayPal</p>
+            </div>
 
             {/* NICOLAS PELLOLIO*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
@@ -149,6 +171,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* FLORENT BARTHEL*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -169,6 +192,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* KAY NORDE*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -189,6 +213,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* ELISABET GUILLOT*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -209,6 +234,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* ELSA ERRACK */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -229,6 +255,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* FARAH D. */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -249,6 +276,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* ALEXANDRA ROCH*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -269,6 +297,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* FRANCK J. MATTHEWS */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -289,6 +318,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* ELISA AVRAIN */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -353,7 +383,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
-            
+
             {/* DOM TERRENCE */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img

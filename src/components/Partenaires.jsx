@@ -4,23 +4,26 @@ const Partenaires = () => {
   const partners = [
     {
       id: 1,
-      name: "Nono du web",
-      desc: "Développeur web, copywriter, création de logos et formateur en informatique. C'est le cosmonaute de l'espace !",
-      website: "https://www.nonoweb17.fr/",
-      logo: "https://www.nonoweb17.fr/assets/logo-97c07f1d.png",
+      name: "Philomène Frébault - MasterAutoédition",
+      desc: "Romancière autoéditée, j’ai créé fin 2023 ma newsletter sur LinkedIn™ afin de guider les auteurs indépendants dans leur aventure éditoriale et entrepreneuriale.",
+      website:
+        "https://www.linkedin.com/in/philom%C3%A8ne-fr%C3%A9bault-romanci%C3%A8re-psychologie-criminalit%C3%A9-/",
+      logo: "https://i.goopics.net/qrtq6r.png",
     },
     {
       id: 2,
       name: "GraphArt's",
       desc: "Infographiste Metteur en page, conseils en identité numérique et design sur Instagram.",
-      website: "https://ccgrapharts.wixsite.com/graphart-s?fbclid=PAAabS0o9R4h8O6PcPrk3b9wd_7fRuM6R12Dk906-KLgD2JXXNW0E9TEtvHr8",
+      website:
+        "https://ccgrapharts.wixsite.com/graphart-s?fbclid=PAAabS0o9R4h8O6PcPrk3b9wd_7fRuM6R12Dk906-KLgD2JXXNW0E9TEtvHr8",
       logo: "https://i.goopics.net/968zt6.png",
     },
     {
       id: 3,
       name: "Farah D.",
       desc: "Autrice en autoédition, Ecriture de résumés et bêta-lecture",
-      website: "https://www.farahdauteure.com/avis-prestation-beta-lectureresume",
+      website:
+        "https://www.farahdauteure.com/avis-prestation-beta-lectureresume",
       logo: "https://i.goopics.net/7oe33h.png",
     },
     {
@@ -58,7 +61,6 @@ const Partenaires = () => {
       website: "https://ed-multi-partners.jimdosite.com/",
       logo: "https://jimdo-storage.freetls.fastly.net/image/440839526/6e276933-a6a2-4ef8-b865-da9a0b5d4b38.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1024&height=1024&trim=67,208,645,204",
     },
-    
   ];
   return (
     <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
@@ -66,7 +68,12 @@ const Partenaires = () => {
         <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
           Mes partenaires du monde littéraire
         </h3>{" "}
-        <p className="tracking-tight text-xl pt-10 pb-10">Il est temps de voir votre projet en grand ! Et si vous faisiez appel à mes partenaires de confiance, avec lesquels je partage mes valeurs et ma manière de travailler ? <br /> Je vous propose un large choix de professionnels à votre écoute.</p>
+        <p className="tracking-tight text-xl pt-10 pb-10">
+          Il est temps de voir votre projet en grand ! Et si vous faisiez appel
+          à mes partenaires de confiance, avec lesquels je partage mes valeurs
+          et ma manière de travailler ? <br /> Je vous propose un large choix de
+          professionnels à votre écoute.
+        </p>
       </div>
       <div className="grid lg:grid-cols-4 gap-10">
         {partners.map((partner) => (
@@ -86,10 +93,10 @@ const Partenaires = () => {
             <button
               className="w-40 m-4 border shadow-lg text-pinkDark border-pinkDark font-bold rounded-md mt-2 p-2 hover:bg-pinkDark hover:text-white"
               alt="Redirection vers la page du partner de WenDev"
-              target="_blank"
-              rel="noreferrer"
             >
-              <a href={partner.website}>Voir ses services</a>
+              <a href={partner.website} target="_blank" rel="noreferrer">
+                Voir ses services
+              </a>
             </button>
           </div>
         ))}

@@ -39,12 +39,12 @@ const Testimonials = () => {
       client: "Elisabet, auteure",
       avis: "Excellents échanges. Professionnelle rapide, efficace, patiente. Le résultat va au-delà de mes attentes.",
       avatar:
-        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=606,fit=crop/YrD1MeGzKXhb8OB9/elisabet-guillot-2-YNqORDJ88et8eNnw.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=606,fit=crop/YrD1MeGzKXhb8OB9/elisabet-guillot-2-mv0lEGPEEnURLZMe.webp",
     },
 
     {
       id: 6,
-      client: "Kay Norde, auteure",
+      client: "Kay, auteure",
       avis: "Wendy a créé le site web idéal pour moi, abordant aussi bien mon travail d'autrice que d'illustratrice. Elle a été très à l'écoute, réactive et efficace. De plus, elle s'est facilement adaptée à mes besoins, puisque je l'ai contactée avec une idée bien précise en tête. Je recommande !",
       avatar:
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=503,h=503,fit=crop/mk38be03x9ikbkQL/photokaynorde-min-Y4L820RrGBHyVqnR.png",

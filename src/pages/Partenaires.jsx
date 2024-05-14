@@ -6,13 +6,12 @@ const Partenaires = () => {
   const partenaires = [
     {
       id: 1,
-      name: "Nono du Web",
-      title:
-        "Nono du Web - Développeur web, formateur en informatique, copywriter spécialisé dans les emails marketing et créateur de logos",
+      name: "Philomène Frébault",
+      title: "Philomène Frébault - MasterAutoédition",
       descr:
-        "Je m'appelle Arnaud et je suis développeur web depuis février 2022 et formateur depuis octobre 2022. En tant que développeur web, je suis dévoué à offrir un service de qualité à mes clients et à concrétiser leurs projets. Je suis constamment à la recherche de nouvelles opportunités pour améliorer mes compétences et proposer des sites encore meilleurs à mes clients. Je suis une personne curieuse, toujours en quête de connaissances pour rester à la pointe des dernières tendances et technologies du secteur. Je tiens également à exprimer ma gratitude envers WenDev pour ce partenariat prometteur. Je suis convaincu que cette collaboration sera enrichissante et nous permettra de réaliser de belles choses ensemble.",
-      img: "https://www.nonoweb17.fr/assets/logo-97c07f1d.png",
-      link: "https://www.nonoweb17.fr/",
+        "Romancière autoéditée, j’ai créé fin 2023 ma newsletter sur LinkedIn™ afin de guider les auteurs indépendants dans leur aventure éditoriale et entrepreneuriale. La newsletter MasterAutoédition, fondée sur la quête de l’excellence, vous délivre deux fois par mois des clés pour mettre tous les atouts de votre côté et devenir un maître en autoédition. Les démarches administratives, le marketing, le design graphique, le networking et le mindset positif n’auront désormais plus de secrets pour vous !",
+      img: "https://i.goopics.net/qrtq6r.png",
+      link: "https://www.linkedin.com/in/philom%C3%A8ne-fr%C3%A9bault-romanci%C3%A8re-psychologie-criminalit%C3%A9-/",
     },
     {
       id: 2,
@@ -115,9 +114,9 @@ const Partenaires = () => {
                   <strong className="text-pinkDark"> à votre service</strong>
                 </h2>
                 <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
-                  Chez <strong>Wendev</strong>, j'ai à coeur de travailler avec des personnes de
-                  confiance, avec des compétences proches et variées. <br />{" "}
-                  Voici la crème de la crème à votre service !
+                  Chez <strong>Wendev</strong>, j'ai à coeur de travailler avec
+                  des personnes de confiance, avec des compétences proches et
+                  variées. <br /> Voici la crème de la crème à votre service !
                 </p>
               </div>
             </div>
