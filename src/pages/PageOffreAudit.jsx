@@ -2,7 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import ButtonFonctionnement from "../components/ButtonFonctionnement";
-// import OffreAudit from "../components/OffreAudit";
+import OffreAudit from "../components/OffreAudit";
 import Rdv from "../components/Rdv";
 
 const PageOffreMaquette = () => {
@@ -51,36 +51,16 @@ const PageOffreMaquette = () => {
         </div>
       </section>
 
-      <section
-        aria-label="Offre en construction, stay tuned !"
-        className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1  mt-6 mb-6"
-      >
-        <h4 className="text-center text-pinkDark font-bold text-4xl animate-pulse">
-          🛠️ Offre en construction... stay tuned ! 🛠️
-        </h4>
-        <div className="grid justify-items-center">
-          <button className="m-4 mt-10 text-xl border-solid border-2 border-pinkDark shadow-lg bg-real text-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-real">
-            <a
-              href="https://forms.gle/vnr4GYjJj1tkcKxcA"
-              alt="Redirection vers l'étude de marché des audits de site web."
-              aria-label="Redirection vers l'étude de marché des audits de site web."
-              target="_blank"
-              rel="noreferrer"
-            >
-              🏷️ Répondez à mon étude de marché et bénficiez d'une remise
-              exclusive au lancement du service
-            </a>
-          </button>
-        </div>
-      </section>
-      {/* <Fade>
+      <Fade>
         <section
           aria-label="Grille tarifaire de l'offre de création de maquettes et prototypes pour le web."
           className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
         >
           <OffreAudit />
+          <p className="text-xl tracking-tight">Vous avez un site WordPress et vous souhaitez une refonte/mise à jour ? <br/> Je ne travaille pas avec WordPress, alors l'audit de votre site peut être la solution optimale pour que je puisse vous aider !</p>
+
         </section>
-      </Fade> */}
+      </Fade>
 
       <ButtonFonctionnement />
 

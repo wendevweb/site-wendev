@@ -37,28 +37,6 @@ const Expertise = () => {
       desc: "Que vous soyez artiste, artisan, commerçant, débutant ou chevronné, avoir un portfolio est essentiel pour présenter vos projets, mettre en valeur votre travail et qui vous êtes. Je vous livre une solution fonctionnelle, personnalisée, faite pour en mettre plein les yeux à ceux qui le regarderont !",
       link: "/OffrePortfolio",
     },
-    // {
-    //   id: 4,
-    //   title: "Pages d'authentification sécurisée avec Firebase",
-    //   img: "https://cdn.pixabay.com/photo/2016/08/13/20/07/credit-card-1591492_960_720.jpg",
-    //   desc: "Tu souhaites que tes utilisateurs s'authentifient sur ton application ou ton site internet de manière sécurisée ? Grâce à Firebase, je te propose une solution clefs en mains !",
-    //   link: "/OffreFirebase",
-    // },
-    // {
-    //   id: 5,
-    //   title: "Création d'application mobile avec Glide",
-    //   img: "https://cdn.pixabay.com/photo/2015/07/03/17/23/iphone-830480_960_720.jpg",
-    //   desc: "Une application mobile est le must have pour ton entreprise ou pour ta marque ! Et tout cela, sans base de données à construire. Je transforme ton tableur Google Sheet ou Airtable en application pour mobile.",
-    //   link: "/OffreGlide",
-    // },
-
-    // {
-    //   id: 8,
-    //   title: "Création de chats et chatbots personnalisés et sécurisés",
-    //   img: "https://cdn.pixabay.com/photo/2018/03/16/19/10/communication-3232227_960_720.jpg",
-    //   desc: "Echanger avec ses collègues, ses amis, sa familles, etc. de manière fun et sécurisée, ou répondre automatiquement aux questions de tes utilisateurs selon des chemins prédéfinis est dans l'air du temps. Je crée ton chatbot ou ton serveur de chat personnalisés et sécurisés.",
-    //   link: "/OffreChat",
-    // },
   ];
 
   return (

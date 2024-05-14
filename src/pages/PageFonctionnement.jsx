@@ -17,7 +17,10 @@ const PageFonctionnement = () => {
         <title>Fonctionnement | WenDev</title>
         <link href="https://www.wendev.fr/Fonctionnement" />
       </Helmet>
-      <section id="fonctionnement" aria-label="Bannière de présentation du déroulement d'un projet avec WenDev.">
+      <section
+        id="fonctionnement"
+        aria-label="Bannière de présentation du déroulement d'un projet avec WenDev."
+      >
         <div
           className="relative overflow-hidden bg-no-repeat bg-cover"
           style={{
@@ -39,8 +42,9 @@ const PageFonctionnement = () => {
                 </h2>
                 <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
                   Vous avez envie de me confier la création de votre projet
-                  numérique ? <br/> Découvrez étape par étape comment nous allons travailler
-                  ensemble et les questions les plus fréquentes.
+                  numérique ? <br /> Découvrez étape par étape comment nous
+                  allons travailler ensemble et les questions les plus
+                  fréquentes.
                 </p>
               </div>
             </div>
@@ -49,12 +53,20 @@ const PageFonctionnement = () => {
       </section>
       <Fade>
         <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
-          <section aria-label="Description tape par étape du déroulement d'un projet avec Wendev." className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+            <strong>
+              Pour les prestations de création de site web, refonte, portfolio
+              et maquette
+            </strong>
+          </h3>
+          <section
+            aria-label="Description tape par étape du déroulement d'un projet avec Wendev."
+            className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2"
+          >
             <img src={wendev1} alt="" className="h-fit" />
             <ol className="tracking-tight list-decimal text-xl">
               <li className="list-decimal">
-                Vous avez un projet web et vous êtes intéressé.e par un ou plusieurs de
-                mes services. C'est trop cool ! 🤩
+                Vous avez un projet web et vous êtes intéressé.e par mes services. C'est trop cool ! 🤩
               </li>
               <br />
               <li>
@@ -68,22 +80,23 @@ const PageFonctionnement = () => {
                 >
                   <span className="font-bold text-pinkDark">Calendly</span>
                 </a>{" "}
-                à la date et à l'heure de votrechoix (réunion en visio via Google
-                Meet, d'1/2h en général, possibilité par téléphone également) pour discuter de votre projet et voir
-                comment je peux le mettre en valeur avec une solution numérique
-                sur mesure.
+                à la date et à l'heure de votre choix (réunion en visio via
+                Google Meet, d'1/2h en général, possibilité par téléphone
+                également) pour discuter de votre projet et voir comment je peux
+                le mettre en valeur avec une solution numérique sur mesure.
               </li>
               <br />
 
               <li>
-                Je vous fais un devis gratuitement, que vous pourrez signer directement via PandaDoc (une application
-                d'envoi et de signature de documents 100% en ligne et sécurisé).
+                Je vous fais un devis gratuitement, que vous pourrez signer
+                directement via PandaDoc (une application d'envoi et de
+                signature de documents 100% en ligne et sécurisé).
               </li>
               <br />
 
               <li>
-                J'attends votre retour et vos envies de modifications. Si besoin,
-                nous reprenons rendez-vous pour en discuter.😉
+                J'attends votre retour et vos envies de modifications. Si
+                besoin, nous reprenons rendez-vous pour en discuter.😉
               </li>
               <br />
 
@@ -91,22 +104,25 @@ const PageFonctionnement = () => {
               <br />
 
               <li>
-                Je vous demande des informations supplémentaires qui me
-                seront nécessaires pour le contenu de votre site (les couvertures des livres, leurs résumés, les liens d'achat, les avis de vos lecteurs, les liens de vos réseaux sociaux, vos prochains événements littéraires, etc.).
+                Je vous demande des informations supplémentaires qui me seront
+                nécessaires pour le contenu de votre site (les couvertures des
+                livres, leurs résumés, les liens d'achat, les avis de vos
+                lecteurs, les liens de vos réseaux sociaux, vos prochains
+                événements littéraires, etc.).
               </li>
               <br />
 
               <li>
-                Une fois l'acompte reçu, je commence à travailler sur votre super
-                projet !
+                Une fois l'acompte reçu, je commence à travailler sur votre
+                super projet !
               </li>
               <br />
 
               <li>
                 Je vous envoie une version démo de votre solution numérique en
-                fonction de l'offre ou des offres que vous avez choisies. C'est le
-                moment de me dire si cela convient à vos envies !
-                Si besoin, nous pouvons reprendre rendez-vous pour en discuter.
+                fonction de l'offre ou des offres que vous avez choisies. C'est
+                le moment de me dire si cela convient à vos envies ! Si besoin,
+                nous pouvons reprendre rendez-vous pour en discuter.
               </li>
               <br />
 
@@ -114,27 +130,80 @@ const PageFonctionnement = () => {
               <br />
 
               <li>
-                Dès que j'ai reçu l'intégralité de la somme due, je finalise la mise en ligne et vous envoie ta
-                solution numérique clé en main et vous n'aurez plus qu'à
-                l'utiliser comme bon vous semble ! 🥳
+                Dès que j'ai reçu l'intégralité de la somme due, je finalise la
+                mise en ligne et vous envoie ta solution numérique clé en main
+                et vous n'aurez plus qu'à l'utiliser comme bon vous semble ! 🥳
               </li>
               <br />
               <li className="pb-10">
                 <span className="font-bold text-pinkDark">Bonus !</span> Si le
-                service que vous avez choisi le prévoit, je mets en avant votre projet
-                et votre profil sur mes réseaux sociaux.
+                service que vous avez choisi le prévoit, je mets en avant votre
+                projet et votre profil sur mes réseaux sociaux.
               </li>
-              < Rdv />
+              <Rdv />
+            </ol>
+          </section>
+        </div>
+      </Fade>
+      <Fade>
+        <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+            <strong>Pour la prestation d'audit de site web</strong>
+          </h3>
+          <section
+            aria-label="Description tape par étape du déroulement d'un projet avec Wendev."
+            className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2"
+          >
+            <img src={wendev2} alt="" className="h-fit" />
+            <ol className="tracking-tight list-decimal text-xl">
+              <li className="list-decimal">
+                Vous souhaitez bénéficier des compétences d'une pro du web pour
+                améliorer un site internet existant ou un site WordPress pour
+                lequel je ne peux pas vous proposer une refonte ? J'ai ce qu'il
+                vous faut !👍
+              </li>
+              <br />
+              <li className="list-decimal">
+                Le montant de la prestation est à régler en une seule fois avant
+                l'heure du rdv, par PayPal.
+              </li>
+              <br />
+              <li>
+                Nous prenons rendez-vous avec{" "}
+                <a
+                  href="https://calendly.com/wendevweb/premier-rendez-vous"
+                  alt="Redirection vers le portfolio de Wendy Baqué"
+                  aria-label="Redirection vers la prise de rendez-vous"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  <span className="font-bold text-pinkDark">Calendly</span>
+                </a>{" "}
+                à la date et à l'heure de votre choix (réunion en visio via
+                Google Meet, d'1/2h, possibilité par téléphone également) pour
+                analyser ensemble et en direct votre site web.
+              </li>
+              <br />
+              <li>
+                Après la prestation, je vous envoie un document récapitulant
+                tout ce que l'on s'est dit durant notre Meet, avec des exemples
+                concrets et des ressources en ligne pour vous aider.
+              </li>
+              <br />
+              <Rdv />
             </ol>
           </section>
         </div>
       </Fade>
       <Fade>
         <div className="max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
-            <h2 className="text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight text-pinkDark">
-              Foire aux questions
-            </h2>
-          <section aria-label="Foire aux questions."  className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+          <h2 className="text-2xl md:text-6xl xl:text-7xl font-bold tracking-tight text-pinkDark">
+            Foire aux questions
+          </h2>
+          <section
+            aria-label="Foire aux questions."
+            className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
+          >
             <div className="tracking-tight text-xl lg:p-10 lg:grid grid-cols-1 gap-4">
               <Disclosure>
                 {({ open }) => (
@@ -158,15 +227,15 @@ const PageFonctionnement = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                        Pour toute question ou demande, vous pouvez me contacter par
-                        e-mail à cette adresse :{" "}
+                        Pour toute question ou demande, vous pouvez me contacter
+                        par e-mail à cette adresse :{" "}
                         <span className=" text-pinkDark">
                           wendevweb@gmail.com
                         </span>
                         .
                         <br />
-                        Vous pouvez aussi prendre rendez-vous pour discuter de votre
-                        projet{" "}
+                        Vous pouvez aussi prendre rendez-vous pour discuter de
+                        votre projet{" "}
                         <a
                           href="https://calendly.com/wendevweb/premier-rendez-vous"
                           alt="Redirection vers le portfolio de Wendy Baqué"
@@ -217,21 +286,21 @@ const PageFonctionnement = () => {
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                         Je développe mes sites internet à l'aide de librairies
-                        Javascript : React.js et Next.js, des références pour les
-                        applications et les sites web dynamiques en quelques
+                        Javascript : React.js et Next.js, des références pour
+                        les applications et les sites web dynamiques en quelques
                         pages, comme ceux que je vous propose ! Ce sont des
-                        technologies récentes, bien documentées et sécurisées. Pour
-                        le style et le design, il est réalisé à l'aide de
+                        technologies récentes, bien documentées et sécurisées.
+                        Pour le style et le design, il est réalisé à l'aide de
                         Tailwindcss, qui permet de créer des visuels en phase
                         avec les tendances actuelles. <br /> Pour les offres en
                         no-code et celles réservées aux auteurs de livres, je
                         réalise mes solutions numériques avec le Website Builder
                         de Hostinger, mon hébergeur chouchou. Il permet de
-                        réaliser rapidement des sites web sécurisées, au top du modernisme,
-                        avec une optimisation des paramètres SEO.
+                        réaliser rapidement des sites web sécurisées, au top du
+                        modernisme, avec une optimisation des paramètres SEO.
                         <br /> De manière générale, je réalise une veille
-                        documentaire hebdomadaire pour vous proposer des solutions
-                        numériques actualisées et sécurisées.
+                        documentaire hebdomadaire pour vous proposer des
+                        solutions numériques actualisées et sécurisées.
                       </Disclosure.Panel>
                     </Transition>
                   </>
@@ -264,8 +333,10 @@ const PageFonctionnement = () => {
                         engager mon temps et mon énergie. Il nous permet de nous
                         engager tous les deux de manière sécure et pérenne, en
                         toute légalité !<br /> Bon à savoir : Une fois l'acompte
-                        versé, si vous ne souhaitez plus travailler avec moi, vous perdez la totalité de votre acompte versé et je serai en
-                        mesure de vous réclamer des dommages et intérêts.
+                        versé, si vous ne souhaitez plus travailler avec moi,
+                        vous perdez la totalité de votre acompte versé et je
+                        serai en mesure de vous réclamer des dommages et
+                        intérêts.
                       </Disclosure.Panel>
                     </Transition>
                   </>
@@ -298,11 +369,12 @@ const PageFonctionnement = () => {
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                         Dans le monde du web, les techniques et technologies
                         évoluent sans cesse, alors il se peut qu'une solution
-                        numérique devienne obsolète ou ne fonctionne plus le temps d'une mise à jour. Je vous rassure, c'est très
+                        numérique devienne obsolète ou ne fonctionne plus le
+                        temps d'une mise à jour. Je vous rassure, c'est très
                         rare... mais possible ! Pas de panique.😉 Il vous suffit
-                        de me le signaler (si je ne l'ai pas vu avant vous) et je
-                        mettrai votre projet au goût du jour dans les plus brefs
-                        délais.
+                        de me le signaler (si je ne l'ai pas vu avant vous) et
+                        je mettrai votre projet au goût du jour dans les plus
+                        brefs délais.
                       </Disclosure.Panel>
                     </Transition>
                   </>
@@ -333,16 +405,16 @@ const PageFonctionnement = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                        Avec <strong>WenDev</strong>, tout est possible ! Je serai ravie de
-                        travailler sur ton projet s'il sort des sentiers battus
-                        et de ce que je propose comme services. Vous pouvez me
-                        contacter directement via la page Contact de ce site ou
-                        m'envoyer un e-mail à l'adresse suivante :{" "}
+                        Avec <strong>WenDev</strong>, tout est possible ! Je
+                        serai ravie de travailler sur ton projet s'il sort des
+                        sentiers battus et de ce que je propose comme services.
+                        Vous pouvez me contacter directement via la page Contact
+                        de ce site ou m'envoyer un e-mail à l'adresse suivante :{" "}
                         <span className=" text-pinkDark">
                           wendevweb@gmail.com
                         </span>{" "}
-                        pour me parler de votre projet numérique. Je suis sûre que
-                        nous pourrons trouver une solution ensemble et je
+                        pour me parler de votre projet numérique. Je suis sûre
+                        que nous pourrons trouver une solution ensemble et je
                         pourrais vous faire un devis totalement personnalisé.
                       </Disclosure.Panel>
                     </Transition>
@@ -375,8 +447,8 @@ const PageFonctionnement = () => {
                       leaveTo="transform scale-95 opacity-0"
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
-                        Vous avez envie de remettre ta solution numérique au goût du
-                        jour ou de rajouter des fonctionnalités que nous
+                        Vous avez envie de remettre ta solution numérique au
+                        goût du jour ou de rajouter des fonctionnalités que nous
                         n'avions pas prévues au départ ou votre activité évolue,
                         alors que votre projet est déjà terminé depuis quelques
                         temps ? C'est super ! 🤩
@@ -386,8 +458,9 @@ const PageFonctionnement = () => {
                           wendevweb@gmail.com
                         </span>{" "}
                         ou reprendre rendez-vous via la page de Contact pour que
-                        je puisse étudier la faisabilité de l'évolution souhaitée et vous faire une offre sur mesure en fonction de
-                        ce que vous voulez ajouter. 😉
+                        je puisse étudier la faisabilité de l'évolution
+                        souhaitée et vous faire une offre sur mesure en fonction
+                        de ce que vous voulez ajouter. 😉
                       </Disclosure.Panel>
                     </Transition>
                   </>
@@ -420,8 +493,8 @@ const PageFonctionnement = () => {
                     >
                       <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
                         Oups ! 😱 Un oubli ou quelque chose que nous n'avions
-                        pas anticipé, cela arrive ! 😉 Vous pouvez me contacter par
-                        e-mail à cette adresse :{" "}
+                        pas anticipé, cela arrive ! 😉 Vous pouvez me contacter
+                        par e-mail à cette adresse :{" "}
                         <span className=" text-pinkDark">
                           wendevweb@gmail.com
                         </span>{" "}
@@ -436,7 +509,6 @@ const PageFonctionnement = () => {
               </Disclosure>
               <br />
             </div>
-            <img src={wendev2} alt="" className="h-fit" />
           </section>
         </div>
       </Fade>

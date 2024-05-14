@@ -47,8 +47,9 @@ const PageOffreSite = () => {
                   <strong className="text-pinkDark">Sites internet</strong>
                 </h2>
                 <p className="text-white sm:text-xl">
-                  Avoir son propre <strong>site internet</strong> comporte bien des avantages.
-                  C'est un réel atout pour votre marque ou votre entreprise !
+                  Avoir son propre <strong>site internet</strong> comporte bien
+                  des avantages. C'est un réel atout pour votre marque ou votre
+                  entreprise !
                   <br />
                   Grâce à React, Next.js et Tailwindcss, des technologies
                   récentes, personnalisables et fiables, jevous propose un site
@@ -81,7 +82,7 @@ const PageOffreSite = () => {
       <ButtonFonctionnement />
       <Fade>
         <section
-          aria-label="Refonte et mise à jour de site existan,t"
+          aria-label="Refonte et mise à jour de site existant"
           className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
         >
           <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
@@ -92,16 +93,31 @@ const PageOffreSite = () => {
             moi, votre site fera peau neuve. <br />
             Venez en discuter avec moi pour que je vous propose un service sur
             mesure en fonction de ce qui existe déjà pour votre site ! <br />
-            (Hors Wordpress et boutiques en ligne/e-commerce)
+            (Hors boutiques en ligne/e-commerce).
+            <br />
+            Vous avez un site WordPress et vous souhaitez une refonte/mise à
+            jour ? Je ne travaille pas avec WordPress, alors l'audit de votre
+            site peut être la solution optimale pour que je puisse vous aider !
           </p>
+          <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
           <Link to="/Contact">
             <button
               className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
-              alt="Redirection vers la page du service de WenDev"
+              alt="Redirection vers la page de contact de WenDev"
             >
               Contact
             </button>
           </Link>
+          <Link to="/OffreAudit">
+            <button
+              className="mt-10 lg:ml-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+              alt="Redirection vers la page du service de WenDev"
+            >
+              Je veux un audit de mon site
+            </button>
+          </Link>
+          </section>
+          
         </section>
       </Fade>
       <Fade>
