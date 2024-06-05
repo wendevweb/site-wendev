@@ -21,13 +21,13 @@ const OffreMaquette = () => {
             </h3>
             <div className="flex justify-center items-baseline my-8">
               <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                30€
+                33€
               </span>
             </div>
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
-                <span>1/2 heure en individuel avec une pro du web</span>
+                <span>1/2 heure à 1h en individuel avec une pro du web</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />

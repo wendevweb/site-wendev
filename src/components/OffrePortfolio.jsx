@@ -19,7 +19,7 @@ const OffrePortfolio = () => {
               <h3 className="mb-4 text-2xl font-semibold">Portfolio no-code</h3>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                  250€
+                  275€
                 </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
@@ -114,7 +114,7 @@ const OffrePortfolio = () => {
               <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                  300€
+                  330€
                 </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
@@ -208,7 +208,7 @@ const OffrePortfolio = () => {
               <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                  450€
+                  495€
                 </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">

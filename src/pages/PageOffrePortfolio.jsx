@@ -44,6 +44,7 @@ const PageOffrePortfolio = () => {
                   C'est un peu comme un CV... mais en mieux ! 😉 <br />
                   Je vous livre une solution fonctionnelle, personnalisée, faite
                   pour en mettre plein les yeux à ceux qui le regarderont ! 🤩
+                  <br/> Avec moi, finie la charge mentale de la mise à jour de votre portfolio ! Je m'occupe de tout de A à Z.
                 </p>
               </div>
             </div>

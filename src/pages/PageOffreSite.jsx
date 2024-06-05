@@ -59,6 +59,7 @@ const PageOffreSite = () => {
                   budgets.
                   <br /> Découvrez mon offre de création de site web adaptée à
                   vos besoins numériques. <br />
+                  Avec moi, finie la charge mentale de la mise à jour de votre site ! Je m'occupe de tout de A à Z.
                 </p>
               </div>
             </div>

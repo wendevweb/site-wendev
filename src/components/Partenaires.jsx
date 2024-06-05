@@ -7,7 +7,7 @@ const Partenaires = () => {
       name: "Philomène Frébault - MasterAutoédition",
       desc: "Romancière autoéditée, j’ai créé fin 2023 ma newsletter sur LinkedIn™ afin de guider les auteurs indépendants dans leur aventure éditoriale et entrepreneuriale.",
       website:
-        "https://www.linkedin.com/in/philom%C3%A8ne-fr%C3%A9bault-romanci%C3%A8re-psychologie-criminalit%C3%A9-/",
+        "https://www.linkedin.com/newsletters/masterauto%C3%A9dition-7122599472240447488/",
       logo: "https://i.goopics.net/qrtq6r.png",
     },
     {
@@ -47,13 +47,13 @@ const Partenaires = () => {
       website: "https://www.franckjmatthews.com/coaching-litteraire",
       logo: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=534,h=400,fit=crop/AoPZ2xegaQt8NqLy/biographie-m2WBNjpe2buQRBO6.jpg",
     },
-    {
-      id: 7,
-      name: "Fabien Dedieu - Cardebook",
-      desc: "Des cartes à flasher contenant un ouvrage numérique/vidéos/audios, outil d'aide à l'écriture et générateur de livre audio par IA.",
-      website: "https://www.cardebook.net",
-      logo: "https://i.goopics.net/t5h0ss.jpg",
-    },
+    // {
+    //   id: 7,
+    //   name: "Fabien Dedieu - Cardebook",
+    //   desc: "Des cartes à flasher contenant un ouvrage numérique/vidéos/audios, outil d'aide à l'écriture et générateur de livre audio par IA.",
+    //   website: "https://www.cardebook.net",
+    //   logo: "https://i.goopics.net/t5h0ss.jpg",
+    // },
     {
       id: 8,
       name: "Emilie David - ED Multi-Services",

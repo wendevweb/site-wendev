@@ -18,7 +18,7 @@ const OffresAuteurs = () => {
             <h3 className="mb-4 text-2xl font-semibold">Basic</h3>
             <div className="flex justify-center items-baseline my-8">
               <span className="text-pinkDark mr-2 text-5xl font-extrabold">
-                60€
+                66€
               </span>
             </div>
             <ul className="mb-8 space-y-4 text-left">
@@ -130,7 +130,7 @@ const OffresAuteurs = () => {
           <div className="bg-gradient-to-r from-purple  to-pinkDark dark:bg-black text-white transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center rounded-md shadow-lg xl:p-8">
             <h3 className="mb-4 text-2xl text-real font-semibold">Standard</h3>
             <div className="flex justify-center items-baseline my-8">
-              <span className="text-realmr-2 text-5xl font-extrabold">90€</span>
+              <span className="text-realmr-2 text-5xl font-extrabold">99€</span>
             </div>
             <ul className="mb-8 space-y-4 text-left">
               <li className="flex items-center space-x-3">
@@ -258,7 +258,7 @@ const OffresAuteurs = () => {
             <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
             <div className="flex justify-center items-baseline my-8">
               <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                180€
+                198€
               </span>
             </div>
             <ul className="mb-8 space-y-4 text-left">

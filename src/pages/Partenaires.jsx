@@ -11,7 +11,7 @@ const Partenaires = () => {
       descr:
         "Romancière autoéditée, j’ai créé fin 2023 ma newsletter sur LinkedIn™ afin de guider les auteurs indépendants dans leur aventure éditoriale et entrepreneuriale. La newsletter MasterAutoédition, fondée sur la quête de l’excellence, vous délivre deux fois par mois des clés pour mettre tous les atouts de votre côté et devenir un maître en autoédition. Les démarches administratives, le marketing, le design graphique, le networking et le mindset positif n’auront désormais plus de secrets pour vous !",
       img: "https://i.goopics.net/qrtq6r.png",
-      link: "https://www.linkedin.com/in/philom%C3%A8ne-fr%C3%A9bault-romanci%C3%A8re-psychologie-criminalit%C3%A9-/",
+      link: "https://www.linkedin.com/newsletters/masterauto%C3%A9dition-7122599472240447488/",
     },
     {
       id: 2,
