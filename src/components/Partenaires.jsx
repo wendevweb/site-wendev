@@ -28,10 +28,10 @@ const Partenaires = () => {
     },
     {
       id: 4,
-      name: "Annuaire Auto-édités",
+      name: "Bookstannuaire",
       desc: "Répertoire des auteurs et des livres en auto-édition pour améliorer ta visibilité et rejoindre une communauté d'entraide. ",
       website: "https://annuaire-auto-edites.johnlucas.fr/",
-      logo: "https://annuaire-auto-edites.johnlucas.fr/wp-content/uploads/2021/02/logo.png",
+      logo: "https://annuaire-auto-edites.johnlucas.fr/wp-content/uploads/2024/06/logo-annuaire.png",
     },
     {
       id: 5,

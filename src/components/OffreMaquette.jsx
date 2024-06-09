@@ -20,7 +20,7 @@ const OffreMaquette = () => {
             </h3>
             <div className="flex justify-center items-baseline my-8">
               <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                111€ par page
+                110€ par page
               </span>
             </div>
             <ul className="mb-8 space-y-4 text-left">

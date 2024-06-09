@@ -35,13 +35,13 @@ const Partenaires = () => {
     },
     {
       id: 4,
-      name: "Annuaire Auto-édités",
+      name: "Bookstannuaire",
       title: "Répertoire des auteurs et des livres en auto-édition",
       descr:
         "Ce site a été créé dans le but de référencer les auteurs auto-édités, afin de leur donner un peu plus de visibilité. Vous y trouverez des fiches auteurs ainsi que des fiches livres que vous pourrez noter et commenter. Vous pourrez aussi gérer votre collection de livres d’auteurs auto-édités.",
       offer:
         "10% de réduction sur mes offres de services aux auteurs en étant référencé sur ce site.",
-      img: "https://annuaire-auto-edites.johnlucas.fr/wp-content/uploads/2021/02/logo.png",
+      img: "https://annuaire-auto-edites.johnlucas.fr/wp-content/uploads/2024/06/logo-annuaire.png",
       link: "https://annuaire-auto-edites.johnlucas.fr/",
     },
     {
@@ -65,16 +65,16 @@ const Partenaires = () => {
       img: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=534,h=400,fit=crop/AoPZ2xegaQt8NqLy/biographie-m2WBNjpe2buQRBO6.jpg",
       link: "https://www.franckjmatthews.com/coaching-litteraire",
     },
-    {
-      id: 7,
-      name: "Fabien Dedieu - CARDEBOOK",
-      title: "Fabien Dedieu - CARDEBOOK",
-      descr:
-        "Inventeur multi-récompensé et développeur de plusieurs applications à succès. Innovateur dans l'âme, je crée et lance des concepts novateurs dans le domaine de l'édition. Je suis devenu, en 3 ans, une référence dans l'innovation numérique. La marque cardebook : des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
-      offer: "20% de réduction sur tous les services complet auteurs.",
-      img: "https://i.goopics.net/t5h0ss.jpg",
-      link: "https://www.cardebook.net",
-    },
+    // {
+    //   id: 7,
+    //   name: "Fabien Dedieu - CARDEBOOK",
+    //   title: "Fabien Dedieu - CARDEBOOK",
+    //   descr:
+    //     "Inventeur multi-récompensé et développeur de plusieurs applications à succès. Innovateur dans l'âme, je crée et lance des concepts novateurs dans le domaine de l'édition. Je suis devenu, en 3 ans, une référence dans l'innovation numérique. La marque cardebook : des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
+    //   offer: "20% de réduction sur tous les services complet auteurs.",
+    //   img: "https://i.goopics.net/t5h0ss.jpg",
+    //   link: "https://www.cardebook.net",
+    // },
     {
       id: 8,
       name: "Emilie David - ED Multiservices (en langue française)",
