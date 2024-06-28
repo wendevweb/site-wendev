@@ -16,6 +16,7 @@ import Olivier from "../assets/Olivier.webp";
 import Virginie from "../assets/virginie.webp";
 import Nicolas from "../assets/Nicolas.webp";
 import Loriot from "../assets/Loriot.webp";
+import Sissy from "../assets/Sissy.webp";
 import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
 
@@ -109,6 +110,28 @@ const PageOffreAuteurs = () => {
             Offre premium, l'offre préférée des auteurs !
           </h4>
           <div className="lg:grid grid-cols-3 gap-4">
+            {/* SISSY BATZY*/}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Sissy}
+                alt="Site internet de Sissy Batzy, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet de Sissy Batzy, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.sissy-batzy.com/"
+                  alt="Site internet de Sissy Batzy, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet de Sissy Batzy, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+              <p className="mt-10">Avec option formulaire PayPal</p>
+            </div>
+
             {/* ANNE-SOPHIE LORIOT*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
