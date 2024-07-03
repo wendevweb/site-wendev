@@ -17,6 +17,7 @@ import Virginie from "../assets/virginie.webp";
 import Nicolas from "../assets/Nicolas.webp";
 import Loriot from "../assets/Loriot.webp";
 import Sissy from "../assets/Sissy.webp";
+import Jc from "../assets/jc.webp";
 import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
 
@@ -60,7 +61,8 @@ const PageOffreAuteurs = () => {
                   <br />
                   Je vous propose une bonne alternative à une boutique
                   e-commerce... sans les frais habituels ! 😉
-                  <br/> Avec moi, finie la charge mentale de la mise à jour de votre site ! Je m'occupe de tout de A à Z.
+                  <br /> Avec moi, finie la charge mentale de la mise à jour de
+                  votre site ! Je m'occupe de tout de A à Z.
                 </p>
                 {/* <div className="grid grid-cols-1 place-items-center">
                   <button className="mt-10 mb-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
@@ -110,6 +112,26 @@ const PageOffreAuteurs = () => {
             Offre premium, l'offre préférée des auteurs !
           </h4>
           <div className="lg:grid grid-cols-3 gap-4">
+            {/* JC STAIGNIER*/}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Jc}
+                alt="Site internet de JC Staignier, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet de JC Staignier, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.jcstaignierauteure.com/"
+                  alt="Site internet de JC Staignier, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet de JC Staignier, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
             {/* SISSY BATZY*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img

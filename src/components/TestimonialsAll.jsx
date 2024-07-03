@@ -96,6 +96,20 @@ const Testimonials = () => {
       avatar:
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1212,h=1814,fit=crop/dJoJxjOnzRHqoa4N/portrait2-reduit-YbNaxxk3aeC79p6W.webp",
     },
+    {
+      id: 13,
+      client: "Sissy Batzy",
+      avis: "WenDev m'a créé un site web à mon image, tout ce que j'attendais et très simple d'utilisation. Elle a géré toute l partie mentions obligatoires et autres joyeusetés. Un super design en résultat, je la recommande à 1000%.",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=297,h=297,fit=crop/m2W4pk8RR2f9zJqo/logo_sissy_batzy-removebg-preview-AMqneG38XpFlzDly.webp",
+    },
+    {
+      id: 14,
+      client: "Rose-Marie Waltzer",
+      avis: "J'ai confié la création de mon site web à Wendy et j'en suis ravie! (domaine de la traduction, site web de 4 pages en 3 langues). Elle a su faire preuve de beaucoup de réactivité, mais aussi de patience devant mes nombreuses corrections et demandes de modifications. De plus, Wendy est honnête, organisée et très sympathique - moi qui suis très exigeante, je la recommande à 100% !",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=400,h=617,fit=crop/YZ92DG9Mz5u846Q4/waltzer_rosemarie_photo-removebg-preview-YleMN1ZbvVCgppoW.webp",
+    },
   ];
   return (
     <section

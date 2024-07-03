@@ -23,7 +23,7 @@ const Partenaires = () => {
       name: "Farah D.",
       desc: "Autrice en autoédition, Ecriture de résumés et bêta-lecture",
       website:
-        "https://www.farahdauteure.com/avis-prestation-beta-lectureresume",
+        "https://www.farahdauteure.com/prestations-auteurs",
       logo: "https://i.goopics.net/7oe33h.png",
     },
     {

@@ -31,7 +31,7 @@ const Partenaires = () => {
       descr:
         "Si vous cherchez une bêta-lectrice sérieuse, vous êtes au bon endroit. Vous êtes en difficulté face à votre résumé pour l'intégrer en 4ème de couverture ? Je suis là pour vous aider. J'aimerais proposer mes services de bêta-lectrice professionnelle, de même que vous aider dans vos résumés de romans et ainsi fournir un résultat soigné et professionnel. Je suis, en pleine réflexion pour développer également d'autres prestations.",
       img: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=144,h=144,fit=crop/mv0LN7ebOPipRqNq/logo_noir-removebg-preview-AMq27aX1WwFE7DKJ.png",
-      link: "https://www.farahdauteure.com/avis-prestation-beta-lectureresume",
+      link: "https://www.farahdauteure.com/prestations-auteurs",
     },
     {
       id: 4,
