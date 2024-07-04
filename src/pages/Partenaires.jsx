@@ -27,9 +27,9 @@ const Partenaires = () => {
       id: 3,
       name: "Farah D.",
       title:
-        "Farah D - Bêta-lectrice bénévole et créatrice de résumés de livres",
+        "Farah D - Lecture finale, booktrailer et mise en relation",
       descr:
-        "Si vous cherchez une bêta-lectrice sérieuse, vous êtes au bon endroit. Vous êtes en difficulté face à votre résumé pour l'intégrer en 4ème de couverture ? Je suis là pour vous aider. J'aimerais proposer mes services de bêta-lectrice professionnelle, de même que vous aider dans vos résumés de romans et ainsi fournir un résultat soigné et professionnel. Je suis, en pleine réflexion pour développer également d'autres prestations.",
+        "Auteure en autoédition, bénéficiez des conseils de Farah sur vos écrits, d'une relecture finale et d'une mise en relation avec l'ensemble de son réseaux de professionnels du livre pour donner vie à votre roman !",
       img: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=144,h=144,fit=crop/mv0LN7ebOPipRqNq/logo_noir-removebg-preview-AMq27aX1WwFE7DKJ.png",
       link: "https://www.farahdauteure.com/prestations-auteurs",
     },

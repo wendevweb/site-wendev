@@ -21,7 +21,7 @@ const Partenaires = () => {
     {
       id: 3,
       name: "Farah D.",
-      desc: "Autrice en autoédition, Ecriture de résumés et bêta-lecture",
+      desc: "Lecture finale, booktrailer et mise en relation avec des professionnels du livre pour donner vie à vos écrits !",
       website:
         "https://www.farahdauteure.com/prestations-auteurs",
       logo: "https://i.goopics.net/7oe33h.png",

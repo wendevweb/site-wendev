@@ -110,6 +110,13 @@ const Testimonials = () => {
       avatar:
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=400,h=617,fit=crop/YZ92DG9Mz5u846Q4/waltzer_rosemarie_photo-removebg-preview-YleMN1ZbvVCgppoW.webp",
     },
+    {
+      id: 15,
+      client: "JC Staignier",
+      avis: "Wendy a créé mon site auteure de A à Z. Réactive, sérieuse, exigeante, à l'écoute, elle a toutes les qualités pour séduire un potentiel client à la recherche d'une développeuse web au top. Elle a réussi à adapter les couleurs du site à mon logo, ce qui prouve son souci du détail. Quand la qualité est au rendez-vous, ce serait une pure perte de temps de ne pas profiter de ses offres adaptées à tous les budgets.",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=650,h=522,fit=crop/AE0poxvgvlTR7ZBm/picto-orange1-ALpJ7nOzgjHgZJwZ.png",
+    },
   ];
   return (
     <section
