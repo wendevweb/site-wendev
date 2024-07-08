@@ -154,6 +154,20 @@ const Footer = () => {
               </a>
             </li>
             <li className="pt-4">SIRET : 95400298600014</li>
+            <li>
+              Cette entreprise est membre de{" "}
+              <a
+                href="https://www.mediateur-consommation-smp.fr/"
+                alt="redirection vers le site de la société médiation professionnelle - médiation à la consommation"
+                aria-label="redirection vers le site de la société médiation professionnelle - médiation à la consommation"
+                target="_blank"
+                rel="noreferrer"
+                className="text-pinkDark hover:font-bold"
+              >
+                la société médiation professionnelle - médiation à la
+                consommation
+              </a>
+            </li>
             <li className="pt-4">
               © 2022-2024 Made with ❤ by{" "}
               <a
