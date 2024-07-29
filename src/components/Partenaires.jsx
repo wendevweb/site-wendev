@@ -47,20 +47,21 @@ const Partenaires = () => {
       website: "https://www.franckjmatthews.com/coaching-litteraire",
       logo: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=534,h=400,fit=crop/AoPZ2xegaQt8NqLy/biographie-m2WBNjpe2buQRBO6.jpg",
     },
-    // {
-    //   id: 7,
-    //   name: "Fabien Dedieu - Cardebook",
-    //   desc: "Des cartes à flasher contenant un ouvrage numérique/vidéos/audios, outil d'aide à l'écriture et générateur de livre audio par IA.",
-    //   website: "https://www.cardebook.net",
-    //   logo: "https://i.goopics.net/t5h0ss.jpg",
-    // },
     {
-      id: 8,
+      id: 7,
       name: "Emilie David - ED Multi-Services",
       desc: "Corrections d'écrits, transcription, rédaction de courriers, prête-plume et rédaction web.",
       website: "https://ed-multi-partners.jimdosite.com/",
       logo: "https://jimdo-storage.freetls.fastly.net/image/440839526/6e276933-a6a2-4ef8-b865-da9a0b5d4b38.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1024&height=1024&trim=67,208,645,204",
     },
+    {
+      id: 8,
+      name: "Fabien Dedieu - Cardebook",
+      desc: "Cartes personnalisées avec un QR code pour télécharger votre livre au format numérique et audio. Découvrez les Cardebooks !",
+      website: "https://www.cardebook.net",
+      logo: "https://i.goopics.net/t5h0ss.jpg",
+    },
+    
   ];
   return (
     <div className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">

@@ -65,18 +65,8 @@ const Partenaires = () => {
       img: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=534,h=400,fit=crop/AoPZ2xegaQt8NqLy/biographie-m2WBNjpe2buQRBO6.jpg",
       link: "https://www.franckjmatthews.com/coaching-litteraire",
     },
-    // {
-    //   id: 7,
-    //   name: "Fabien Dedieu - CARDEBOOK",
-    //   title: "Fabien Dedieu - CARDEBOOK",
-    //   descr:
-    //     "Inventeur multi-récompensé et développeur de plusieurs applications à succès. Innovateur dans l'âme, je crée et lance des concepts novateurs dans le domaine de l'édition. Je suis devenu, en 3 ans, une référence dans l'innovation numérique. La marque cardebook : des cartes à flasher contenant un ouvrage numérique/videos/audios etc.",
-    //   offer: "20% de réduction sur tous les services complet auteurs.",
-    //   img: "https://i.goopics.net/t5h0ss.jpg",
-    //   link: "https://www.cardebook.net",
-    // },
     {
-      id: 8,
+      id: 7,
       name: "Emilie David - ED Multiservices (en langue française)",
       title: "Emilie David - ED Multiservices (en langue française)",
       descr:
@@ -85,6 +75,16 @@ const Partenaires = () => {
         "5% de réduction sont offerts sur la première prestation en passant par WenDev. Offre non cumulable avec d'autres promotions en cours.",
       img: "https://jimdo-storage.freetls.fastly.net/image/440839526/6e276933-a6a2-4ef8-b865-da9a0b5d4b38.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1024&height=1024&trim=67,208,645,204",
       link: "https://ed-multi-services.jimdosite.com/",
+    },
+    {
+      id: 8,
+      name: "Fabien Dedieu - CARDEBOOK",
+      title: "Fabien Dedieu - CARDEBOOK",
+      descr:
+        "Cartes personnalisées avec un QR code pour télécharger votre livre au format numérique et audio. Découvrez les Cardebooks !",
+      offer: "20% de réduction sur tous les services complet auteurs.",
+      img: "https://i.goopics.net/t5h0ss.jpg",
+      link: "https://www.cardebook.net",
     },
   ];
   return (

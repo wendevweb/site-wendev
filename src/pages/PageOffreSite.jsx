@@ -13,8 +13,9 @@ import projet7 from "../assets/projet7.webp";
 import projet8 from "../assets/projet8.webp";
 import projet9 from "../assets/projet9.webp";
 import projet10 from "../assets/projet10.webp";
-import projet11 from "../assets/projet11.webp";
+// import projet11 from "../assets/projet11.webp";
 import projet12 from "../assets/Waltzer.webp";
+import projet13 from "../assets/Ribera.webp";
 
 const PageOffreSite = () => {
   return (
@@ -126,6 +127,25 @@ const PageOffreSite = () => {
             Quelques uns de mes projets...
           </h3>
           <div className="lg:grid grid-cols-3 gap-4">
+            {/* REFONTE VERONIQUE RIBERA */}
+          <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg">
+              <img
+                src={projet13}
+                alt="Refonte du site web de Véronique Ribera, auteure et correctrice."
+                aria-label="Refonte du site web de Véronique Ribera, auteure et correctrice."
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.veronique-ribera.com/"
+                  alt="Refonte du site web de Véronique Ribera, auteure et correctrice."
+                  aria-label="Refonte du site web de Véronique Ribera, auteure et correctrice."
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Refonte du site de Véronique Ribera
+                </a>
+              </button>
+            </div>
             {/* WALTZER TRADUCTION*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg">
               <img
@@ -205,7 +225,7 @@ const PageOffreSite = () => {
             </div>
 
             {/* REFONTE PLUMES DE COEUR */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            {/* <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={projet11}
                 alt="Site web des éditions Plumes de Coeur."
@@ -222,7 +242,7 @@ const PageOffreSite = () => {
                   Refonte du site des éditions Plumes de Coeur
                 </a>{" "}
               </button>
-            </div>
+            </div> */}
             {/* WENDY BAQUE AUTEURE */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img

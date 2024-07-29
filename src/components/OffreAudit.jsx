@@ -16,7 +16,7 @@ const OffreMaquette = () => {
         <Fade>
           <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden w-auto p-6 text-center text-black bg-real rounded-md shadow-lg">
             <h3 className="mb-4 text-2xl font-semibold">
-              Une séance de 30 minutes en visio * avec un compte-rendu écrit et
+              Une séance d'1 heure en visio * avec un compte-rendu écrit et
               des conseils personnalisés
             </h3>
             <div className="flex justify-center items-baseline my-8">

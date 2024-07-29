@@ -64,7 +64,7 @@ const PageOffreAuteurs = () => {
                   <br /> Avec moi, finie la charge mentale de la mise à jour de
                   votre site ! Je m'occupe de tout de A à Z.
                 </p>
-                {/* <div className="grid grid-cols-1 place-items-center">
+                <div className="grid grid-cols-1 place-items-center">
                   <button className="mt-10 mb-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                     <a
                       href="https://www.cardebook.net/post/d%C3%A9veloppez-votre-pr%C3%A9sence-litt%C3%A9raire-pourquoi-chaque-auteur-devrait-avoir-un-site-web"
@@ -77,7 +77,7 @@ const PageOffreAuteurs = () => {
                       site web.
                     </a>
                   </button>
-                </div> */}
+                </div>
               </div>
             </div>
           </div>
