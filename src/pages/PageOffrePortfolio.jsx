@@ -111,26 +111,6 @@ const PageOffrePortfolio = () => {
         </section>
       </Fade>
 
-      <Fade>
-        <section
-          aria-label="Un petit mot sur mes tairfs"
-          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1"
-        >
-          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
-            Un petit mot sur mes tarifs...{" "}
-          </h3>
-          <p className="text-xl tracking-tight">
-            En tant que développeuse web indépendante/freelance, je détermine le
-            prix de mes prestations en fonction du coût de mon travail, le temps
-            passé à sa réalisation, je m’adapte à des demandes différentes et je
-            me place face à la concurrence. C’est un travail de création ! Et
-            tout travail mérite salaire, non ? 😉 En choisissant de travailler
-            avec un développeur web, vous accédez à un service personnalisé
-            d’une flexibilité et d’une liberté qui n’ont rien à voir avec celles
-            proposées par une agence ou une embauche d’un salarié.
-          </p>
-        </section>
-      </Fade>
       <div className="grid justify-items-center">
         <Rdv />
       </div>
