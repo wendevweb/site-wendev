@@ -1,7 +1,6 @@
 import React from "react";
 import ClearIcon from "@mui/icons-material/Clear";
 import CheckIcon from "@mui/icons-material/Check";
-import AddIcon from "@mui/icons-material/Add";
 // import AccessTimeIcon from "@mui/icons-material/AccessTime";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
@@ -16,13 +15,19 @@ const OffrePortfolio = () => {
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-6 lg:space-y-0">
             {/* OFFRE 1 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
-              <h3 className="mb-4 text-2xl font-semibold">Portfolio no-code</h3>
+              <h3 className="mb-4 text-2xl font-semibold">
+                Landing page no code
+              </h3>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                  275€
+                  250€
                 </span>
               </div>
-              <ul className="mb-8 space-y-4 text-left">
+              <ul className="mt-12 mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3 font-bold">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Nombre de pages : 1</span>
+                </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Personnalisation avec votre contenu (à fournir)</span>
@@ -30,25 +35,22 @@ const OffrePortfolio = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">1 (landing page)</span>
+                    1 section de contact avec formulaire et redirection
+                    automatique des messages sur votre boîte mail
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>
-                    Formulaire de contact avec redirection automatique des
-                    messages vers votre boîte mail
-                  </span>
+                  <span>Page de mentions légales/RGPD</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Logo des réseaux sociaux avec redirection </span>
+                  <span>Logos des réseaux sociaux avec redirection</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Site réactif{" "}
-                      (adapté aux différentes tailles d'écran)
+                    Site réactif (adapté aux différentes tailles d'écran)
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -60,64 +62,68 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Gestion de la sécurité du site</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramètres de référencement (SEO) <span className="font-semibold">de base</span></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Page de mentions légales/RGPD</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
-                  <span>Page d'erreur 404 avec redirection</span>
+                  <span>
+                    Mise en place des paramètres de référencement (SEO) de base
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en avant sur mes réseaux sociaux</span>
                 </li>
                 <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>
+                    <span className="font-bold">Modifications : </span>
+                    5€/modification
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
-                  <span>Pas de maquette</span>
+                  <span>Pas d'animations</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <ClearIcon style={{ color: "red" }} />
+                  <span>Pas de menu de navigation</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <ClearIcon style={{ color: "red" }} />
+                  <span>Pas de page d'erreur 404</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
                   <span>Pas de code source</span>
                 </li>
-                <li>
-                  <AddIcon style={{ color: "magenta" }} />
-                  <span>
-                    Nom de domaine personnalisé et hébergement pour 1 an,
-                    renouvelable : <span className="font-bold">20€/an</span>, en supplément. Sinon, url non
-                    personnalisable, par défaut.
-                  </span>
+                <li className="flex items-center space-x-3">
+                  <ClearIcon style={{ color: "red" }} />
+                  <span>Pas de suivi de statistiques Google Analytics</span>
                 </li>
-                {/* <li className="flex items-center space-x-3">
-                  <AccessTimeIcon style={{ color: "magenta" }} />
-                  <span>
-                    Délai de création :{" "}
-                    <span className="font-bold">3 jours</span>
-                  </span>
-                </li> */}
+                <li className="flex items-center space-x-3">
+                  <ClearIcon style={{ color: "red" }} />
+                  <span>Pas de modules ou widgets</span>
+                </li>
               </ul>
               <Link
                 to="/Contact"
-                className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+                className="mt-6 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
               >
                 C'est parti !
               </Link>
             </div>
             {/* OFFRE 2 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
-              <h3 className="mb-4 text-2xl font-semibold">Standard</h3>
+              <h3 className="mb-4 text-2xl font-semibold">
+                Site vitrine no code
+              </h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                  330€
+                <span className="text-pinkDark mr-2 text-5xl font-extrabold">
+                  350€
                 </span>
               </div>
-              <ul className="mb-8 space-y-4 text-left">
+              <ul className="mt-12 mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3 font-bold">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Nombre de pages : 1-5</span>
+                </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Personnalisation avec votre contenu (à fournir)</span>
@@ -125,25 +131,22 @@ const OffrePortfolio = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">1 à 5</span>
+                    1 page ou section de contact avec formulaire et redirection
+                    automatique des messages sur votre boîte mail
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>
-                    Formulaire de contact avec redirection automatique des
-                    messages vers votre boîte mail
-                  </span>
+                  <span>Page de mentions légales/RGPD</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Logo des réseaux sociaux avec redirection </span>
+                  <span>Logos des réseaux sociaux avec redirection</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Site réactif{" "}
-                      (adapté aux différentes tailles d'écran)
+                    Site réactif (adapté aux différentes tailles d'écran)
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -155,63 +158,66 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Gestion de la sécurité du site</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en place des paramètres de référencement (SEO) <span className="font-semibold">de base</span></span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Page de mentions légales/RGPD</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <ClearIcon style={{ color: "red" }} />
-                  <span>Page d'erreur 404 avec redirection</span>
+                  <span>
+                    Optimisation des paramètres de référencement (SEO)
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en avant sur mes réseaux sociaux</span>
                 </li>
                 <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>
+                    <span className="font-bold">Modifications : </span>
+                    5€/modification
+                  </span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Animations au défilement</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Menu de navigation</span>
+                </li>
+                <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
-                  <span>Pas de maquette</span>
+                  <span>Pas de page d'erreur 404</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <ClearIcon style={{ color: "red" }} />
                   <span>Pas de code source</span>
                 </li>
-                <li>
-                  <AddIcon style={{ color: "magenta" }} />
-                  <span>
-                    Nom de domaine personnalisé et hébergement pour 1 an,
-                    renouvelable : <span className="font-bold">20€/an</span>, en supplément.
-                  </span>
+                <li className="flex items-center space-x-3">
+                  <ClearIcon style={{ color: "red" }} />
+                  <span>Pas de suivi de statistiques Google Analytics</span>
                 </li>
-                {/* <li className="flex items-center space-x-3">
-                  <AccessTimeIcon style={{ color: "magenta" }} />
-                  <span>
-                    Délai de création :{" "}
-                    <span className="font-bold">7 à 10 jours</span>
-                  </span>
-                </li> */}
+                <li className="flex items-center space-x-3">
+                  <ClearIcon style={{ color: "red" }} />
+                  <span>Pas de modules ou widgets</span>
+                </li>
               </ul>
               <Link
                 to="/Contact"
-                className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+                className="mt-6 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
               >
                 C'est parti !
               </Link>
             </div>
             {/* OFFRE 3 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
-              <h3 className="mb-4 text-2xl font-semibold">Premium</h3>
+              <h3 className="mb-4 text-2xl font-semibold">Premium code</h3>
               <div className="flex justify-center items-baseline my-8">
-                <span className="mr-2 text-5xl font-extrabold text-pinkDark">
-                  495€
+                <span className="text-pinkDark mr-2 text-5xl font-extrabold">
+                  à partir de 495€
                 </span>
               </div>
               <ul className="mb-8 space-y-4 text-left">
+                <li className="flex items-center space-x-3 font-bold">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Nombre de pages : 3-5</span>
+                </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Personnalisation avec votre contenu (à fournir)</span>
@@ -219,25 +225,22 @@ const OffrePortfolio = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nombre de pages : <span className="font-bold">illimité</span>
+                    1 page ou section de contact avec formulaire et redirection
+                    automatique des messages sur votre boîte mail
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>
-                    Formulaire de contact avec redirection automatique des
-                    messages vers votre boîte mail
-                  </span>
+                  <span>Page de mentions légales/RGPD</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Logo des réseaux sociaux avec redirection </span>
+                  <span>Logos des réseaux sociaux avec redirection</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Site réactif{" "}
-                      (adapté aux différentes tailles d'écran)
+                    Site réactif (adapté aux différentes tailles d'écran)
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -249,19 +252,9 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Gestion de la sécurité du site</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span><span className="font-semibold">Optimisation</span> des paramètres de référencement (SEO)</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Page de mentions légales/RGPD</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Page d'erreur 404 avec redirection</span>
+                  <span>
+                    Optimisation des paramètres de référencement (SEO)
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -269,30 +262,39 @@ const OffrePortfolio = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Maquette</span>
+                  <span>Modifications illimitées</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Code source</span>
+                  <span>Animations au défilement</span>
                 </li>
-                <li>
-                  <AddIcon style={{ color: "magenta" }} />
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Menu de navigation</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Page d'erreur 404 avec redirection</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Fichiers de code source</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>Suivi des statistiques Google Analytics</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Nom de domaine personnalisé et hébergement pour 1 an,
-                    renouvelable : <span className="font-bold">20€/an</span>, en supplément.
+                    Modules et widgets en fonction de vos besoins (ex : prise de
+                    rendez-vous, cookies, carte, etc.)
                   </span>
                 </li>
-                {/* <li className="flex items-center space-x-3">
-                  <AccessTimeIcon style={{ color: "magenta" }} />
-                  <span>
-                    Délai de création :{" "}
-                    <span className="font-bold">En fonction de la demande</span>
-                  </span>
-                </li> */}
               </ul>
               <Link
                 to="/Contact"
-                className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+                className="mt-6 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
               >
                 C'est parti !
               </Link>

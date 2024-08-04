@@ -26,7 +26,7 @@ const OffresSite = () => {
                   250€
                 </span>
               </div>
-              <ul className="mb-8 space-y-4 text-left">
+              <ul className="mt-12 mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3 font-bold">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Nombre de pages : 1</span>
@@ -38,7 +38,7 @@ const OffresSite = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    1 page ou section de contact avec formulaire et redirection
+                    1 section de contact avec formulaire et redirection
                     automatique des messages sur votre boîte mail
                   </span>
                 </li>
@@ -122,7 +122,7 @@ const OffresSite = () => {
                   350€
                 </span>
               </div>
-              <ul className="mb-8 space-y-4 text-left">
+              <ul className="mt-12 mb-8 space-y-4 text-left">
                 <li className="flex items-center space-x-3 font-bold">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Nombre de pages : 1-5</span>
