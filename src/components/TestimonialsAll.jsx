@@ -83,7 +83,7 @@ const Testimonials = () => {
 
     {
       id: 11,
-      client: "Virginie Roger",
+      client: "Virginie, auteure",
       avis: "Un super boulot d'une efficacité remarquable ! Un site est indispensable pour les auteurs, mais c'est tellement dur quand on n'y connait rien… Alors Wendy est là pour vous et elle le fait très bien. Patiente, bienveillante, attentive, efficace : je recommande à 100% ! Foncez, vous serez aussi convaincus que moi ! Encore merci Wendy pour cette superbe collaboration !",
       avatar:
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1006,h=1006,fit=crop/mnl5QxKqZxUgbbJ0/portrait-virginie-roger-A3QrRkW6zviDM6po.webp",
@@ -91,7 +91,7 @@ const Testimonials = () => {
 
     {
       id: 12,
-      client: "Nicolas Pellolio",
+      client: "Nicolas, auteur",
       avis: "Super travail et super créatrice ! Wendy m'a fignolé un site parfait pour mon activité d'auteur ! Beau, facile de navigation et techniquement parfait. Je recommande ses services !",
       avatar:
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1212,h=1814,fit=crop/dJoJxjOnzRHqoa4N/portrait2-reduit-YbNaxxk3aeC79p6W.webp",
@@ -112,10 +112,18 @@ const Testimonials = () => {
     },
     {
       id: 15,
-      client: "JC Staignier",
+      client: "JC Staignier, auteure",
       avis: "Wendy a créé mon site auteure de A à Z. Réactive, sérieuse, exigeante, à l'écoute, elle a toutes les qualités pour séduire un potentiel client à la recherche d'une développeuse web au top. Elle a réussi à adapter les couleurs du site à mon logo, ce qui prouve son souci du détail. Quand la qualité est au rendez-vous, ce serait une pure perte de temps de ne pas profiter de ses offres adaptées à tous les budgets.",
       avatar:
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=650,h=522,fit=crop/AE0poxvgvlTR7ZBm/picto-orange1-ALpJ7nOzgjHgZJwZ.png",
+    },
+
+    {
+      id: 16,
+      client: "Véronique, auteure et correctrice",
+      avis: "Wendy a revu entièrement mon site pro de correctrice, qui présente aussi mon actualité de romancière. Cela a été une expérience fluide, efficace et le résultat est parfait. La communication avec Wendy est rapide et facile, elle est très pédagogue et rend les différentes étapes simples. Tout est expliqué, détaillé, avec patience et gentillesse. Bref, je ne regrette pas de m'être adressés à une professionnelle. N'hésitez pas !",
+      avatar:
+        "https://static.wixstatic.com/media/fc713d_aaf38827f7fb4e27b25ee8b259d3309a~mv2.jpg/v1/fill/w_398,h_598,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/fc713d_aaf38827f7fb4e27b25ee8b259d3309a~mv2.jpg",
     },
   ];
   return (
