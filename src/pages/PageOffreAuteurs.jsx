@@ -133,7 +133,7 @@ const PageOffreAuteurs = () => {
               <span>
                 paramétrage et redirection d'un nom de domaine déjà acheté chez
                 un hébergeur (OVH, Hostinger, O2Switch...) :
-                <span className="font-bold">20€</span>
+                <span className="font-bold"> 20€</span>
               </span>
             </li>
             <li>
@@ -146,13 +146,13 @@ const PageOffreAuteurs = () => {
               <AddIcon style={{ color: "magenta" }} />
               <span>
                 Recherche d'éléments graphiques (polices, visuels, images libres
-                de droit) <span className="font-bold">20€</span>
+                de droit) : <span className="font-bold">20€</span>
               </span>
             </li>
             <li>
               <AddIcon style={{ color: "magenta" }} />
               <span>
-                Site en plusieurs langues (textes traduits à fournir){" "}
+                Site en plusieurs langues (textes traduits à fournir) :{" "}
                 <span className="font-bold">20€/langue</span>
               </span>
             </li>

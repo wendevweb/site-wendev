@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
+import AddIcon from "@mui/icons-material/Add";
 import ButtonFonctionnement from "../components/ButtonFonctionnement";
 // import Interest from "../components/Interest";
 import OffresSite from "../components/OffreSite";
@@ -80,7 +81,60 @@ const PageOffreSite = () => {
           <OffresSite />
         </section>
       </Fade>
-
+      <Fade>
+        <section
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2"
+          aria-label="Les options"
+        >
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+            Et en option pour chaque offre :
+          </h3>
+          <ul className="mb-8 space-y-4 text-left">
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Nom de domaine personnalisé et hébergement pour 1 an,
+                renouvelable : <span className="font-bold">20€/an</span>, en
+                supplément. Sinon, url non personnalisable, par défaut.
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                paramétrage et redirection d'un nom de domaine déjà acheté chez
+                un hébergeur (OVH, Hostinger, O2Switch...) :
+                <span className="font-bold"> 20€</span>
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Page supplémentaire : <span className="font-bold">20€</span>
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Recherche d'éléments graphiques (polices, visuels, images libres
+                de droit) : <span className="font-bold"> 20€</span>
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Maquette et prototype : <span className="font-bold">100€/page</span>
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Site en plusieurs langues (textes traduits à fournir){" "}
+                <span className="font-bold"> : 20€/langue</span>
+              </span>
+            </li>
+          </ul>
+        </section>
+      </Fade>
       <ButtonFonctionnement />
       <Fade>
         <section
@@ -121,6 +175,7 @@ const PageOffreSite = () => {
           </section>
         </section>
       </Fade>
+      
       <Fade>
         <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
           <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
@@ -349,7 +404,6 @@ const PageOffreSite = () => {
       <div className="grid justify-items-center">
         <Rdv />
       </div>
-      
     </div>
   );
 };

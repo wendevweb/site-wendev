@@ -79,7 +79,7 @@ const OffresAuteurs = () => {
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>
-                  <span className="font-bold">Modifications :</span>
+                  <span className="font-bold">Modifications : </span>
                   5€/modification
                 </span>
               </li>
