@@ -20,6 +20,7 @@ import Sissy from "../assets/Sissy.webp";
 import Jc from "../assets/jc.webp";
 import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
+import AddIcon from "@mui/icons-material/Add";
 
 const PageOffreAuteurs = () => {
   return (
@@ -92,6 +93,72 @@ const PageOffreAuteurs = () => {
           <OffresAuteurs />
         </section>
       </Fade>
+
+      <Fade>
+        <section
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2"
+          aria-label="Les options"
+        >
+          <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
+            Et en option pour chaque offre :
+          </h3>
+          <ul className="mb-8 space-y-4 text-left">
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Formulaire d'achat en ligne, via PayPal, une bonne alternative à
+                la boutique en ligne : <span className="font-bold">40€</span>.{" "}
+                <a
+                  href="https://www.virginierogerauteure.com/#commandes"
+                  alt="Redirection le site d'exemple"
+                  aria-label="Redirection vers le site d'exemple"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-pinkDark hover:font-bold text-decoration-line: underline"
+                >
+                  Voir un exemple.
+                </a>
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Nom de domaine personnalisé et hébergement pour 1 an,
+                renouvelable : <span className="font-bold">20€/an</span>, en
+                supplément. Sinon, url non personnalisable, par défaut.
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                paramétrage et redirection d'un nom de domaine déjà acheté chez
+                un hébergeur (OVH, Hostinger, O2Switch...) :
+                <span className="font-bold">20€</span>
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Page supplémentaire : <span className="font-bold">20€</span>
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Recherche d'éléments graphiques (polices, visuels, images libres
+                de droit) <span className="font-bold">20€</span>
+              </span>
+            </li>
+            <li>
+              <AddIcon style={{ color: "magenta" }} />
+              <span>
+                Site en plusieurs langues (textes traduits à fournir){" "}
+                <span className="font-bold">20€/langue</span>
+              </span>
+            </li>
+          </ul>
+        </section>
+      </Fade>
       <section
         className="mb-10"
         aria-label="Comment se déroule un projet avec Wendev"
@@ -104,13 +171,13 @@ const PageOffreAuteurs = () => {
       </Fade>
 
       <Fade>
-        <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
+        <section
+          aria-label=" Exemples de réalisations de sites web pour les auteurs de livres, par WenDev."
+          className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2"
+        >
           <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
-            Exemples de réalisations et démos{" "}
+            Exemples de réalisations
           </h3>
-          <h4 className="text-pinkDark text-2xl mt-6 mb-6">
-            Offre premium, l'offre préférée des auteurs !
-          </h4>
           <div className="lg:grid grid-cols-3 gap-4">
             {/* JC STAIGNIER*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
@@ -385,9 +452,6 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
-          </div>
-          <h4 className="text-pinkDark text-2xl mt-6 mb-6">Offre Standard</h4>
-          <div className="lg:grid grid-cols-3 gap-4">
             {/* VIRGINIE ROGER */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -429,94 +493,10 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
-
-            {/* DOM TERRENCE */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-              <img
-                src="https://i.goopics.net/lbuaht.png"
-                alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
-                aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
-                className="rounded-md"
-              />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                <a
-                  href="https://hotpink-cobra-376869.builder-preview.com/"
-                  alt="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
-                  aria-label="Site internet fictif de Dom Terrence pour illustrer l'offre medium de WenDev"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Voir la démo !
-                </a>
-              </button>
-            </div>
-          </div>
-          <h4 className="text-pinkDark text-2xl mt-6 mb-6">Offre Basic</h4>
-          <div className="lg:grid grid-cols-3 gap-4">
-            {/* JEROME MULLER */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-              <img
-                src="https://i.goopics.net/t8qp4y.png"
-                alt="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
-                aria-label="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
-                className="rounded-md"
-              />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                <a
-                  href="https://lightcyan-tiger-770474.builder-preview.com/"
-                  alt="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
-                  aria-label="Site internet fictif de Jérôme Muller pour illustrer l'offre basic de WenDev"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Voir la démo
-                </a>
-              </button>
-            </div>
-            {/* LUC HORLA */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-              <img
-                src="https://i.goopics.net/lxccuk.png"
-                alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
-                aria-label="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
-                className="rounded-md"
-              />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                <a
-                  href="https://lightslategrey-alligator-289384.builder-preview.com/"
-                  alt="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
-                  aria-label="Site internet fictif de Luc Horla pour illustrer l'offre basic de WenDev"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Voir la démo !
-                </a>
-              </button>
-            </div>
-            {/* TOMAS CARLIER */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-              <img
-                src="https://i.goopics.net/7s7i56.png"
-                alt="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
-                aria-label="Site internet fictif de Tomas Carlier pour illustrer l'offre basic de WenDev"
-                className="rounded-md"
-              />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                <a
-                  href="https://lightgoldenrodyellow-lion-545728.builder-preview.com/"
-                  alt="Site internet fictif de Tomas Cariler pour illustrer l'offre basic de WenDev"
-                  aria-label="Site internet fictif de Tomas Cariler pour illustrer l'offre basic de WenDev"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Voir la démo !
-                </a>
-              </button>
-            </div>
           </div>
         </section>
       </Fade>
-      
+
       <div className="grid justify-items-center">
         <Rdv />
       </div>
