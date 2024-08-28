@@ -98,7 +98,7 @@ const Testimonials = () => {
     },
     {
       id: 13,
-      client: "Sissy Batzy",
+      client: "Sissy, auteure",
       avis: "WenDev m'a créé un site web à mon image, tout ce que j'attendais et très simple d'utilisation. Elle a géré toute l partie mentions obligatoires et autres joyeusetés. Un super design en résultat, je la recommande à 1000%.",
       avatar:
         "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=297,h=297,fit=crop/m2W4pk8RR2f9zJqo/logo_sissy_batzy-removebg-preview-AMqneG38XpFlzDly.webp",
@@ -124,6 +124,14 @@ const Testimonials = () => {
       avis: "Wendy a revu entièrement mon site pro de correctrice, qui présente aussi mon actualité de romancière. Cela a été une expérience fluide, efficace et le résultat est parfait. La communication avec Wendy est rapide et facile, elle est très pédagogue et rend les différentes étapes simples. Tout est expliqué, détaillé, avec patience et gentillesse. Bref, je ne regrette pas de m'être adressés à une professionnelle. N'hésitez pas !",
       avatar:
         "https://static.wixstatic.com/media/fc713d_aaf38827f7fb4e27b25ee8b259d3309a~mv2.jpg/v1/fill/w_398,h_598,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/fc713d_aaf38827f7fb4e27b25ee8b259d3309a~mv2.jpg",
+    },
+
+    {
+      id: 17,
+      client: "Marie, auteure",
+      avis: "Une excellente personne qui se dévoue pour créer un site qui nous ressemble avec les détails demandés. Une disponibilité hors paire, pendant ces heures d'ouvertures, que ce soit les réponses par mail/SMS. Aucun couac, au moindres problèmes, Wendy est réactive. Je la recommande +++++ Vous ne serez pas déçus, elle sera répondre à vos exigences avec un site qui vous ressemble. Sans oublier, les tarifs qui sont accessibles et bien expliqués avant de s'engager dans le projet. En quelques jours, un site sera publié et avec le référence google qui est un moyen de faire de la visibilité en plus ❤️ Merci ❤️",
+      avatar:
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=606,h=496,fit=crop/YrDa4GPqWWinV5Ol/photo-pour-biographie-m5KbWnq2R9F7b882.webp",
     },
   ];
   return (

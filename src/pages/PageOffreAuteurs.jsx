@@ -18,6 +18,8 @@ import Nicolas from "../assets/Nicolas.webp";
 import Loriot from "../assets/Loriot.webp";
 import Sissy from "../assets/Sissy.webp";
 import Jc from "../assets/jc.webp";
+import Alberte from "../assets/Alberte.webp";
+import Nathalie from "../assets/Nathalie.webp";
 import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
 import AddIcon from "@mui/icons-material/Add";
@@ -179,6 +181,50 @@ const PageOffreAuteurs = () => {
             Exemples de réalisations
           </h3>
           <div className="lg:grid grid-cols-3 gap-4">
+            {/* NATHALIE HELDE*/}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Nathalie}
+                alt="Site internet de Nathalie Heldé, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet de Nathalie Heldé, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.nathaliehelde.fr/"
+                  alt="Site internet de Nathalie Heldé, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet de Nathalie Heldé, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+              <p className="mt-10">Avec option formulaire PayPal</p>
+
+            </div>
+            
+            {/* ELISA ALBERTE*/}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Alberte}
+                alt="Site internet d'Elisa Alberte, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elisa Alberte, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.elisaalberteautrice.ch/"
+                  alt="Site internet d'Elisa Alberte, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet d'Elisa Alberte, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+
             {/* JC STAIGNIER*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -199,6 +245,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* SISSY BATZY*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -220,7 +267,6 @@ const PageOffreAuteurs = () => {
               </button>
               <p className="mt-10">Avec option formulaire PayPal</p>
             </div>
-
             {/* ANNE-SOPHIE LORIOT*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -346,27 +392,8 @@ const PageOffreAuteurs = () => {
                   Voir le site !
                 </a>
               </button>
-            </div>
+              <p className="mt-10">Avec option formulaire PayPal</p>
 
-            {/* ELSA ERRACK */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-              <img
-                src={Elsa}
-                alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
-                aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
-                className="rounded-md"
-              />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                <a
-                  href="https://www.elsaerrackauteure.com/"
-                  alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
-                  aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Voir le site !
-                </a>
-              </button>
             </div>
 
             {/* FARAH D. */}
@@ -388,6 +415,8 @@ const PageOffreAuteurs = () => {
                   Voir le site !
                 </a>
               </button>
+              <p className="mt-10">Avec option formulaire PayPal</p>
+
             </div>
 
             {/* ALEXANDRA ROCH*/}
@@ -403,27 +432,6 @@ const PageOffreAuteurs = () => {
                   href="https://www.alexandraroch.com/"
                   alt="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
                   aria-label="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
-                  rel="noreferrer"
-                  target="_blank"
-                >
-                  Voir le site !
-                </a>
-              </button>
-            </div>
-
-            {/* FRANCK J. MATTHEWS */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
-              <img
-                src={Franck}
-                alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
-                aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
-                className="rounded-md"
-              />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
-                <a
-                  href="https://www.franckjmatthews.com/"
-                  alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
-                  aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
                   rel="noreferrer"
                   target="_blank"
                 >
@@ -452,6 +460,7 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
             </div>
+
             {/* VIRGINIE ROGER */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -473,6 +482,7 @@ const PageOffreAuteurs = () => {
               </button>
               <p className="mt-10">Avec option formulaire PayPal</p>
             </div>
+
             {/* LEA SAMSON */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -486,6 +496,48 @@ const PageOffreAuteurs = () => {
                   href="https://www.leasamsonauteure.fr/"
                   alt="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
                   aria-label="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+
+            {/* ELSA ERRACK */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Elsa}
+                alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.elsaerrackauteure.com/"
+                  alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+            </div>
+
+            {/* FRANCK J. MATTHEWS */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Franck}
+                alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
+                aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.franckjmatthews.com/"
+                  alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
+                  aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
                   rel="noreferrer"
                   target="_blank"
                 >
