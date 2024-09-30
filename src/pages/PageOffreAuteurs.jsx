@@ -20,6 +20,8 @@ import Sissy from "../assets/Sissy.webp";
 import Jc from "../assets/jc.webp";
 import Alberte from "../assets/Alberte.webp";
 import Nathalie from "../assets/Nathalie.webp";
+import Cleo from "../assets/Cléo_Ballatore-removebg-preview.webp";
+import Beatrice from "../assets/Béatrice_Mas-removebg-preview.webp";
 import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
 import AddIcon from "@mui/icons-material/Add";
@@ -181,6 +183,48 @@ const PageOffreAuteurs = () => {
             Exemples de réalisations
           </h3>
           <div className="lg:grid grid-cols-3 gap-4">
+            {/* BEATRICE MAS */}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Beatrice}
+                alt="Site internet de Béatrice Mas, auteure, qui a choisi l'offre Ultra+"
+                aria-label="Site internet de Béatrice Mas, auteure, qui a choisi l'offre Ultra+"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.beatricemasautrice.fr/"
+                  alt="Site internet de Béatrice Mas, auteure, qui a choisi l'offre Ultra+"
+                  aria-label="Site internet de Béatrice Mas, auteure, qui a choisi l'offre Ultra+"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+
+            </div>
+            {/* CLEO BALLATORE*/}
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+              <img
+                src={Cleo}
+                alt="Site internet de Cléo Ballatore, auteure, qui a choisi l'offre Premium"
+                aria-label="Site internet de Cléo Ballatore, auteure, qui a choisi l'offre Premium"
+                className="rounded-md"
+              />
+              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                <a
+                  href="https://www.cleoballatore.com/"
+                  alt="Site internet de Cléo Ballatore, auteure, qui a choisi l'offre Premium"
+                  aria-label="Site internet de Cléo Ballatore, auteure, qui a choisi l'offre Premium"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  Voir le site !
+                </a>
+              </button>
+
+            </div>
             {/* NATHALIE HELDE*/}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
