@@ -7,7 +7,7 @@ import ButtonFonctionnement from "../components/ButtonFonctionnement";
 import OffrePortfolio from "../components/OffrePortfolio";
 import Rdv from "../components/Rdv";
 import projet4 from "../assets/projet4.webp";
-import Kay from "../assets/Kay.webp";
+import Neordart from "../assets/Neordart-removebg-preview.png";
 
 const PageOffrePortfolio = () => {
   return (
@@ -128,15 +128,15 @@ const PageOffrePortfolio = () => {
             {/* PORTFOLIO DE NEORDART */}
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
-                src={Kay}
-                alt="Porfolio de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
-                aria-label="Porfolio de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                src={Neordart}
+                alt="Porfolio de Neordart, graphiste et illustratrice, qui a choisi l'offre de création de portfolio No Code."
+                aria-label="Porfolio de Neordart, graphiste et illustratrice, qui a choisi l'offre de création de portfolio No Code."
               />
               <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
-                  href="https://www.kaynorde.com/portfolio"
-                  alt="Porfolio de de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
-                  aria-label="Porfolio de de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
+                  href="https://www.neordart.com/"
+                  alt="Porfolio de de Neordart, graphiste et illustratrice, qui a choisi l'offre de création de portfolio No Code."
+                  aria-label="Porfolio de de Neordart, graphiste et illustratrice, qui a choisi l'offre de création de portfolio No Code."
                   target="_blank"
                   rel="noreferrer"
                 >

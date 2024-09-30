@@ -406,7 +406,7 @@ const PageOffreAuteurs = () => {
               />
               <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
-                  href="https://www.kaynorde.com/portfolio"
+                  href="https://www.kaynorde.com"
                   alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                   aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                   rel="noreferrer"
