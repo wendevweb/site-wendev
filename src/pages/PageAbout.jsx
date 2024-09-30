@@ -97,7 +97,6 @@ const PageAbout = () => {
                     💡 Mes conseils pour se lancer en freelance
                   </a>
                 </button>
-
                 <button className="mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                   <a
                     href="https://youtu.be/8jBEco6KGR0?si=DcWtZ2hpnuWzVj-w"
@@ -161,6 +160,14 @@ const PageAbout = () => {
                 <strong className=" text-pinkDark">auteurs de livres</strong> et
                 je suis <strong className=" text-pinkDark">ambassadrice</strong>{" "}
                 de mon école d'informatique.
+                <br /> Je fais également partie de l'agence de marketing et de
+                création digitale{" "}
+                <Link to="/FeelingCreate">
+                <strong className=" text-pinkDark">
+                  Feeling & Create
+                </strong>{" "} </Link>
+                pour continuer à progresser et me lancer dans de nouveaux
+                projets en équipe !
               </p>
             </div>
           </section>

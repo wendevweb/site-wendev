@@ -122,7 +122,8 @@ const PageOffreSite = () => {
             <li>
               <AddIcon style={{ color: "magenta" }} />
               <span>
-                Maquette et prototype : <span className="font-bold">100€/page</span>
+                Maquette et prototype :{" "}
+                <span className="font-bold">100€/page</span>
               </span>
             </li>
             <li>
@@ -154,6 +155,10 @@ const PageOffreSite = () => {
             Vous avez un site WordPress et vous souhaitez une refonte/mise à
             jour ? Je ne travaille pas avec WordPress, alors l'audit de votre
             site peut être la solution optimale pour que je puisse vous aider !
+            <br /> Vous avez un projet plus ambitieux et besoin de plusieurs
+            corps de métier pour le réaliser ? Je fais partie d'une agence web
+            spécialisée et nous vous accompagnons pour atteindre vos objectifs
+            avec Feeling & Create.
           </p>
           <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2">
             <Link to="/Contact">
@@ -172,10 +177,19 @@ const PageOffreSite = () => {
                 Je veux un audit de mon site
               </button>
             </Link>
+            <Link to="/FeelingCreate">
+              <button
+                className="mt-10 lg:ml-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white"
+                alt="Redirection vers la page d'information de l'agence web feeling & Create"
+              >
+                J'ai un plus gros projet et je fais appel à une agence web
+                spécialisée
+              </button>
+            </Link>
           </section>
         </section>
       </Fade>
-      
+
       <Fade>
         <section className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-1">
           <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
@@ -183,7 +197,7 @@ const PageOffreSite = () => {
           </h3>
           <div className="lg:grid grid-cols-3 gap-4">
             {/* REFONTE VERONIQUE RIBERA */}
-          <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg">
+            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg">
               <img
                 src={projet13}
                 alt="Refonte du site web de Véronique Ribera, auteure et correctrice."

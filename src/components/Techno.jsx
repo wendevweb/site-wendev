@@ -81,6 +81,11 @@ const Techno = () => {
           className="w-32 place-self-center pr-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webflow/webflow-original.svg"
         />
+        <img
+          alt="Figma"
+          aria-label="Figma"
+          className="w-32 place-self-center pr-4"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg"        />
         {/* <img
           alt="MySQL"
           aria-label="MySQL"

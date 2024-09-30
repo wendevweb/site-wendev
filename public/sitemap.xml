@@ -64,6 +64,12 @@
       <priority>0.5</priority>
    </url>
    <url>
+      <loc>https://wendev.fr/FeelingCreate</loc>
+      <lastmod>2024-09-30</lastmod>
+      <changefreq>monthly</changefreq>
+      <priority>0.5</priority>
+   </url>
+   <url>
       <loc>https://wendev.fr/Contact</loc>
       <lastmod>2024-09-30</lastmod>
       <changefreq>monthly</changefreq>

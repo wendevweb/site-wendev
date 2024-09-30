@@ -18,6 +18,7 @@ import PageOffreAudit from "./pages/PageOffreAudit";
 import PageFonctionnement from "./pages/PageFonctionnement";
 import Partenaires from "./pages/Partenaires";
 import PageTestimonials from "./pages/PageTestimonials";
+import PageFeelingCreate from "./pages/PageFeelingCreate";
 
 function App() {
   return (
@@ -35,6 +36,7 @@ function App() {
           <Route path="/OffrePortfolio" element={<PageOffrePortfolio />} />
           <Route path="/Fonctionnement" element={<PageFonctionnement />} />
           <Route path="/Partenaires" element={<Partenaires />} />
+          <Route path="/FeelingCreate" element={<PageFeelingCreate />} />
           <Route path="/Contact" element={<Contact />} />
           <Route path="/Legals" element={<Legals />} />
           <Route path="/Cgv" element={<Cgv />} />
