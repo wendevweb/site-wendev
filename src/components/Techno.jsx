@@ -10,6 +10,12 @@ const Techno = () => {
         Mon expertise à votre service
       </h3>
       <div className="lg:flex justify-center grid justify-items-center">
+      <img
+          alt="Hostinger"
+          aria-label="Hostinger"
+          className="w-32 place-self-center pr-4"
+          src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Hostinger_Logotype.png"
+        />
         <img
           alt="html"
           aria-label="html"
@@ -23,12 +29,12 @@ const Techno = () => {
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg"
         />
 
-        <img
+        {/* <img
           alt="angular"
           aria-label="angular"
           className="w-32 place-self-center pr-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original-wordmark.svg"
-        />
+        /> */}
         <img
           alt="Javascript"
           aria-label="Javascript"
@@ -70,10 +76,10 @@ const Techno = () => {
         />
 
         <img
-          alt="Firebase"
-          aria-label="Firebase"
+          alt="Webflow"
+          aria-label="Webflow"
           className="w-32 place-self-center pr-4"
-          src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain-wordmark.svg"
+          src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/webflow/webflow-original.svg"
         />
         {/* <img
           alt="MySQL"
