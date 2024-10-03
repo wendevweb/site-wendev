@@ -35,10 +35,10 @@ const Testimonials = () => {
 
     {
       id: 5,
-      client: "Les Gardiennes du Souvenir",
-      avis: "Wendy nous a réalisé un site web très professionnel et répondant exactement à nos attentes, en un temps record. Nous recommandons vivement ses services et son écoute bienveillante auprès de ses clients !",
+      client: "Rose-Marie, traductrice",
+      avis: "J'ai confié la création de mon site web à Wendy et j'en suis ravie ! Elle a su faire preuve de beaucoup de réactivité, mais aussi de patience devant mes nombreuses corrections et demandes de modifications. De plus, Wendy est honnête, organisée et très sympathique - moi qui suis très exigeante, je la recommande à 100% !",
       avatar:
-        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=136,h=136,fit=crop/AGB3XwRQJ0HQoNp1/logo_lgds-removebg-preview-m2WlV7QOrVce5oe7.png",
+        "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=400,h=617,fit=crop/YZ92DG9Mz5u846Q4/waltzer_rosemarie_photo-removebg-preview-YleMN1ZbvVCgppoW.webp",
     },
 
   ];

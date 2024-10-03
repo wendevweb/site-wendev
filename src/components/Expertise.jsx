@@ -37,6 +37,13 @@ const Expertise = () => {
       desc: "Que vous soyez artiste, artisan, commerçant, débutant ou chevronné, avoir un portfolio est essentiel pour présenter vos projets, mettre en valeur votre travail et qui vous êtes. Je vous livre une solution fonctionnelle, personnalisée, faite pour en mettre plein les yeux à ceux qui le regarderont !",
       link: "/OffrePortfolio",
     },
+    {
+      id: 6,
+      title: "Pour tout autre projet web, faites appel à notre agence !",
+      img: "https://cdn.pixabay.com/photo/2018/03/10/12/00/teamwork-3213924_1280.jpg",
+      desc: "Vous avez un projet qui nécessite plusieurs corps de métiers et vous souhaitez le confier à une équipe de professionnels ? Nous vous proposons des services de création de site, stratégie marketing, statégie de communication, identité de marque, SEO Booster et audit de site internet.",
+      link: "/FeelingCreate",
+    },
   ];
 
   return (
