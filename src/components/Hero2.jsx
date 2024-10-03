@@ -2,7 +2,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
-import img from "../assets/wendywildcodeschool.webp";
+import img from "../assets/Wendy.webp";
 import EventAvailableIcon from "@mui/icons-material/EventAvailable";
 
 const Hero2 = () => {

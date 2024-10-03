@@ -2,13 +2,13 @@ import React from "react";
 import { Helmet } from "react-helmet";
 import { Fade } from "react-awesome-reveal";
 import { Link } from "react-router-dom";
-import wendycolor from "../assets/wendywildcodeschool.webp";
-import wendev7 from "../assets/wendev-7.webp";
-import wendev9 from "../assets/wendev-9.webp";
-import wendev10 from "../assets/wendev-10.webp";
-import wendev11 from "../assets/wendev-11.webp";
-import wendev13 from "../assets/wendev-13.webp";
-import wendev14 from "../assets/wendev-14.webp";
+import wendycolor from "../assets/Wendy.webp";
+import média from "../assets/média.webp";
+import mesvaleurs from "../assets/mes valeurs.webp";
+import finances from "../assets/finances.webp";
+import référence from "../assets/référence.webp";
+import objectifs from "../assets/objectifs.webp";
+import auteure from "../assets/auteure.webp";
 import wild from "../assets/wildcodeschool.webp";
 
 import InstagramIcon from "@mui/icons-material/Instagram";
@@ -181,9 +181,10 @@ const PageAbout = () => {
             </h3>
             <div className="lg:grid grid-cols-2 content-center items-center">
               <img
-                src={wendev9}
+                src={mesvaleurs}
                 alt="Les valeurs de Wendy Baqué"
                 aria-label="Les valeurs de Wendy Baqué"
+                className="rounded-full"
               />
               <p className="text-xl tracking-tight">
                 ✨ Je suis une personne{" "}
@@ -269,7 +270,7 @@ const PageAbout = () => {
                   discute ! Vous être utile fait partie de l'essence même de{" "}
                   <strong className=" text-pinkDark">WenDev</strong> !
                 </p>
-                <img src={wendev13} alt="" className="w-64 h-64 p-4" />
+                <img src={objectifs} alt="" className="rounded-full w-52 h-60 p-4" />
               </div>
 
               <div className="lg:flex">
@@ -295,7 +296,7 @@ const PageAbout = () => {
                   </strong>
                   🥳
                 </p>
-                <img src={wendev10} alt="" className="w-64 h-64 p-4" />
+                <img src={finances} alt="" className="rounded-full w-52 h-60 p-4" />
               </div>
               <div className="lg:flex">
                 <p className="text-xl tracking-tight">
@@ -334,7 +335,7 @@ const PageAbout = () => {
                     <Link to="/Offreauteurs">Je veux en savoir plus ! </Link>
                   </button>
                 </p>
-                <img src={wendev11} alt="" className="w-64 h-64" />
+                <img src={référence} alt="" className="rounded-full w-52 h-60" />
               </div>
               <div className="lg:flex">
                 <p className="text-xl tracking-tight">
@@ -376,7 +377,7 @@ const PageAbout = () => {
                     </a>
                   </button>
                 </p>
-                <img src={wendev7} alt="" className="w-64 h-64 p-4" />
+                <img src={média} alt="" className="rounded-full w-52 h-60 p-4" />
               </div>
             </div>
           </section>
@@ -390,9 +391,10 @@ const PageAbout = () => {
             </h3>
             <div className="lg:grid grid-cols-2 content-center items-center">
               <img
-                src={wendev14}
+                src={auteure}
                 alt="Les activités d'auteure de romans de WenDev"
                 aria-label="Les activités d'auteure de romans de WenDev"
+              className="rounded-full"
               />
               <div>
                 <p className="text-xl tracking-tight">

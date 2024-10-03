@@ -5,8 +5,8 @@ import { Disclosure, Transition } from "@headlessui/react";
 import { Link } from "react-router-dom";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 
-import wendev1 from "../assets/wendev-1.webp";
-import wendev2 from "../assets/wendev-2.webp";
+import prestation from "../assets/mes valeurs.webp";
+import média from "../assets/média.webp";
 import Rdv from "../components/Rdv";
 
 const PageFonctionnement = () => {
@@ -63,7 +63,7 @@ const PageFonctionnement = () => {
             aria-label="Description tape par étape du déroulement d'un projet avec Wendev."
             className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2"
           >
-            <img src={wendev1} alt="" className="h-fit" />
+            <img src={prestation} alt="" className="h-fit rounded-full" />
             <ol className="tracking-tight list-decimal text-xl">
               <li className="list-decimal">
                 Vous avez un projet web et vous êtes intéressé.e par mes services. C'est trop cool ! 🤩
@@ -154,7 +154,7 @@ const PageFonctionnement = () => {
             aria-label="Description tape par étape du déroulement d'un projet avec Wendev."
             className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2"
           >
-            <img src={wendev2} alt="" className="h-fit" />
+            <img src={média} alt="" className="h-fit rounded-full" />
             <ol className="tracking-tight list-decimal text-xl">
               <li className="list-decimal">
                 Vous souhaitez bénéficier des compétences d'une pro du web pour
