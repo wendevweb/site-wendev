@@ -42,7 +42,7 @@ const PageAbout = () => {
                   <strong className="text-pinkDark">WenDev</strong>
                 </h2>
                 <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
-                  Mais qui se cache derrière ce logo ? Quelle est l'histoire de{" "}
+                  Mais qui travaille derrière ce logo ? Quelle est l'histoire de{" "}
                   <strong>WenDev</strong> ?
                   <br /> Rendez-vous dans les sections ci-dessous pour le
                   découvrir ! <br />

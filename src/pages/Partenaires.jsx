@@ -114,7 +114,7 @@ const Partenaires = () => {
                   <strong className="text-pinkDark"> à votre service</strong>
                 </h2>
                 <p className="pb-10 m-10 tracking-tight text-white sm:text-xl">
-                  Chez <strong>Wendev</strong>, j'ai à coeur de travailler avec
+                  Chez <strong>WenDev</strong>, j'ai à coeur de travailler avec
                   des personnes de confiance, avec des compétences proches et
                   variées. <br /> Voici la crème de la crème à votre service !
                 </p>

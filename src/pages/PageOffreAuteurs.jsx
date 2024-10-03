@@ -70,7 +70,7 @@ const PageOffreAuteurs = () => {
                   votre site ! Je m'occupe de tout de A à Z.
                 </p>
                 <div className="grid grid-cols-1 place-items-center">
-                  <button className="mt-10 mb-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+                  <button className="mt-10 mb-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white w-fit">
                     <a
                       href="https://www.cardebook.net/post/d%C3%A9veloppez-votre-pr%C3%A9sence-litt%C3%A9raire-pourquoi-chaque-auteur-devrait-avoir-un-site-web"
                       alt="Redirection vers l'article de Cardebook"
@@ -184,14 +184,14 @@ const PageOffreAuteurs = () => {
           </h3>
           <div className="lg:grid grid-cols-3 gap-4">
             {/* BEATRICE MAS */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Beatrice}
                 alt="Site internet de Béatrice Mas, auteure, qui a choisi l'offre Ultra+"
                 aria-label="Site internet de Béatrice Mas, auteure, qui a choisi l'offre Ultra+"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.beatricemasautrice.fr/"
                   alt="Site internet de Béatrice Mas, auteure, qui a choisi l'offre Ultra+"
@@ -205,14 +205,14 @@ const PageOffreAuteurs = () => {
 
             </div>
             {/* CLEO BALLATORE*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Cleo}
                 alt="Site internet de Cléo Ballatore, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet de Cléo Ballatore, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.cleoballatore.com/"
                   alt="Site internet de Cléo Ballatore, auteure, qui a choisi l'offre Premium"
@@ -226,14 +226,14 @@ const PageOffreAuteurs = () => {
 
             </div>
             {/* NATHALIE HELDE*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Nathalie}
                 alt="Site internet de Nathalie Heldé, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet de Nathalie Heldé, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.nathaliehelde.fr/"
                   alt="Site internet de Nathalie Heldé, auteure, qui a choisi l'offre Premium"
@@ -249,14 +249,14 @@ const PageOffreAuteurs = () => {
             </div>
             
             {/* ELISA ALBERTE*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Alberte}
                 alt="Site internet d'Elisa Alberte, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Elisa Alberte, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.elisaalberteautrice.ch/"
                   alt="Site internet d'Elisa Alberte, auteure, qui a choisi l'offre Premium"
@@ -270,14 +270,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* JC STAIGNIER*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Jc}
                 alt="Site internet de JC Staignier, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet de JC Staignier, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.jcstaignierauteure.com/"
                   alt="Site internet de JC Staignier, auteure, qui a choisi l'offre Premium"
@@ -291,14 +291,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* SISSY BATZY*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Sissy}
                 alt="Site internet de Sissy Batzy, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet de Sissy Batzy, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.sissy-batzy.com/"
                   alt="Site internet de Sissy Batzy, auteure, qui a choisi l'offre Premium"
@@ -312,14 +312,14 @@ const PageOffreAuteurs = () => {
               <p className="mt-10">Avec option formulaire PayPal</p>
             </div>
             {/* ANNE-SOPHIE LORIOT*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Loriot}
                 alt="Site internet d'Anne-Sophie Loriot, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Anne-Sophie Loriot, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.annesophieloriotauteure.com/"
                   alt="Site internet d'Anne-Sophie Loriot, auteure, qui a choisi l'offre Premium"
@@ -334,14 +334,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* NICOLAS PELLOLIO*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Nicolas}
                 alt="Site internet de Nicolas Pellolio, auteur, qui a choisi l'offre Premium"
                 aria-label="Site internet de Nicolas Pellolio, auteur, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.nicolaspellolio.com/"
                   alt="Site internet de Nicolas Pellolio, auteur, qui a choisi l'offre Premium"
@@ -355,14 +355,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* OLIVIER WISLER*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Olivier}
                 alt="Site internet d'Olivier Wisler, auteur, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Olivier Wisler, auteur, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.sagasyane.net/"
                   alt="Site internet d'Olivier Wisler, auteur, qui a choisi l'offre Premium"
@@ -376,14 +376,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* FLORENT BARTHEL*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Florent}
                 alt="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
                 aria-label="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.florentbarthelauteur.com/"
                   alt="Site internet de Florent Barthel, auteur, qui a choisi l'offre Premium"
@@ -397,14 +397,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* KAY NORDE*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Kay}
                 alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                 aria-label="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.kaynorde.com"
                   alt="Site internet de Kay Norde, autrice, graphiste et illustratrice, qui a choisi l'offre Premium"
@@ -418,14 +418,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* ELISABET GUILLOT*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Elisabet}
                 alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.elisabetguillot.com/"
                   alt="Site internet d'Elisabet Guillot, auteure, qui a choisi l'offre Premium"
@@ -441,14 +441,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* FARAH D. */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Farah}
                 alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.farahdauteure.com"
                   alt="Site internet de Farah D, auteure, qui a choisi l'offre Premium"
@@ -464,14 +464,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* ALEXANDRA ROCH*/}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Andraroc}
                 alt="Site internet d'alexandra Roch, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.alexandraroch.com/"
                   alt="Site internet d'Alexandra Roch, auteure, qui a choisi l'offre Premium"
@@ -492,7 +492,7 @@ const PageOffreAuteurs = () => {
                 aria-label="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.elisaavrainauteure.fr"
                   alt="Site internet d'Elisa Avrain, auteure, qui a choisi l'offre Premium"
@@ -506,14 +506,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* VIRGINIE ROGER */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Virginie}
                 alt="Site internet de Virginie Roger, qui a choisi l'offre Standard pour les auteurs de WenDev."
                 aria-label="Site internet de Virginie Roger, qui a choisi l'offre Standard pour les auteurs de WenDev."
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.virginierogerauteure.com/"
                   alt="Site internet de Virginie Roger, qui a choisi l'offre Standard pour les auteurs de WenDev."
@@ -528,14 +528,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* LEA SAMSON */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Lea}
                 alt="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
                 aria-label="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.leasamsonauteure.fr/"
                   alt="Site internet de Léa Samson, qui a choisi l'offre Standard pour les auteurs de WenDev."
@@ -549,14 +549,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* ELSA ERRACK */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Elsa}
                 alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
                 aria-label="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.elsaerrackauteure.com/"
                   alt="Site internet d'Elsa Errack, auteure, qui a choisi l'offre Premium"
@@ -570,14 +570,14 @@ const PageOffreAuteurs = () => {
             </div>
 
             {/* FRANCK J. MATTHEWS */}
-            <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
+            <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={Franck}
                 alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
                 aria-label="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
                 className="rounded-md"
               />
-              <button className="w-full mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
+              <button className="w-fit mt-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white">
                 <a
                   href="https://www.franckjmatthews.com/"
                   alt="Site internet de Franck J. Matthews, auteur, qui a choisi l'offre Premium"
