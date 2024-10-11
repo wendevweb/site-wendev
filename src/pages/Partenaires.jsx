@@ -4,14 +4,17 @@ import { Fade } from "react-awesome-reveal";
 
 const Partenaires = () => {
   const partenaires = [
+
     {
       id: 1,
-      name: "Philomène Frébault",
-      title: "Philomène Frébault - MasterAutoédition",
+      name: "Betty Labroche",
+      title: "Betty Labroche - Craies'dactions",
       descr:
-        "Romancière autoéditée, j’ai créé fin 2023 ma newsletter sur LinkedIn™ afin de guider les auteurs indépendants dans leur aventure éditoriale et entrepreneuriale. La newsletter MasterAutoédition, fondée sur la quête de l’excellence, vous délivre deux fois par mois des clés pour mettre tous les atouts de votre côté et devenir un maître en autoédition. Les démarches administratives, le marketing, le design graphique, le networking et le mindset positif n’auront désormais plus de secrets pour vous !",
-      img: "https://i.goopics.net/qrtq6r.png",
-      link: "https://www.linkedin.com/newsletters/masterauto%C3%A9dition-7122599472240447488/",
+        "Je m'appelle Betty et je suis rédactrice web SEO à Orléans. L'écriture m'a toujours animée, depuis l'enfance. Avec le rythme de la vie quotidienne, j'avais perdu le goût de l'écriture. Après mon burn out en 2019 et 2021, je me suis remise à écrire et j'ai commencé à guérir ! J'ai alors pris ma plume et mon premier tome est paru aux éditions Hello en 2023. Cette même année, je me suis lancée dans la rédaction web SEO pour aider les entreprises à briller sur le Web, grâce à des textes qui leur ressemblent. Au programme : des textes humains, de l'émotion parfois et beaucoup de passion ! ",
+        offer: "Remise de 10% si vous souscrivez à 3 de ses prestations.",
+
+        img: "https://media.licdn.com/dms/image/v2/D4E03AQHwEPoB694Xgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722953759124?e=1733961600&v=beta&t=vPm2YdDRqsaufq-Xbxw59I_mJn2fTD2ybdjvFU97qgw",
+      link: "https://www.craiesdactions.fr/",
     },
     {
       id: 2,
@@ -45,16 +48,15 @@ const Partenaires = () => {
       link: "https://annuaire-auto-edites.johnlucas.fr/",
     },
     {
-      id: 5,
-      name: "François Vanhille - Métavers facile",
-      title: "François Vanhille - Métavers facile",
+      id: 1,
+      name: "Philomène Frébault",
+      title: "Philomène Frébault - MasterAutoédition",
       descr:
-        "Architecte métavers 2d, créateur de bureaux et événements virtuels pour le télétravail et les loisirs. Bureau et libraire virtuelle pour les auteurs et artistes autoproduits.",
-      offer:
-        "10% de réduction à partir de 100€ de commande, sans plafond de vente.",
-      img: "https://vanhille.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c817013-9bb3-4026-8b4d-2412233dcbfe%2Fprofile-pic4.png?table=block&id=71b7aa7d-9127-4e53-ae63-2af2a669dcb3&spaceId=e4a3b1de-7a81-4268-95d9-73d0920f3acc&width=250&userId=&cache=v2",
-      link: "https://www.vanhille.fr",
+        "Romancière autoéditée, j’ai créé fin 2023 ma newsletter sur LinkedIn™ afin de guider les auteurs indépendants dans leur aventure éditoriale et entrepreneuriale. La newsletter MasterAutoédition, fondée sur la quête de l’excellence, vous délivre deux fois par mois des clés pour mettre tous les atouts de votre côté et devenir un maître en autoédition. Les démarches administratives, le marketing, le design graphique, le networking et le mindset positif n’auront désormais plus de secrets pour vous !",
+      img: "https://i.goopics.net/qrtq6r.png",
+      link: "https://www.linkedin.com/newsletters/masterauto%C3%A9dition-7122599472240447488/",
     },
+   
     {
       id: 6,
       name: "Franck J. Matthews",
@@ -86,6 +88,18 @@ const Partenaires = () => {
       img: "https://i.goopics.net/t5h0ss.jpg",
       link: "https://www.cardebook.net",
     },
+
+     // {
+    //   id: 5,
+    //   name: "François Vanhille - Métavers facile",
+    //   title: "François Vanhille - Métavers facile",
+    //   descr:
+    //     "Architecte métavers 2d, créateur de bureaux et événements virtuels pour le télétravail et les loisirs. Bureau et libraire virtuelle pour les auteurs et artistes autoproduits.",
+    //   offer:
+    //     "10% de réduction à partir de 100€ de commande, sans plafond de vente.",
+    //   img: "https://vanhille.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c817013-9bb3-4026-8b4d-2412233dcbfe%2Fprofile-pic4.png?table=block&id=71b7aa7d-9127-4e53-ae63-2af2a669dcb3&spaceId=e4a3b1de-7a81-4268-95d9-73d0920f3acc&width=250&userId=&cache=v2",
+    //   link: "https://www.vanhille.fr",
+    // },
   ];
   return (
     <div className="font-quicksand">

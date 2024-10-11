@@ -2,21 +2,22 @@ import React from "react";
 
 const Partenaires = () => {
   const partners = [
+    
     {
       id: 1,
-      name: "Philomène Frébault - MasterAutoédition",
-      desc: "Romancière autoéditée, j’ai créé fin 2023 ma newsletter sur LinkedIn™ afin de guider les auteurs indépendants dans leur aventure éditoriale et entrepreneuriale.",
-      website:
-        "https://www.linkedin.com/newsletters/masterauto%C3%A9dition-7122599472240447488/",
-      logo: "https://i.goopics.net/qrtq6r.png",
-    },
-    {
-      id: 2,
       name: "GraphArt's",
       desc: "Infographiste Metteur en page, conseils en identité numérique et design sur Instagram.",
       website:
         "https://ccgrapharts.wixsite.com/graphart-s?fbclid=PAAabS0o9R4h8O6PcPrk3b9wd_7fRuM6R12Dk906-KLgD2JXXNW0E9TEtvHr8",
       logo: "https://i.goopics.net/968zt6.png",
+    },
+    {
+      id: 2,
+      name: "Betty Labroche - Craies'dactions",
+      desc: "Je m’appelle Betty Labroche et je suis rédactrice web SEO. Ma mission ? Vous aider à attirer plus de clients sur votre site internet grâce à des contenus optimisés qui vous ressemblent.",
+      website:
+        "https://www.craiesdactions.fr/",
+      logo: "https://media.licdn.com/dms/image/v2/D4E03AQHwEPoB694Xgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722953759124?e=1733961600&v=beta&t=vPm2YdDRqsaufq-Xbxw59I_mJn2fTD2ybdjvFU97qgw",
     },
     {
       id: 3,
@@ -28,39 +29,48 @@ const Partenaires = () => {
     },
     {
       id: 4,
-      name: "Bookstannuaire",
-      desc: "Répertoire des auteurs et des livres en auto-édition pour améliorer ta visibilité et rejoindre une communauté d'entraide. ",
-      website: "https://annuaire-auto-edites.johnlucas.fr/",
-      logo: "https://annuaire-auto-edites.johnlucas.fr/wp-content/uploads/2024/06/logo-annuaire.png",
-    },
-    {
-      id: 5,
-      name: "François Vanhille - Métavers facile",
-      desc: "Architecte métavers 2d, créateur de bureaux et événements virtuels. Organisation du Salon métaversel des Livres Auteurs.",
-      website: "https://www.vanhille.fr",
-      logo: "https://vanhille.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c817013-9bb3-4026-8b4d-2412233dcbfe%2Fprofile-pic4.png?table=block&id=71b7aa7d-9127-4e53-ae63-2af2a669dcb3&spaceId=e4a3b1de-7a81-4268-95d9-73d0920f3acc&width=250&userId=&cache=v2",
-    },
-    {
-      id: 6,
       name: "Franck J. Matthews",
       desc: "Auteur de fantasy et Coach littéraire. Expertise, écoute et atmosphère rassurante sont au rendez-vous !",
       website: "https://www.franckjmatthews.com/coaching-litteraire",
       logo: "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=534,h=400,fit=crop/AoPZ2xegaQt8NqLy/biographie-m2WBNjpe2buQRBO6.jpg",
     },
     {
+      id: 5,
+      name: "Philomène Frébault - MasterAutoédition",
+      desc: "Romancière autoéditée, j’ai créé fin 2023 ma newsletter sur LinkedIn™ afin de guider les auteurs indépendants dans leur aventure éditoriale et entrepreneuriale.",
+      website:
+        "https://www.linkedin.com/newsletters/masterauto%C3%A9dition-7122599472240447488/",
+      logo: "https://i.goopics.net/qrtq6r.png",
+    },
+    
+    {
+      id: 6,
+      name: "Bookstannuaire",
+      desc: "Répertoire des auteurs et des livres en auto-édition pour améliorer ta visibilité et rejoindre une communauté d'entraide. ",
+      website: "https://annuaire-auto-edites.johnlucas.fr/",
+      logo: "https://annuaire-auto-edites.johnlucas.fr/wp-content/uploads/2024/06/logo-annuaire.png",
+    },
+    {
       id: 7,
+      name: "Fabien Dedieu - Cardebook",
+      desc: "Cartes personnalisées avec un QR code pour télécharger votre livre au format numérique et audio.",
+      website: "https://www.cardebook.net",
+      logo: "https://i.goopics.net/t5h0ss.jpg",
+    },
+    {
+      id: 8,
       name: "Emilie David - ED Multi-Services",
       desc: "Corrections d'écrits, transcription, rédaction de courriers, prête-plume et rédaction web.",
       website: "https://ed-multi-partners.jimdosite.com/",
       logo: "https://jimdo-storage.freetls.fastly.net/image/440839526/6e276933-a6a2-4ef8-b865-da9a0b5d4b38.jpg?format=pjpg&quality=80,90&auto=webp&disable=upscale&width=1024&height=1024&trim=67,208,645,204",
     },
-    {
-      id: 8,
-      name: "Fabien Dedieu - Cardebook",
-      desc: "Cartes personnalisées avec un QR code pour télécharger votre livre au format numérique et audio. Découvrez les Cardebooks !",
-      website: "https://www.cardebook.net",
-      logo: "https://i.goopics.net/t5h0ss.jpg",
-    },
+      // {
+    //   id: 5,
+    //   name: "François Vanhille - Métavers facile",
+    //   desc: "Architecte métavers 2d, créateur de bureaux et événements virtuels. Organisation du Salon métaversel des Livres Auteurs.",
+    //   website: "https://www.vanhille.fr",
+    //   logo: "https://vanhille.notion.site/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F7c817013-9bb3-4026-8b4d-2412233dcbfe%2Fprofile-pic4.png?table=block&id=71b7aa7d-9127-4e53-ae63-2af2a669dcb3&spaceId=e4a3b1de-7a81-4268-95d9-73d0920f3acc&width=250&userId=&cache=v2",
+    // },
     
   ];
   return (

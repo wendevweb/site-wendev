@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Fade } from "react-awesome-reveal";
-import freebie from "../assets/freebie.webp";
+import freebie from "../assets/Ebook-auteurs.webp";
 import CheckIcon from "@mui/icons-material/Check";
 
 const Freebie = () => {
