@@ -25,6 +25,7 @@ import Beatrice from "../assets/Béatrice_Mas-removebg-preview.webp";
 import Freebie from "../components/Freebie";
 import Rdv from "../components/Rdv";
 import AddIcon from "@mui/icons-material/Add";
+import BettySeo from "../components/BettySeo";
 
 const PageOffreAuteurs = () => {
   return (
@@ -88,7 +89,9 @@ const PageOffreAuteurs = () => {
           </div>
         </div>
       </section>
-
+      <Fade>
+        <Freebie />
+      </Fade>
       <Fade>
         <section
           aria-label="Grille tarifaire pour l'offre spéciale auteurs de livres."
@@ -169,9 +172,8 @@ const PageOffreAuteurs = () => {
       >
         <ButtonFonctionnement />
       </section>
-
       <Fade>
-        <Freebie />
+        <BettySeo />
       </Fade>
 
       <Fade>
@@ -202,7 +204,6 @@ const PageOffreAuteurs = () => {
                   Voir le site !
                 </a>
               </button>
-
             </div>
             {/* CLEO BALLATORE*/}
             <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
@@ -223,7 +224,6 @@ const PageOffreAuteurs = () => {
                   Voir le site !
                 </a>
               </button>
-
             </div>
             {/* NATHALIE HELDE*/}
             <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
@@ -245,9 +245,8 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
               <p className="mt-10">Avec option formulaire PayPal</p>
-
             </div>
-            
+
             {/* ELISA ALBERTE*/}
             <div className="overflow-hidden flex flex-col items-center mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
@@ -437,7 +436,6 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
               <p className="mt-10">Avec option formulaire PayPal</p>
-
             </div>
 
             {/* FARAH D. */}
@@ -460,7 +458,6 @@ const PageOffreAuteurs = () => {
                 </a>
               </button>
               <p className="mt-10">Avec option formulaire PayPal</p>
-
             </div>
 
             {/* ALEXANDRA ROCH*/}

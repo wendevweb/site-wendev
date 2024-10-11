@@ -79,6 +79,12 @@ const OffresAuteurs = () => {
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>
+                  Paramètres de référencement (SEO) <span className="font-bold">de base * </span>
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>
                   <span className="font-bold">Modifications : </span>
                   5€/modification
                 </span>
@@ -90,10 +96,6 @@ const OffresAuteurs = () => {
               <li className="flex items-center space-x-3">
                 <ClearIcon style={{ color: "red" }} />
                 <span>Pas de formulaire de contact</span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <ClearIcon style={{ color: "red" }} />
-                <span>Paramètres minimums de référencement (SEO)</span>
               </li>
               <li className="flex items-center space-x-3">
                 <ClearIcon style={{ color: "red" }} />
@@ -173,6 +175,13 @@ const OffresAuteurs = () => {
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>Gestion de la sécurité du site</span>
               </li>
+              
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
+                <span>
+                  Paramètres de référencement (SEO) <span className="font-bold">de base * </span>
+                </span>
+              </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>
@@ -186,11 +195,6 @@ const OffresAuteurs = () => {
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>Menu de navigation</span>
-              </li>
-
-              <li className="flex items-center space-x-3">
-                <CheckIcon style={{ color: "limegreen" }} />
-                <span>Optimisation des paramètres de référencement (SEO)</span>
               </li>
               <li className="flex items-center space-x-3">
                 <ClearIcon style={{ color: "red" }} />
@@ -272,6 +276,12 @@ const OffresAuteurs = () => {
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
+                <span>
+                  Paramètres de référencement (SEO) <span className="font-bold">de base * </span>
+                </span>
+              </li>
+              <li className="flex items-center space-x-3">
+                <CheckIcon style={{ color: "limegreen" }} />
                 <span className="font-bold">Modifications illimitées</span>
               </li>
               <li className="flex items-center space-x-3">
@@ -281,10 +291,6 @@ const OffresAuteurs = () => {
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />
                 <span>Menu de navigation</span>
-              </li>
-              <li className="flex items-center space-x-3">
-                <CheckIcon style={{ color: "limegreen" }} />
-                <span>Optimisation des paramètres de référencement (SEO)</span>
               </li>
               <li className="flex items-center space-x-3">
                 <CheckIcon style={{ color: "limegreen" }} />

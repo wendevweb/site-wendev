@@ -9,7 +9,10 @@ import { Link } from "react-router-dom";
 
 const OffrePortfolio = () => {
   return (
-    <section id="offreportfolio" aria-label="Offre de services de création et de refonte de site web">
+    <section
+      id="offreportfolio"
+      aria-label="Offre de services de création et de refonte de site web"
+    >
       <div className="py-8 px-4 lg:py-16 lg:px-6">
         <Fade>
           <div className="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-6 lg:space-y-0">
@@ -18,6 +21,7 @@ const OffrePortfolio = () => {
               <h3 className="mb-4 text-2xl font-semibold">
                 Landing page no code
               </h3>
+              <p>Réalisé avec le website builder d'Hostinger</p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold text-pinkDark">
                   250€
@@ -63,7 +67,8 @@ const OffrePortfolio = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Mise en place des paramètres de référencement (SEO) de base
+                    Mise en place des paramètres de référencement (SEO){" "}
+                    <span className="font-bold">de base *</span>{" "}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -114,6 +119,8 @@ const OffrePortfolio = () => {
               <h3 className="mb-4 text-2xl font-semibold">
                 Site vitrine no code
               </h3>
+              <p>Réalisé avec le website builder d'Hostinger</p>
+
               <div className="flex justify-center items-baseline my-8">
                 <span className="text-pinkDark mr-2 text-5xl font-extrabold">
                   350€
@@ -159,7 +166,8 @@ const OffrePortfolio = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Optimisation des paramètres de référencement (SEO)
+                    Mise en place des paramètres de référencement (SEO){" "}
+                    <span className="font-bold">de base *</span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -208,6 +216,8 @@ const OffrePortfolio = () => {
             {/* OFFRE 3 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
               <h3 className="mb-4 text-2xl font-semibold">Premium code</h3>
+              <p>Réalisé en langage de programmation informatique Javascript/React/Next et desing avec Tailwindcss</p>
+
               <div className="flex justify-center items-baseline my-8">
                 <span className="text-pinkDark mr-2 text-5xl font-extrabold">
                   à partir de 495€
@@ -253,7 +263,8 @@ const OffrePortfolio = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Optimisation des paramètres de référencement (SEO)
+                    Mise en place des paramètres de référencement (SEO){" "}
+                    <span className="font-bold">de base *</span>{" "}
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">

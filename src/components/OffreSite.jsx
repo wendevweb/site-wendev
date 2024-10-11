@@ -21,6 +21,7 @@ const OffresSite = () => {
               <h3 className="mb-4 text-2xl font-semibold">
                 Landing page no code
               </h3>
+              <p>Réalisé avec le website builder d'Hostinger</p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="mr-2 text-5xl font-extrabold text-pinkDark">
                   250€
@@ -65,13 +66,14 @@ const OffresSite = () => {
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>
-                    Mise en place des paramètres de référencement (SEO) de base
-                  </span>
+                  <span>Mise en avant sur mes réseaux sociaux</span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
-                  <span>Mise en avant sur mes réseaux sociaux</span>
+                  <span>
+                    Paramètres de référencement (SEO){" "}
+                    <span className="font-bold">de base * </span>
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -117,6 +119,7 @@ const OffresSite = () => {
               <h3 className="mb-4 text-2xl font-semibold">
                 Site vitrine no code
               </h3>
+              <p>Réalisé avec le website builder d'Hostinger</p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="text-pinkDark mr-2 text-5xl font-extrabold">
                   350€
@@ -159,15 +162,17 @@ const OffresSite = () => {
                     personnes atteintes de handicap)
                   </span>
                 </li>
-                <li className="flex items-center space-x-3">
-                  <CheckIcon style={{ color: "limegreen" }} />
-                  <span>
-                    Optimisation des paramètres de référencement (SEO)
-                  </span>
-                </li>
+
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>Mise en avant sur mes réseaux sociaux</span>
+                </li>
+                <li className="flex items-center space-x-3">
+                  <CheckIcon style={{ color: "limegreen" }} />
+                  <span>
+                    Paramètres de référencement (SEO){" "}
+                    <span className="font-bold">de base * </span>
+                  </span>
                 </li>
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
@@ -211,6 +216,10 @@ const OffresSite = () => {
             {/* OFFRE 3 */}
             <div className="transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-100 duration-300 overflow-hidden flex flex-col p-6 text-center text-black bg-real rounded-md shadow-lg xl:p-8">
               <h3 className="mb-4 text-2xl font-semibold">Premium code</h3>
+              <p>
+                Réalisé en langage de programmation informatique
+                Javascript/React/Next et le style avec Tailwindcss
+              </p>
               <div className="flex justify-center items-baseline my-8">
                 <span className="text-pinkDark mr-2 text-5xl font-extrabold">
                   à partir de 2500€
@@ -256,7 +265,8 @@ const OffresSite = () => {
                 <li className="flex items-center space-x-3">
                   <CheckIcon style={{ color: "limegreen" }} />
                   <span>
-                    Optimisation des paramètres de référencement (SEO)
+                    Paramètres de référencement (SEO){" "}
+                    <span className="font-bold">de base * </span>
                   </span>
                 </li>
                 <li className="flex items-center space-x-3">
@@ -304,6 +314,7 @@ const OffresSite = () => {
             </div>
           </div>
         </Fade>
+
       </div>
     </section>
   );

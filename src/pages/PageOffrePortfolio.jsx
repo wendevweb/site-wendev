@@ -6,8 +6,9 @@ import AddIcon from "@mui/icons-material/Add";
 import ButtonFonctionnement from "../components/ButtonFonctionnement";
 import OffrePortfolio from "../components/OffrePortfolio";
 import Rdv from "../components/Rdv";
-import projet4 from "../assets/projet4.webp";
+// import projet4 from "../assets/projet4.webp";
 import Neordart from "../assets/Neordart-removebg-preview.png";
+import BettySeo from "../components/BettySeo";
 
 const PageOffrePortfolio = () => {
   return (
@@ -46,7 +47,8 @@ const PageOffrePortfolio = () => {
                   C'est un peu comme un CV... mais en mieux ! 😉 <br />
                   Je vous livre une solution fonctionnelle, personnalisée, faite
                   pour en mettre plein les yeux à ceux qui le regarderont ! 🤩
-                  <br/> Avec moi, finie la charge mentale de la mise à jour de votre portfolio ! Je m'occupe de tout de A à Z.
+                  <br /> Avec moi, finie la charge mentale de la mise à jour de
+                  votre portfolio ! Je m'occupe de tout de A à Z.
                 </p>
               </div>
             </div>
@@ -102,7 +104,8 @@ const PageOffrePortfolio = () => {
             <li>
               <AddIcon style={{ color: "magenta" }} />
               <span>
-                Maquette et prototype : <span className="font-bold">100€/page</span>
+                Maquette et prototype :{" "}
+                <span className="font-bold">100€/page</span>
               </span>
             </li>
             <li>
@@ -116,6 +119,9 @@ const PageOffrePortfolio = () => {
         </section>
       </Fade>
       <ButtonFonctionnement />
+      <Fade>
+        <BettySeo />
+      </Fade>
       <Fade>
         <section
           aria-label="Exemples de réalisations de portfolios, de Wendev."
@@ -144,7 +150,7 @@ const PageOffrePortfolio = () => {
                 </a>{" "}
               </button>
             </div>
-            {/* PORTFOLIO WENDY BAQUE */}
+            {/* PORTFOLIO WENDY BAQUE
             <div className="overflow-hidden flex flex-col mx-auto max-w-lg text-center text-black rounded-lg ">
               <img
                 src={projet4}
@@ -162,7 +168,7 @@ const PageOffrePortfolio = () => {
                   Mon portfolio (mise à jour en cours)
                 </a>{" "}
               </button>
-            </div>
+            </div> */}
           </div>
         </section>
       </Fade>

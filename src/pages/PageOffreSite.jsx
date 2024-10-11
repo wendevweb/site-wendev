@@ -17,6 +17,7 @@ import projet10 from "../assets/projet10.webp";
 // import projet11 from "../assets/projet11.webp";
 import projet12 from "../assets/Waltzer.webp";
 import projet13 from "../assets/Ribera.webp";
+import BettySeo from "../components/BettySeo";
 
 const PageOffreSite = () => {
   return (
@@ -137,6 +138,9 @@ const PageOffreSite = () => {
         </section>
       </Fade>
       <ButtonFonctionnement />
+      <Fade>
+        <BettySeo />
+      </Fade>
       <Fade>
         <section
           aria-label="Refonte et mise à jour de site existant"
