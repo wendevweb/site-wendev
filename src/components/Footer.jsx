@@ -9,7 +9,6 @@ import DownloadIcon from "@mui/icons-material/Download";
 import MarkEmailUnreadIcon from "@mui/icons-material/MarkEmailUnread";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import ButtonBmc from "./ButtonBmc";
-import ButtonTop from "./ButtonTop";
 
 const Footer = () => {
   return (
@@ -17,7 +16,7 @@ const Footer = () => {
       className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-2"
       aria-label="footer"
     >
-      <div className="lg:grid grid-cols-4 gap-4 content-evenly bg-white text-black">
+      <div className="lg:grid grid-cols-3 gap-4 content-evenly bg-white text-black">
         <div className="lg:pr-10">
           <h2 className="mt-10 font-semibold text-black text-lg">À propos</h2>
           <p className="tracking-tight mb-2 pt-6">
@@ -184,8 +183,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <ButtonTop />
-
       </div>
     </footer>
   );

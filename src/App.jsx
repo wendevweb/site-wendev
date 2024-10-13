@@ -18,6 +18,7 @@ import PageFonctionnement from "./pages/PageFonctionnement";
 import Partenaires from "./pages/Partenaires";
 import PageTestimonials from "./pages/PageTestimonials";
 import PageFeelingCreate from "./pages/PageFeelingCreate";
+import ButtonTop from "./components/ButtonTop";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="*" element={<Page404 />} />
         </Routes>
       </Router>
+      <ButtonTop />
       <Footer />
     </div>
   );

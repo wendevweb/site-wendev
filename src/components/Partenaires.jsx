@@ -17,7 +17,7 @@ const Partenaires = () => {
       desc: "Je m’appelle Betty Labroche et je suis rédactrice web SEO. Ma mission ? Vous aider à attirer plus de clients sur votre site internet grâce à des contenus optimisés qui vous ressemblent.",
       website:
         "https://www.craiesdactions.fr/",
-      logo: "https://media.licdn.com/dms/image/v2/D4E03AQHwEPoB694Xgg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1722953759124?e=1733961600&v=beta&t=vPm2YdDRqsaufq-Xbxw59I_mJn2fTD2ybdjvFU97qgw",
+      logo: "https://static.wixstatic.com/media/87f3e8_d6b59406555f4cd38c08c4a683da1813~mv2.png/v1/fill/w_652,h_652,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/87f3e8_d6b59406555f4cd38c08c4a683da1813~mv2.png",
     },
     {
       id: 3,
@@ -86,7 +86,7 @@ const Partenaires = () => {
           professionnels à votre écoute.
         </p>
       </div>
-      <div className="grid lg:grid-cols-4 gap-10">
+      <div className="grid lg:grid-cols-3 gap-10">
         {partners.map((partner) => (
           <div
             key={partner.id}

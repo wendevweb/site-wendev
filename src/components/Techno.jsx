@@ -4,7 +4,7 @@ const Techno = () => {
   return (
     <div
       className="font-quicksand max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12"
-      aria-label="Avis des clients sur l'offre aux auteurs"
+      aria-label="Technologies et langages de programmation utilisés par WenDev"
     >
       <h3 className="text-pinkDark font-bold text-4xl mt-6 mb-6">
         Mon expertise à votre service
@@ -68,12 +68,12 @@ const Techno = () => {
           className="w-32 place-self-center p-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original-wordmark.svg"
         />
-        <img
+        {/* <img
           alt="Express"
           aria-label="Express"
           className="w-32 place-self-center p-4"
           src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original-wordmark.svg"
-        />
+        /> */}
 
         <img
           alt="Webflow"
