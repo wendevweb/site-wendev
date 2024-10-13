@@ -66,7 +66,8 @@ const PageFonctionnement = () => {
             <img src={prestation} alt="" className="h-fit rounded-full" />
             <ol className="tracking-tight list-decimal text-xl">
               <li className="list-decimal">
-                Vous avez un projet web et vous êtes intéressé.e par mes services. C'est trop cool ! 🤩
+                Vous avez un projet web et vous êtes intéressé.e par mes
+                services. C'est trop cool ! 🤩
               </li>
               <br />
               <li>
@@ -108,13 +109,14 @@ const PageFonctionnement = () => {
                 nécessaires pour le contenu de votre site (les couvertures des
                 livres, leurs résumés, les liens d'achat, les avis de vos
                 lecteurs, les liens de vos réseaux sociaux, vos prochains
-                événements littéraires, etc.).
+                événements littéraires, etc.) via un cahier des charges détaillé
+                à remplir.
               </li>
               <br />
 
               <li>
-                Une fois l'acompte reçu, je commence à travailler sur votre
-                super projet !
+                Une fois l'acompte reçu et le cahier des charges complété, je
+                commence à travailler sur votre super projet !
               </li>
               <br />
 
@@ -301,6 +303,47 @@ const PageFonctionnement = () => {
                         <br /> De manière générale, je réalise une veille
                         documentaire hebdomadaire pour vous proposer des
                         solutions numériques actualisées et sécurisées.
+                      </Disclosure.Panel>
+                    </Transition>
+                  </>
+                )}
+              </Disclosure>
+              <Disclosure>
+                {({ open }) => (
+                  <>
+                    <Disclosure.Button className="p-2">
+                      <span>
+                        Est-ce que WenDev utilise l'intelligence artificielle
+                        (IA) pour créer ses sites internet ?
+                      </span>{" "}
+                      <ChevronRightIcon
+                        className={
+                          open
+                            ? "m-2 rotate-90 transform rounded-full bg-pinkDark text-white"
+                            : "rounded-full bg-pinkDark text-white m-2"
+                        }
+                      />
+                    </Disclosure.Button>
+                    <Transition
+                      enter="transition duration-100 ease-out"
+                      enterFrom="transform scale-95 opacity-0"
+                      enterTo="transform scale-100 opacity-100"
+                      leave="transition duration-75 ease-out"
+                      leaveFrom="transform scale-100 opacity-100"
+                      leaveTo="transform scale-95 opacity-0"
+                    >
+                      <Disclosure.Panel className="bg-real rounded-md shadow-lg p-4">
+                        Non. WenDev prône le côté créatif, authentique et humain de ses sites
+                        internet et ne demandera jamais à une IA de les créer à sa place. L'IA ne pourra servir qu'à trouver
+                        aiguiller des réponses à un problème technique pour
+                        questionner une base d'information plus large en gagnant
+                        du temps, et ne servira en aucun cas le processus de
+                        création du site web et ne créera aucun contenu à but
+                        lucratif. Le seul contenu relatif à l'IA sera à la
+                        demande du client (ex : images ou textes créés
+                        artificiellement) et une mention de création par IA sera
+                        ajoutée pour toute transparence auprès du visiteur du
+                        site.
                       </Disclosure.Panel>
                     </Transition>
                   </>

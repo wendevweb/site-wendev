@@ -21,7 +21,7 @@ const Freebie = () => {
               <p className="text-real text-xl mt-6 mb-6 tracking-tight">
                 Je suis <strong>développeuse web</strong>... pas spécialiste en
                 rédaction web et en SEO (Search Engine Optimization), qui est un
-                métier à part en tière. <br />
+                métier à part entière. <br />
                 C'est pour cela que je fais appel à{" "}
                 <strong>Betty Labroche</strong>, de{" "}
                 <strong>Craies'dactions</strong> !

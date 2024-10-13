@@ -71,7 +71,7 @@ const PageOffreAuteurs = () => {
                   votre site ! Je m'occupe de tout de A à Z.
                 </p>
                 <div className="grid grid-cols-1 place-items-center">
-                  <button className="mt-10 mb-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white w-fit">
+                  {/* <button className="mt-10 mb-10 border shadow-lg bg-real text-pinkDark border-pinkDark font-bold rounded-md p-2 hover:bg-pinkDark hover:text-white w-fit">
                     <a
                       href="https://www.cardebook.net/post/d%C3%A9veloppez-votre-pr%C3%A9sence-litt%C3%A9raire-pourquoi-chaque-auteur-devrait-avoir-un-site-web"
                       alt="Redirection vers l'article de Cardebook"
@@ -82,7 +82,7 @@ const PageOffreAuteurs = () => {
                       Lire l'article : Pourquoi chaque auteur devrait avoir un
                       site web.
                     </a>
-                  </button>
+                  </button> */}
                 </div>
               </div>
             </div>
